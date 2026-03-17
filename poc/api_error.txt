@@ -1,0 +1,15 @@
+﻿.venv\Scripts\python.exe : Traceback (most recent call last):
+At line:1 char:32
++ ... ODING="utf-8"; .venv\Scripts\python.exe src\serve_api.py 2>&1 | 
+Out-F ...
++                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call 
+    last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\afuentes\United 
+Nations\Pruebas\ClassifAI-LAC\src\serve_api.py", line 10, in <module>
+    from classifai.servers import start_api
+ImportError: cannot import name 'start_api' from 'classifai.servers' 
+(C:\Users\afuentes\United 
+Nations\Pruebas\ClassifAI-LAC\src\classifai\servers\__init__.py)

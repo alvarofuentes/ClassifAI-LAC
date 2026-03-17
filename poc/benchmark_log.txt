@@ -1,0 +1,155 @@
+﻿============================================================
+ClassifAI-LAC ΓÇö Fase 0: Benchmark de Accuracy
+Modelo: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Muestra: 38 casos (F/A/B/C/D/E)
+============================================================
+
+[1/2] Cargando modelo y construyendo VectorStore...
+.venv\Scripts\python.exe : 
+At line:1 char:32
++ ... NG="utf-8"; .venv\Scripts\python.exe poc\benchmark_ciuo08.py 2>&1 
+| O ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteExceptio 
+   n
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 199/199 
+[00:00<00:00, 2533.31it/s]
+[1mBertModel LOAD REPORT[0m from: 
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different 
+task/architecture; not ok if you expect identical arch.[0m
+INFO - No output directory specified, attempting to use input file name 
+as output folder name.
+INFO - Processing file: C:\Users\afuentes\United 
+Nations\Pruebas\ClassifAI-LAC\data\ciuo08_es.csv...
+
+
+  0%|          | 0/47 [00:00<?, ?it/s]
+  2%|ΓûÅ         | 1/47 [00:00<00:04,  9.47it/s]
+  4%|Γûì         | 2/47 [00:00<00:04,  9.63it/s]
+  9%|Γûè         | 4/47 [00:00<00:04,  9.85it/s]
+ 11%|Γûê         | 5/47 [00:00<00:04,  9.57it/s]
+ 13%|ΓûêΓûÄ        | 6/47 [00:00<00:04,  9.55it/s]
+ 15%|ΓûêΓûì        | 7/47 [00:00<00:05,  7.97it/s]
+ 19%|ΓûêΓûë        | 9/47 [00:01<00:04,  8.70it/s]
+ 21%|ΓûêΓûêΓûÅ       | 10/47 [00:01<00:06,  5.73it/s]
+ 23%|ΓûêΓûêΓûÄ       | 11/47 [00:01<00:08,  4.33it/s]
+ 26%|ΓûêΓûêΓûî       | 12/47 [00:01<00:07,  4.81it/s]
+ 28%|ΓûêΓûêΓûè       | 13/47 [00:02<00:06,  5.39it/s]
+ 30%|ΓûêΓûêΓûë       | 14/47 [00:02<00:05,  6.12it/s]
+ 32%|ΓûêΓûêΓûêΓûÅ      | 15/47 [00:02<00:04,  6.64it/s]
+ 34%|ΓûêΓûêΓûêΓûì      | 16/47 [00:02<00:04,  7.24it/s]
+ 36%|ΓûêΓûêΓûêΓûî      | 17/47 [00:02<00:04,  7.49it/s]
+ 40%|ΓûêΓûêΓûêΓûê      | 19/47 [00:02<00:03,  8.41it/s]
+ 45%|ΓûêΓûêΓûêΓûêΓûì     | 21/47 [00:02<00:02,  9.71it/s]
+ 49%|ΓûêΓûêΓûêΓûêΓûë     | 23/47 [00:02<00:02, 10.59it/s]
+ 53%|ΓûêΓûêΓûêΓûêΓûêΓûÄ    | 25/47 [00:03<00:02, 10.79it/s]
+ 57%|ΓûêΓûêΓûêΓûêΓûêΓûï    | 27/47 [00:03<00:02,  9.19it/s]
+ 62%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûÅ   | 29/47 [00:03<00:01,  9.72it/s]
+ 66%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûî   | 31/47 [00:03<00:01,  9.12it/s]
+ 68%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûè   | 32/47 [00:04<00:01,  8.41it/s]
+ 70%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûê   | 33/47 [00:04<00:01,  8.44it/s]
+ 72%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûÅ  | 34/47 [00:04<00:01,  8.28it/s]
+ 74%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûì  | 35/47 [00:04<00:01,  7.90it/s]
+ 77%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûï  | 36/47 [00:04<00:01,  8.03it/s]
+ 79%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûè  | 37/47 [00:04<00:01,  7.97it/s]
+ 81%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê  | 38/47 [00:04<00:01,  8.28it/s]
+ 83%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûÄ | 39/47 [00:04<00:00,  8.61it/s]
+ 85%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûî | 40/47 [00:05<00:00,  8.59it/s]
+ 87%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûï | 41/47 [00:05<00:00,  8.78it/s]
+ 89%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûë | 42/47 [00:05<00:00,  8.16it/s]
+ 91%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûÅ| 43/47 [00:05<00:00,  8.16it/s]
+ 94%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûÄ| 44/47 [00:05<00:00,  8.56it/s]
+ 96%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûî| 45/47 [00:05<00:00,  8.40it/s]
+ 98%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûè| 46/47 [00:05<00:00,  8.25it/s]
+100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 47/47 [00:05<00:00,  8.05it/s]
+INFO - Gathering metadata and saving vector store / metadata...
+INFO - Vector Store created - files saved to ciuo08_es
+      [OK] VectorStore creado con 373 entradas CIUO-08
+
+[2/2] Ejecutando benchmark...
+
+Processing query batches:   0%|          | 0/5 [00:00<?, ?it/s]
+Processing query batches:  20%|ΓûêΓûê        | 1/5 [00:00<00:00,  
+5.33it/s]
+Processing query batches:  40%|ΓûêΓûêΓûêΓûê      | 2/5 [00:00<00:00,  
+5.02it/s]
+Processing query batches:  60%|ΓûêΓûêΓûêΓûêΓûêΓûê    | 3/5 [00:00<00:00, 
+ 4.80it/s]
+Processing query batches:  80%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê  | 4/5 
+[00:00<00:00,  4.74it/s]
+Processing query batches: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 5/5 
+[00:00<00:00,  5.43it/s]
+Processing query batches: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 5/5 
+[00:00<00:00,  5.17it/s]
+
+==============================================================================================================
+#    Consulta                                      Correcto  Top-1     Score    T1    T3    Nota
+--------------------------------------------------------------------------------------------------------------
+0    M├⌐dico generalista en atenci├│n primaria       2212      3344      16.4286  Γ£ù     Γ£ù     F: control f├ícil
+1    Conductor de cami├│n de carga pesada           8332      8332      18.5195  Γ£ô     Γ£ô     F: control f├ícil
+2    Maestro de escuela primaria                   2341      2342      16.2132  Γ£ù     Γ£ù     F: control f├ícil
+3    Desarrollador de software y aplicaciones      2514      2512      13.057   Γ£ù     Γ£ô     F: control f├ícil
+4    Abogado defensor penal                        2611      5413      15.1087  Γ£ù     Γ£ù     F: control f├ícil
+5    Ch├│fer de un cami├│n                           8332      8332      16.6932  Γ£ô     Γ£ô     A: 'ch├│fer' en lugar de 'conductor'
+6    Profe de primaria                             2341      2330      11.4559  Γ£ù     Γ£ù     A: ap├│cope coloquial 'profe'
+7    Maquinista que maneja el tren de pasajeros    8311      8311      17.0641  Γ£ô     Γ£ô     A: jerga 'maquinista'
+8    G├ísfiter que arregla ca├▒er├¡as en condominios  7126      9132      9.4244   Γ£ù     Γ£ù     A: 'g├ísfiter' (Chile)
+9    Barista y mozo en caf├⌐ c├⌐ntrico               5132      1412      8.4588   Γ£ù     Γ£ù     A: 'barista+mozo'=camarero de barra
+10   Chapista que endereza carrocer├¡as de autos    7213      7231      8.272    Γ£ù     Γ£ù     A: oficio espec├¡fico
+11   Cobrador de micro en ruta urbana              5112      2164      9.441    Γ£ù     Γ£ù     A: 'cobrador de micro'
+12   Supervisor de planta industrial               3122      3122      18.2488  Γ£ô     Γ£ô     B: ambiguo supervisor/gerente mfg
+13   T├⌐cnico en sistemas inform├íticos              3114      2523      13.4132  Γ£ù     Γ£ù     B: puede ser 3114 o 2522
+14   Asesor de ventas en empresa de seguros        3321      3321      17.247   Γ£ô     Γ£ô     B: agente seguros vs ventas
+15   Coordinador de recursos humanos               2423      1212      13.7748  Γ£ù     Γ£ù     B: especialista o gerente RRHH
+16   Inspector de calidad en f├íbrica               3172      3122      14.7776  Γ£ù     Γ£ù     B: t├⌐cnico calidad vs inspector
+17   Encargado de bodega y distribuci├│n            4321      1324      8.7748   Γ£ù     Γ£ù     B: empleado control suministros
+18   Operario de planta de producci├│n              8189      8340      10.3497  Γ£ù     Γ£ù     B: c├│digo residual maquinaria
+19   Auxiliar administrativo en hospital           4110      3344      16.5875  Γ£ù     Γ£ù     B: admin. vs aux. salud
+20   Cr├¡a cerdos y tambi├⌐n siembra ma├¡z en el cam  6130      6121      11.6908  Γ£ù     Γ£ù     C: agropecuario mixto
+21   Vende ropa en feria y tambi├⌐n cose en casa    5211      3323      12.2738  Γ£ù     Γ£ù     C: vendedor + costurero
+22   Da clases de ingl├⌐s y traduce documentos      2643      2643      13.6087  Γ£ô     Γ£ô     C: traductor + docente
+23   Cuida a sus hijos y adem├ís atiende una peque  5222      5223      9.6403   Γ£ù     Γ£ù     C: trabajo dom├⌐stico vs comercio
+24   Pinta casas y hace trabajos de plomer├¡a cuan  7131      9111      12.9974  Γ£ù     Γ£ù     C: pintor + plomero
+25   Plomero que instala tuber├¡as de agua          7126      7126      9.9631   Γ£ô     Γ£ô     D: 'plomero' (MX/AR) = fontanero
+26   Contador p├║blico certificado                  2411      3313      13.473   Γ£ù     Γ£ù     D: 'contador p├║blico' = contable
+27   Mec├ínico de autos en taller                   7231      7231      16.1628  Γ£ô     Γ£ô     D: 'mec├ínico de autos'
+28   Recolector de basura municipal                9611      9133      17.411   Γ£ù     Γ£ô     D: 'recolector de basura'
+29   Guardi├ín nocturno de edificio                 5414      9132      11.1634  Γ£ù     Γ£ù     D: 'guardi├ín' = guarda de seguridad
+30   Taxista independiente con auto propio         8322      5165      10.8736  Γ£ù     Γ£ù     D: conductor de autom├│viles
+31   Empleada dom├⌐stica que vive en la casa        9111      9111      17.7649  Γ£ô     Γ£ô     D: 'empleada dom├⌐stica'
+32   Profesional de la salud en cuidados paliativ  2221      3344      12.8762  Γ£ù     Γ£ù     E: especialista enfermer├¡a
+33   T├⌐cnico en metrolog├¡a y calibraci├│n industri  3172      2142      10.3875  Γ£ù     Γ£ù     E: puede ser 3119 o 3172
+34   Operador de sistemas SCADA en planta el├⌐ctri  3131      2151      11.793   Γ£ù     Γ£ù     E: control de procesos
+35   Promotor sociocultural en comunidades rurale  2635      3412      10.7196  Γ£ù     Γ£ù     E: trabajador social
+36   Analista de datos geoespaciales               2120      2114      13.9121  Γ£ù     Γ£ù     E: estad├¡stico/matem├ítico
+37   Agente de desarrollo econ├│mico local          2422      2631      11.8257  Γ£ù     Γ£ù     E: especialista pol├¡ticas admin
+==============================================================================================================
+
+≡ƒôè RESULTADOS GLOBALES (n=38)
+   Top-1 Accuracy : 23.7%
+   Top-3 Accuracy : 28.9%
+   Score promedio : 13.2065
+
+≡ƒôè ACCURACY POR TIPO DE DIFICULTAD
+   Tipo                                n     Top-1      Top-3
+   ------------------------------------------------------------
+   F: Control / f├íciles                5     20.0%      40.0%
+   A: Jerga / informalidad regional    7     28.6%      28.6%
+   B: Ambig├╝edad entre c├│digos         8     25.0%      25.0%
+   C: Trabajo mixto                    5     20.0%      20.0%
+   D: Variaci├│n regional del espa├▒ol   7     42.9%      57.1%
+   E: Tecnicismo / formalidad          6     0.0%       0.0%
+
+≡ƒÅü VEREDICTO:
+   Γ¥î Top-3 Accuracy < 50% ΓåÆ Cambiar a intfloat/multilingual-e5-large.
+
+≡ƒÆ╛ Resultados exportados a: C:\Users\afuentes\United Nations\Pruebas\ClassifAI-LAC\poc\benchmark_results.csv

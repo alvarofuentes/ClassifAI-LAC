@@ -187,3 +187,7 @@ cython_debug/
 _site/
 docs/
 
+
+# Data indices
+vectorstore_*
+ciuo08_es/

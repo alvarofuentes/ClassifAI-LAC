@@ -1,0 +1,39 @@
+﻿query,correct_code,top1_code,top1_label,top1_score,hit_top1,hit_top3,difficulty,note
+Médico generalista en atención primaria,2212,2211,Medicos especialistas,4.9169,False,True,F,F: control fácil
+Conductor de camión de carga pesada,8332,8332,Conductores de camiones pesados,4.9679,True,True,F,F: control fácil
+Maestro de escuela primaria,2341,2342,Maestros de educacion preescolar,5.6098,False,True,F,F: control fácil
+Desarrollador de software y aplicaciones,2514,2512,Desarrolladores de software,7.6839,False,True,F,F: control fácil
+Abogado defensor penal,2611,2611,Abogados,5.547,True,True,F,F: control fácil
+Chófer de un camión,8332,8332,Conductores de camiones pesados,3.9803,True,True,A,A: 'chófer' en lugar de 'conductor'
+Profe de primaria,2341,2342,Maestros de educacion preescolar,4.6376,False,False,A,A: apócope coloquial 'profe'
+Maquinista que maneja el tren de pasajeros,8311,5112,Conductores y cobradores de transporte publico,4.1037,False,True,A,A: jerga 'maquinista'
+Gásfiter que arregla cañerías en condominios,7126,9132,Porteros de edificios de apartamentos,2.9862,False,False,A,A: 'gásfiter' (Chile)
+Barista y mozo en café céntrico,5132,5132,Camareros de barra,4.5505,True,True,A,A: 'barista+mozo'=camarero de barra
+Chapista que endereza carrocerías de autos,7213,7231,Mecanicos de vehiculos de motor,3.2275,False,False,A,A: oficio específico
+Cobrador de micro en ruta urbana,5112,2164,Planificadores de ciudades y trafico,3.9421,False,True,A,A: 'cobrador de micro'
+Supervisor de planta industrial,3122,3122,Supervisores de industrias manufactureras,6.6988,True,True,B,B: ambiguo supervisor/gerente mfg
+Técnico en sistemas informáticos,3114,2523,Profesionales en redes informaticas,5.5191,False,False,B,B: puede ser 3114 o 2522
+Asesor de ventas en empresa de seguros,3321,3321,Agentes de seguros,6.1374,True,True,B,B: agente seguros vs ventas
+Coordinador de recursos humanos,2423,1212,Directores de recursos humanos,6.9287,False,True,B,B: especialista o gerente RRHH
+Inspector de calidad en fábrica,3172,3172,Expertos en normas y calidad,5.9335,True,True,B,B: técnico calidad vs inspector
+Encargado de bodega y distribución,4321,1226,Directores de abastecimiento y distribucion,4.397,False,True,B,B: empleado control suministros
+Operario de planta de producción,8189,2141,Ingenieros industriales y de produccion,4.9537,False,False,B,B: código residual maquinaria
+Auxiliar administrativo en hospital,4110,3344,Asistentes medicos,4.7836,False,False,B,B: admin. vs aux. salud
+Cría cerdos y también siembra maíz en el campo,6130,3142,Tecnicos en agricultura,4.9721,False,True,C,C: agropecuario mixto
+Vende ropa en feria y también cose en casa,5211,2163,Disenadores de productos y de vestuario,5.3856,False,False,C,C: vendedor + costurero
+Da clases de inglés y traduce documentos,2643,2643,Traductores e interpretes,4.9757,True,True,C,C: traductor + docente
+Cuida a sus hijos y además atiende una pequeña tienda,5222,5221,Duenos y gerentes de pequenas tiendas,4.5134,False,False,C,C: trabajo doméstico vs comercio
+Pinta casas y hace trabajos de plomería cuando hay trabajo,7131,9111,Trabajadores domesticos,3.967,False,False,C,C: pintor + plomero
+Plomero que instala tuberías de agua,7126,7126,Fontaneros e instaladores de tuberias,3.6101,True,True,D,D: 'plomero' (MX/AR) = fontanero
+Contador público certificado,2411,2411,Contables y auditores,6.2022,True,True,D,D: 'contador público' = contable
+Mecánico de autos en taller,7231,7421,Mecanicos y reparadores de electronica,4.6767,False,True,D,D: 'mecánico de autos'
+Recolector de basura municipal,9611,9611,Recolectores de basura y materiales reciclables,6.8146,True,True,D,D: 'recolector de basura'
+Guardián nocturno de edificio,5414,5414,Guarda de seguridad,4.0542,True,True,D,D: 'guardián' = guarda de seguridad
+Taxista independiente con auto propio,8322,5112,Conductores y cobradores de transporte publico,4.0288,False,False,D,D: conductor de automóviles
+Empleada doméstica que vive en la casa,9111,5152,Asistentes de hogar,5.2332,False,True,D,D: 'empleada doméstica'
+Profesional de la salud en cuidados paliativos,2221,1343,Gerentes de atencion a personas de edad y discapacitados,5.1868,False,False,E,E: especialista enfermería
+Técnico en metrología y calibración industrial,3172,2141,Ingenieros industriales y de produccion,4.5562,False,False,E,E: puede ser 3119 o 3172
+Operador de sistemas SCADA en planta eléctrica,3131,7412,Mecanicos y reparadores de equipos electricos,4.3543,False,False,E,E: control de procesos
+Promotor sociocultural en comunidades rurales,2635,3412,Agentes sociales y comunitarios,5.4636,False,True,E,E: trabajador social
+Analista de datos geoespaciales,2120,2114,Geologos y geofisicos,5.5352,False,False,E,E: estadístico/matemático
+Agente de desarrollo económico local,2422,3412,Agentes sociales y comunitarios,4.8989,False,True,E,E: especialista políticas admin

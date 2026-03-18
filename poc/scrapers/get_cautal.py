@@ -1,7 +1,6 @@
-"""
-Generador de catálogo CAUTAL (Clasificación de Actividades de Uso del Tiempo para América Latina).
+"""Generador de catálogo CAUTAL (Clasificación de Actividades de Uso del Tiempo para América Latina).
 Fuente: CEPAL. Se incluyen divisiones y grupos de actividades de tiempo diario de las personas.
-Salida: data/raw/cautal_es.csv  — formato: id,text
+Salida: data/raw/cautal_es.csv  — formato: id,text.
 """
 
 import csv

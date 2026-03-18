@@ -1,7 +1,6 @@
-"""
-Generador de catálogo COICOP 2018 (Clasificación del Consumo Individual por Finalidades).
+"""Generador de catálogo COICOP 2018 (Clasificación del Consumo Individual por Finalidades).
 Fuente: UNSD. Se incluyen divisiones (2 dígitos) y grupos (3 dígitos) principales.
-Salida: data/raw/coicop_es.csv  — formato: id,text
+Salida: data/raw/coicop_es.csv  — formato: id,text.
 """
 
 import csv

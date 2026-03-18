@@ -1,8 +1,7 @@
-"""
-Generador de catálogo CIIU Rev.4 (Clasificación Industrial Internacional Uniforme).
+"""Generador de catálogo CIIU Rev.4 (Clasificación Industrial Internacional Uniforme).
 Fuente: UNSD / CEPAL. Se usan los grupos de 2-3 dígitos para mantener
 un catálogo manejable y representativo de cada rama de actividad.
-Salida: data/raw/ciiu4_es.csv  — formato: id,text
+Salida: data/raw/ciiu4_es.csv  — formato: id,text.
 """
 
 import csv

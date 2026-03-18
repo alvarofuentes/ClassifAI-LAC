@@ -38,7 +38,6 @@ SAMPLE = [
     ("Maestro de escuela primaria", "2341", "F: control fácil"),
     ("Desarrollador de software y aplicaciones", "2514", "F: control fácil"),
     ("Abogado defensor penal", "2611", "F: control fácil"),
-
     # [A] Informalidad / jerga regional
     ("Chófer de un camión", "8332", "A: 'chófer' en lugar de 'conductor'"),
     ("Profe de primaria", "2341", "A: apócope coloquial 'profe'"),
@@ -47,7 +46,6 @@ SAMPLE = [
     ("Barista y mozo en café céntrico", "5132", "A: 'barista+mozo'=camarero de barra"),
     ("Chapista que endereza carrocerías de autos", "7213", "A: oficio específico"),
     ("Cobrador de micro en ruta urbana", "5112", "A: 'cobrador de micro'"),
-
     # [B] Ambigüedad entre dos o más códigos plausibles
     ("Supervisor de planta industrial", "3122", "B: ambiguo supervisor/gerente mfg"),
     ("Técnico en sistemas informáticos", "3114", "B: puede ser 3114 o 2522"),
@@ -57,14 +55,12 @@ SAMPLE = [
     ("Encargado de bodega y distribución", "4321", "B: empleado control suministros"),
     ("Operario de planta de producción", "8189", "B: código residual maquinaria"),
     ("Auxiliar administrativo en hospital", "4110", "B: admin. vs aux. salud"),
-
     # [C] Trabajo mixto — el encuestado describe dos actividades a la vez
     ("Cría cerdos y también siembra maíz en el campo", "6130", "C: agropecuario mixto"),
     ("Vende ropa en feria y también cose en casa", "5211", "C: vendedor + costurero"),
     ("Da clases de inglés y traduce documentos", "2643", "C: traductor + docente"),
     ("Cuida a sus hijos y además atiende una pequeña tienda", "5222", "C: trabajo doméstico vs comercio"),
     ("Pinta casas y hace trabajos de plomería cuando hay trabajo", "7131", "C: pintor + plomero"),
-
     # [D] Variación regional — mismo cargo, nombre diferente
     ("Plomero que instala tuberías de agua", "7126", "D: 'plomero' (MX/AR) = fontanero"),
     ("Contador público certificado", "2411", "D: 'contador público' = contable"),
@@ -73,7 +69,6 @@ SAMPLE = [
     ("Guardián nocturno de edificio", "5414", "D: 'guardián' = guarda de seguridad"),
     ("Taxista independiente con auto propio", "8322", "D: conductor de automóviles"),
     ("Empleada doméstica que vive en la casa", "9111", "D: 'empleada doméstica'"),
-
     # [E] Tecnicismo o formalidad inusual
     ("Profesional de la salud en cuidados paliativos", "2221", "E: especialista enfermería"),
     ("Técnico en metrología y calibración industrial", "3172", "E: puede ser 3119 o 3172"),
@@ -88,8 +83,8 @@ def run_benchmark(store: VectorStore, sample: list, n_results: int = 3) -> pd.Da
     """Ejecuta el benchmark y retorna un DataFrame con los resultados."""
     ids = list(range(len(sample)))
     queries = [row[0] for row in sample]
-    correct_codes = [str(row[1]) for row in sample]
-    notes = [row[2] for row in sample]
+    [str(row[1]) for row in sample]
+    [row[2] for row in sample]
 
     search_input = VectorStoreSearchInput({"id": ids, "query": queries})
     results = store.search(search_input, n_results=n_results)
@@ -113,17 +108,19 @@ def run_benchmark(store: VectorStore, sample: list, n_results: int = 3) -> pd.Da
         hit_top1 = top1_code == correct_code
         hit_top3 = correct_code in top_codes[:3]
 
-        rows.append({
-            "query": query,
-            "correct_code": correct_code,
-            "top1_code": top1_code,
-            "top1_label": top1_label,
-            "top1_score": round(top1_score, 4),
-            "hit_top1": hit_top1,
-            "hit_top3": hit_top3,
-            "difficulty": note[:1],  # Tipo de dificultad (letra)
-            "note": note,
-        })
+        rows.append(
+            {
+                "query": query,
+                "correct_code": correct_code,
+                "top1_code": top1_code,
+                "top1_label": top1_label,
+                "top1_score": round(top1_score, 4),
+                "hit_top1": hit_top1,
+                "hit_top3": hit_top3,
+                "difficulty": note[:1],  # Tipo de dificultad (letra)
+                "note": note,
+            }
+        )
 
     return pd.DataFrame(rows)
 
@@ -156,9 +153,9 @@ def print_results(df: pd.DataFrame) -> None:
     print(f"   Score promedio : {avg_score:.4f}")
 
     # Métricas por tipo de dificultad
-    print(f"\n📊 ACCURACY POR TIPO DE DIFICULTAD")
+    print("\n📊 ACCURACY POR TIPO DE DIFICULTAD")
     print(f"   {'Tipo':<35} {'n':<5} {'Top-1':<10} {'Top-3'}")
-    print(f"   {'-'*60}")
+    print(f"   {'-' * 60}")
     tipo_labels = {
         "F": "F: Control / fáciles",
         "A": "A: Jerga / informalidad regional",

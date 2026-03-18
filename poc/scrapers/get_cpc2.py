@@ -1,8 +1,7 @@
-"""
-Generador de catálogo CPC Ver.2.1 (Clasificación Central de Productos).
+"""Generador de catálogo CPC Ver.2.1 (Clasificación Central de Productos).
 Fuente: UNSD. Se incluyen secciones (1 dígito), divisiones (2) y grupos (3 dígitos).
 Un subconjunto representativo de las 9 secciones y sus divisiones principales.
-Salida: data/raw/cpc2_es.csv  — formato: id,text
+Salida: data/raw/cpc2_es.csv  — formato: id,text.
 """
 
 import csv

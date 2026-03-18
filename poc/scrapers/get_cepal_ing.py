@@ -1,8 +1,7 @@
-"""
-Generador de catálogo de Ingresos de Cuentas Nacionales (CEPAL_ING).
+"""Generador de catálogo de Ingresos de Cuentas Nacionales (CEPAL_ING).
 Basado en el Manual de Cuentas Nacionales de la CEPAL y el SCN 2008.
 Clasifica los tipos de ingreso que reciben los hogares en encuestas de ingresos.
-Salida: data/raw/cepal_ing_es.csv  — formato: id,text
+Salida: data/raw/cepal_ing_es.csv  — formato: id,text.
 """
 
 import csv

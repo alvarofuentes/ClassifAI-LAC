@@ -11,15 +11,13 @@ restAPI endpoints, in a FastAPI restAPI service started with these functions.
 from __future__ import annotations
 
 import logging
+import os
+import shutil
 from typing import Annotated, Literal
 
 import uvicorn
-from fastapi import APIRouter, FastAPI, HTTPException, Query, UploadFile, File, BackgroundTasks
-from fastapi.responses import RedirectResponse, FileResponse
-import os
-import shutil
-import uuid
-from typing import Annotated, Literal
+from fastapi import APIRouter, BackgroundTasks, FastAPI, File, HTTPException, Query, UploadFile
+from fastapi.responses import FileResponse, RedirectResponse
 
 from ..exceptions import ConfigurationError, DataValidationError
 from ..indexers.dataclasses import (
@@ -280,43 +278,42 @@ def _create_reverse_search_endpoint(router: APIRouter | FastAPI, endpoint_name: 
 
 def _create_batch_endpoints(router: APIRouter | FastAPI, endpoint_name: str, vector_store: VectorStore):
     """Crea los endpoints asíncronos para procesamiento por lotes (Fase 2a)."""
-    
     # Directorio temporal para los archivos batch
     BATCH_DIR = os.path.join("data", "batch_tmp")
     os.makedirs(BATCH_DIR, exist_ok=True)
-    
+
     @router.post(f"/{endpoint_name}/batch", description=f"{endpoint_name} batch processing (CSV)")
     async def batch_start_endpoint(
         background_tasks: BackgroundTasks,
         file: UploadFile = File(...),
-        lang: str = Query("es", description="Language for output descriptions (es, en, pt...)")
+        lang: str = Query("es", description="Language for output descriptions (es, en, pt...)"),
     ):
-        from .jobs import job_manager
         from ..batch_processor import process_batch_job
-        
+        from .jobs import job_manager
+
         # Mimetype & Extension check
         allowed_mimes = ["text/csv", "application/vnd.ms-excel", "text/plain"]
         if not file.filename.endswith(".csv") or file.content_type not in allowed_mimes:
             raise HTTPException(400, "Solo se admiten archivos .csv válidos")
-            
+
         # Payload limit check (Max 50MB)
         file.file.seek(0, os.SEEK_END)
         file_size = file.file.tell()
         file.file.seek(0)
-        
+
         if file_size > 50 * 1024 * 1024:
             raise HTTPException(413, "El archivo supera el límite de 50MB en RAM permitido.")
-            
+
         # Crear entrada en el Gestor de Trabajos
         job_id = job_manager.create_job(classifier=endpoint_name, filename=file.filename)
-        
+
         input_filepath = os.path.join(BATCH_DIR, f"{job_id}_input.csv")
         output_filepath = os.path.join(BATCH_DIR, f"{job_id}_output.csv")
-        
+
         # Guardar archivo subido asíncronamente
         with open(input_filepath, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
-            
+
         # Encolar procesamiento iterativo
         background_tasks.add_task(
             process_batch_job,
@@ -325,14 +322,15 @@ def _create_batch_endpoints(router: APIRouter | FastAPI, endpoint_name: str, vec
             vector_store=vector_store,
             input_filepath=input_filepath,
             output_filepath=output_filepath,
-            lang=lang
+            lang=lang,
         )
-        
+
         return {"job_id": job_id, "status": "Job enqueued", "filename": file.filename}
 
     @router.get(f"/{endpoint_name}/batch/{{job_id}}/status", description="Check batch job status")
     async def batch_status_endpoint(job_id: str):
         from .jobs import job_manager
+
         job = job_manager.get_job(job_id)
         if not job:
             raise HTTPException(404, "Job no encontrado o expirado")
@@ -341,19 +339,17 @@ def _create_batch_endpoints(router: APIRouter | FastAPI, endpoint_name: str, vec
     @router.get(f"/{endpoint_name}/batch/{{job_id}}/download", description="Download processed batch CSV")
     async def batch_download_endpoint(job_id: str):
         from .jobs import job_manager
+
         job = job_manager.get_job(job_id)
         if not job:
             raise HTTPException(404, "Job no encontrado")
-            
+
         if job["status"] != "COMPLETED":
             raise HTTPException(400, f"El trabajo no está completo. Estado actual: {job['status']}")
-            
+
         if not job["output_file"] or not os.path.exists(job["output_file"]):
             raise HTTPException(500, "El archivo de salida se perdió o no se generó correctamente")
-            
-        return FileResponse(
-            path=job["output_file"], 
-            filename=f"classifai_{endpoint_name}_{job_id}.csv", 
-            media_type="text/csv"
-        )
 
+        return FileResponse(
+            path=job["output_file"], filename=f"classifai_{endpoint_name}_{job_id}.csv", media_type="text/csv"
+        )

@@ -1,7 +1,6 @@
-"""
-Generador de catálogo ICCS (International Classification of Crime for Statistical Purposes).
+"""Generador de catálogo ICCS (International Classification of Crime for Statistical Purposes).
 Fuente: UNODC. Versión 1.0. Se incluyen niveles 1 (categorías) y 2 (subcategorías).
-Salida: data/raw/iccs_es.csv  — formato: id,text
+Salida: data/raw/iccs_es.csv  — formato: id,text.
 """
 
 import csv

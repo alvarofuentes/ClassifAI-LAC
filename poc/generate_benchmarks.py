@@ -1,7 +1,6 @@
-"""
-Script para generar todos los benchmarks sintéticos (Fase 1.5).
+"""Script para generar todos los benchmarks sintéticos (Fase 1.5).
 Crea archivos CSV de prueba en data/benchmarks/ con el formato:
-id_registro, literal, ground_truth, difficulty
+id_registro, literal, ground_truth, difficulty.
 
 Diferentes niveles de dificultad:
 [A] Control: idéntico o muy similar a la descripción oficial
@@ -22,12 +21,12 @@ CIIU4_SAMPLES = [
     ("b2", "Chacra que cría vacas y cerdos", "014", "B"),
     ("b3", "Fábrica de zapatos de cuero", "15", "A"),
     ("b4", "Taller de confección de ropa", "14", "A"),
-    ("b5", "Elaboración de pan y tortas", "10", "A"), # 10 es Alimentos
-    ("b6", "Panadería (venta al público)", "47", "B"), # 47 es Comercio al por menor
+    ("b5", "Elaboración de pan y tortas", "10", "A"),  # 10 es Alimentos
+    ("b6", "Panadería (venta al público)", "47", "B"),  # 47 es Comercio al por menor
     ("b7", "Constructora de edificios residenciales", "41", "A"),
     ("b8", "Tienda de abarrotes y verdulería", "47", "B"),
     ("b9", "Empresa de camiones de carga", "49", "A"),
-    ("b10", "Hotel tres estrellas con restaurante", "55", "C"), # Alojamiento
+    ("b10", "Hotel tres estrellas con restaurante", "55", "C"),  # Alojamiento
     ("b11", "Restaurante de comida rápida", "56", "A"),
     ("b12", "Servicio de desarrollo de software", "62", "A"),
     ("b13", "Estudio de abogados y contadores", "69", "A"),
@@ -70,28 +69,28 @@ CPC2_SAMPLES = [
     ("p8", "Lata de atún en aceite", "215", "B"),
     ("p9", "Azúcar blanca refinada", "242", "A"),
     ("p10", "Vino tinto cabernet sauvignon", "252", "B"),
-    ("p11", "Aspirina", "346", "B"), # Productos farmacéuticos 
-    ("p12", "Gasolina 95 octanos", "33", "B"), # Coque y refinación
-    ("p13", "Silla de madera de pino", "47", "B"), # Muebles
-    ("p14", "Construcción de puente de vigas", "54", "C"), # Obras de ing civil
-    ("p15", "Servicios de guardería infantil", "93", "C"), # Servicios sociales
+    ("p11", "Aspirina", "346", "B"),  # Productos farmacéuticos
+    ("p12", "Gasolina 95 octanos", "33", "B"),  # Coque y refinación
+    ("p13", "Silla de madera de pino", "47", "B"),  # Muebles
+    ("p14", "Construcción de puente de vigas", "54", "C"),  # Obras de ing civil
+    ("p15", "Servicios de guardería infantil", "93", "C"),  # Servicios sociales
 ]
 
 # --- Muestras para ICCS (Delitos) ---
 ICCS_SAMPLES = [
-    ("i1", "Asesinato con arma de fuego", "0101", "A"), # Homicidio intencional
-    ("i2", "Muerte por accidente de tránsito chofer ebrio", "0903", "B"), # Homicidio culposo tráfico
-    ("i3", "Amenazas con arma blanca", "0210", "B"), # Acoso / Amenazas (0210 o similar)
-    ("i4", "Robo del celular en la calle con violencia", "0301", "B"), # Robo con violencia
-    ("i5", "Carterista me sacó la billetera en el bus", "0305", "B"), # Hurto
-    ("i6", "Se llevaron mi auto que estaba estacionado", "0302", "B"), # Sustracción de vehículos
-    ("i7", "Entraron a la casa cuando no estábamos", "0303", "B"), # Robo con fuerza en lugar habitado
-    ("i8", "Estafa piramidal por internet", "0402", "B"), # Fraude informático
+    ("i1", "Asesinato con arma de fuego", "0101", "A"),  # Homicidio intencional
+    ("i2", "Muerte por accidente de tránsito chofer ebrio", "0903", "B"),  # Homicidio culposo tráfico
+    ("i3", "Amenazas con arma blanca", "0210", "B"),  # Acoso / Amenazas (0210 o similar)
+    ("i4", "Robo del celular en la calle con violencia", "0301", "B"),  # Robo con violencia
+    ("i5", "Carterista me sacó la billetera en el bus", "0305", "B"),  # Hurto
+    ("i6", "Se llevaron mi auto que estaba estacionado", "0302", "B"),  # Sustracción de vehículos
+    ("i7", "Entraron a la casa cuando no estábamos", "0303", "B"),  # Robo con fuerza en lugar habitado
+    ("i8", "Estafa piramidal por internet", "0402", "B"),  # Fraude informático
     ("i9", "Falsificación de billetes de 100 dólares", "0404", "A"),
     ("i10", "Soborno a un policía de tránsito", "0502", "A"),
     ("i11", "Lavado de activos empresariales", "0406", "A"),
     ("i12", "Tráfico de cocaína en aeropuerto", "0801", "A"),
-    ("i13", "Pesca ilegal en reserva protegida", "0701", "A"), # Delitos ambientales
+    ("i13", "Pesca ilegal en reserva protegida", "0701", "A"),  # Delitos ambientales
 ]
 
 # --- Muestras para CAUTAL (Uso del tiempo) ---
@@ -102,7 +101,7 @@ CAUTAL_SAMPLES = [
     ("t4", "Hacer el almuerzo para la familia", "311", "A"),
     ("t5", "Lavar los platos", "312", "A"),
     ("t6", "Barrer y trapear el piso de la cocina", "321", "B"),
-    ("t7", "Recoger la ropa de la lavandería", "353", "C"), # Trámites
+    ("t7", "Recoger la ropa de la lavandería", "353", "C"),  # Trámites
     ("t8", "Ayudar a los niños con la tarea de matemáticas", "362", "A"),
     ("t9", "Cuidar a la abuela que está en cama", "371", "B"),
     ("t10", "Ir a clases a la universidad", "512", "A"),
@@ -115,19 +114,20 @@ CAUTAL_SAMPLES = [
 
 # --- Muestras para CEPAL_ING (Ingresos de encuestas) ---
 CEPAL_ING_SAMPLES = [
-    ("e1", "Sueldo bruto mensual de la fábrica", "1111", "A"), # Sueldo base
+    ("e1", "Sueldo bruto mensual de la fábrica", "1111", "A"),  # Sueldo base
     ("e2", "Pago de horas extras", "1112", "A"),
     ("e3", "Bono de productividad trimestral", "1113", "A"),
-    ("e4", "Lo que saqué de vender cosméticos en mi tiempo libre", "131", "C"), # Beneficios netos cuenta propia
+    ("e4", "Lo que saqué de vender cosméticos en mi tiempo libre", "131", "C"),  # Beneficios netos cuenta propia
     ("e5", "Intereses por el plazo fijo del banco", "211", "A"),
     ("e6", "Arriendo que me paga el inquilino del departamento", "2211", "B"),
     ("e7", "Pensión de jubilación del estado", "3111", "A"),
-    ("e8", "Subsidio de Bono Solidario del gobierno", "3141", "B"), # Transferencias condicionadas
-    ("e9", "Dinero enviado por mi hijo desde Estados Unidos", "3211", "B"), # Remesas internacionales
+    ("e8", "Subsidio de Bono Solidario del gobierno", "3141", "B"),  # Transferencias condicionadas
+    ("e9", "Dinero enviado por mi hijo desde Estados Unidos", "3211", "B"),  # Remesas internacionales
     ("e10", "Pensión por alimentos del ex marido", "323", "B"),
     ("e11", "Finiquito por despido de la empresa", "421", "A"),
     ("e12", "Premio que gané en el Kino (lotería)", "441", "B"),
 ]
+
 
 def save_benchmark(filename: str, samples: list):
     path = OUT_DIR / filename
@@ -138,21 +138,23 @@ def save_benchmark(filename: str, samples: list):
             writer.writerow(sample)
     print(f"✅ Generado: {path.name} ({len(samples)} casos)")
 
+
 def main():
     print("==================================================")
     print("ClassifAI-LAC — Generando Benchmarks Sintéticos")
     print("==================================================\n")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     save_benchmark("benchmark_ciiu4.csv", CIIU4_SAMPLES)
     save_benchmark("benchmark_coicop.csv", COICOP_SAMPLES)
     save_benchmark("benchmark_cpc2.csv", CPC2_SAMPLES)
     save_benchmark("benchmark_iccs.csv", ICCS_SAMPLES)
     save_benchmark("benchmark_cautal.csv", CAUTAL_SAMPLES)
     save_benchmark("benchmark_cepal_ing.csv", CEPAL_ING_SAMPLES)
-    
+
     print("\n✅ Todos los benchmarks han sido creados en data/benchmarks/")
     print("El siguiente paso será correr un script unificado de evaluación.")
+
 
 if __name__ == "__main__":
     main()

@@ -104,6 +104,47 @@ convention = "google"
 "tests/*" = [
     # Allow use of assert statements in tests
     "S101",
+    # Allow magic numbers in tests (like HTTP status codes)
+    "PLR2004",
+    # Allow missing docstring punctuation in tests
+    "D415",
+]
+"poc/*" = [
+    # POCs use magic values, insecure requests, random, and sys.path
+    "E402",
+    "PLR2004",
+    "S310",
+    "S311",
+    "S113",
+]
+"src/build_index.py" = [
+    "E402",
+    "C901",
+]
+"src/classifai/servers/main.py" = [
+    # FastAPI requires function calls in defaults (Depends, Query, File)
+    "B008",
+]
+"src/serve_api.py" = [
+    # Sys.path manipulation required before imports
+    "E402",
+    # Accept slightly higher complexity for the main entry point
+    "C901",
+    "PLR0915",
+]
+"src/classifai/batch_processor.py" = [
+    "PLR0915",
+    "C901",
+    "PLR0912",
+    "PLR0913",
+]
+"src/classifai/servers/jobs.py" = [
+    # Too many arguments for job creation
+    "PLR0913",
+]
+"src/classifai/i18n.py" = [
+    # Allow simple length checks
+    "PLR2004",
 ]
 
 [tool.ruff.format]

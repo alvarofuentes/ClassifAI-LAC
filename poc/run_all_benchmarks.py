@@ -1,5 +1,4 @@
-"""
-Script unificado de Benchmarks — ClassifAI-LAC (Fase 1.5).
+"""Script unificado de Benchmarks — ClassifAI-LAC (Fase 1.5).
 
 Este script lee todos los CSVs en data/benchmarks/ y evalúa su accuracy
 (Top-1 y Top-3) golpeando directamente la API local de ClassifAI-LAC.
@@ -22,7 +21,7 @@ API_URL = "http://localhost:8000/{classifier}/search"
 def run_benchmark_for_classifier(classifier: str, filepath: Path) -> dict:
     """Lee el CSV de benchmark y evalúa contra la API."""
     cases = []
-    with open(filepath, "r", encoding="utf-8") as f:
+    with open(filepath, encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
             cases.append(row)
@@ -33,14 +32,9 @@ def run_benchmark_for_classifier(classifier: str, filepath: Path) -> dict:
     # Preparar payload para la API
     entries = [{"id": row["id_registro"], "description": row["literal"]} for row in cases]
     payload = json.dumps({"entries": entries}).encode("utf-8")
-    
+
     url = API_URL.format(classifier=classifier)
-    req = urllib.request.Request(
-        url,
-        data=payload,
-        headers={"Content-Type": "application/json"},
-        method="POST"
-    )
+    req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"}, method="POST")
 
     try:
         with urllib.request.urlopen(req) as response:
@@ -54,17 +48,17 @@ def run_benchmark_for_classifier(classifier: str, filepath: Path) -> dict:
     hits_top1 = 0
     hits_top3 = 0
     total = len(cases)
-    
+
     # Crear diccionario de respuestas por ID
     api_responses = {item["input_id"]: item["response"] for item in result.get("data", [])}
 
     for case in cases:
         case_id = case["id_registro"]
         ground_truth = str(case["ground_truth"])
-        
+
         preds = api_responses.get(case_id, [])
         top_codes = [str(p["label"]) for p in preds]
-        
+
         if top_codes and top_codes[0] == ground_truth:
             hits_top1 += 1
         if ground_truth in top_codes[:3]:
@@ -100,7 +94,7 @@ def main():
         # Nota: asume que el índice en la API tiene sufijo _es
         classifier_base = path.stem.replace("benchmark_", "")
         classifier_api = f"{classifier_base}_es"
-        
+
         print(f"▶ Evaluando: {classifier_api} ({path.name})...", end="", flush=True)
         res = run_benchmark_for_classifier(classifier_api, path)
         if res:
@@ -118,11 +112,15 @@ def main():
         f.write("| Clasificador | Casos | Top-1 Accuracy | Top-3 Accuracy |\n")
         f.write("|---|---|---|---|\n")
         for r in results:
-            f.write(f"| `{r['classifier']}` | {r['total_cases']} | **{r['top1_acc']:.1%}** | **{r['top3_acc']:.1%}** |\n")
-        
+            f.write(
+                f"| `{r['classifier']}` | {r['total_cases']} | **{r['top1_acc']:.1%}** | **{r['top3_acc']:.1%}** |\n"
+            )
+
         avg_t1 = sum(r["top1_acc"] for r in results) / len(results)
         avg_t3 = sum(r["top3_acc"] for r in results) / len(results)
-        f.write(f"| **Promedio Global** | **{sum(r['total_cases'] for r in results)}** | **{avg_t1:.1%}** | **{avg_t3:.1%}** |\n")
+        f.write(
+            f"| **Promedio Global** | **{sum(r['total_cases'] for r in results)}** | **{avg_t1:.1%}** | **{avg_t3:.1%}** |\n"
+        )
 
     print("\n" + "=" * 65)
     print(f"📊 Reporte generado en: {REPORT_PATH}")

@@ -1,5 +1,4 @@
-"""
-Servicio API REST multi-clasificador para ClassifAI-LAC.
+"""Servicio API REST multi-clasificador para ClassifAI-LAC.
 
 Detecta automáticamente todos los índices vectoriales disponibles en data/indices/
 y levanta un endpoint /search, /embed y /reverse_search para cada uno.
@@ -18,10 +17,10 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
+from classifai.i18n import load_all_dictionaries
 from classifai.indexers import VectorStore
 from classifai.servers.main import run_server
 from classifai.vectorisers import HuggingFaceVectoriser
-from classifai.i18n import load_all_dictionaries
 
 MODEL = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
 INDICES_DIR = ROOT / "data" / "indices"
@@ -31,15 +30,11 @@ def get_available_indices() -> list[Path]:
     """Retorna todos los índices disponibles en data/indices/."""
     if not INDICES_DIR.exists():
         return []
-    return sorted(
-        [d for d in INDICES_DIR.iterdir() if d.is_dir() and (d / "vectors.parquet").exists()]
-    )
+    return sorted([d for d in INDICES_DIR.iterdir() if d.is_dir() and (d / "vectors.parquet").exists()])
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="ClassifAI-LAC — Servicio API multi-clasificador"
-    )
+    parser = argparse.ArgumentParser(description="ClassifAI-LAC — Servicio API multi-clasificador")
     parser.add_argument("--port", type=int, default=8000, help="Puerto HTTP (default: 8000)")
     parser.add_argument(
         "--only",
@@ -61,7 +56,7 @@ def main():
         if not available:
             print("  (ninguno — ejecuta primero: python src/build_index.py)")
         for idx in available:
-            meta = idx / "metadata.json"
+            idx / "metadata.json"
             print(f"  ✅  {idx.name}  →  POST /{idx.name}/search")
         return
 

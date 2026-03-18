@@ -1,4 +1,5 @@
 """Script para generar el archivo ciuo08_es.csv con encoding correcto."""
+
 import csv
 from pathlib import Path
 
@@ -392,6 +393,7 @@ print(f"CSV generado: {OUT}")
 print(f"Total filas: {len(CIUO08)}")
 # Verificar lectura
 import polars as pl
+
 df = pl.read_csv(str(OUT), schema_overrides={"id": pl.Utf8, "text": pl.Utf8})
 print(f"Polars OK: {len(df)} filas")
 print(df.head(3))

@@ -62,13 +62,11 @@ def main():
     print(f"{'Consulta':<45} {'Top-1 código':<10} {'Descripción CIUO-08':<40} {'Score'}")
     print("-" * 120)
 
-    search_input = VectorStoreSearchInput(
-        {"id": list(range(len(TEST_QUERIES))), "query": TEST_QUERIES}
-    )
+    search_input = VectorStoreSearchInput({"id": list(range(len(TEST_QUERIES))), "query": TEST_QUERIES})
     results = store.search(search_input, n_results=3)
 
     # La API retorna un pandas DataFrame con columnas: query_id, query_text, doc_id, doc_text, rank, score
-    results_df = results.to_pandas() if hasattr(results, 'to_pandas') else results
+    results_df = results.to_pandas() if hasattr(results, "to_pandas") else results
 
     for i, query in enumerate(TEST_QUERIES):
         row = results_df[(results_df["query_id"] == str(i)) & (results_df["rank"] == 1)]
@@ -76,7 +74,7 @@ def main():
             code = row["doc_id"].values[0]
             label = row["doc_text"].values[0]
             score = row["score"].values[0]
-            print(f"{query:<45} {str(code):<10} {label:<40} {score:.4f}")
+            print(f"{query:<45} {code!s:<10} {label:<40} {score:.4f}")
 
     print("\n✓ Pipeline completo ejecutado correctamente.")
     print("  → Para ver el benchmark de accuracy con muestra sintética, ejecute:")

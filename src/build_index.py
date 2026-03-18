@@ -1,5 +1,4 @@
-"""
-Script para construir todos los VectorStores del Data Lake de ClassifAI-LAC.
+"""Script para construir todos los VectorStores del Data Lake de ClassifAI-LAC.
 
 Itera automáticamente sobre todos los CSVs encontrados en data/raw/ y genera
 los índices vectoriales correspondientes en data/indices/<nombre_clasificador>/.
@@ -40,14 +39,14 @@ def build_single_index(csv_path: Path, vectoriser: HuggingFaceVectoriser) -> Non
     classifier_name = csv_path.stem
     out_dir = INDICES_DIR / classifier_name
 
-    print(f"\n{'─'*55}")
+    print(f"\n{'─' * 55}")
     print(f"  Clasificador : {classifier_name}")
     print(f"  Origen       : {csv_path.name}")
     print(f"  Destino      : data/indices/{classifier_name}/")
-    print(f"{'─'*55}")
+    print(f"{'─' * 55}")
 
     if out_dir.exists():
-        print(f"  🧹 Limpiando índice previo...")
+        print("  🧹 Limpiando índice previo...")
         shutil.rmtree(out_dir, ignore_errors=True)
 
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -69,9 +68,7 @@ def build_single_index(csv_path: Path, vectoriser: HuggingFaceVectoriser) -> Non
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Construye el Data Lake vectorial de ClassifAI-LAC"
-    )
+    parser = argparse.ArgumentParser(description="Construye el Data Lake vectorial de ClassifAI-LAC")
     parser.add_argument(
         "--classifier",
         type=str,

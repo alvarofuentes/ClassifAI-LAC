@@ -21,6 +21,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from classifai.indexers import VectorStore
 from classifai.servers.main import run_server
 from classifai.vectorisers import HuggingFaceVectoriser
+from classifai.i18n import load_all_dictionaries
 
 MODEL = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
 INDICES_DIR = ROOT / "data" / "indices"
@@ -85,11 +86,14 @@ def main():
     print(f"  Índices : {len(targets)} clasificador(es)")
     print("=" * 58)
 
-    print("\n[1/3] Cargando modelo HuggingFace (puede tomar unos segundos)...")
+    print("\n[1/4] Cargando modelo HuggingFace (puede tomar unos segundos)...")
     vectoriser = HuggingFaceVectoriser(model_name=MODEL)
     print("  ✅ Modelo cargado")
 
-    print(f"\n[2/3] Cargando {len(targets)} índice(s) vectorial(es)...")
+    print("\n[2/4] Cargando diccionarios de traducciones (i18n)...")
+    load_all_dictionaries(ROOT / "data" / "raw")
+
+    print(f"\n[3/4] Cargando {len(targets)} índice(s) vectorial(es)...")
     stores = []
     endpoint_names = []
 
@@ -111,7 +115,7 @@ def main():
         print("\n❌ No se pudo cargar ningún índice. Abortando.")
         sys.exit(1)
 
-    print(f"\n[3/3] Levantando servidor en http://localhost:{args.port}")
+    print(f"\n[4/4] Levantando servidor en http://localhost:{args.port}")
     print("\n👉 Endpoints disponibles:")
     for name in endpoint_names:
         print(f"   POST http://localhost:{args.port}/{name}/search")

@@ -14,8 +14,12 @@ import logging
 from typing import Annotated, Literal
 
 import uvicorn
-from fastapi import APIRouter, FastAPI, HTTPException, Query
-from fastapi.responses import RedirectResponse
+from fastapi import APIRouter, FastAPI, HTTPException, Query, UploadFile, File, BackgroundTasks
+from fastapi.responses import RedirectResponse, FileResponse
+import os
+import shutil
+import uuid
+from typing import Annotated, Literal
 
 from ..exceptions import ConfigurationError, DataValidationError
 from ..indexers.dataclasses import (
@@ -158,6 +162,7 @@ def make_endpoints(router: APIRouter | FastAPI, vector_stores_dict: dict[str, Ve
         _create_embedding_endpoint(router, endpoint_name, vector_store)
         _create_search_endpoint(router, endpoint_name, vector_store)
         _create_reverse_search_endpoint(router, endpoint_name, vector_store)
+        _create_batch_endpoints(router, endpoint_name, vector_store)
 
 
 def _create_embedding_endpoint(router: APIRouter | FastAPI, endpoint_name: str, vector_store: VectorStore):
@@ -271,3 +276,74 @@ def _create_reverse_search_endpoint(router: APIRouter | FastAPI, endpoint_name: 
             meta_data=vector_store.meta_data,
         )
         return formatted_result
+
+
+def _create_batch_endpoints(router: APIRouter | FastAPI, endpoint_name: str, vector_store: VectorStore):
+    """Crea los endpoints asíncronos para procesamiento por lotes (Fase 2a)."""
+    
+    # Directorio temporal para los archivos batch
+    BATCH_DIR = os.path.join("data", "batch_tmp")
+    os.makedirs(BATCH_DIR, exist_ok=True)
+    
+    @router.post(f"/{endpoint_name}/batch", description=f"{endpoint_name} batch processing (CSV)")
+    async def batch_start_endpoint(
+        background_tasks: BackgroundTasks,
+        file: UploadFile = File(...),
+        lang: str = Query("es", description="Language for output descriptions (es, en, pt...)")
+    ):
+        from .jobs import job_manager
+        from ..batch_processor import process_batch_job
+        
+        if not file.filename.endswith(".csv"):
+            raise HTTPException(400, "Solo se admiten archivos .csv")
+            
+        # Crear entrada en el Gestor de Trabajos
+        job_id = job_manager.create_job(classifier=endpoint_name, filename=file.filename)
+        
+        input_filepath = os.path.join(BATCH_DIR, f"{job_id}_input.csv")
+        output_filepath = os.path.join(BATCH_DIR, f"{job_id}_output.csv")
+        
+        # Guardar archivo subido asíncronamente
+        with open(input_filepath, "wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
+            
+        # Encolar procesamiento iterativo
+        background_tasks.add_task(
+            process_batch_job,
+            job_id=job_id,
+            classifier=endpoint_name,
+            vector_store=vector_store,
+            input_filepath=input_filepath,
+            output_filepath=output_filepath,
+            lang=lang
+        )
+        
+        return {"job_id": job_id, "status": "Job enqueued", "filename": file.filename}
+
+    @router.get(f"/{endpoint_name}/batch/{{job_id}}/status", description="Check batch job status")
+    async def batch_status_endpoint(job_id: str):
+        from .jobs import job_manager
+        job = job_manager.get_job(job_id)
+        if not job:
+            raise HTTPException(404, "Job no encontrado o expirado")
+        return job
+
+    @router.get(f"/{endpoint_name}/batch/{{job_id}}/download", description="Download processed batch CSV")
+    async def batch_download_endpoint(job_id: str):
+        from .jobs import job_manager
+        job = job_manager.get_job(job_id)
+        if not job:
+            raise HTTPException(404, "Job no encontrado")
+            
+        if job["status"] != "COMPLETED":
+            raise HTTPException(400, f"El trabajo no está completo. Estado actual: {job['status']}")
+            
+        if not job["output_file"] or not os.path.exists(job["output_file"]):
+            raise HTTPException(500, "El archivo de salida se perdió o no se generó correctamente")
+            
+        return FileResponse(
+            path=job["output_file"], 
+            filename=f"classifai_{endpoint_name}_{job_id}.csv", 
+            media_type="text/csv"
+        )
+

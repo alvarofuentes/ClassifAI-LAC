@@ -191,3 +191,8 @@ docs/
 # Data indices
 vectorstore_*
 ciuo08_es/
+
+# Archivos generados en fase de tests
+/data/batch_tmp/
+/poc/dummy_*.csv
+/poc/pytest_output.txt

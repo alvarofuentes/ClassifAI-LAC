@@ -294,8 +294,18 @@ def _create_batch_endpoints(router: APIRouter | FastAPI, endpoint_name: str, vec
         from .jobs import job_manager
         from ..batch_processor import process_batch_job
         
-        if not file.filename.endswith(".csv"):
-            raise HTTPException(400, "Solo se admiten archivos .csv")
+        # Mimetype & Extension check
+        allowed_mimes = ["text/csv", "application/vnd.ms-excel", "text/plain"]
+        if not file.filename.endswith(".csv") or file.content_type not in allowed_mimes:
+            raise HTTPException(400, "Solo se admiten archivos .csv válidos")
+            
+        # Payload limit check (Max 50MB)
+        file.file.seek(0, os.SEEK_END)
+        file_size = file.file.tell()
+        file.file.seek(0)
+        
+        if file_size > 50 * 1024 * 1024:
+            raise HTTPException(413, "El archivo supera el límite de 50MB en RAM permitido.")
             
         # Crear entrada en el Gestor de Trabajos
         job_id = job_manager.create_job(classifier=endpoint_name, filename=file.filename)

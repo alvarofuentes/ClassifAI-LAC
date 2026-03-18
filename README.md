@@ -94,3 +94,10 @@ make check-python
 ```
 
 Para documentación original del paquete, ver [README_EN.md](./README_EN.md).
+
+---
+## Agradecimientos y Atribución (Acknowledgements)
+
+El núcleo algorítmico original de este proyecto fue desarrollado por el **Data Science Campus de la Oficina Nacional de Estadística (ONS) del Reino Unido**. 
+
+**ClassifAI-LAC** es un *fork* extendido (bajo licencia MIT) adaptado orgánicamente para soportar arquitecturas dinámicas multi-clasificador asíncronas, procesamiento masivo por lotes (batch) y soporte lingüístico requerido por la CEPAL y los institutos de estadística de América Latina y el Caribe. Agradecemos a los autores originales y mantenedores del repositorio ONS The Alan Turing Institute por su invaluable contribución inicial al ecosistema Open Source.

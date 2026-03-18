@@ -94,3 +94,10 @@ make check-python
 ```
 
 For the original language usage check [README.md](./README.md).
+
+---
+## Acknowledgements and Attribution
+
+The original algorithmic core of this project was developed by the **Data Science Campus at the UK Office for National Statistics (ONS)**. 
+
+**ClassifAI-LAC** is an extended fork (under the MIT License) organically adapted to support dynamic async multi-classifier architectures, massive batch processing, and multilingual support required by ECLAC and statistical institutes in Latin America and the Caribbean. We thank the original authors and maintainers at the ONS repository and The Alan Turing Institute for their invaluable initial contribution to the Open Source ecosystem.

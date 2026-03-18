@@ -1,0 +1,19 @@
+id_registro,literal,ground_truth,difficulty
+c1,Un kilo de pan marraqueta,0111,B
+c2,Carne de vacuno para asado,0112,B
+c3,Botella de Coca-Cola de 2 litros,0122,B
+c4,Cerveza en lata pack de 6,021,A
+c5,Pantalón vaquero para niño,0311,A
+c6,Zapatillas deportivas de mujer,032,A
+c7,Pago de la cuenta de la luz mensual,0451,B
+c8,Balón de gas licuado de 15 kilos,0452,B
+c9,Refrigerador no frost dos puertas,053,A
+c10,Detergente en polvo para lavar ropa,056,B
+c11,Caja de Paracetamol 500mg,0611,A
+c12,Consulta médica médico general,062,A
+c13,Pasaje en autobús urbano,0732,A
+c14,Plan de telefonía celular 5G,082,B
+c15,Televisor Smart TV 55 pulgadas,091,A
+c16,Mensualidad de colegio particular,102,B
+c17,Almuerzo menú del día en restaurante,111,B
+c18,Corte de pelo de hombre,121,A

@@ -1,0 +1,13 @@
+id_registro,literal,ground_truth,difficulty
+e1,Sueldo bruto mensual de la fábrica,1111,A
+e2,Pago de horas extras,1112,A
+e3,Bono de productividad trimestral,1113,A
+e4,Lo que saqué de vender cosméticos en mi tiempo libre,131,C
+e5,Intereses por el plazo fijo del banco,211,A
+e6,Arriendo que me paga el inquilino del departamento,2211,B
+e7,Pensión de jubilación del estado,3111,A
+e8,Subsidio de Bono Solidario del gobierno,3141,B
+e9,Dinero enviado por mi hijo desde Estados Unidos,3211,B
+e10,Pensión por alimentos del ex marido,323,B
+e11,Finiquito por despido de la empresa,421,A
+e12,Premio que gané en el Kino (lotería),441,B

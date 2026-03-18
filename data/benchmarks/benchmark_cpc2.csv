@@ -1,0 +1,16 @@
+id_registro,literal,ground_truth,difficulty
+p1,Tomates frescos a granel,012,A
+p2,Café en grano sin tostar de exportación,018,A
+p3,Vacas lecheras vivas,021,B
+p4,Pescado fresco del día,04,A
+p5,Gas natural por cañería,12,A
+p6,Electricidad domiciliaria,15,A
+p7,Carne de cerdo congelada,211,A
+p8,Lata de atún en aceite,215,B
+p9,Azúcar blanca refinada,242,A
+p10,Vino tinto cabernet sauvignon,252,B
+p11,Aspirina,346,B
+p12,Gasolina 95 octanos,33,B
+p13,Silla de madera de pino,47,B
+p14,Construcción de puente de vigas,54,C
+p15,Servicios de guardería infantil,93,C

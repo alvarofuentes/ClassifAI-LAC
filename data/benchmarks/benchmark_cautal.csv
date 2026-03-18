@@ -1,0 +1,16 @@
+id_registro,literal,ground_truth,difficulty
+t1,Trabajar en la oficina todo el día,111,A
+t2,Viaje de ida y vuelta al trabajo en metro,141,A
+t3,Cultivar tomates en la huerta de la casa,21,A
+t4,Hacer el almuerzo para la familia,311,A
+t5,Lavar los platos,312,A
+t6,Barrer y trapear el piso de la cocina,321,B
+t7,Recoger la ropa de la lavandería,353,C
+t8,Ayudar a los niños con la tarea de matemáticas,362,A
+t9,Cuidar a la abuela que está en cama,371,B
+t10,Ir a clases a la universidad,512,A
+t11,Ir al culto dominical en la iglesia,631,A
+t12,Mirar series en Netflix toda la tarde,721,B
+t13,Jugar fútbol con los amigos en el parque,741,B
+t14,Dormir de noche 8 horas,811,A
+t15,Ducharse por la mañana,831,A

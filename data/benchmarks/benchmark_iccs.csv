@@ -1,0 +1,14 @@
+id_registro,literal,ground_truth,difficulty
+i1,Asesinato con arma de fuego,0101,A
+i2,Muerte por accidente de tránsito chofer ebrio,0903,B
+i3,Amenazas con arma blanca,0210,B
+i4,Robo del celular en la calle con violencia,0301,B
+i5,Carterista me sacó la billetera en el bus,0305,B
+i6,Se llevaron mi auto que estaba estacionado,0302,B
+i7,Entraron a la casa cuando no estábamos,0303,B
+i8,Estafa piramidal por internet,0402,B
+i9,Falsificación de billetes de 100 dólares,0404,A
+i10,Soborno a un policía de tránsito,0502,A
+i11,Lavado de activos empresariales,0406,A
+i12,Tráfico de cocaína en aeropuerto,0801,A
+i13,Pesca ilegal en reserva protegida,0701,A

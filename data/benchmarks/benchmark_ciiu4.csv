@@ -1,0 +1,17 @@
+id_registro,literal,ground_truth,difficulty
+b1,Cultivo de trigo y maíz,011,A
+b2,Chacra que cría vacas y cerdos,014,B
+b3,Fábrica de zapatos de cuero,15,A
+b4,Taller de confección de ropa,14,A
+b5,Elaboración de pan y tortas,10,A
+b6,Panadería (venta al público),47,B
+b7,Constructora de edificios residenciales,41,A
+b8,Tienda de abarrotes y verdulería,47,B
+b9,Empresa de camiones de carga,49,A
+b10,Hotel tres estrellas con restaurante,55,C
+b11,Restaurante de comida rápida,56,A
+b12,Servicio de desarrollo de software,62,A
+b13,Estudio de abogados y contadores,69,A
+b14,Escuela primaria estatal,85,A
+b15,Hospital clínico provincial,86,A
+b16,Peluquería de barrio,96,A

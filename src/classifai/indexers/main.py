@@ -32,10 +32,10 @@ VectorStore Class:
 import json
 import logging
 import os
-from pathlib import Path
 import shutil
 import time
 import uuid
+from pathlib import Path
 
 import numpy as np
 import polars as pl
@@ -50,9 +50,8 @@ from classifai.exceptions import (
     VectorisationError,
 )
 
-from ..vectorisers.base import VectoriserBase
-from ..utils.hierarchy import get_common_prefix
 from ..utils.text_sanitizer import TextSanitizer
+from ..vectorisers.base import VectoriserBase
 from .dataclasses import (
     VectorStoreEmbedInput,
     VectorStoreEmbedOutput,
@@ -291,32 +290,28 @@ class VectorStore:
             if self.data_type == "csv":
                 # Detect encoding
                 encoding = TextSanitizer.detect_encoding(Path(self.file_name))
-                
+
                 # Robust read using pl.String instead of str
                 self.vectors = pl.read_csv(
                     self.file_name,
                     columns=["id", "text", *self.meta_data.keys()],
-                    dtypes={k: pl.String for k in (["id", "text"] + list(self.meta_data.keys()))},
+                    dtypes=dict.fromkeys(["id", "text"] + list(self.meta_data.keys()), pl.String),
                     encoding=encoding,
-                    ignore_errors=True
+                    ignore_errors=True,
                 )
-                
+
                 # SANITIZATION LAYER
                 initial_count = self.vectors.height
-                
+
                 # 1. Remove rows with null id or text
-                self.vectors = self.vectors.filter(
-                    pl.col("id").is_not_null() & pl.col("text").is_not_null()
-                )
-                
+                self.vectors = self.vectors.filter(pl.col("id").is_not_null() & pl.col("text").is_not_null())
+
                 # 2. Clean text and id (trim, remove invisible chars)
                 self.vectors = TextSanitizer.sanitize_dataframe(self.vectors, ["id", "text"])
-                
+
                 # 3. Filter out rows that became empty after cleaning
-                self.vectors = self.vectors.filter(
-                    (pl.col("id") != "") & (pl.col("text") != "")
-                )
-                
+                self.vectors = self.vectors.filter((pl.col("id") != "") & (pl.col("text") != ""))
+
                 final_count = self.vectors.height
                 if final_count < initial_count:
                     logging.warning(
@@ -668,9 +663,8 @@ class VectorStore:
 
                 # NORMALIZATION: Ensure queries are unit vectors for cosine similarity
                 import torch
-                query_vectors = torch.nn.functional.normalize(
-                    torch.from_numpy(query_vectors), p=2, dim=1
-                ).numpy()
+
+                query_vectors = torch.nn.functional.normalize(torch.from_numpy(query_vectors), p=2, dim=1).numpy()
 
                 # Similarity + top-k
                 cosine = query_vectors @ doc_embeddings.T

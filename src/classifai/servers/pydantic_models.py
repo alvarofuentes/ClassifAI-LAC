@@ -3,7 +3,6 @@
 
 import pandas as pd
 from pydantic import BaseModel, ConfigDict, Field
-from typing import Optional
 
 
 class ClassifaiEntry(BaseModel):
@@ -48,7 +47,7 @@ class ResultsList(BaseModel):
     input_id: str
     response: list[ResultEntry]
     is_ambiguous: bool = False
-    suggested_root: Optional[str] = None
+    suggested_root: str | None = None
 
 
 class ResultsResponseBody(BaseModel):
@@ -243,13 +242,13 @@ def convert_dataframe_to_pydantic_response(df: pd.DataFrame, meta_data: dict) ->
         # Hierarchical Consensus (LCP) and Ambiguity Detection
         scores = [row["score"] for row in rows_as_dicts]
         codes = [str(row["doc_id"]) for row in rows_as_dicts]
-        
+
         # We need the hierarchy utils here
         from ..utils.hierarchy import detect_ambiguity, get_common_prefix
-        
+
         ambiguous = detect_ambiguity(scores, threshold=0.05)
         root = get_common_prefix(codes) if ambiguous or len(codes) > 1 else None
-        
+
         # Only suggest root if it's shorter than the Top-1 code (actually a root)
         if root and len(root) >= len(codes[0]):
             root = None
@@ -260,7 +259,7 @@ def convert_dataframe_to_pydantic_response(df: pd.DataFrame, meta_data: dict) ->
                 input_id=query_id,  # type: ignore[arg-type]
                 response=response_entries,
                 is_ambiguous=ambiguous,
-                suggested_root=root
+                suggested_root=root,
             )
         )
 

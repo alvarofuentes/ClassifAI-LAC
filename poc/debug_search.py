@@ -1,22 +1,21 @@
 import sys
 from pathlib import Path
-import polars as pl
-import numpy as np
 
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
 from classifai.indexers import VectorStore
-from classifai.vectorisers import HuggingFaceVectoriser
 from classifai.indexers.dataclasses import VectorStoreSearchInput
+from classifai.vectorisers import HuggingFaceVectoriser
 
 MODEL = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
 DATA_DIR = ROOT / "data" / "indices" / "tna_es"
 
+
 def main():
     v = HuggingFaceVectoriser(MODEL)
     store = VectorStore.from_filespace(str(DATA_DIR), v)
-    
+
     # Test 1: EXACT match from the start of the file
     query_text = "Avena, cruda"
     print(f"\nSearching for exact string: '{query_text}'")
@@ -34,6 +33,7 @@ def main():
     print("Results (Top 3):")
     for i, row in res.iterrows():
         print(f"Rank {row['rank']}: {row['doc_id']} - {row['doc_text']} (Score: {row['score']:.4f})")
+
 
 if __name__ == "__main__":
     main()

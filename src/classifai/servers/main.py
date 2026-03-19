@@ -223,11 +223,11 @@ def _create_search_endpoint(router: APIRouter | FastAPI, endpoint_name: str, vec
     ) -> ResultsResponseBody:
         input_ids = [x.id for x in data.entries]
         queries = [TextSanitizer.clean_text(x.description) for x in data.entries]
-        
+
         # Filter out empty queries
         valid_indices = [i for i, q in enumerate(queries) if q]
         if not valid_indices:
-             return ResultsResponseBody(data=[])
+            return ResultsResponseBody(data=[])
 
         input_ids = [input_ids[i] for i in valid_indices]
         queries = [queries[i] for i in valid_indices]

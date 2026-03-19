@@ -111,7 +111,7 @@ def process_batch_job(
             # 2.5 Calcular Ambigüedad y Raíz Común Global para el literal
             total_scores = [float(r["score"]) for _, r in res_df.iterrows()]
             total_codes = [str(r["doc_id"]) for _, r in res_df.iterrows()]
-            
+
             # Agrupar por query_id para el LCP y ambigüedad
             for qid in chunk[id_col].values:
                 qid_str = str(qid)
@@ -119,14 +119,14 @@ def process_batch_job(
                     # Extraer scores y codes específicos de este qid
                     q_scores = [v for k, v in result_map[qid_str].items() if k.startswith("prob_")]
                     q_codes = [v for k, v in result_map[qid_str].items() if k.startswith("codigo_")]
-                    
+
                     ambiguous = detect_ambiguity(q_scores, threshold=0.05)
                     root = get_common_prefix(q_codes) if ambiguous or len(q_codes) > 1 else ""
-                    
+
                     # Si el root es idéntico al Top-1, no es realmente una "raíz" útil
                     if root and len(root) >= len(q_codes[0]):
                         root = ""
-                    
+
                     result_map[qid_str]["es_ambiguo"] = ambiguous
                     result_map[qid_str]["raiz_comun"] = root
 

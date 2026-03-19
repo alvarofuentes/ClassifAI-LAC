@@ -1,7 +1,0 @@
-{
-    "vectoriser_class": "HuggingFaceVectoriser",
-    "vector_shape": 768,
-    "num_vectors": 91,
-    "created_at": 1773938826.5183134,
-    "meta_data": {}
-}

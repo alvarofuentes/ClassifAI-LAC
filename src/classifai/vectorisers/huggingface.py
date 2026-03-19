@@ -155,8 +155,12 @@ class HuggingFaceVectoriser(VectoriserBase):
             summed = torch.sum(token_embeddings * mask, dim=1)
             counts = torch.clamp(mask.sum(dim=1), min=1e-9)
             mean_pooled = summed / counts
+            
+            # Normalize to unit length for Cosine Similarity
+            import torch.nn.functional as F
+            normalized = F.normalize(mean_pooled, p=2, dim=1)
 
-            embeddings = mean_pooled.cpu().numpy()
+            embeddings = normalized.cpu().numpy()
         except Exception as e:
             raise VectorisationError(
                 "Failed to compute embeddings from model outputs.",

@@ -4,7 +4,7 @@ import csv
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-OUT = ROOT / "data" / "ciuo08_es.csv"
+OUT = ROOT / "data" / "raw" / "ciuo08_es.csv"
 
 # Catálogo CIUO-08 OIT en español — grupos a 4 dígitos
 # Títulos sin comas para evitar problemas de parseo CSV

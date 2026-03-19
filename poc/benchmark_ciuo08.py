@@ -26,7 +26,7 @@ from classifai.vectorisers import HuggingFaceVectoriser
 
 # ─── Modelo ───────────────────────────────────────────────────────────────────
 MODEL = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
-DATA_FILE = str(ROOT / "data" / "ciuo08_es.csv")
+DATA_FILE = str(ROOT / "data" / "raw" / "ciuo08_es.csv")
 
 # ─── Muestra sintética ────────────────────────────────────────────────────────
 # Formato: (texto_libre, codigo_correcto, nota_de_dificultad)

@@ -14,6 +14,8 @@ from classifai.i18n import get_description
 from classifai.indexers import VectorStore
 from classifai.indexers.dataclasses import VectorStoreSearchInput
 from classifai.servers.jobs import STATUS_COMPLETED, STATUS_FAILED, STATUS_PROCESSING, job_manager
+from classifai.utils.hierarchy import detect_ambiguity, get_common_prefix
+from classifai.utils.text_sanitizer import TextSanitizer
 
 logger = logging.getLogger(__name__)
 
@@ -73,9 +75,9 @@ def process_batch_job(
                 candidates = [c for c in cols if c != id_col]
                 literal_col = candidates[0] if candidates else id_col
 
-            # Preparar inputs para vector_store
-            query_ids = list(chunk[id_col].astype(str).values)
-            query_texts = list(chunk[literal_col].astype(str).values)
+            # Preparar inputs para vector_store (Sanitización)
+            query_ids = [TextSanitizer.clean_text(str(x)) for x in chunk[id_col].values]
+            query_texts = [TextSanitizer.clean_text(str(x)) for x in chunk[literal_col].values]
 
             # 1. Búsqueda Vectorial
             search_input = VectorStoreSearchInput({"id": query_ids, "query": query_texts})
@@ -106,6 +108,28 @@ def process_batch_job(
                 result_map[qid][f"descripcion_{rnk}"] = desc
                 result_map[qid][f"prob_{rnk}"] = round(float(row["score"]), 4)
 
+            # 2.5 Calcular Ambigüedad y Raíz Común Global para el literal
+            total_scores = [float(r["score"]) for _, r in res_df.iterrows()]
+            total_codes = [str(r["doc_id"]) for _, r in res_df.iterrows()]
+            
+            # Agrupar por query_id para el LCP y ambigüedad
+            for qid in chunk[id_col].values:
+                qid_str = str(qid)
+                if qid_str in result_map:
+                    # Extraer scores y codes específicos de este qid
+                    q_scores = [v for k, v in result_map[qid_str].items() if k.startswith("prob_")]
+                    q_codes = [v for k, v in result_map[qid_str].items() if k.startswith("codigo_")]
+                    
+                    ambiguous = detect_ambiguity(q_scores, threshold=0.05)
+                    root = get_common_prefix(q_codes) if ambiguous or len(q_codes) > 1 else ""
+                    
+                    # Si el root es idéntico al Top-1, no es realmente una "raíz" útil
+                    if root and len(root) >= len(q_codes[0]):
+                        root = ""
+                    
+                    result_map[qid_str]["es_ambiguo"] = ambiguous
+                    result_map[qid_str]["raiz_comun"] = root
+
             # 3. Concatenar resultados al chunk original
             new_cols = {
                 "codigo_1": [],
@@ -117,6 +141,8 @@ def process_batch_job(
                 "codigo_3": [],
                 "descripcion_3": [],
                 "prob_3": [],
+                "es_ambiguo": [],
+                "raiz_comun": [],
             }
 
             for _, row in chunk.iterrows():

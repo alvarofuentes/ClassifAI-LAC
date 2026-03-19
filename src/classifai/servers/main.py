@@ -26,6 +26,7 @@ from ..indexers.dataclasses import (
     VectorStoreSearchInput,
 )
 from ..indexers.main import VectorStore
+from ..utils.text_sanitizer import TextSanitizer
 from .pydantic_models import (
     ClassifaiData,
     EmbeddingsList,
@@ -221,7 +222,15 @@ def _create_search_endpoint(router: APIRouter | FastAPI, endpoint_name: str, vec
         ] = 10,
     ) -> ResultsResponseBody:
         input_ids = [x.id for x in data.entries]
-        queries = [x.description for x in data.entries]
+        queries = [TextSanitizer.clean_text(x.description) for x in data.entries]
+        
+        # Filter out empty queries
+        valid_indices = [i for i, q in enumerate(queries) if q]
+        if not valid_indices:
+             return ResultsResponseBody(data=[])
+
+        input_ids = [input_ids[i] for i in valid_indices]
+        queries = [queries[i] for i in valid_indices]
 
         input_data = VectorStoreSearchInput({"id": input_ids, "query": queries})
         output_data = vector_store.search(query=input_data, n_results=n_results)

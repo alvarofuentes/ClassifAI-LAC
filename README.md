@@ -18,7 +18,10 @@ Casos de uso:
 
 - **Data Lake Vectorial Unificado**: Permite construir automáticamente múltiples índices vectoriales a partir de archivos de datos crudos (`data/raw/`).
 - **Servidor API Dinámico**: Detecta automáticamente todos los índices disponibles en `data/indices/` y levanta endpoints independientes por clasificador (`/{clasificador}/search`, `/embed`, etc.).
+- **Capa de Integridad (TextSanitizer)**: Limpieza automática de caracteres invisibles (BOM, control), normalización Unicode (NFKC) y filtrado de filas corruptas durante la indexación.
+- **Consenso Jerárquico (LCP)**: Detección de ambigüedad semántica y sugerencia de códigos raíz comunes para facilitar la revisión humana.
 - **Soporte Multilingüe**: Evaluador optimizado con modelos multilingües (ej. `paraphrase-multilingual-mpnet-base-v2`) que soportan input natural en español, inglés, portugués, etc.
+- **Normalización L2**: Búsqueda optimizada mediante normalización de vectores (Cosine Similarity) para mayor precisión en el emparejamiento de sinónimos.
 
 ## ¿Qué es la búsqueda semántica y RAG?
 
@@ -60,15 +63,21 @@ El servidor detectará dinámicamente los índices disponibles y expondrá los e
 python src/serve_api.py --port 8000
 ```
 
-#### Paso 4: Consultar la API
-La API soporta búsquedas simultáneas mediante HTTP REST.
-
 ```bash
 # Ejemplo de búsqueda en el catálogo CIUO-08
 curl -X POST http://localhost:8000/ciuo08_es/search \
   -H "Content-Type: application/json" \
   -d '{"entries":[{"id":"1","description":"enfermera de hospital"}]}'
 ```
+
+## Robustez y Calidad de Datos
+
+ClassifAI-LAC incluye una **Capa de Integridad** que actúa como un firewall de datos. Durante la indexación y la búsqueda:
+- Se detecta automáticamente la codificación del archivo (UTF-8, ISO-8859-1, etc.).
+- Se eliminan caracteres invisibles y de control que suelen corromper las bases de datos estadísticas.
+- Se normalizan los textos (NFKC) para asegurar que "Azúcar" y "Azúcar" sean tratados como la misma palabra.
+
+Además, el campo `is_ambiguous` se activa automáticamente en la API cuando la diferencia de probabilidad entre las mejores opciones es menor a un umbral (0.05), sugiriendo una `raiz_comun` (Longest Common Prefix) para guiar al clasificador humano.
 
 ## Estructura del Proyecto
 

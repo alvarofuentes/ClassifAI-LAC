@@ -1,0 +1,816 @@
+id,text
+01122101,"Elote, amarillo, dulce, crudo"
+01171101,"Avena, cruda"
+01212101,"Repollo comun, crudo"
+01212102,"Repollo morado, crudo"
+01214101,"Lechuga, no repollada, cruda"
+01215101,"Acelga, cruda"
+01215102,Espinaca cruda
+01219101,"Apio, tallos, crudo"
+01219102,"Berro, crudo"
+01219103,"Bledo, hojas  -  Amaranto - crudas"
+01219104,"Cilantro, crudo"
+01219105,Guisquil (puntas y hojas)
+01219106,"Chipilin, hojas y puntas"
+01219107,"Macuy, hierbamora o  o quilete"
+01219108,Hojas de mostaza
+01219109,"Hojas verdes : prom  acelga, berro, espinaca, macuy"
+01219110,"Nopal, crudo"
+01221101,"Sandia, cruda"
+01229101,"Melon corrugado o cantaloupe, crudo"
+01229102,"Melon liso o melon casaba, crudo"
+01231101,"Chiles, dulces y picantes (prom 4 chiles)"
+01231102,"Chile, chiltepe, crudo"
+01231103,"Chile pimiento, rojo, crudo"
+01231104,"Chile, pimiento, amarillo-verde, crudo"
+01231105,"Chile guaque, crudo"
+01231106,"Chile Jalapeño, fresco, crudo"
+01231107,Chile pasa
+01231108,"Chile serrano, crudo"
+01232101,"Pepino, cojombro, crudo"
+01233101,"Berenjena, cruda"
+01234101,Miltomate
+01234102,"Tomates, frescos, cocidos o enlatados (prom 4 prod)"
+01234103,"Tomate amarillo, crudo"
+01234104,"Tomate verde, crudo"
+01234105,"Tomato de arbol, fruto, crudo "
+01234106,"Tomate, maduro, crudo"
+01235101,"Ayote o guicoy, hojas, crudas"
+01235102,Guisquil o Perulero
+01235103,"Ayote, Chilacayote, maduro"
+01235104,"Zapallo, calabaza: prom madura y tiernas"
+01235105,"Calabaza y calabacita, crudas"
+01235106,"Calabacitas tiernas, crudas, todas variedades"
+01235107,"Chayote, guisquil o Pataste,crudo"
+01241101,"Frijoles verdes, habichuelas tiernas, crudas"
+01242101,Guandules o gandules cocidos - Pma
+01242102,"Arveja, cruda"
+01242103,"Arveja, china, cruda"
+01242104,Arvejas cocidas
+01242105,"Guandules, crudos"
+01249101,"Lentejas, crudas"
+01251101,"Zanahoria, cruda"
+01251102,Nabo
+01252101,"Ajo, cabeza, crudo"
+01253101,"Cebollas, dulde, cruda"
+01253102,"Cebolla, cabeza, cruda"
+01254101,"Puerro, crudo (bulbos)"
+01254102,Rabano redondo
+01259101,"Remolacha, betarraga, cocida"
+01259102,"Cebollas, zanahorias, crudas"
+01260101,"Frijol negro, crudo"
+01260102,"Frijoles rojos, porotos, crudos"
+01260103,"Frijol: bayo, flor de mayo, negro, etc."
+01260104,"Frijol negro, en grano, crudo, seco, sin cocinar"
+01260105,"Frijoles (frijol), porotos, en grano, crudos, secos, sin preparar"
+01260106,"Frijoles, pinto, crudos"
+01260107,"Habas, crudas"
+01270101,Hongos Cocidos
+01290101,"Frijoles nacidos, soya"
+01290102,Flores de izote
+01290104,"Veget amarillos (zanah, camote, guiucoy, prom)"
+01290105,"Otros veg (guisqui, ejotes, etc - prom 6 prod)"
+01290106,"Otros veget: promedio acelga,  remolacha y veg mixtos enlatados"
+01212101,"Otros veg frescos: promedio acelga, Remolacha, Betarraga y chile pimiento, crudos"
+01290108,"Verduras, general: prom otros veg y otros veg frescos"
+01290109,"Okra, cruda"
+01210000,"Quinua, cruda"
+01210001,Pimiento rojo crudo
+01210002,Pimiento verde crudo
+01210003,Zapallo italiano (zucchini) crudo
+01210004,Habas sin vaina crudas
+01210005,"Ají rojo picante crudo (locoto, rocoto)"
+01210006,Nicaragua: repollo y lechuga promedio
+01210007,Nicaragua: pepino y pipian promedio
+01210008,Nicaragua: zanahoria y remolacha promedio
+01311101,"Aguacate, palta, crudo"
+01312101,"Banano, maduro, crudo"
+01313101,"platanos, crudos"
+01313102,Platanos y bananos - prom 3 prod
+01313103,"Platano maduro, crudo"
+01313104,"Platano verde (guineo, platano), crudo"
+01313105,"Banano/guineo verde, crudo"
+01315101,"Higo, fruta madura, crudo"
+01317101,"Papaya, fruta madura, crudo"
+01318101,"Piña, fruta"
+01319101,Pacaya
+01319102,"Chicozapote, crudo"
+01319103,Maracuya y granadilla - HOND
+01319104,Nectar de guaba
+01319105,Guava nectar
+01319106,"Guayaba , guava (P.R.)"
+01319107,"Jocote, tronador"
+01319108,"Mango, maduro, crudo"
+01319109,"Naranjilla, pulpa"
+01319110,Granadilla - fruta
+01319111,Maracuya - parcha - Fruta
+01321101,"Toronja, fruta, cruda"
+01321102,"Toronja, jugo"
+01322101,"Lima dulce, fruta, cruda"
+01322102,"Limon criollo o real, fruta, crudo"
+01323101,"Naranja, fruta, cruda"
+01324101,"Mandarina, cruda"
+01329101,"Toronjas, mandarinas - HOND"
+01329102,"Frutas citricas: prom mandarina, toronja y Lima dulce -CEPAL"
+01330101,"Uva, fruta, cruda"
+01342101,"Kiwi, crudo"
+01344101,"Fresa o frutilla, crudas"
+01349101,"Mora, cruda"
+01349102,Sanzapote o sunza
+01349103,Zapote
+01351101,"Manzana, fruta, cruda"
+01351102,"Manzana, importada c/ cascara, cruda"
+01352101,"Pera, criolla, fruta s/cascara, cruda"
+01352102,"Pera, fruta, cruda"
+01354101,"Acerola, cereza, cruda"
+01354102,"Acerola, cereza, cruda"
+01355101,"Durazno amarillo  o Melocoton, crudos"
+01355102,"Durazno comun, maduro s/cascara, crudo"
+01356101,Ciruela - jocote
+01359101,"Caimito, fruta fresca"
+01359102,"Durazno, fresas, guanabanas y lichas - HOND"
+01359103,"Manzana, uvas, melocoton (promedio)"
+01359104,"Manzanita o manzanilla, crudas"
+01359105,Membrillo con cascara
+01359106,"Nispero japones, crudo"
+01359107,"Nance, crudo"
+01359108,"Manzana, pera"
+01359109,Promedio manzana y membrillo - CEPAL
+01359110,"Otras frutas frescas: prom citricas, pera y sandia"
+01373101,"Castana, cruda"
+01390101,"Tamarindo, crudo"
+01310000,Caqui
+01310001,Jaca (brasil)
+01310002,Nicaragua: maracuya y banano maduro promedio
+01310003,"Nicaragua: manzana, piña y melón, promedio"
+01510101,"Papas, rojas, con cascara, crudas"
+01591101,"Camote, blanco, crudo"
+01591102,"Camote, anaranjado, crudo"
+01591103,"Camote, anaranjado, cocido"
+01591104,"Camote, anaranjado, crudo"
+01592101,"Yuca, raiz -cruda"
+01593101,"Name, blanco"
+01599101,Promedio papas-raices-verduras
+01599102,"Chayote o guisquil, raiz"
+01599103,"Otoe, malanga - Pma"
+01599104,Fruta de pan o masapan
+01510000,Papa con cascara cruda
+01510001,Chuño
+01652101,"Especias, pimienta roja o cayena"
+01654101,Comino
+01654102,"Achiote, semilla - grano"
+01654103,Comino
+01690101,Hierbabuena
+01690102,"perejil, crudo"
+01690103,cebollina - cruda
+01690104,Epazote - Guate
+01690105,"Chipilin, hojas y puntas"
+01690106,"Perejil, oregano, cilantro - Prom -CEPAL"
+01610000,"Aliño, perejil seco"
+01610001,Albahaca fresca
+01610002,Laurel
+01610003,Jengibre
+01610004,Vegetales congelados
+01610005,Azafrán
+01610006,"Nicaragua: cilantro, hierbabuena y apio, promedio"
+01701101,"Frijoles, promedio de crudo, seco y enlatados"
+02320101,Huevos de pato
+02320102,Huevos de tortuga
+02320103,Huevos de codorniz
+02320104,"Huevo pato, codorniz, tortuga- promedio"
+04120101,"Pescado, corvina fresca - crudo"
+04120102,"Pescado: mojarra fresca, cruda"
+04120103,"ARENQUE, crudo"
+04120104,"Pescado, bacalao de Atlantico, crudo"
+04120105,"Pescado, tilapia, cruda"
+04120106,"Pescado del Atlantico, crudo"
+04120107,"Pescado fresco, entero, crudo"
+04120108,"Pescado, tilapia, entera, cruda"
+04120109,"Pescado, arenque, crudo"
+04210101,Jute - cangrejo
+04210102,JAIBAS - HOND
+04291101,"Mariscos, caracol de mar, carne de"
+04291102,CARACOL - HOND
+04291103,"Almejas,  cangrejo - promedio"
+21111101,"Res: carne semimagra, cruda"
+21111103,"Res, carne con grasa, cruda"
+21111104,"carne de res, preparacion de hilachas"
+21111105,"carne de res molida, regular, cocida"
+21111106,CARNE DE RES CON HUESO - COSTILLAS - HONDURAS
+21151102,"Res, bistec, carne y hueso, cruda"
+21111108,"Res, lomo, sirloin, crudo"
+21111109,"Res, semi-magra, sirloin, cruda"
+21111110,"Res, molida, 80% magra, cruda (carne molida de segunda)"
+21111111,"Carne de res molida, 85% magra, cruda"
+21111112,"Carne de res, lomo o lomillo, 1/8"" grasa"
+21111113,"Carne de res, tipo filete, lomito, 1/4"" grasa"
+21111114,"Carne de rers, filete, magra, 1/8"" grasa"
+21111115,"Carne de res, magra, 0"" grasa, cruda"
+21111116,"Carne de res, magra, 0"" grasa, cruda"
+21113101,"Cerdo, carne magra, cruda"
+21113102,Cerdo: carne rica en grasa cruda
+21113103,Carne de cerdo con hueso
+21113104,Carne de Cerdo (TAJO - HONDU)
+21113105,"Pellejas de cerdo, lonja y patitas - promedio"
+21113106,"Carne de cerdo, chuletas, con hueso, cruda"
+21113107,"Carne de cerdo, costillas con huesos, cruda"
+21113108,"Carne de cerdo, molida, cruda"
+21113109,"Cerdo, costillas, con hueso, crudas"
+21113110,"Cerdo, chuletas, inc hueso, crudo"
+21115101,"Carne de cordero, crudo"
+21119101,"Carnes res/cerdo, magra & c hueso, prom 6 prod"
+21119102,"Hamburguesa, carne y pan, regular"
+21119103,"Carne, molida"
+21119104,Costilla y chuleta
+21119105,"Otras carnes (res, cerdo, pollo, pescado)"
+21121101,"Aves, gallo o gallina, cruda"
+21121102,"Aves, pollo, carne con hueso, sin piel"
+21121103,"Pollo, pierna - muslo y entrepierna, crudo, con piel, crudo"
+21121104,"Pollo, inc/ menudos y pescuezo, con piel, crudo"
+21121105,"Pollo: prom pechuga, pierna, ala - con piel, cruda"
+21121106,"Pollo, pechuga, con piel, crudo"
+21121107,"Pollo, encuentro o entrepierna, con piel, crudo"
+21121108,"Pollo, pechuga, con piel, crudo"
+21121109,"Pollo, muslos o pierna, con piel, crudo"
+21121110,"Pechuga, alas y piernas, crudas"
+21121111,"Pierna, muslo y pechuga sin hueso, crudas"
+21121112,"Pierna, muslo y pechuga con hueso, crudas"
+21151101,"Res, higado, crudo"
+21151102,"Res: panza, cruda"
+21151103,"Promedio: lengua, visceras, otros"
+21151104,Huesos de res
+21160101,"Pollo deshilachado, Panama"
+21160102,Higados de pollo
+21160103,"Aves, pollo, visceras, menudos crudos"
+21160104,Pollo: visceras o menudos cocidos
+21171101,"Cerdo, tocino frito"
+21171102,"Cerdo, jamon, curado"
+21171103,"Jamon de cerdo, para untar"
+21171104,"Tocino, curado sin cocinar"
+21171105,"Tocino, curado sin cocinar"
+21171106,"Cerdo, chuleta ahumada"
+21172101,"Res: carne salada, oreada"
+21172102,"Carne de res, curada, ahumada"
+21174101,"Embutidos - promedio jamon, mortadela, otos embutidos"
+21174102,"Cerdo, chorizo"
+21174103,"Jamon de cerdo, para untar"
+21174104,"Aves, jamon de pavo"
+21174105,"Aves, jamon de pollo"
+21174106,"Res, jamon"
+21174107,"Cerdo, longaniza"
+21174108,Moronga con grasa
+21174109,Salami de cerdo y res
+21174110,"Aves, salchicha de pavo"
+21174111,"Aves, salchicha de pollo"
+21174112,Salchicha de res
+21174113,"Res y cerdo, salchicha"
+21174114,"Salchicha, tipo Viena"
+21174115,Salchichon
+21174116,jamon del diablo
+21174117,"Promedio salchicha, jamon y longaniza"
+21174118,"Embutidos y cecinas, promedio"
+21174119,Chorizo y longaniza
+21174120,Jamon: promedio de jamon de res y cerdo
+21174121,"Embutidos: prom jamon de pavo, pollo y res"
+21174122,Mortadela
+21174123,Jamon prensado: promedio cerdo y vacuno
+21176101,"Pavo, carne con piel, cocido"
+21176102,Pollo: alas c/piel cocidas
+21176103,"Aves, pollo, alas cocidas"
+21176104,"Pollo, cocido - asado, con piel"
+21176105,"Aves, pollo, muslo con piel, cocido"
+21176106,"Pollo: muslo c/ piel, frito"
+21176107,Pollo: muslo c/ piel cocido
+21176108,"Aves, pechuga, sin piel, cocida"
+21176109,"Pollo: pierna c/ piel, frita"
+21176110,"Aves, pierna, sin piel, cocida"
+21176111,Pollo; pierna s/piel fritya
+21176112,Pollo: visceras o menudos cocidos
+21176113,"Gallina, cocida"
+21176114,"Pollo, musslo o pierna, panado"
+21176115,Cerdo: carne asada
+21176116,"Cerdo, carne frita"
+21176117,Chicharrones - Guate
+21176118,"Cerdo, chicharrones  - Pma"
+21176119,"Patitas d cerdo, cocidas"
+21176120,"Patas de res, cocidas"
+21176121,"Res, carne semimagra, asada"
+21176122,"Res, carne semimagra, cocida"
+21176123,"Res: corazon, cocido"
+21176124,"Res: lengua, cocida"
+21176125,"Res, higado, frito"
+21176126,venado - asado
+21176127,"Conejo, carne, cocida"
+21176128,"Aves, pate higado de ganzo"
+21176129,"Pollo, con piel, con harina, frito, "
+21176130,"Pollo, medallones, cicidos, congelados"
+21176131,"Pollo frito, con piel"
+21176132,"Pollo, con piel, asado"
+21176133,"Pollo, croquetas, fritas"
+21176134,Salchipapas
+21177101,Chicharroncito (procesados)
+21179101,"Pollo, pastel o pie, congelado"
+21179102,"Pollo, enlatado, sin caldo"
+21179103,"Pate, higado n.s., enlatado"
+21179104,Albondigas (carne de res molidad) cocidas
+21179105,Snack: carne seca de res
+21179106,"Res: costillas, carne y grasa, cruda"
+21179107,"Res: costillas, solo carne, cruda"
+21190101,Carne de iguana
+21190102,"Lagarto - carne semseca, cruda"
+21190103,"Tortuga, carne cruda"
+21110000,Carne cruda para asado
+21110001,Carne en lata
+21110002,"Hamburguesa, carne cocida"
+21110003,Charqui
+21110004,Carne de chivo
+21221101,"Filete de pescado, crudo"
+21231101,"Bacalao, seco, salado"
+21231102,Pescado seco
+21231103,Pescaditos secos
+21241101,"Mariscos, almeja (solo carne) - cocido"
+21241102,"Mariscos, camaron - cocido"
+21241103,"Pescado carne: bonito,cocido"
+21241104,"Pescado frito, pargo -PMA"
+21241105,"Pescado, robalo fresco - cocido"
+21241106,"salmon, horneado"
+21241107,"sardina enlatadas, en salsa de tomate"
+21241108,"Pulpo, cocido"
+21242101,"Mariscos, atun enlatado en aceite"
+21242102,"Atún (tuna), enlatada, en agua"
+21242103,"Sardina y atún, agua/aceite - Promedio"
+21242104,"Atún, agua o aceite, promedio"
+21242105,"Sardinas, empacada en aceite, solidos con huesos"
+21270101,"Camaroncitos secos, salados"
+21321101,Frijoles rojos enlatados
+21329101,"Aceituna, verde, enlatadas"
+21329102,"Vegetales mixtos, enlatados"
+21329103,"Chile jalapane, enlatado"
+21329104,"Maiz con chile pimiento, enlatado"
+21329105,"Tomates, rojos maduros, enlatados"
+21329106,"Tomates, picados, enlatados"
+21329107,"Pimientos, chiles, ajies: verdes, enlatados"
+21329108,"Pimientos, chile, ajies: rojo, picante, enlatados"
+21329109,"Pimientos, chile, ajies: verde, dulce, enlatados"
+21329110,Chiles envasados
+21331101,"Tomate, jugo"
+21339101,"Soya, leche"
+21339102,"Zanahoria, jugo"
+21391101,"Frijol negro, cocido"
+21391102,"Frijol blanco, cocido"
+21391103,"Habas, secas, cocidas"
+21391104,"Frijol, cafe o rojo"
+21391105,"Frijoles negros, cocidos - Guate"
+21391106,"Frijol rojo, cocido"
+21391107,Frijoles colados - Guate
+21391108,"Frijoles dulces, enlatados, con cerdo y tomate"
+21391109,Frijoles volteados - Guate
+21391110,"Lenteja, cocida"
+21391111,"Arvejas, verde o amarilla, secas, cocidas"
+21391112,"Garbanzo, cocido"
+21391113,"Frijol, caldo"
+21391114,"Acelga, cocida"
+21391115,"Guicoyito tierno (Guate), calabacita, Pipian (Hondu)"
+21391116,"Berenjena, cocida"
+21391117,"Brocoli, cocida"
+21391118,"Cebolla, cabeza, cocida"
+21391119,"Col de bruselas, cocida"
+21391120,Colifrol crudo
+21391121,"Coliflor, cocida"
+21391122,"Colinabo hojas y tallos, cocidos"
+21391123,Chayote (Pma) o guisquil (Guate)  o Pataste (Hond) cocidos s/sal
+21391124,"Ejote, habichuelas, frijoles verdes, - cocido "
+21391125,"Ejote, cocido"
+21391126,"Elote, amarillo, dulce, cocido"
+21391127,"Espinaca, cocida"
+21391128,Habas verdes - cocido 
+21391129,"Guicoy, ayote o zapallo maduro, amarillo - cocido "
+21391130,"Remolacha, - cocido "
+21391131,Repollo cocido
+21391132,"Tomate, maduro, cocido"
+21391133,"Tomate verde, cocido"
+21391134,"Zanahoria, cocida"
+21391135,"Guicoy amarillo, cocido"
+21391136,Busnay (flores) cocida- Guatemala
+21391137,Quixtan (hoja verde) - cocido  Guate
+21391138,"Yuca, cassava - hervida no grasa"
+21391139,"Platano, maduro, cocido"
+21391140,"Platano verde, frito (patacones o tostones)"
+21391141,platano maduro frito
+21391142,"Rellenitos de platanos, riped plantain fritter with fill"
+21391143,"Papa, con cascara, - cocido "
+21391144,"Papa, sin cascara, - cocido "
+21391145,Papa cocida
+21391146,Papas fritas
+21391147,Papas majadas o en pure
+21391148,Papas majadas o en pure
+21391149,"Veget para salsas, guisos y condim, prom 6 prod"
+21391150,"Cebolla, anillos apanados, fritos"
+21391151,"Papas, yuca, platanos, cocidos, Promedio"
+21391152,Papa rayada (hush brows)
+21391153,"Papas fritas a la francesa, aros de cebolla, papa rayada (hush brows) y Doraditas"
+21393101,"Chile, cobanero seco"
+21393102,"Chile, aji, ""Ancho"" seco"
+21393103,"Chile, aji, ""Ancho"" seco"
+21393104,Chiles secos
+21411101,"Uva, fruta seca o pasa"
+21411102,"Uva, fruta seca o pasa"
+21419101,"Higo, fruta deshidratada"
+21431101,"Jugo de frutas (naranja), envasado en carton - HOND"
+21431102,"Naranja, jugo natural"
+21431103,"Naranja, jugo envasado"
+21433101,"Jugo de frutas (pina), envasado en carton - HOND"
+21433102,"Piña, jugo"
+21434101,"Uva, jugo envasado"
+21435101,"Manzana, jugo envasada"
+21439101,"Coco, agua de"
+21439102,Limonada con azucar
+21439103,"Albaricoque, jugo enlatado"
+21439104,"Durazno, jugo con azucar"
+21439105,Coctel de frutas
+21439106,"Granadilla dulce, jugo"
+21439107,"Limon, jugo"
+21439108,"Granadilla dulce, jugo"
+21439111,"Pera, jugo"
+21495101,Mani tostado
+21495102,Mani tostado s-pelicula
+21495103,Pepitoria
+21495104,"Mani, manias"
+21495105,"Frutas secas (prom mani, almendras, chan, pepitoria)"
+21495106,Almendra seca
+21495107,Avellana seca
+21495108,"Semilla de chan, seca"
+21495109,"Semillas secas (pepitoria, semilla chan)"
+21496101,Durazno en almibar
+21496102,Otras frutas en almibar o conservas
+21499101,"Pixbae, pejivalle -- cocido  Pma"
+21499102,Anona Blanca
+21499103,"Coco, fruta entera"
+21499104,"Coco, leche "
+21499105,"Coco, pulpa seca, no endulzada"
+21499106,"Otras frutas: prom citricas, coctel frutas enlatadas y sandia"
+21499107,"Coco, solo pulpa"
+21410000,Jugo de fruta enlatado
+21521101,Manteca
+21541101,"Aceite, soya"
+21543101,"Aceite, girasol"
+21545101,"Aceite, palma"
+21546101,Aceite de coco
+21547101,"Aceite, oliva"
+21548101,"Aceite, algodon"
+21549101,"Aceite, maiz"
+21549102,Aceites de maiz y oliva - promedio
+21549103,"Aceite vegetal: prom aceites algodon, maiz, soya y palma - CEPAL"
+21549104,"Aceite Vegetal: canola, girasol, maiz, etc."
+21549105,Aceite de Canola
+21549106,Aceites comestibles (no de maiz)
+21550101,"Margarina, con sal"
+21550102,Margarina dietetica (40% grasa)
+21550103,Manteca vegetal - HOND
+22110101,Leche formula maternizada en polvo
+22110102,"Leche, descremada, fluida"
+22110103,"Leche entera (integra), fluida, liquida, fresca de vaca, natural"
+22110104,Leche (entera o descremada)
+22120101,Crema (lactea) espesa
+22120102,Crema (lactea) rala
+22211101,"Leche, integra (entera), polvo"
+22211102,Leche en polvo (entera o descremada)
+22212101,"Leche, descremada, polvo"
+22219101,Leche descremada con vit A en polvo
+22219102,Leche malteada en polvo
+22221101,"Leche, evaporada, integra"
+22221102,Leche evap & condens (promedio)
+22222101,"Leche, condensada, enlatada"
+22229101,"Batidos o milk shakes (Refrescos a base de leche, rompope, frescoleches)"
+22230101,"Yogurt, leche integra, natural"
+22230102,"Yogurt, leche descremada, frutas"
+22230103,"Yogurts, natural y de frutas  leche descrem"
+22230104,Helado de yogurt
+22230105,Alim de bebe: mezcla de jugo de frutas yogurt bajo en grasa
+22249101,"Mantequilla, con sal"
+22249102,mantequilla de mani
+22251101,"Queso, duro o seco"
+22251102,"Queso, blanco, fresco"
+22251103,"Queso, Mozarella"
+22251104,"Suero de leche, acido, liquido"
+22251105,"Queso, anejo"
+22251106,"Queso, asadero"
+22251107,"Queso, tipo muester"
+22259101,"Queso, amarillo, rodaja"
+22259102,"Queso blanco prensado, Panama"
+22259103,"Queso, tipo crema"
+22259104,Queso tipo requeson
+22259105,"Queso, fresco o duro, promedio 6 quesos"
+22259106,Cuajada - Guate
+22259107,Requeson
+22259108,"Cheese american type, pastrzd&proc.sliced"
+22259109,Quesillo - HOND
+22270101,"Italian ice, Granizada"
+22270102,"Helado, vainilla, de crema"
+22270103,Helado de cereza
+22270104,Helados/granizada (promedio)
+22270106,"Helado, vainilla, servido en conos"
+22290101,Ponche de huevo (no alcohol)
+22290102,"Nicaragua: quesillo, cuajada y crema promedio"
+22290103,Nicaragua: queso y mantequilla promedio
+22300101,"Huevo, gallina, entero, cocido"
+22300102,"Huevo, clara gallina"
+22300103,"Huevo duro, cocido"
+22300104,Huevo frito
+22300105,Huevos revueltos
+22300106,Caldo de huevos
+22300107,"Huevos, gallina, fresco, crudo"
+22300108,"Huevos, gallina, fresco, crudo"
+23110101,"Harina, trigo, para pan"
+23110102,Harina de trigo enriquecida todo uso
+23110103,"Harina, trigo, reposteria"
+23110104,Semolina enriquecida o corazon de trigo
+23120101,Masa (humedad) de maiz blanco con cal
+23120102,Harina de maiz nixtamalizada o masa seca
+23120103,"Maiz amarillo, masa enriquecida, cruda"
+23130101,Avena  - Mosh -cocida
+23130102,"Avena, instantanea, cocida"
+23130103,"Avena, hojuelas, CRUDA - SECA"
+23130104,"Avena fortificada, prep c/ agua, cocida"
+23130105,Crema (harina) de maiz 
+23130106,"Harina de maiz, preparado como cereal, con leche"
+23130107,Pinol simple
+23130108,"Frescavena, polvo"
+23130109,Nicaragua: avena y pinol promedio
+23140101,"Cereal listo para comer, afrecho de trigo (all bran)"
+23140102,"Cereal listo para comer, Fruit Loops"
+23140103,"Cereal listo para comer, Bran flakes"
+23140104,"Cereal listo para comer, Choco crispis"
+23140105,"Cereal listo para comer, Corn, flakes"
+23140106,"Cereal listo para comer, Corn pops"
+23140107,"Hojuelas de maiz, cubiertos de azucar (frosted)"
+23140108,"Cebada, grano entero"
+23140109,"Crema de trigo, simple"
+23140110,"Crema de trigo, con leche y azucar"
+23140111,"Maiz blanco, grano entero crudo"
+23140112,"Maiz amarillo, grano entero crudo"
+23140113,"Cereal de trigo, Cerelac"
+23140114,"Cereal, nestun, trigo"
+23140115,"Cereal bebe, cerelac, trigo y banano"
+23140116,Granola
+23140117,"Otros Cereales: promedio pasta, harina maiz y avena"
+23140118,Granos basicos: promedio arroz y maiz amarillo en grano
+23161101,"Arroz caldoso, Soupy rice"
+23161102,Arroz con frijoles
+23161103,"Arroz con vegetales, rice with vegetables"
+23161104,"Arroz blanco mediano, cocido (arroz precocido, ya cocido)"
+23161105,"Arroz blanco, cocido, sin enriquecer"
+23161106,"Arroz, precocido, cocido"
+23161107,"Arroz, blanco, pulido s/enriquecer - cocido"
+23161108,"Arroz, blanco, mediano, crudo, enriquecido (Incap)"
+23161109,"Arroz, blanco, mediano, crudo, no enriquecido"
+23161110,Horchata (rice beverage)
+23161111,"Arroz, blanco, grano largo, crudo, no enriquecido"
+23162101,"Arroz integral, cocido"
+23162102,"Arroz integral, grano mediano, crudo"
+23170101,"Yuca, harina - CEPAL"
+23180101,Hojaldas - fritas  -Panama
+23110000,Trigo
+23110001,Harina de soya
+23110002,"Harinas, promedio"
+23210101,"Maicillo, Sorgo - HOND"
+23210102,"Miel, abejas"
+23220101,Maicena
+23220102,Maicena preparada con leche
+23220103,Atoles - promedio 3 atoles
+23220104,Atol Blanco
+23220105,Atol de maiz
+23220106,Atol de habas
+23220107,Atol de arroz
+23220108,"Tiste (bebida maiz tostado, cacao, achiote) Guate"
+23410101,Cereal des & incapar - crudo - prom 4 prod
+23410102,Semita (pan dulce con relleno de frutas)
+23410103,Churros - HOND
+23410104,Quesadilla - Pan de queso
+23410105,"Corn bread, Pan de Maiz"
+23410106,"Pan, hamburguesa o hot dog"
+23410107,"Pan, bollo"
+23410108,"Pan, blanco - comercial, suave"
+23410109,Tostada francesa -PMA
+23410110,"Pan, dulce"
+23410111,Pan dulce de yema
+23410112,"Pan, frances"
+23410113,Pan frances de Honduras
+23410114,"Pan frances, tipo Puerto Rico"
+23410115,Pan frances - de coco
+23410116,Pan integral tipo bollo
+23410117,"Pan, rodaja, integral"
+23410118,"Pan, pita (pieza de 16 cm diam)"
+23410119,Pan integral tipo pita
+23410120,"Pan, rodaja, integral, tostado"
+23410121,Pan Sheca - Guate
+23410122,Panes de sal y dulce (promedio)
+23410123,Rosquillas de maiz  (pan de maiz)
+23410124,Rosquillas de maiz
+23410125,Rosquita de pan - PMA
+23420101,"Galleta, simple (4 piezas pack)"
+23420101,"Galleta dulce de mantequilla, corriente"
+23420102,"Galletas, vainilla"
+23420103,Galleta de chocolate
+23420104,galleta de trigo integral
+23420105,galleta de avena
+23420106,galleta integral
+23420107,galleta de afrecho
+23420108,Galleta de avena
+23420109,Galleta de alto valor nutritivo (escolar
+23420110,"Galleta, soda baja en sal (cuatro piezas, pack)"
+23420111,"Galleta, soda  con sal (cuatro piezas, pack)"
+23420112,Galleta de granola (tipo cracker)
+23420113,Galleta de granola
+23431101,Croissant de queso
+23431102,Empanada de carne
+23439101,Pudin (flan)
+23439102,"Pastel, bizcocho,  amarillo, simple"
+23439103,"Pastel blanco,bizcocho,  harina comercial"
+23439104,"Pastel, bizcocho,  chocolate"
+23439105,"Pastel de queso, cheesecake"
+23439106,Pie de limon con merengue
+23439107,Pie de manzana
+23439108,"Golosinas (prom donas, gelatina, pie  de limon)"
+23439109,"Pastel, bizcocho, esponjoso, harina comercial"
+23439110,"Pastel, bizcocho, promedio"
+23439111,"Golosina salada, de maiz, tipo tor-trix"
+23491101,Donas con cubierta de chocolate
+23511101,Miel de caña
+23520101,"Azucar, blanco, no fortificado"
+23520102,"Azucar, blanco, fortificado con Vit A"
+23520103,Azucar morena o negra
+23520104,Panela
+23520105,"Azucar blanca -no fortif-  y morena, promedio - CEPAL"
+23520106,Azucar (blanca y morena)
+23540101,"Mieles y melaza, promedios"
+23640101,Chocolate - bebida caliente
+23640102,"Chocolate, tablillas"
+23640103,"Chocolate en polvo, azucarado"
+23640104,"Chocolate en polvo, azucarado"
+23650101,"Confites, pastillas dulces"
+23650102,"Chocolates, caramelos, confites - promedio"
+23650103,Chocolate con leche
+23670101,Dulces: Angeles o masrmellous
+23670102,"Confites, duro"
+23670103,Mermelada de naranja
+23670104,"Jaleas, toda variedad"
+23670105,"Caramelos, confites: de goma, gelatinosos"
+23670106,"Caramelos, confites: chocolate, caramelos y gelatinosos, prom"
+23670107,"Caramelos, confites: caramelos y gelatinosos, prom"
+23710101,"Pastas, seca, cruda"
+23710102,"Pasta, cocida"
+23721101,"Fideos, chao mein"
+23721102,Pastas en salsa blanca - Guate
+23721103,"Chao mein, pollo"
+23721104,"Sopa tipo Ramen, preparada"
+23721105,"Sopa tipo Ramen, cualquier sabor, cruda"
+23721106,"Spaguetti con salsa de carne, congelados"
+23721107,"Pastas con salsa o tuco, preparadas"
+23710000,Pasta fresca cruda
+23911101,"Cafe, molido"
+23911102,"Cafe preparado c/agua,c/azucar"
+23911103,"Cafe, instantaneo"
+23911104,"Cafe instantaneo, preparado c/agua"
+23911105,"Cafe, instaneo, descafeinado, diluido en agua"
+23911106,"Cafe, instaneo, descafeinado, polvo"
+23911107,"Cafe (prom, regular & instantaneo)"
+23913101,"Te instantaneo, sin azucar, en agua"
+23913102,"Te, instantaneo, diluido en agua, sin azucar"
+23913103,"Te, negro, hojas secas"
+23913104,"Te, instantaneo, en polvo- DILUIDO, sin azucar"
+23913105,"te instantaneo en polvo, sin endulzante"
+23913106,"Yerba mate, solido, seco"
+23914101,"Te de hierbas, prep c/ agua s/ azucar"
+23914102,"Jamaica-rosas, flores secas- cocidas como te"
+23921101,Pimienta negra
+23921102,Sal - de mesa
+23922101,"Oregano, seco"
+23922102,"Condimentos/especias: (cilantro, perejil, pimienta, oregano)"
+23924101,"Condimentos/especias: Achiote, semilla - pasta"
+23925101,Condimentos/especias: Canela
+23926101,"Condimentos/especias: Clavo de olor, molido"
+23927101,"Ajo, en polvo"
+23927102,Condimentos/especias: Sal de ajo
+23927103,Condimento (Tempero arisco) (sal de ajo y pimienta)
+23928101,"Vainilla, extracto"
+23992101,"Gallina, pollo, caldo"
+23992102,"Res, caldo"
+23992103,"Consome de pollo,  cubitos- diluidos en agua"
+23992104,"Consome de pollo, polvo"
+23992105,"Sopa minestrone, enlatada"
+23992106,"Sopa de pollo con fideos, deshidratada"
+23992107,Sopa de pollo con fideos (deshidrat) - prep c/agua
+23992108,"Sopa de crema, deshidr, esparrago"
+23992109,Caldo de vegetales
+23992110,"Caldo de pescado, Pma"
+23992111,Sopa deshidratada de pollo y fideos - sin preparar
+23992112,Consome de pollo
+23992113,Consome de carne de res
+23992114,"Sopa, veg y carne, condensada"
+23992115,"Sopa: crema de veg,  seca en polvo"
+23992116,Sopas y cremas deshidratadas
+23992117,Crema de hongos
+23994101,Vinagre
+23995101,Mayonesa
+23995102,"Otros envasados (soda/no cola, mayo, catsup)"
+23995103,Aderezos: tipo frances no comercial
+23995104,"Aderezo de ensalada, bajo en grasa"
+23995105,Mostaza (condimento - cremosa)
+23995106,Salsas inglesa y de soya - Prom
+23995107,"Salsa inglesa, salsa Lizano - condimento"
+23995108,Salsa de soya (salsa china)
+23995109,"Pasta y salsa de tom, promedio"
+23995110,Pasta de tomate
+23995111,"Salsa envasada: tomate c/ cebolla, cocida"
+23995112,"Tomate, catsup"
+23995113,Salsa de tomate
+23995114,"Mayonesa, margarina y mantequilla, prom"
+23995115,"Aderezo de ensalada comercial, "
+23995116,Salsas y condim- promedios salsas y condimen -CEPAL
+23996101,Levadura para pan
+23996102,Polvos de hornear
+23997101,"Pancake, 10 cm diam"
+23997102,Panqueque prep c/ miel y mantequilla
+23997103,"Tamalito de elote, sweet corn tamales"
+23997104,"Tamalito de chipilin, corn tamale with chipile"
+23997105,"Tamalito simple, solo masa de maiz blanco/amarillo, cocido"
+23997106,"Tamal colorado de pollo, chicken tamale"
+23997107,"tamal colorado de cerdo o res, pork or beef tamales"
+23997108,Tamal asado de Costa Rica
+23997109,"Tamal de carne, cerdo"
+23997110,Tamal con carne (pollo o res)
+23997111,Tamal tipo Tayuyo - Guate
+23997112,Taco regular mexicano
+23997113,"Pache, Tamal de papa"
+23997114,"Chuchito de pollo, chicken corn tamale"
+23997115,Pupusas de chicharron
+23997116,Enchilada mexicana c/ queso y carne de r
+23997117,Tostada de frijol y queso
+23997118,Crepas de pollo
+23997119,Bollo de maiz (masa cocida) Panama
+23997120,"Tortilla, maiz amarillo c/cal"
+23997121,"Tortilla, maiz blanco c/cal"
+23997122,Tortilla de maiz y maicillo- HOND
+23997123,Arepa - tortilla de maiz frita -PMA
+23997124,"Tortilla de maiz, frita - PMA"
+23997125,Tortilla de harina de trigo
+23997126,Tortilla de maicillo/sorgo c/cal
+23997127,Pizza de queso
+23997128,Pizza de peperonni
+23997129,"Suchiles, pasta"
+23997130,Chile Relleno
+23997133,"Alimentos precocidos (pizza, hamburguesas, entre otros) HOND"
+23997134,"Harina de maiz, cocida en agua con sal como polenta"
+23997135,"Arroz preparado (cantones, con pollo, con camarones, etc.)"
+23997136,"Casados (rice, beans, eggs)"
+23997137,"Farofa Harina de yuca/mandioca, tostada), Brasil"
+23997138,"Emparedado, sandwich: jamon y queso"
+23997139,"Emparedado, sandwich: filete de pollo"
+23997140,"Emparedado, sandwich: carne de res"
+23997141,"Emparedado,  prom jamon/queso, carne y pollo -CEPAL"
+23999101,"Crema (para café, no lactea) en polvo"
+23999102,Zompopo/ otros insectos (pescaditos secos)
+23999103,Bienestarina (mezcla nutritiva) - en polvo
+23999104,Incaparina (mezcla nutritiva) - en polvo
+23999105,Vitatol (mezcla nutritiva) - en polvo
+23999106,"Ensure, suplemento nutricional"
+23999107,Herballife- polvo
+23999108,Glucerna - enlatada
+23999109,"Gelatina todo sabor, polvo"
+23999110,Gelatina de todo sabor preparada con agu
+23999111,"Papalinas, simples"
+23999112,"Palomitas de maiz, Poporopo"
+23999113,Tostadita de maiz
+23999114,"Snacks, cheeto like, comida chatarra (Churros - HOND)"
+23999115,"Otros productos (consome, ramen, poporopo,cheeto)"
+23999116,"Golosinas saladas (papalinas, poporopo, cheetos - prom)"
+23999117,"Palomitas de maiz/poporopo, con mani, cubierta de caramelo"
+23910000,Cilantro seco
+23910001,"Caldo de pollo en cubos, sin diluir"
+23910002,Almuerzo y comida en restaurant o similares(chile)
+23910003,Completo(chile)
+23910004,Anis
+23910005,Nicaragua: salsa inglesa y de tomates promedio
+24131101,Ron (80 GL)
+24131102,Whisky
+24131103,Rompope
+24139101,"Alcohol, grados  80%, ginebra, ron, vodka, whiskey"
+24212101,"Vino, cocina"
+24212102,"Vino, mesa"
+24310101,"Cerveza, regular"
+24320101,Malta
+24410101,"Water, tap, agua pura o embotellada"
+24490101,"Gaseosa regular, no cola"
+24490102,Gaseosa tipo cola
+24490103,"Gaseosa, tipo soda"
+24490104,"Gaseosa dietetica, no cola"
+24490105,Bebida carbonatada dietetica tipo cola
+24490106,Bebida artificial de zanahoria
+24490107,Refresco artificial c/vit C: sabor fruta - diluido
+24490109,"Refresco artificial sabor fruta, en polvo"
+24490110,Refresco artificial en polvo c/ vit C sabor naranja
+24490111,Refresco de frutas de dieta (sin azucar)
+24490112,Refresco de frutas carnonatada de dieta (sin azucar)
+24490113,"Soda alta en cafeina, soda guarana"
+24490114,"Refresco de frutas, sabor de naranja,  en polvo"

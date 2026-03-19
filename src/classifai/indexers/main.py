@@ -32,6 +32,7 @@ VectorStore Class:
 import json
 import logging
 import os
+from pathlib import Path
 import shutil
 import time
 import uuid
@@ -50,6 +51,8 @@ from classifai.exceptions import (
 )
 
 from ..vectorisers.base import VectoriserBase
+from ..utils.hierarchy import get_common_prefix
+from ..utils.text_sanitizer import TextSanitizer
 from .dataclasses import (
     VectorStoreEmbedInput,
     VectorStoreEmbedOutput,
@@ -171,7 +174,17 @@ class VectorStore:
 
             if os.path.isdir(self.output_dir):
                 if overwrite:
-                    shutil.rmtree(self.output_dir)
+                    # Retry logic for Windows file locks
+                    max_retries = 3
+                    for i in range(max_retries):
+                        try:
+                            shutil.rmtree(self.output_dir, ignore_errors=True)
+                            if not os.path.exists(self.output_dir):
+                                break
+                            time.sleep(0.5)
+                        except Exception:
+                            if i == max_retries - 1:
+                                logging.warning(f"Could not fully delete {self.output_dir}, attempting to overwrite.")
                 else:
                     raise ConfigurationError(
                         "Output directory already exists. Pass overwrite=True to overwrite the folder.",
@@ -276,11 +289,40 @@ class VectorStore:
         # ---- Reading source data (validation/format issues) -> DataValidationError / IndexBuildError
         try:
             if self.data_type == "csv":
+                # Detect encoding
+                encoding = TextSanitizer.detect_encoding(Path(self.file_name))
+                
+                # Robust read using pl.String instead of str
                 self.vectors = pl.read_csv(
                     self.file_name,
                     columns=["id", "text", *self.meta_data.keys()],
-                    dtypes=self.meta_data | {"id": str, "text": str},
+                    dtypes={k: pl.String for k in (["id", "text"] + list(self.meta_data.keys()))},
+                    encoding=encoding,
+                    ignore_errors=True
                 )
+                
+                # SANITIZATION LAYER
+                initial_count = self.vectors.height
+                
+                # 1. Remove rows with null id or text
+                self.vectors = self.vectors.filter(
+                    pl.col("id").is_not_null() & pl.col("text").is_not_null()
+                )
+                
+                # 2. Clean text and id (trim, remove invisible chars)
+                self.vectors = TextSanitizer.sanitize_dataframe(self.vectors, ["id", "text"])
+                
+                # 3. Filter out rows that became empty after cleaning
+                self.vectors = self.vectors.filter(
+                    (pl.col("id") != "") & (pl.col("text") != "")
+                )
+                
+                final_count = self.vectors.height
+                if final_count < initial_count:
+                    logging.warning(
+                        f"Sanitization removed {initial_count - final_count} invalid or empty rows from {self.file_name}"
+                    )
+
                 self.vectors = self.vectors.with_columns(
                     pl.Series("uuid", [str(uuid.uuid4()) for _ in range(self.vectors.height)])
                 )
@@ -292,9 +334,11 @@ class VectorStore:
         except ClassifaiError:
             raise
         except Exception as e:
+            # log full traceback for debugging if it's an unexpected error
+            logging.error(f"Error reading {self.file_name}: {e}", exc_info=True)
             raise IndexBuildError(
                 "Failed to read input file into a table.",
-                context={"file_name": self.file_name, "data_type": self.data_type},
+                context={"file_name": self.file_name, "data_type": self.data_type, "error": str(e)},
             ) from e
 
         logging.info("Processing file: %s...\n", self.file_name)
@@ -611,8 +655,6 @@ class VectorStore:
                 # Embed query batch
                 try:
                     query_vectors = self.vectoriser.transform(query_text_batch)
-                except ClassifaiError:
-                    raise
                 except Exception as e:
                     raise VectorisationError(
                         "Failed to embed query batch.",
@@ -623,6 +665,12 @@ class VectorStore:
                             "n_results": n_results,
                         },
                     ) from e
+
+                # NORMALIZATION: Ensure queries are unit vectors for cosine similarity
+                import torch
+                query_vectors = torch.nn.functional.normalize(
+                    torch.from_numpy(query_vectors), p=2, dim=1
+                ).numpy()
 
                 # Similarity + top-k
                 cosine = query_vectors @ doc_embeddings.T

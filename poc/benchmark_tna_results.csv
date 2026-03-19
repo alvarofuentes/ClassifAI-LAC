@@ -1,0 +1,21 @@
+query,correct_code,top1_code,top1_label,top1_score,hit_top1,hit_top3,difficulty,note
+"Frijol negro, crudo",01260101|01260104,01260104,"Frijol negro, crudo",1.0,True,True,F,F: control fácil
+Frijolitos negros para sopa,01260101|01260104,23992105,"Sopa minestrone, enlatada",0.8771,False,False,A,A: jerga/coloquial
+"Phaseolus vulgaris, crudo",01260101|01260104,01219103,"Bledo, hojas  -  Amaranto - crudas",0.6265,False,False,B,B: nombre técnico
+Leche descremada con vitamina A,22219101,22219101,Leche descremada con vit A en polvo,0.7802,True,True,F,F: control fácil
+Leche light,22219101,22221102,Leche evap & condens (promedio),0.6743,False,False,A,A: jerga/coloquial
+Lactosuero desnatado fortificado con retinol,22219101,23999108,Glucerna - enlatada,0.7436,False,False,B,B: nombre técnico
+Aceite de girasol,21549104|21549103,21543101,"Aceite, girasol",0.9807,False,False,F,F: control fácil
+Aceitito de maravilla,21549104|21549103,21174106,"Res, jamon",0.5752,False,False,A,A: regionalismo (Chile)
+Lípidos de Helianthus annuus,21549104|21549103,23910000,Cilantro seco,0.4864,False,False,B,B: nombre técnico
+Pechuga de pollo cocida sin piel,21176108,21179102,"Pollo, enlatado, sin caldo",0.9308,False,False,F,F: control fácil
+Pechuguita de ave hervida,21176108,02320101,Huevos de pato,0.8559,False,False,A,A: jerga/coloquial
+Proteína de Gallus gallus domesticus procesada,21176108,21176113,"Gallina, cocida",0.6877,False,False,B,B: nombre técnico
+Manzana fresca,01310003,01351101,"Manzana, fruta, cruda",0.876,False,False,F,F: control fácil
+Pie de limon con merengue,23439106,23439106,Pie de limon con merengue,1.0,True,True,F,F: control fácil
+Pay de limón casero,23439106,21439107,"Limon, jugo",0.759,False,False,A,A: regionalismo
+"platanos, crudos",01313101,01313101,"platanos, crudos",1.0,True,True,F,F: control fácil
+Bananas maduras,01313101,01312101,"Banano, maduro, crudo",0.8756,False,False,A,A: regionalismo
+"Sopa minestrone, enlatada",23992105,23992105,"Sopa minestrone, enlatada",1.0,True,True,F,F: control fácil
+Sopita de verduras en conserva,23992105,21329102,"Vegetales mixtos, enlatados",0.894,False,False,A,A: jerga/coloquial
+Almendra seca,21495106,21495106,Almendra seca,1.0,True,True,F,F: control fácil

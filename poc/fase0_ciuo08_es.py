@@ -18,8 +18,8 @@ from classifai.vectorisers import HuggingFaceVectoriser
 # ─── Configuración ────────────────────────────────────────────────────────────
 # Modelo multilingüe liviano (~118 MB, 50+ idiomas, incluye ES y PT)
 MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-DATA_FILE = str(ROOT / "data" / "ciuo08_es.csv")
-VECTORSTORE_PATH = str(ROOT / "data" / "vectorstore_ciuo08_es")
+DATA_FILE = str(ROOT / "data" / "raw" / "ciuo08_es.csv")
+VECTORSTORE_PATH = str(ROOT / "data" / "indices" / "ciuo08_es")
 
 # ─── Consultas de prueba ──────────────────────────────────────────────────────
 TEST_QUERIES = [

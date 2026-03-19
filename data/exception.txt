@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "C:\Users\afuentes\United Nations\Pruebas\ClassifAI-LAC\src\classifai\indexers\main.py", line 174, in __init__
+    shutil.rmtree(self.output_dir)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\afuentes\AppData\Local\anaconda3\Lib\shutil.py", line 790, in rmtree
+    return _rmtree_unsafe(path, onexc)
+  File "C:\Users\afuentes\AppData\Local\anaconda3\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\afuentes\AppData\Local\anaconda3\Lib\shutil.py", line 631, in _rmtree_unsafe
+    os.rmdir(path)
+    ~~~~~~~~^^^^^^
+PermissionError: [WinError 5] Access is denied: 'indices/tna_es'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\afuentes\United Nations\Pruebas\ClassifAI-LAC\test_index.py", line 15, in <module>
+    store = VectorStore('raw/tna_es.csv', data_type='csv', vectoriser=v, output_dir='indices/tna_es', overwrite=True)
+  File "C:\Users\afuentes\United Nations\Pruebas\ClassifAI-LAC\src\classifai\indexers\main.py", line 182, in __init__
+    raise ConfigurationError(
+    ...<2 lines>...
+    ) from e
+classifai.exceptions.ConfigurationError: Failed to prepare output directory. (code=configuration_error) | context={"output_dir": "indices/tna_es"}

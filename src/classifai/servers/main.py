@@ -96,12 +96,9 @@ def get_router(vector_stores: list[VectorStore], endpoint_names: list[str]) -> A
 
     @router.get("/", description="UI accessibility")
     def docs():
-        """Redirect users to the API documentation page.
-
-        Returns:
-            (RedirectResponse): A response object that redirects the user to the `/docs` page.
+        """Redirect users to the API documentation page or the UI dashboard.
         """
-        start_page = RedirectResponse(url="/docs")
+        start_page = RedirectResponse(url="/ui")
         return start_page
 
     return router
@@ -120,6 +117,14 @@ def get_server(vector_stores: list[VectorStore], endpoint_names: list[str]) -> F
     logging.info("Generating ClassifAI API")
 
     app = FastAPI(title="ClassifAI Demo Server", description="This is a demo server of the ClassifAI server")
+    
+    try:
+        from .frontend import frontend_router
+        app.include_router(frontend_router)
+        logging.info("Frontend UI router loaded successfully.")
+    except Exception as e:
+        logging.error(f"Failed to load frontend UI router: {e}")
+
     router = get_router(vector_stores, endpoint_names)
     app.include_router(router)
     return app

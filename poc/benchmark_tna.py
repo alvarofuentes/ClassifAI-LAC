@@ -12,7 +12,7 @@ from classifai.vectorisers import HuggingFaceVectoriser
 
 # --- Configuración ---
 MODEL = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
-DATA_FILE = str(ROOT / "data" / "indices" / "tna_es")
+DATA_FILE = str(ROOT / "data" / "indices" / "tna_gold_es")
 
 # --- Muestra Sintética (TNA) ---
 # [F] Fácil, [A] Coloquial/Jerga, [B] Técnico/Científico, [C] Complejo

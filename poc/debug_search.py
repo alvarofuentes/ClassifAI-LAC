@@ -9,7 +9,7 @@ from classifai.indexers.dataclasses import VectorStoreSearchInput
 from classifai.vectorisers import HuggingFaceVectoriser
 
 MODEL = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
-DATA_DIR = ROOT / "data" / "indices" / "tna_es"
+DATA_DIR = ROOT / "data" / "indices" / "tna_gold_es"
 
 
 def main():

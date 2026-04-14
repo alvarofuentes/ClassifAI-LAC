@@ -12,7 +12,7 @@ try:
     print("Loading vectoriser...")
     v = HuggingFaceVectoriser("sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
     print("Loading store...")
-    store = VectorStore("raw/tna_es.csv", data_type="csv", vectoriser=v, output_dir="indices/tna_es", overwrite=True)
+    store = VectorStore("raw/tna_gold_es.csv", data_type="csv", vectoriser=v, output_dir="indices/tna_gold_es", overwrite=True)
     print("Success:", store.num_vectors)
 except Exception:
     print("Caught an exception! Writing to exception.txt")

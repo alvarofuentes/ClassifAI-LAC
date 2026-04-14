@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="mb-12">
+    <div class="flex items-baseline gap-4 mb-2">
+        <h1 class="text-[2.5rem] font-extrabold leading-none tracking-tight text-primary font-headline">{{ _('nav_batch') }}</h1>
+        <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-[0.6875rem] font-bold tracking-widest uppercase">{{ _('batch_async') }}</span>
+    </div>
+    <p class="text-[0.875rem] text-on-surface-variant max-w-2xl font-body leading-relaxed">
+        {{ _('batch_subtitle') }}
+    </p>
+</header>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <!-- Panel Subida de CSV -->
+    <div class="glass-panel p-6 rounded-xl border border-slate-200 shadow-sm">
+        <h2 class="text-sm font-bold uppercase tracking-widest text-primary mb-6">{{ _('batch_new_job_title') }}</h2>
+        
+        <div class="border-2 border-dashed border-slate-300 rounded-xl p-8 flex flex-col items-center justify-center text-center hover:bg-slate-50 hover:border-primary transition-colors cursor-pointer mb-6 group">
+            <span class="material-symbols-outlined text-4xl text-slate-400 group-hover:text-primary mb-3 transition-colors">upload_file</span>
+            <p class="text-sm font-bold text-primary mb-1">{{ _('batch_upload_prompt') }}</p>
+            <p class="text-xs text-slate-500">{{ _('batch_upload_req') }}</p>
+        </div>
+        
+        <div class="flex flex-col gap-4">
+            <div>
+                <label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">{{ _('batch_classifier_label') }}</label>
+                <select class="w-full bg-surface-container-highest border-0 rounded-md py-2 px-3 text-sm focus:ring-2 focus:ring-primary text-primary">
+                    {% for cls in classifiers %}
+                    <option value="{{ cls.id }}">{{ cls.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <button class="w-full py-3 bg-secondary text-white rounded-md text-[0.75rem] font-bold uppercase tracking-widest hover:bg-secondary-container transition-colors shadow-sm mt-2">
+                {{ _('batch_start_btn') }}
+            </button>
+        </div>
+    </div>
+    
+    <!-- Historial de Trabajos -->
+    <div class="glass-panel p-6 rounded-xl border border-slate-200 shadow-sm">
+        <h2 class="text-sm font-bold uppercase tracking-widest text-primary mb-6">{{ _('batch_recent_jobs_title') }}</h2>
+        
+        <div class="space-y-4">
+            {% if jobs %}
+                {% for job in jobs %}
+                    <!-- Dynamic rendering structure for active/completed jobs -->
+                    <div class="flex items-center justify-between p-4 bg-surface-container-lowest rounded-lg border border-slate-100 shadow-sm">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full {% if job.status == 'COMPLETED' %}bg-green-50{% else %}bg-blue-50{% endif %} flex items-center justify-center">
+                                <span class="material-symbols-outlined {% if job.status == 'COMPLETED' %}text-green-600{% else %}text-blue-600{% endif %} text-sm">
+                                    {% if job.status == 'COMPLETED' %}check_circle{% else %}hourglass_empty{% endif %}
+                                </span>
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold text-primary">{{ job.filename }}</p>
+                                <p class="text-[0.65rem] font-semibold text-slate-400 uppercase tracking-widest">Job ID: {{ job.id }} | {{ job.classifier }}</p>
+                            </div>
+                        </div>
+                        
+                        {% if job.status == 'COMPLETED' %}
+                        <div class="flex gap-2">
+                            <button class="p-2 text-primary bg-primary-container/10 hover:bg-primary-container/20 rounded-md transition-colors"><span class="material-symbols-outlined text-sm">download</span></button>
+                            <button class="p-2 text-slate-400 hover:text-error bg-surface-container rounded-md transition-colors"><span class="material-symbols-outlined text-sm">delete</span></button>
+                        </div>
+                        {% else %}
+                        <div class="text-right flex flex-col items-end">
+                            <span class="px-2 py-0.5 bg-blue-100 text-blue-700 text-[0.65rem] font-bold rounded-full uppercase tracking-widest mb-1">{{ _('batch_processing') }}</span>
+                            <div class="w-24 h-1.5 bg-slate-200 rounded-full overflow-hidden">
+                                <div class="bg-blue-500 w-[100%] h-full animate-pulse"></div>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            {% else %}
+                <div class="p-8 text-center text-slate-400 border border-dashed border-slate-200 rounded-lg bg-slate-50/50">
+                    <span class="material-symbols-outlined text-3xl mb-2 opacity-50">inbox</span>
+                    <p class="text-sm font-medium">{{ _('batch_no_jobs') }}</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

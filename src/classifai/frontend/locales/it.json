@@ -1,0 +1,16 @@
+{
+  "app_title": "Archivio Sovrano",
+  "app_subtitle": "Motore Dati v4.2",
+  "nav_overview": "Panoramica",
+  "nav_live_query": "Interrogazione in Diretta",
+  "nav_batch": "Elaborazione Batch",
+  "nav_status": "Stato del Motore",
+  "nav_archive": "Archivio",
+  "nav_new_analysis": "Nuova Analisi",
+  "nav_support": "Supporto",
+  "nav_logout": "Disconnessione",
+  "search_placeholder": "Ricerca Identificatore Globale...",
+  "hero_title": "Registro Istituzionale",
+  "hero_badge": "Centro di Controllo",
+  "hero_desc": "Accedi e gestisci le classificazioni statistiche internazionali ufficiali. Questa infrastruttura di dati sovrani garantisce la sincronizzazione regionale e l'integrità dei dati inter-giurisdizionali per approfondimenti sullo sviluppo."
+}

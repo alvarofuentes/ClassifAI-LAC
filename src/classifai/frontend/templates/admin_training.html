@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="mb-12">
+    <div class="flex items-baseline gap-4 mb-2">
+        <h1 class="text-[2.5rem] font-extrabold leading-none tracking-tight text-primary font-headline">{{ _('admin_title') }}</h1>
+        <span class="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-[0.6875rem] font-bold tracking-widest uppercase">Admin</span>
+    </div>
+    <p class="text-[0.875rem] text-on-surface-variant max-w-2xl font-body leading-relaxed">
+        {{ _('admin_desc') }}
+    </p>
+</header>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <!-- Panel Agregar Ejemplos -->
+    <div class="glass-panel p-6 rounded-xl border border-slate-200 shadow-sm relative">
+        <h2 class="text-sm font-bold uppercase tracking-widest text-primary mb-6">{{ _('admin_add_example') }}</h2>
+        
+        <form id="trainingForm" class="flex flex-col gap-4">
+            <div>
+                <label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">{{ _('admin_select_classifier') }}</label>
+                <select id="classifierSelect" required class="w-full bg-surface-container-highest border-0 rounded-md py-2 px-3 text-sm focus:ring-2 focus:ring-purple-500 text-primary transition-all">
+                    <option value="" disabled selected>-- Seleccione Clasificador --</option>
+                    {% for cls in classifiers %}
+                    <option value="{{ cls.id }}">{{ cls.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">{{ _('admin_correct_id') }}</label>
+                <input type="text" id="correctId" placeholder="e.g. 01.1.1" required class="w-full bg-surface-container-highest border-0 rounded-md py-2 px-3 text-sm focus:ring-2 focus:ring-purple-500 text-primary transition-all">
+            </div>
+
+            <div>
+                <label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">{{ _('admin_example_text') }}</label>
+                <textarea id="exampleText" rows="3" placeholder="e.g. pan integral tostado marca bimbo" class="w-full bg-surface-container-highest border-0 rounded-md py-2 px-3 text-sm focus:ring-2 focus:ring-purple-500 text-primary resize-none transition-all"></textarea>
+            </div>
+            
+            <div class="relative flex items-center py-2">
+                <div class="flex-grow border-t border-slate-200"></div>
+                <span class="flex-shrink-0 mx-4 text-slate-400 text-xs font-bold uppercase tracking-widest">O Subir CSV</span>
+                <div class="flex-grow border-t border-slate-200"></div>
+            </div>
+            
+            <div>
+                <label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Archivo CSV (ID, Texto)</label>
+                <input type="file" id="exampleCsv" accept=".csv" class="w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-xs file:font-semibold file:bg-purple-50 file:text-purple-700 hover:file:bg-purple-100">
+            </div>
+            
+            <button type="submit" class="w-full py-3 bg-purple-600 text-white rounded-md text-[0.75rem] font-bold uppercase tracking-widest hover:bg-purple-700 transition-colors shadow-sm mt-2 flex justify-center items-center gap-2">
+                <span class="material-symbols-outlined text-sm">add_circle</span> {{ _('admin_submit_btn') }}
+            </button>
+        </form>
+
+        <!-- Overlay Feedback -->
+        <div id="feedbackToast" class="absolute top-4 right-4 bg-green-50 border border-green-200 text-green-700 px-4 py-2 rounded-lg text-sm font-bold shadow-lg opacity-0 transition-opacity duration-300 pointer-events-none flex items-center gap-2">
+            <span class="material-symbols-outlined text-sm">check_circle</span> GUARDADO
+        </div>
+    </div>
+    
+    <!-- Panel Hot Reload -->
+    <div class="glass-panel p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between">
+        <div>
+            <h2 class="text-sm font-bold uppercase tracking-widest text-primary mb-6">{{ _('admin_rebuild_title') }}</h2>
+            <p class="text-sm text-slate-500 mb-6 leading-relaxed">
+                {{ _('admin_rebuild_desc') }}
+            </p>
+            
+            <div id="rebuildStatus" class="hidden p-4 rounded-lg bg-blue-50 border border-blue-100 flex items-center gap-4 mb-6">
+                <span class="material-symbols-outlined text-blue-500 animate-spin">refresh</span>
+                <div>
+                    <p class="text-sm font-bold text-blue-800">{{ _('admin_rebuilding_status') }}</p>
+                    <p class="text-xs text-blue-600">{{ _('admin_rebuilding_wait') }}</p>
+                </div>
+            </div>
+        </div>
+        
+        <button id="rebuildBtn" class="w-full py-3 bg-slate-800 text-white rounded-md text-[0.75rem] font-bold uppercase tracking-widest hover:bg-slate-900 transition-colors shadow-sm flex justify-center items-center gap-2">
+            <span class="material-symbols-outlined text-sm">build</span> {{ _('admin_rebuild_btn') }}
+        </button>
+    </div>
+</div>
+
+<script>
+    const form = document.getElementById('trainingForm');
+    const rebuildBtn = document.getElementById('rebuildBtn');
+    const toast = document.getElementById('feedbackToast');
+    const rebuildStatus = document.getElementById('rebuildStatus');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const classifier = document.getElementById('classifierSelect').value;
+        const csvFile = document.getElementById('exampleCsv').files[0];
+        
+        const btn = form.querySelector('button');
+        btn.disabled = true;
+        btn.classList.add('opacity-50');
+
+        try {
+            let res;
+            if (csvFile) {
+                const formData = new FormData();
+                formData.append('file', csvFile);
+                res = await fetch(`/api/admin/examples_upload/${classifier}`, {
+                    method: 'POST',
+                    body: formData
+                });
+            } else {
+                const data = {
+                    id: document.getElementById('correctId').value,
+                    text: document.getElementById('exampleText').value
+                };
+                if (!data.id || !data.text) {
+                    alert('Debes proveer ID y Texto, o subir un CSV.');
+                    return;
+                }
+                res = await fetch(`/api/admin/examples/${classifier}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+            }
+            
+            if (res.ok) {
+                document.getElementById('correctId').value = '';
+                document.getElementById('exampleText').value = '';
+                document.getElementById('exampleCsv').value = '';
+                const resultData = await res.json();
+                toast.innerHTML = `<span class="material-symbols-outlined text-sm">check_circle</span> ${resultData.message}`;
+                toast.classList.remove('opacity-0');
+                setTimeout(() => toast.classList.add('opacity-0'), 3000);
+            } else {
+                const errData = await res.json();
+                alert(`Error guardando: ${errData.detail || errData.message}`);
+            }
+        } catch (err) {
+            console.error(err);
+            alert('Error de red al guardar');
+        } finally {
+            btn.disabled = false;
+            btn.classList.remove('opacity-50');
+        }
+    });
+
+    rebuildBtn.addEventListener('click', async () => {
+        const classifier = document.getElementById('classifierSelect').value;
+        
+        rebuildBtn.disabled = true;
+        rebuildBtn.classList.add('hidden');
+        rebuildStatus.classList.remove('hidden');
+
+        try {
+            const res = await fetch(`/api/admin/rebuild/${classifier}`, {
+                method: 'POST'
+            });
+            
+            const result = await res.json();
+            if (res.ok) {
+                alert('Éxito: ' + result.message);
+            } else {
+                alert('Error de API: ' + (result.detail || result.message));
+            }
+        } catch (err) {
+            console.error(err);
+            alert('Error de Red Reconstruyendo: Tiempo de espera agotado o conexión perdida.');
+        } finally {
+            rebuildBtn.disabled = false;
+            rebuildBtn.classList.remove('hidden');
+            rebuildStatus.classList.add('hidden');
+        }
+    });
+</script>
+{% endblock %}

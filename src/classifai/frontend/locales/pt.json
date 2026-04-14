@@ -1,0 +1,16 @@
+{
+  "app_title": "Classificador de IA da CEPAL",
+  "app_subtitle": "Motor de Dados v4.2",
+  "nav_overview": "Visão Geral",
+  "nav_live_query": "Consulta ao Vivo",
+  "nav_batch": "Processamento em Lote",
+  "nav_status": "Status do Motor",
+  "nav_archive": "Arquivo",
+  "nav_new_analysis": "Nova Análise",
+  "nav_support": "Suporte",
+  "nav_logout": "Sair",
+  "search_placeholder": "Busca de Identificador Global...",
+  "hero_title": "Registro Institucional",
+  "hero_badge": "Centro de Controle",
+  "hero_desc": "Acesse e gerencie classificações estatísticas internacionais oficiais. Esta infraestrutura de dados soberanos garante sincronização regional e integridade de dados inter-jurisdicionais para insights de desenvolvimento."
+}

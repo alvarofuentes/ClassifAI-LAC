@@ -27,21 +27,31 @@ INDICES_DIR = ROOT / "data" / "indices"
 
 
 def get_available_csvs() -> list[Path]:
-    """Retorna todos los CSVs disponibles en data/raw/."""
+    """Retorna los CSVs base disponibles en data/raw/."""
     if not RAW_DIR.exists():
         return []
-    return sorted(RAW_DIR.glob("*.csv"))
+    # Se excluyen los archivos de ejemplos y los temporales
+    return sorted([
+        p for p in RAW_DIR.glob("*.csv") 
+        if "_examples" not in p.name and not p.name.startswith(".tmp")
+    ])
 
 
 def build_single_index(csv_path: Path, vectoriser: HuggingFaceVectoriser) -> None:
-    """Construye el VectorStore para un CSV dado."""
-    # El nombre del índice es el stem del CSV (ej. 'ciuo08_es', 'ciiu4_es')
+    """Construye el VectorStore para un CSV dado y sus ejemplos."""
+    import polars as pl
+    
     classifier_name = csv_path.stem
     out_dir = INDICES_DIR / classifier_name
 
+    example_files = sorted(RAW_DIR.glob(f"{classifier_name}_examples*.csv"))
+    temp_csv_path = RAW_DIR / f".tmp_merged_{classifier_name}.csv"
+
     print(f"\n{'─' * 55}")
     print(f"  Clasificador : {classifier_name}")
-    print(f"  Origen       : {csv_path.name}")
+    print(f"  Origen Base  : {csv_path.name}")
+    if example_files:
+        print(f"  Ejemplos     : {len(example_files)} archivo(s) detectado(s)")
     print(f"  Destino      : data/indices/{classifier_name}/")
     print(f"{'─' * 55}")
 
@@ -51,20 +61,44 @@ def build_single_index(csv_path: Path, vectoriser: HuggingFaceVectoriser) -> Non
 
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    # Combinar archivos si hay ejemplos
+    dfs = []
+    try:
+        base_df = pl.read_csv(csv_path, schema_overrides={"id": pl.String, "text": pl.String}, ignore_errors=True)
+        dfs.append(base_df)
+    except Exception as e:
+        print(f"Error leyendo archivo base {csv_path}: {e}")
+        raise
+
+    for ex_file in example_files:
+        try:
+            ex_df = pl.read_csv(ex_file, schema_overrides={"id": pl.String, "text": pl.String}, ignore_errors=True)
+            dfs.append(ex_df)
+        except Exception as e:
+            print(f"Error leyendo archivo de ejemplos {ex_file}: {e}")
+
+    # Concatenar en diagonal alinea las columnas y rellena nulls
+    merged_df = pl.concat(dfs, how="diagonal")
+    merged_df.write_csv(temp_csv_path)
+
     # Cambiar al directorio data/ para que VectorStore use rutas relativas correctas
     original_cwd = os.getcwd()
     os.chdir(ROOT / "data")
     try:
         store = VectorStore(
-            file_name=str(csv_path.relative_to(ROOT / "data")),
+            file_name=str(temp_csv_path.relative_to(ROOT / "data")),
             data_type="csv",
             vectoriser=vectoriser,
             output_dir=str(out_dir.relative_to(ROOT / "data")),
             overwrite=True,
         )
-        print(f"  ✅ Índice construido — {store.num_vectors} entradas")
+        msg_extras = f" (incluye {len(example_files)} docs de ejemplos)" if example_files else ""
+        print(f"  ✅ Índice construido — {store.num_vectors} entradas{msg_extras}")
     finally:
         os.chdir(original_cwd)
+        # Limpiar archivo temporal concatenado
+        if temp_csv_path.exists():
+            temp_csv_path.unlink(missing_ok=True)
 
 
 def main():

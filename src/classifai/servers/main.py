@@ -38,6 +38,7 @@ from .pydantic_models import (
     convert_dataframe_to_reverse_search_pydantic_response,
 )
 
+GLOBAL_VECTOR_STORES: dict[str, VectorStore] = {}
 
 def get_router(vector_stores: list[VectorStore], endpoint_names: list[str]) -> APIRouter:
     """Create and return a `FastAPI.APIRouter` with search endpoints.
@@ -91,8 +92,11 @@ def get_router(vector_stores: list[VectorStore], endpoint_names: list[str]) -> A
 
     logging.info("Starting ClassifAI Router")
     router = APIRouter()
-    vector_stores_dict: dict[str, VectorStore] = dict(zip(endpoint_names, vector_stores, strict=True))
-    make_endpoints(router, vector_stores_dict)
+    
+    global GLOBAL_VECTOR_STORES
+    GLOBAL_VECTOR_STORES.update(dict(zip(endpoint_names, vector_stores, strict=True)))
+    
+    make_endpoints(router, GLOBAL_VECTOR_STORES, endpoint_names)
 
     @router.get("/", description="UI accessibility")
     def docs():
@@ -154,22 +158,23 @@ def run_server(vector_stores: list[VectorStore], endpoint_names: list[str], port
     uvicorn.run(app, port=port, log_level="info")
 
 
-def make_endpoints(router: APIRouter | FastAPI, vector_stores_dict: dict[str, VectorStore]):
+def make_endpoints(router: APIRouter | FastAPI, stores_dict: dict[str, VectorStore], endpoint_names: list[str]):
     """Create and register the different endpoints to your app.
 
     Args:
         router (APIRouter | FastAPI): The FastAPI application instance.
-        vector_stores_dict (dict[str, VectorStore]): The name of the endpoint to be created.
+        stores_dict (dict[str, VectorStore]): Global store registry.
+        endpoint_names (list[str]): Endpoints to register.
     """
-    for endpoint_name, vector_store in vector_stores_dict.items():
+    for endpoint_name in endpoint_names:
         logging.info("Registering endpoints for: %s", endpoint_name)
-        _create_embedding_endpoint(router, endpoint_name, vector_store)
-        _create_search_endpoint(router, endpoint_name, vector_store)
-        _create_reverse_search_endpoint(router, endpoint_name, vector_store)
-        _create_batch_endpoints(router, endpoint_name, vector_store)
+        _create_embedding_endpoint(router, endpoint_name, stores_dict)
+        _create_search_endpoint(router, endpoint_name, stores_dict)
+        _create_reverse_search_endpoint(router, endpoint_name, stores_dict)
+        _create_batch_endpoints(router, endpoint_name, stores_dict)
 
 
-def _create_embedding_endpoint(router: APIRouter | FastAPI, endpoint_name: str, vector_store: VectorStore):
+def _create_embedding_endpoint(router: APIRouter | FastAPI, endpoint_name: str, stores_dict: dict[str, VectorStore]):
     """Create and register an embedding endpoint for a specific `VectorStore`.
 
     Args:
@@ -183,6 +188,7 @@ def _create_embedding_endpoint(router: APIRouter | FastAPI, endpoint_name: str, 
 
     @router.post(f"/{endpoint_name}/embed", description=f"{endpoint_name} embedding endpoint")
     async def embedding_endpoint(data: ClassifaiData) -> EmbeddingsResponseBody:
+        vector_store = stores_dict[endpoint_name]
         input_ids = [x.id for x in data.entries]
         documents = [x.description for x in data.entries]
 
@@ -202,13 +208,13 @@ def _create_embedding_endpoint(router: APIRouter | FastAPI, endpoint_name: str, 
         return EmbeddingsResponseBody(data=returnable)
 
 
-def _create_search_endpoint(router: APIRouter | FastAPI, endpoint_name: str, vector_store: VectorStore):
+def _create_search_endpoint(router: APIRouter | FastAPI, endpoint_name: str, stores_dict: dict[str, VectorStore]):
     """Create and register a search endpoint for a specific `VectorStore`.
 
     Args:
         router (APIRouter | FastAPI): The `FastAPI` application instance.
         endpoint_name (str): The name of the endpoint to be created.
-        vector_store: The `VectorStore` object responsible for performing search operations.
+        stores_dict: Global registry.
 
     The created endpoint accepts POST requests with input data and a query parameter
     specifying the number of results to return. It performs a search operation using
@@ -224,7 +230,7 @@ def _create_search_endpoint(router: APIRouter | FastAPI, endpoint_name: str, vec
                 description="The number of knowledgebase results to return per input query.",
                 ge=1,  # Ensure at least one result is returned
             ),
-        ] = 10,
+        ] = 7,
     ) -> ResultsResponseBody:
         input_ids = [x.id for x in data.entries]
         queries = [TextSanitizer.clean_text(x.description) for x in data.entries]
@@ -237,6 +243,7 @@ def _create_search_endpoint(router: APIRouter | FastAPI, endpoint_name: str, vec
         input_ids = [input_ids[i] for i in valid_indices]
         queries = [queries[i] for i in valid_indices]
 
+        vector_store = stores_dict[endpoint_name]
         input_data = VectorStoreSearchInput({"id": input_ids, "query": queries})
         output_data = vector_store.search(query=input_data, n_results=n_results)
 
@@ -249,13 +256,13 @@ def _create_search_endpoint(router: APIRouter | FastAPI, endpoint_name: str, vec
         return formatted_result
 
 
-def _create_reverse_search_endpoint(router: APIRouter | FastAPI, endpoint_name: str, vector_store: VectorStore):
+def _create_reverse_search_endpoint(router: APIRouter | FastAPI, endpoint_name: str, stores_dict: dict[str, VectorStore]):
     """Create and register a reverse_search endpoint for a specific vector store.
 
     Args:
         router (APIRouter | FastAPI): The `FastAPI` application instance.
         endpoint_name (str): The name of the endpoint to be created.
-        vector_store: The `VectorStore` object responsible for performing search operations.
+        stores_dict: Global registry.
 
     The created endpoint accepts POST requests with input data and a query parameter
     specifying the number of results to return. It performs a reverse search operation using
@@ -280,6 +287,7 @@ def _create_reverse_search_endpoint(router: APIRouter | FastAPI, endpoint_name: 
         input_ids = [x.id for x in data.entries]
         queries = [x.code for x in data.entries]
 
+        vector_store = stores_dict[endpoint_name]
         input_data = VectorStoreReverseSearchInput({"id": input_ids, "doc_id": queries})
         output_data = vector_store.reverse_search(input_data, max_n_results=max_n_results, partial_match=partial_match)
 
@@ -290,7 +298,7 @@ def _create_reverse_search_endpoint(router: APIRouter | FastAPI, endpoint_name: 
         return formatted_result
 
 
-def _create_batch_endpoints(router: APIRouter | FastAPI, endpoint_name: str, vector_store: VectorStore):
+def _create_batch_endpoints(router: APIRouter | FastAPI, endpoint_name: str, stores_dict: dict[str, VectorStore]):
     """Crea los endpoints asíncronos para procesamiento por lotes (Fase 2a)."""
     # Directorio temporal para los archivos batch
     BATCH_DIR = os.path.join("data", "batch_tmp")
@@ -329,6 +337,7 @@ def _create_batch_endpoints(router: APIRouter | FastAPI, endpoint_name: str, vec
             shutil.copyfileobj(file.file, buffer)
 
         # Encolar procesamiento iterativo
+        vector_store = stores_dict[endpoint_name]
         background_tasks.add_task(
             process_batch_job,
             job_id=job_id,

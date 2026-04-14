@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="light" lang="{{ lang | default('es') }}">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>{{ _('hero_title') }} | {{ _('app_title') }}</title>
+    
+    <!-- Alpine.js is recommended for interactivity -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
+    <!-- Tailwind CSS CDN for POC/Demo (In production should be compiled) -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    
+    <script id="tailwind-config">
+          tailwind.config = {
+            darkMode: "class",
+            theme: {
+              extend: {
+                colors: {
+                  "on-secondary-fixed-variant": "#00504b",
+                  "secondary-fixed": "#8ef4ea",
+                  "primary-container": "#225670",
+                  "on-primary-fixed-variant": "#144c65",
+                  "surface-variant": "#e1e3e4",
+                  "primary-fixed-dim": "#9ccdeb",
+                  "surface-container-high": "#e7e8e9",
+                  "surface-dim": "#d9dadb",
+                  "surface-bright": "#f8f9fa",
+                  "surface": "#f8f9fa",
+                  "on-primary": "#ffffff",
+                  "on-surface": "#191c1d",
+                  "surface-container-lowest": "#ffffff",
+                  "on-surface-variant": "#41484d",
+                  "primary": "#003f57",
+                  "secondary": "#006a64",
+                  "secondary-container": "#8bf1e7",
+                  "on-secondary-container": "#006f68"
+                },
+                fontFamily: {
+                  "headline": ["Inter"],
+                  "body": ["Inter"],
+                  "label": ["Inter"]
+                },
+              },
+            },
+          }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+    {% block extra_head %}{% endblock %}
+</head>
+<body class="bg-surface text-on-surface min-h-screen">
+
+<!-- TopNavBar -->
+<nav class="docked full-width top-0 z-50 flex justify-between items-center w-full px-8 py-3 bg-gradient-to-r from-[#003f57] to-[#225670]">
+    <div class="flex items-center gap-8">
+        <span class="text-xl font-bold tracking-tighter text-white uppercase font-inter">Clasif-AI</span>
+        <div class="hidden md:flex gap-6 items-center">
+            <a class="font-inter tracking-tight text-sm font-medium {% if active_tab == 'dashboard' %}text-white border-b-2 border-cyan-400 pb-1{% else %}text-slate-300 hover:text-white transition-colors{% endif %}" href="/">{{ _('nav_overview') }}</a>
+            <a class="font-inter tracking-tight text-sm font-medium {% if active_tab == 'query' %}text-white border-b-2 border-cyan-400 pb-1{% else %}text-slate-300 hover:text-white transition-colors{% endif %}" href="/query">{{ _('nav_live_query') }}</a>
+            <a class="font-inter tracking-tight text-sm font-medium {% if active_tab == 'batch' %}text-white border-b-2 border-cyan-400 pb-1{% else %}text-slate-300 hover:text-white transition-colors{% endif %}" href="/batch">{{ _('nav_batch') }}</a>
+            <a class="font-inter tracking-tight text-sm font-medium {% if active_tab == 'archive' %}text-white border-b-2 border-cyan-400 pb-1{% else %}text-slate-300 hover:text-white transition-colors{% endif %}" href="/archive">{{ _('nav_archive') }}</a>
+            <a class="font-inter tracking-tight text-sm font-medium {% if active_tab == 'admin' %}text-white border-b-2 border-cyan-400 pb-1{% else %}text-slate-300 hover:text-white transition-colors{% endif %}" href="/admin/training">{{ _('nav_admin') }}</a>
+        </div>
+    </div>
+    
+    <div class="flex items-center gap-4">
+        <!-- Language Selector -->
+        <div x-data="{ open: false }" class="relative">
+            <button @click="open = !open" @click.away="open = false" class="p-2 text-slate-300 hover:bg-white/10 transition-all duration-200 rounded text-sm uppercase font-bold">
+                {{ lang | upper }} <span class="material-symbols-outlined text-sm">expand_more</span>
+            </button>
+            <div x-show="open" x-cloak class="absolute right-0 mt-2 w-32 bg-white rounded shadow-lg py-1 text-slate-700 z-50">
+                <a href="?lang=es" class="block px-4 py-2 text-sm hover:bg-slate-100 uppercase {% if lang == 'es' %}font-bold text-primary{% endif %}">Español</a>
+                <a href="?lang=en" class="block px-4 py-2 text-sm hover:bg-slate-100 uppercase {% if lang == 'en' %}font-bold text-primary{% endif %}">English</a>
+                <a href="?lang=pt" class="block px-4 py-2 text-sm hover:bg-slate-100 uppercase {% if lang == 'pt' %}font-bold text-primary{% endif %}">Português</a>
+                <a href="?lang=fr" class="block px-4 py-2 text-sm hover:bg-slate-100 uppercase {% if lang == 'fr' %}font-bold text-primary{% endif %}">Français</a>
+                <a href="?lang=it" class="block px-4 py-2 text-sm hover:bg-slate-100 uppercase {% if lang == 'it' %}font-bold text-primary{% endif %}">Italiano</a>
+            </div>
+        </div>
+
+        <div class="relative hidden lg:block">
+            <span class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-300 material-symbols-outlined text-sm">search</span>
+            <input class="bg-white/10 border-none text-white text-xs py-1.5 pl-10 pr-4 rounded-md focus:ring-1 focus:ring-cyan-400 w-64 placeholder:text-slate-400" placeholder="{{ _('search_placeholder') }}" type="text"/>
+        </div>
+        <button class="p-2 text-slate-300 hover:bg-white/10 transition-all duration-200 rounded-full scale-95 duration-150">
+            <span class="material-symbols-outlined">settings</span>
+        </button>
+        <button class="p-2 text-slate-300 hover:bg-white/10 transition-all duration-200 rounded-full scale-95 duration-150">
+            <span class="material-symbols-outlined">help_outline</span>
+        </button>
+    </div>
+</nav>
+
+<div class="flex min-h-[calc(100vh-56px)]">
+    <!-- SideNavBar -->
+    <aside class="hidden lg:flex flex-col p-4 space-y-6 w-64 fixed left-0 top-[56px] h-[calc(100vh-56px)] bg-slate-50 shadow-none">
+        <div class="px-2 py-4">
+            <div class="flex items-center gap-3 mb-1">
+                <span class="text-lg font-black text-[#003f57] font-inter">{{ _('app_title') }}</span>
+            </div>
+            <p class="font-inter text-xs uppercase tracking-widest font-semibold text-slate-500">{{ _('app_subtitle') }}</p>
+        </div>
+        
+        <nav class="flex-1 space-y-1">
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-md transition-transform duration-200 ease-in-out {% if active_tab == 'dashboard' %}bg-white text-[#003f57] shadow-sm{% else %}text-slate-500 hover:text-[#003f57] hover:bg-slate-200{% endif %}" href="/">
+                <span class="material-symbols-outlined">dashboard</span>
+                <span class="font-inter text-xs uppercase tracking-widest font-semibold">{{ _('nav_overview') }}</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-md transition-transform duration-200 ease-in-out {% if active_tab == 'query' %}bg-white text-[#003f57] shadow-sm{% else %}text-slate-500 hover:text-[#003f57] hover:bg-slate-200{% endif %}" href="/query">
+                <span class="material-symbols-outlined">terminal</span>
+                <span class="font-inter text-xs uppercase tracking-widest font-semibold">{{ _('nav_live_query') }}</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-md transition-transform duration-200 ease-in-out {% if active_tab == 'batch' %}bg-white text-[#003f57] shadow-sm{% else %}text-slate-500 hover:text-[#003f57] hover:bg-slate-200{% endif %}" href="/batch">
+                <span class="material-symbols-outlined">layers</span>
+                <span class="font-inter text-xs uppercase tracking-widest font-semibold">{{ _('nav_batch') }}</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-md transition-transform duration-200 ease-in-out {% if active_tab == 'status' %}bg-white text-[#003f57] shadow-sm{% else %}text-slate-500 hover:text-[#003f57] hover:bg-slate-200{% endif %}" href="/status">
+                <span class="material-symbols-outlined">analytics</span>
+                <span class="font-inter text-xs uppercase tracking-widest font-semibold">{{ _('nav_status') }}</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-md transition-transform duration-200 ease-in-out {% if active_tab == 'archive' %}bg-white text-[#003f57] shadow-sm{% else %}text-slate-500 hover:text-[#003f57] hover:bg-slate-200{% endif %}" href="/archive">
+                <span class="material-symbols-outlined">inventory_2</span>
+                <span class="font-inter text-xs uppercase tracking-widest font-semibold">{{ _('nav_archive') }}</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-md transition-transform duration-200 ease-in-out {% if active_tab == 'admin' %}bg-white text-[#003f57] shadow-sm{% else %}text-slate-500 hover:text-[#003f57] hover:bg-slate-200{% endif %}" href="/admin/training">
+                <span class="material-symbols-outlined">model_training</span>
+                <span class="font-inter text-xs uppercase tracking-widest font-semibold">{{ _('nav_admin') }}</span>
+            </a>
+        </nav>
+        
+        <button class="mx-2 bg-primary text-on-primary py-2 px-4 rounded-md text-xs font-bold uppercase tracking-wider hover:bg-primary-container transition-colors shadow-sm">
+            {{ _('nav_new_analysis') }}
+        </button>
+        
+        <div class="pt-4 border-t border-slate-200">
+            <a class="flex items-center gap-3 px-3 py-2 text-slate-500 hover:text-primary transition-colors" href="#">
+                <span class="material-symbols-outlined text-sm">contact_support</span>
+                <span class="font-inter text-[10px] uppercase tracking-widest font-semibold">{{ _('nav_support') }}</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2 text-slate-500 hover:text-red-600 transition-colors" href="#">
+                <span class="material-symbols-outlined text-sm">logout</span>
+                <span class="font-inter text-[10px] uppercase tracking-widest font-semibold">{{ _('nav_logout') }}</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 lg:ml-64 p-8 bg-surface">
+        {% block content %}{% endblock %}
+    </main>
+</div>
+
+</body>
+</html>

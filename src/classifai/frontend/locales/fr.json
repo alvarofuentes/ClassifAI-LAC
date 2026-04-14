@@ -1,0 +1,16 @@
+{
+  "app_title": "Archive Souveraine",
+  "app_subtitle": "Moteur de Données v4.2",
+  "nav_overview": "Vue d'ensemble",
+  "nav_live_query": "Requête en Direct",
+  "nav_batch": "Traitement par Lots",
+  "nav_status": "État du Moteur",
+  "nav_archive": "Archive",
+  "nav_new_analysis": "Nouvelle Analyse",
+  "nav_support": "Support",
+  "nav_logout": "Déconnexion",
+  "search_placeholder": "Recherche d'Identifiant Global...",
+  "hero_title": "Registre Institutionnel",
+  "hero_badge": "Centre de Contrôle",
+  "hero_desc": "Accédez et gérez les classifications statistiques internationales officielles. Cette infrastructure de données souveraines assure la synchronisation régionale et l'intégrité des données inter-juridictionnelles pour les analyses de développement."
+}

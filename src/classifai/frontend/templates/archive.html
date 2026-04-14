@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="mb-12">
+    <div class="flex items-baseline gap-4 mb-2">
+        <h1 class="text-[2.5rem] font-extrabold leading-none tracking-tight text-primary font-headline">{{ _('nav_archive') }}</h1>
+        <span class="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-[0.6875rem] font-bold tracking-widest uppercase">Beta Registry</span>
+    </div>
+    <p class="text-[0.875rem] text-on-surface-variant max-w-2xl font-body leading-relaxed">
+        Explora la ontología de los distintos clasificadores y el repositorio de cambios. Utiliza la búsqueda semántica inversa para explorar los diccionarios taxonómicos de manera libre.
+    </p>
+</header>
+
+<div class="glass-panel p-6 rounded-xl border border-slate-200 shadow-sm h-[500px] flex items-center justify-center text-slate-500">
+    <div class="text-center">
+        <span class="material-symbols-outlined text-5xl mb-4 text-slate-300">construction</span>
+        <h2 class="text-lg font-bold text-primary mb-2">Módulo en Construcción</h2>
+        <p class="text-sm">El repositorio de cambios (Archive) y la tabla de resultados están siendo integrados actualmente a la base de datos de historial.</p>
+    </div>
+</div>
+{% endblock %}

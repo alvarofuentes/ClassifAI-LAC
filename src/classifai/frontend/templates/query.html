@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="mb-12">
+    <div class="flex items-baseline gap-4 mb-2">
+        <h1 class="text-[2.5rem] font-extrabold leading-none tracking-tight text-primary font-headline">{{ _('nav_live_query') }}</h1>
+        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-[0.6875rem] font-bold tracking-widest uppercase">Online</span>
+    </div>
+    <p class="text-[0.875rem] text-on-surface-variant max-w-2xl font-body leading-relaxed">
+        Ejecuta consultas en tiempo real contra los distintos clasificadores vectoriales para obtener la categoría más probable basándose en NLP y similtud semántica.
+    </p>
+</header>
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8" x-data="liveQueryApp()">
+    <!-- Panel Izquierdo: Formulario de consulta -->
+    <div class="lg:col-span-1 glass-panel p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col gap-6">
+        <div>
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Clasificador Objetivo</label>
+            <select x-model="classifier" class="w-full bg-surface-container-highest border-0 rounded-md py-2 px-3 text-sm focus:ring-2 focus:ring-primary text-primary font-medium">
+                {% for clf in classifiers %}
+                <option value="{{ clf.id }}">{{ clf.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        
+        <div class="flex-1">
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Texto a clasificar</label>
+            <textarea x-model="queryText" class="w-full h-32 bg-surface-container-highest border-0 rounded-md p-3 text-sm focus:ring-2 focus:ring-primary text-on-surface resize-none" placeholder="Ej: Especialista en análisis de bases de datos astronómicas..."></textarea>
+        </div>
+        
+        <div>
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Resultados Máximos (K)</label>
+            <input x-model="kResults" type="number" min="1" max="50" class="w-full bg-surface-container-highest border-0 rounded-md py-2 px-3 text-sm focus:ring-2 focus:ring-primary text-primary" />
+        </div>
+        
+        <button @click="performSearch()" :disabled="isLoading" class="w-full py-3 bg-primary text-white rounded-md text-[0.75rem] font-bold uppercase tracking-widest hover:bg-primary-container transition-colors shadow-sm flex justify-center items-center gap-2">
+            <span class="material-symbols-outlined text-sm" x-text="isLoading ? 'hourglass_empty' : 'search'"></span>
+            <span x-text="isLoading ? 'Clasificando...' : 'Ejecutar Clasificación'"></span>
+        </button>
+    </div>
+
+    <!-- Panel Derecho: Resultados -->
+    <div class="lg:col-span-2 glass-panel p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col">
+        <div class="flex justify-between items-center mb-6 pb-4 border-b border-slate-200">
+            <h2 class="text-sm font-bold uppercase tracking-widest text-primary">Mejores Coincidencias</h2>
+            <div class="flex gap-2">
+                <button class="p-1.5 text-slate-400 hover:text-primary transition-colors bg-surface-container rounded-md"><span class="material-symbols-outlined text-sm">download</span></button>
+                <button class="p-1.5 text-slate-400 hover:text-primary transition-colors bg-surface-container rounded-md"><span class="material-symbols-outlined text-sm">content_copy</span></button>
+            </div>
+        </div>
+        
+        <!-- Estado Inicial / Vacío -->
+        <div x-show="!hasSearched && !isLoading" class="flex-1 flex flex-col items-center justify-center text-slate-400 gap-4 min-h-[300px]">
+            <span class="material-symbols-outlined text-5xl opacity-20">travel_explore</span>
+            <p class="text-sm font-medium">Ingresa un texto y ejecuta la clasificación para ver los resultados aquí.</p>
+        </div>
+
+        <!-- Estado de Carga -->
+        <div x-show="isLoading" class="flex-1 flex flex-col items-center justify-center text-slate-400 gap-4 min-h-[300px]">
+            <span class="material-symbols-outlined text-5xl opacity-20 animate-spin">sync</span>
+            <p class="text-sm font-medium">Procesando vectores de embeddings...</p>
+        </div>
+
+        <!-- Resultados de Búsqueda -->
+        <div x-show="hasSearched && !isLoading" class="flex-1 overflow-y-auto space-y-4" style="display: none;">
+            <template x-for="(result, index) in results" :key="index">
+                <div class="p-4 bg-surface-container-lowest border border-slate-100 rounded-lg shadow-sm flex flex-col gap-2">
+                    <div class="flex justify-between items-start">
+                        <div class="flex items-center gap-2">
+                            <span class="px-2 py-0.5 bg-primary/10 text-primary font-bold text-[0.6875rem] rounded-md" x-text="'#' + (index + 1)"></span>
+                            <span class="font-bold text-primary font-mono text-sm" x-text="result.label || 'N/A'"></span>
+                        </div>
+                        <span class="text-xs font-bold px-2 py-1 rounded bg-slate-50 text-slate-500" x-text="result.score ? result.score.toFixed(4) : ''"></span>
+                    </div>
+                    <p class="text-[0.875rem] text-on-surface-variant font-medium" x-text="result.description"></p>
+                </div>
+            </template>
+            <div x-show="results.length === 0" class="text-center py-8 text-slate-400">
+                No se encontraron resultados consistentes.
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('alpine:init', () => {
+    Alpine.data('liveQueryApp', () => ({
+        classifier: new URLSearchParams(window.location.search).get('classifier') || '{% if classifiers %}{{ classifiers[0].id }}{% endif %}',
+        queryText: '',
+        kResults: 7,
+        isLoading: false,
+        hasSearched: false,
+        results: [],
+        
+        async performSearch() {
+            if (!this.queryText.trim()) return;
+            
+            this.isLoading = true;
+            this.hasSearched = true;
+            this.results = [];
+            
+            try {
+                // ClassifAI API Spec para /search
+                const url = `/${this.classifier}/search?n_results=${this.kResults}`;
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        entries: [
+                            {
+                                id: "query_auto",
+                                description: this.queryText
+                            }
+                        ]
+                    })
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.data && data.data.length > 0 && data.data[0].response) {
+                        // El servidor retorna data = [{input_id, response: [{label, description, score, rank}] }]
+                        this.results = data.data[0].response;
+                    }
+                } else {
+                    console.error("Error en la petición:", await response.text());
+                }
+            } catch (err) {
+                console.error("Fetch Error:", err);
+            } finally {
+                this.isLoading = false;
+            }
+        }
+    }));
+});
+</script>
+{% endblock %}

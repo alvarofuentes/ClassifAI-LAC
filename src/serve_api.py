@@ -83,7 +83,7 @@ def main():
 
     print("\n[1/4] Cargando modelo HuggingFace (puede tomar unos segundos)...")
     vectoriser = HuggingFaceVectoriser(model_name=MODEL)
-    print("  ✅ Modelo cargado")
+    print("  [OK] Modelo cargado")
 
     print("\n[2/4] Cargando diccionarios de traducciones (i18n)...")
     load_all_dictionaries(ROOT / "data" / "raw")

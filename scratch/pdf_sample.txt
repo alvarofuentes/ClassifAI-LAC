@@ -1,0 +1,2691 @@
+--- PAGE 0 ---
+ 
+ 
+ 
+ 
+ 
+
+
+--- PAGE 1 ---
+ 
+ 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CCIF 2018.CL 
+CLASIFICADOR CHILENO DEL CONSUMO INDIVIDUAL POR FINALIDADES 
+ 
+Fecha de publicación: 09 de noviembre de 2023 
+ 
+Instituto Nacional de Estadísticas: Departamento de Estadísticas Demográficas y Sociales, Subdepartamento 
+de Estadísticas Socioeconómicas; Departamento de Estadísticas de Precios; y Departamento de Metodologías 
+e Innovación Estadística, Subdepartamento de Calidad y Estándares, Sección de Nomenclaturas. 
+ 
+Dirección: Morandé 801, piso 22, Santiago de Chile, Teléfono: (56-2) 2892 4000 
+Sitio web: www.ine.gob.cl 
+Correo electrónico: ine@ine.gob.cl; Santiago – Chile 
+ 
+Facebook: @ChileINE 
+Twitter: @INE_Chile 
+Instagram: @chile.ine 
+ 
+ 
+ 
+
+
+--- PAGE 2 ---
+ 
+ 
+2 
+Índice 
+ 
+PRESENTACIÓN .....................................................................................................................................4 
+1 
+Presentación del Clasificador del Consumo Individual por Finalidades (CCIF) ..............................5 
+1.1 
+Clasificación del Consumo Individual por Finalidades (CCIF) .................................................5 
+1.2 
+Base conceptual de la CCIF .....................................................................................................6 
+1.3 
+Usos de la CCIF .......................................................................................................................6 
+1.4 
+Unidad de clasificación .............................................................................................................6 
+1.5 
+Historia de la CCIF 2018 ..........................................................................................................7 
+2 
+Principios básicos de la clasificación ...............................................................................................7 
+2.1 
+Tipos de productos ...................................................................................................................7 
+2.2 
+Imputación de transacciones ....................................................................................................8 
+2.3 
+Reparaciones y mantenimientos “por cuenta propia” de bienes de consumo duraderos y de 
+viviendas ...............................................................................................................................................9 
+2.4 
+Bienes y servicios para finalidades múltiples ........................................................................ 10 
+2.5 
+Paquete de bienes y servicios ............................................................................................... 10 
+2.6 
+Servicios virtuales y de Internet ............................................................................................ 10 
+2.7 
+Software y aplicaciones (App) ............................................................................................... 11 
+2.8 
+Tratamiento de bienes de segunda mano ............................................................................. 12 
+2.9 
+Tratamiento de los arriendos y leasing ................................................................................. 12 
+2.10 
+Platos preparados (división 01) y servicios de comidas para llevar (división 11) ................. 13 
+2.11 
+Servicios de la vivienda, domésticos y del hogar .................................................................. 13 
+2.12 
+Vivienda (división 04) y servicios de alojamiento (grupo 11.2) ............................................. 13 
+2.13 
+Propinas, gratificaciones y pagos no oficiales ...................................................................... 14 
+2.14 
+Regalos y donaciones ........................................................................................................... 14 
+2.15 
+Gastos de entrega ................................................................................................................. 14 
+2.16 
+Otras aclaraciones................................................................................................................. 15 
+3 
+Cambios entre la CCIF 1999 y la CCIF 2018 ................................................................................ 15 
+4 
+Proceso de adaptación del Clasificador Chileno del Consumo Individual por Finalidades, CCIF 
+2018.CL ................................................................................................................................................. 17 
+4.1 
+Antecedentes de la adaptación ............................................................................................. 17 
+4.2 
+Objetivos de la adaptación nacional ...................................................................................... 18 
+4.3 
+Estructura de CCIF 2018.CL ................................................................................................. 18 
+5 
+Principales cambios entre la CCIF 2018 y CCIF 2018.CL ............................................................ 21 
+6 
+Estructura general CCIF 2018.CL ................................................................................................. 25 
+6.1 
+Estructura general ................................................................................................................. 25 
+7 
+Bibliografía ................................................................................................................................... 537 
+ 
+
+
+--- PAGE 3 ---
+ 
+ 
+3 
+ 
+Índice de tablas 
+Tabla 1. Comparación del número de categorías por nivel de CCIF 1999 - CCIF 2018 ................... 15 
+Tabla 2. Ejemplo de estructura de CCIF 2018.CL ............................................................................ 18 
+Tabla 3. Estructura comparativa entre CCIF 2018 y CCIF 2018.CL ................................................. 19 
+Tabla 4. Ejemplo de extracto de códigos residuales y sub residuales subclase 01.1.2.02.00 "Carne 
+fresca, refrigerada o congelada (ND)" ............................................................................................... 20 
+Tabla 5. Códigos residuales, no identificados y no desglosados subclase 03.2.1.05.00 "Accesorios 
+para calzado, calzado no identificado, no desglosado y otros tipos de calzado n.c.p.(SD)" ............ 21 
+Tabla 6. Comparación del número de categorías por nivel de CCIF 2018 - CCIF 2018.CL ............. 22 
+
+
+--- PAGE 4 ---
+ 
+ 
+4 
+PRESENTACIÓN 
+ 
+ 
+El Instituto Nacional de Estadísticas (INE), organismo técnico e independiente encargado de las 
+estadísticas y censos oficiales del país, que enmarca sus funciones en la Ley Orgánica N° 17.374 del 
+Ministerio de Economía, Fomento y Turismo, pone a disposición el Clasificador Chileno del Consumo 
+Individual por Finalidades - CCIF 2018.CL. 
+  
+El CCIF 2018.CL, corresponde a la adaptación nacional de la “Clasificación del Consumo Individual por 
+Finalidades - CCIF 2018” (Classification of Individual Consumption According to Purpose, COICOP - 
+2018), de Naciones Unidas, el cual es parte del sistema de cuentas nacionales desde 1968. De esta 
+forma, el INE reconoce la importancia de ampliar la familia de clasificadores estadísticos adaptados a 
+la realidad nacional y contribuir al fortalecimiento del Sistema Estadístico Nacional (SEN), siendo una 
+herramienta fundamental en la producción de estadísticas oficiales del país, debido a que provee un 
+marco de categorías homogéneas de bienes y servicios, que se ordenan de acuerdo con la finalidad del 
+gasto de consumo de los hogares. 
+ 
+El proceso de adaptación nacional del CCIF 2018.CL es el resultado de un trabajo interdisciplinario a 
+nivel Institucional, que contó a su vez con la participación del Departamento de Economía de la Salud 
+del Ministerio de Salud, en la revisión de los bienes y servicios relacionados al área de conocimiento 
+del Ministerio. A partir de este trabajo, el INE reconoce la relevancia del desarrollo, producción y difusión 
+de estadísticas de calidad, garantizando el adecuado cumplimiento de los principios básicos de las 
+clasificaciones, por medio de la aplicación de métodos y buenas prácticas internacionales en materia 
+de las estadísticas oficiales, afianzando la elaboración de información fidedigna, confiable, consistente 
+y comparable. 
+ 
+A través de ese nuevo clasificador, el INE aporta a la producción estadística con una herramienta que 
+ha sido reconocida por diversos países y organizaciones internacionales como un estándar para la 
+recopilación de datos sobre el gasto de consumo que realizan los hogares, utilizado con fines 
+estadísticos y económicos, destacando el análisis de tendencias en los patrones de consumo de la 
+población, cálculo de cifras de inflación y evaluación del impacto de las políticas públicas en el gasto de 
+los hogares, procurando responder a los diversos requerimientos de información de las instituciones y 
+de la ciudadanía en general. 
+ 
+ 
+ 
+ 
+ 
+Ricardo Vicuña Poblete 
+Director Nacional 
+
+
+--- PAGE 5 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+5 
+1 Presentación del Clasificador del Consumo Individual por 
+Finalidades (CCIF) 
+ 
+1.1 
+Clasificación del Consumo Individual por Finalidades (CCIF) 
+ 
+La Clasificación del Consumo Individual por Finalidades (CCIF)1 pertenece a la familia de 
+clasificaciones estadísticas denominadas “funcionales”, las que permiten analizar el propósito o 
+finalidad de los gastos o transacciones que realizan determinados sectores institucionales como son 
+los hogares, los gobiernos, las Instituciones Sin Fines de Lucro que Sirven a los Hogares (ISFLSH), y 
+los productores. El organismo custodio es la División de Estadísticas de las Naciones Unidas, Sección 
+de Clasificaciones Estadísticas (Naciones Unidas, 2018). 
+ 
+De acuerdo con el Sistema de Cuentas Nacionales (SCN 2008) son cuatro clasificaciones de gastos 
+según su finalidad. Estas clasificaciones son las siguientes (Naciones Unidas, 2018): 
+ 
+• 
+CCIF 
+: Clasificación del Consumo Individual por Finalidades. 
+ 
+• 
+CFISFL : Clasificación de las Finalidades de las Instituciones Sin Fines de Lucro que Sirven a 
+los Hogares. 
+ 
+• 
+CFG 
+: Clasificación de las Funciones de Gobierno. 
+ 
+• 
+CGPF : Clasificación de los Gastos de los Productores por Finalidades. 
+ 
+La CCIF se utiliza en exclusivo para clasificar un único tipo de gasto, es decir los gastos de consumo 
+individual de los hogares, las ISFLSH y el gobierno general. Por su parte, tanto la CFISFL como la CFG 
+se utilizan para clasificar diversas transacciones (por ejemplo, gastos de consumo final, consumo 
+intermedio, la formación bruta de capital, las transferencias de capital). Finalmente, la CGPF se usa 
+para clasificar el consumo intermedio y los desembolsos de productores de bienes y servicios. 
+ 
+En definitiva, la CCIF es un instrumento que proporciona un marco de categorías homogéneas para la 
+clasificación de bienes y servicios, los cuales se ordenan en función de la finalidad del gasto de 
+consumo de los hogares. Los gastos a que refiere esta clasificación son aquellos que se realizan en 
+beneficio de las personas individuales o de los hogares (Naciones Unidas, 2018). 
+ 
+Los gastos de consumo individual que incluye la CCIF son los siguientes (Naciones Unidas, 2018): 
+ 
+• 
+Todos los gastos de consumo de los hogares que se definen como individuales y se presentan 
+en las divisiones 01 a 13 de la CCIF 2018. 
+ 
+• 
+Todos los gastos de consumo de las ISFLSH se consideran, por acuerdo, como si fueran en 
+beneficio de los hogares y se incluyen en la división 14 de la CCIF 2018. 
+ 
+• 
+Solo algunos de los gastos de consumo realizados por el gobierno general se consideran como 
+gasto individual. Se excluyen de la CCIF los denominados “gastos de consumo colectivo”, es 
+decir, gastos que benefician a la comunidad en su conjunto y no a los hogares individuales 
+como son: los gastos en servicios públicos generales, orden y seguridad pública, defensa, 
+protección del medio ambiente, asuntos económicos y servicios comunitarios. Los gastos del 
+gobierno que son considerados individuales en ámbitos de la vivienda, salud, educación, 
+protección, recreación y cultura, se presentan en la división 15 de la CCIF 2018. 
+ 
+ 
+1 Conocida por su sigla en inglés como “COICOP” (Classification of Individual Consumption According to Purpose). 
+
+
+--- PAGE 6 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+6 
+La CCIF está estructurada en forma vertical y se compone de cuatro niveles; primero a dos dígitos 
+(división), segundo nivel de tres dígitos (grupo), el tercer nivel de cuatro dígitos (clase) y el cuarto nivel 
+de cinco dígitos (subclase) (Naciones Unidas, 2018). 
+ 
+1.2 
+Base conceptual de la CCIF 
+ 
+El marco conceptual de la CCIF se basa en el SCN 2008, la cual señala que, tanto el gasto de consumo 
+individual de las ISFLSH como los del gobierno general se denominan transferencias sociales en 
+especies, los que junto al gasto de consumo individual de los hogares forman el consumo final efectivo 
+de los hogares. (Naciones Unidas, 2018). 
+ 
+El consumo final efectivo de los hogares considera los gastos de bienes y servicios adquiridos para 
+consumo final por el hogar y, a su vez los bienes y servicios producidos y consumidos por el mismo 
+hogar, como también el valor estimado o la imputación de las transacciones de trueque y los bienes y 
+servicios recibidos en especies. Además, contempla los gastos de consumo de bienes y servicios que 
+corresponden a los hogares residentes, ya sea si estos gastos se realizan dentro del país, como en el 
+extranjero (Naciones Unidas, 2018). 
+ 
+En definitiva, la CCIF identifica gastos que conforman el consumo final efectivo de los hogares y los 
+clasifica según sus finalidades. 
+1.3 
+Usos de la CCIF 
+ 
+La CCIF es parte integral del SCN, siendo utilizada también en diversas esferas estadísticas, tales 
+como: estadísticas de gastos de los hogares basadas en encuestas sobre presupuesto de los hogares 
+y el análisis de los niveles de vida; índices de precios al consumidor (utilizado para establecer 
+ponderadores y precios agregados); comparaciones internacionales del Producto Interno Bruto (PIB) y 
+los gastos que lo componen mediante las paridades de poder adquisitivo; y las estadísticas relacionadas 
+con la cultura, deporte, alimentación, salud y turismo. En específico, la CCIF permite diversos análisis, 
+por ejemplo: diferencias en la elasticidad de los ingresos; estimación del stock de “bienes de capital” 
+que poseen los hogares; medición de la carga financiera que experimentan los hogares debido a los 
+gastos en salud que afrontan al utilizar los servicios de atención médica; recopilación, difusión y 
+comparabilidad de datos sobre el gasto y el consumo a nivel global (Naciones Unidas, 2018). 
+ 
+Para todos estos usos, la clasificación básica de la CCIF debe ser más detallada en términos de niveles 
+adicionales, los que pueden ser trabajados en las adaptaciones nacionales de la clasificación, pero al 
+mismo tiempo, existen claras ventajas en conservar la estructura básica de la CCIF con el fin de 
+mantener la comparabilidad entre países, tanto a lo largo del tiempo, como entre estadísticas de 
+diferentes dominios. Adicionalmente, se debe tener en cuenta que la CCIF sigue los conceptos y 
+definiciones del SCN 2008, y estos no son necesariamente aplicables de forma directa a un nivel más 
+detallado, por ejemplo, algunos países pueden requerir la producción de información relacionada a los 
+intereses sobre préstamos para la vivienda, los que están excluidos de la CCIF (Naciones Unidas, 
+2018). Estos elementos deben ser analizados por los países al momento de trabajar la clasificación ya 
+que es necesario resguardar la comparabilidad, como también, las necesidades nacionales. 
+ 
+1.4 
+Unidad de clasificación 
+ 
+Para los gastos de consumo de los hogares referidos a las divisiones 01 a 13, la unidad de clasificación 
+son los gastos de consumo realizados por los hogares que tienen por objeto satisfacer sus necesidades 
+o deseos de diversos bienes y servicios. Los datos sobre los gastos de consumo provienen usualmente 
+de fuentes como, por ejemplo, encuestas sobre presupuesto de los hogares, estadísticas sobre ventas 
+del comercio minorista, etc. Es importante considerar que las divisiones 01 a 13 de la CCIF 2018 
+agrupan los gastos en diversos bienes y servicios que se supone cumplen finalidades particulares, 
+como alimentar el cuerpo o protegerlo contra las inclemencias del tiempo, prevenir y curar 
+enfermedades, adquirir conocimientos, viajar de un lugar a otro, etc. Para la división 14 las unidades de 
+
+
+--- PAGE 7 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+7 
+clasificación en CCIF 2018, serían las mismas que para la clasificación CFISFL, es decir, clasifica los 
+gastos individuales de las ISFLSH según la finalidad a la que sirven (Naciones Unidas, 2018). 
+ 
+Finalmente, las unidades de clasificación para la división 15 en la CCIF 2018, son las mismas que para 
+la clasificación CFG. Las unidades de clasificación son, en principio, transacciones individuales, lo que 
+significa que, cada compra, pago de salario, transferencia, pago de préstamo u otro desembolso (gasto) 
+se le debe asignar un código CFG de acuerdo con la función que la transacción preste (Naciones 
+Unidas, 2018). 
+ 
+1.5 
+Historia de la CCIF 2018 
+ 
+La revisión de la última versión de la clasificación, CCIF 2018, se llevó a cabo en tres períodos 
+diferenciados (Naciones Unidas, 2018): 
+ 
+1. 2011 - 2013: en 2011 se presentó la propuesta de revisión de la CCIF 1999 durante la Reunión 
+del Grupo de Expertos en Clasificaciones Estadísticas Internacionales de las Naciones Unidas. 
+En dicha instancia y considerando que una modificación de la CCIF podría impactar en las otras 
+clasificaciones “funcionales”, se decide realizar una consulta global con el fin de evaluar la 
+necesidad y el alcance de dicha revisión. 
+ 
+La consulta global se efectuó a fines del 2012, y arrojó que en general los países estaban a 
+favor de una actualización o revisión de la CCIF 1999, que refleje los cambios significativos en 
+algunas áreas de los bienes y servicios. 
+ 
+2. 2013 - 2015: los resultados obtenidos de la consulta aplicada, fueron analizados durante la 
+reunión del Grupo de Expertos de Naciones Unidas en 2013, señalando diferentes escenarios 
+de modificaciones de la CCIF. Posteriormente, en el año 2015 en base a los hallazgos de la 
+consulta, se recomendó trabajar en una modificación mayor de la clasificación. Además, se 
+acordó realizar una evaluación de impacto de los cambios en las otras clasificaciones 
+“funcionales”. 
+ 
+3. 2016 - 2018: durante el 2016 se presentó el primer borrador de la clasificación, de acuerdo con 
+los antecedentes recopilados producto de la consulta global realizada el 2012. Posteriormente, 
+este fue enviado para revisión en una nueva consulta y a partir de los comentarios recibidos, 
+se mejoró el documento. En septiembre de 2017, el Grupo de Expertos de las Naciones Unidas, 
+revisó y aprobó el nuevo borrador de la CCIF. Finalmente, en el 49° Período de Sesiones de 
+Comité de Estadística de Naciones Unidas (2018), se aprobó la clasificación CCIF revisada: 
+CCIF 2018. 
+ 
+2 Principios básicos de la clasificación 
+ 
+2.1 
+Tipos de productos 
+ 
+Las categorías de la CCIF también se dividen en bienes y servicios. Para identificar si una clase o 
+subclase está relacionada con bienes o servicios, se utilizan las letras “ND” - No Duradero, “SD” – 
+Semiduradero y “D” – Duradero como indicadores de los tipos de bienes. Por su parte, los servicios se 
+distinguen con la letra “S” (Naciones Unidas, 2018). 
+ 
+Los bienes no duraderos se refieren a aquellos que pueden usarse una sola vez, mientras que los 
+duraderos, son bienes que pueden usarse de forma repetida o continuamente durante un período 
+considerable, más de un año (Naciones Unidas, 2008) y que, además, suelen tener un alto precio, por 
+ejemplo, bienes como automóviles, refrigeradores, lavadoras y televisores. Por otra parte, los bienes 
+semiduraderos se diferencian de los bienes duraderos en que su vida útil esperada, si bien es más de 
+
+
+--- PAGE 8 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+8 
+un año, de todas formas, es significativamente más corta y su precio es sustancialmente menor 
+(Naciones Unidas, 2018). 
+ 
+Es importante señalar que, algunas clases y subclases combinan tanto bienes como servicios en una 
+misma categoría. En estos casos, se les suele asignar una “S”, ya que se considera que el componente 
+de servicio es predominante sobre los bienes. De la misma forma, hay categorías que abarcan bienes 
+no duraderos, semiduraderos y/o duraderos, y para tales casos, se les asigna la sigla correspondiente, 
+según el tipo del bien que se considere predominante (Naciones Unidas, 2018). 
+ 
+2.2 
+Imputación de transacciones 
+ 
+El SCN registra el intercambio de bienes, servicios y activos entre unidades institucionales en forma de 
+transacciones. Por lo general, las transacciones se realizan a través del intercambio de dinero y 
+productos. Sin embargo, muchos bienes o servicios no se venden realmente, sino que se suministran 
+a otras unidades, por ejemplo, pueden ser intercambiados por otros bienes, servicios o proporcionados 
+de forma gratuita como transferencias en especies. En otros casos, se produce un intercambio implícito 
+de servicios que se registran como transacciones, aunque no exista intercambio de dinero. Las 
+transacciones de tales bienes y servicios igualmente deben incluirse en las cuentas, aunque su valor 
+deba ser estimado. Por lo tanto, se necesitan estimaciones e imputaciones para poder registrar las 
+transacciones no monetarias con otras unidades. Estas estimaciones e imputaciones no deben 
+interpretarse como la introducción de actividades o flujos hipotéticos de bienes y servicios en el SCN. 
+Su propósito es el opuesto, es decir, capturar en las cuentas los principales flujos de bienes y servicios 
+que en efecto tienen lugar en la economía, ya que de otro modo serían omitidos. Es preciso señalar, 
+que la imputación se refiere al valor de los bienes o servicios involucrados y no al gasto en sí mismo. 
+En otras palabras, lo que se imputa es la valoración y no el que la transacción se haya realizado 
+(Naciones Unidas, 2018). 
+ 
+Las transacciones que no se pueden observar directamente, como en las encuestas de gastos e 
+ingresos del hogar y que requieren estimarse son: la producción de bienes por cuenta propia para el 
+autoconsumo final; los ingresos en especie en forma de bienes o servicios prestados gratuitamente o a 
+precios muy bajos a los hogares por parte del gobierno y las ISFLSH; los servicios prestados por 
+intermediarios financieros los que se miden indirectamente en el SCN y la producción de servicios de 
+la vivienda para su propio consumo final por parte de los propietarios ocupantes (Naciones Unidas, 
+2018). 
+ 
+La producción de servicios de vivienda para el consumo final propio por parte de los propietarios 
+ocupantes siempre se ha incluido dentro de la frontera de producción del SCN, aunque constituye una 
+excepción a la exclusión general de la producción de servicios por cuenta propia. La relación de 
+viviendas ocupadas por sus propietarios y las viviendas arrendadas pueden variar considerablemente 
+entre países, entre regiones de un país e incluso durante cortos períodos de tiempo dentro de un mismo 
+país o región, de modo que tanto las comparaciones internacionales como las intertemporales de la 
+producción y el consumo de servicios de vivienda podrían verse distorsionados si el valor de los 
+servicios de vivienda por cuenta propia no es imputado (Naciones Unidas, 2018). 
+ 
+Las personas que son propietarias de las viviendas que ocupan, son consideradas como propietarias 
+de empresas no constituidas, que producen servicios de vivienda que son consumidos por el hogar al 
+que pertenece el propietario. Los servicios de vivienda producidos se consideran igual en valor a los 
+arriendos que se pagarían en el mercado por un alojamiento del mismo tamaño, calidad y tipo. Los 
+valores imputados de los servicios de vivienda se registran como gasto de consumo final de los 
+propietarios. Por otra parte, los gastos en que incurran los propietarios, incluidos los propietarios 
+ocupantes, en la decoración, reparación menor y mantenimiento de la vivienda, que, por lo general, se 
+estimarían como responsabilidad del propietario, no deben ser tratados como gastos de consumo final 
+del hogar, sino como gasto intermedio realizado en la producción de servicios de la vivienda. Estos 
+gastos pueden consistir en pagos por servicios prestados por constructores o decoradores 
+profesionales o compras de materiales para reparaciones y decoración realizadas por cuenta propia 
+(Naciones Unidas, 2018). 
+
+
+--- PAGE 9 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+9 
+ 
+Los servicios financieros pueden pagarse explícita o implícitamente y algunas transacciones con activos 
+financieros pueden implicar cargos tanto explícitos como implícitos. Existen cuatro principales formas 
+en que se prestan y cobran los servicios financieros (Naciones Unidas, 2018): 
+ 
+a) Servicios financieros prestados a cambio de cargos explícitos. Los gastos por cargos de 
+servicios que cobran las instituciones financieras se registran de forma habitual. 
+ 
+b) Servicios financieros prestados en asociación con los cargos por intereses de préstamos y 
+depósitos. Estos tipos de servicios se conocen como “Servicios de Intermediación Financiera 
+Medidos Indirectamente” (SIFMI) y se calculan como la diferencia entre los intereses bancarios 
+reales por cobrar y los intereses del SCN que cobran los servicios financieros sobre los 
+préstamos que emiten y, la diferencia entre los intereses del SCN y el interés bancario real a 
+pagar por las corporaciones financieras sobre los depósitos de sus clientes. 
+ 
+c) Servicios financieros asociados a la adquisición y disposición de activos y pasivos financieros 
+en los mercados financieros. Cuando los hogares adquieren o enajenan divisas y algunos otros 
+activos financieros, el intermediario del activo financiero acostumbra a cotizar un precio de 
+compra y un precio de venta para el activo. La diferencia entre el precio real por cobrar o por 
+pagar, y el promedio de los precios de compra y el precio de venta en el momento de la 
+transacción, igualmente se tratan como gastos en los servicios de las entidades financieras. 
+ 
+d) Servicios financieros asociados a los seguros y planes de pensiones. Los cargos por servicios 
+de seguros se clasifican por tipo de seguro, como los seguros de vida y otros seguros. El cargo 
+por servicio de seguros distintos de los de vida, se estima como las primas totales ganadas más 
+los ingresos por inversión obtenidos de las inversiones de las primas menos los siniestros 
+incurridos ajustados. El cargo por servicio del seguro de vida se calcula como las primas 
+devengadas más los ingresos de inversión obtenidos de la inversión de primas menos 
+indemnización por pagar, menos los aumentos (más disminuciones) en las reservas técnicas 
+de seguros de vida. Los cargos por servicios indirectos de los servicios de los fondos de 
+pensiones se estiman como el exceso de los ingresos por inversiones a cobrar por los planes 
+menos la cantidad que se añade a las reservas para hacer frente a los derechos de pensión 
+presentes y futuros. 
+ 
+2.3 
+Reparaciones y mantenimientos “por cuenta propia” de bienes de consumo 
+duraderos y de viviendas 
+ 
+Las reparaciones y mantenimiento de bienes de consumo duraderos y de las viviendas, efectuadas por 
+los miembros del hogar, se encuentran fuera de la frontera de producción del SCN, considerándose 
+“producción de servicios para uso final propio”, por tanto, no se consideran como “gastos de consumo 
+final”. Por otra parte, si bien se excluye el servicio como tal, los materiales adquiridos para realizar las 
+reparaciones y mantenimientos se consideran como “gasto de consumo final” y se incluyen en la CCIF 
+(Naciones Unidas, 2018). 
+ 
+En específico, para el caso de las viviendas, se incluyen como gasto en la CCIF aquellos materiales 
+adquiridos en el contexto de la realización de reparaciones como la decoración de los interiores, 
+mantenimiento, reparaciones menores/pequeñas, incluidas las reparaciones de los accesorios, 
+efectuadas por los propietarios o arrendatarios. No obstante, los materiales adquiridos para grandes 
+reparaciones en el hogar, realizadas por los propietarios, están fuera del gasto que incluye la CCIF, ya 
+que se consideran como insumos intermedios en el contexto de la producción de servicios para la 
+vivienda. La realización de este tipo de servicios por parte del propietario que ocupa su propia vivienda 
+se considera como una actividad secundaria del mismo en su carácter de productor de servicios para 
+la vivienda (Naciones Unidas, 2018). 
+ 
+
+
+--- PAGE 10 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+10 
+2.4 
+Bienes y servicios para finalidades múltiples 
+ 
+A pesar de que los bienes y servicios suelen relacionarse con un solo propósito, existen algunos que 
+podrían relacionarse con más de una finalidad y ser considerados como bienes y servicios “múltiples”, 
+por ejemplo, una bicicleta puede ser usada con fines de transporte o de recreo. En la CCIF la 
+clasificación de estos bienes y servicios se realiza de acuerdo con la finalidad más predominante. 
+Ademas, la finalidad predominante de un bien y servicio podría variar entre los países, por tanto, los 
+artículos para múltiples propósitos han sido ubicados en la división que mejor los representa en relación 
+con la finalidad principal. Para el caso de las bicicletas mencionado en el ejemplo anterior, se debe 
+señalar que en las zonas donde más se demanda este artículo son Asia, África, Sudeste Asiático, China 
+y los países no montañosos de Europa y que, de acuerdo con su finalidad, se clasifican en la división 
+07 “Transporte” (Naciones Unidas, 2018). 
+ 
+2.5 
+Paquete de bienes y servicios 
+ 
+Los desembolsos que se realizan en un solo gasto, específicamente, cuando no hay información sobre 
+el precio detallado de los bienes o servicios individuales, pueden ser considerados como un “paquete”, 
+ya sea de bienes como de servicios que son útiles para dos o más propósitos diferentes. Por ejemplo, 
+la compra de (Naciones Unidas, 2018): 
+ 
+− 
+Paquetes de telecomunicaciones que suelen incluir una combinación de servicios de telefonía 
+fija, telefonía móvil, suministro de Internet y televisión, además, de equipos de teléfonos 
+móviles; 
+ 
+− 
+Paquetes turísticos con todo incluido que consideran el pago del transporte, alojamiento y los 
+servicios de alimentación; 
+ 
+− 
+Servicios de educación que incluyen pagos por servicios de atención médica, transporte, 
+alojamiento, alimentación, material educativo, etc.; 
+ 
+− 
+Servicios de hospitalización que consideran pagos por tratamiento médico, alojamiento y 
+alimentación; 
+ 
+− 
+Servicios de transporte que incluyen la alimentación y alojamiento en el valor del billete o ticket 
+(por ejemplo, transporte aéreo de pasajeros). 
+ 
+Los gastos únicos que cubren dos o más finalidades y que no son facturados por separado, deben 
+tratarse caso a caso con el objetivo de obtener un desglose por finalidades lo más preciso posible y, 
+además, siendo coherente con las consideraciones prácticas de la disponibilidad de los datos. En 
+consecuencia, no se busca aislar los valores de los gastos relacionados con bienes y servicios de 
+finalidades distintas, como los paquetes de telecomunicaciones, paquetes turísticos, servicios de 
+hospitalización o los servicios de transporte, que incluyen bajo un solo valor el alojamiento y la 
+alimentación, sino que, en todos estos casos, el gasto debe clasificarse de acuerdo con el bien o servicio 
+predominante. En esta línea, la CCIF 2018 considera clases específicas para los paquetes 
+mencionados. Por otra parte, respecto de la atención médica, el transporte, el alojamiento, la 
+alimentación y el material educativo vinculado a la educación deben ser asignados, en la medida de lo 
+posible, a las divisiones: “Salud” (06), “Transporte” (07), “Recreación, deportes y cultura” (09) y 
+“Servicios de restaurantes y alojamiento” (11) (Naciones Unidas, 2018). 
+ 
+2.6 
+Servicios virtuales y de Internet 
+ 
+El Internet ha permitido el suministro de servicios, como la transmisión de películas y música, la 
+suscripción a juegos, entre otras, eliminando de esta forma la necesidad de comprar un producto físico, 
+facilitando el arriendo de estos productos en lugar de su compra directa. Por lo tanto, estos servicios se 
+
+
+--- PAGE 11 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+11 
+clasifican, en general, con las formas más tradicionales de arriendo de bienes similares (Naciones 
+Unidas, 2018). 
+ 
+Si bien los productos asociados pueden existir en forma física o virtual (por ejemplo, libros, música, 
+videos, juegos), en la CCIF el producto debe clasificarse en una clase según la finalidad predominante. 
+Por lo tanto, la compra de libros virtuales (por ejemplo, libros electrónicos o audiolibros) deben 
+clasificarse en la misma clase o subclase que los libros en papel porque se consumen con el mismo 
+propósito. Como se indicó anteriormente, este principio puede afectar al tipo de producto (es decir, D, 
+SD, ND o S) relacionado a esa categoría (Naciones Unidas, 2018). 
+ 
+Cuando se utiliza Internet para el arriendo de un producto, ya sea en su forma física o virtual, esta 
+actividad sigue siendo un servicio y no la compra de un bien. Por ejemplo, el arancel de suscripción 
+para jugar juegos en línea (es decir, transmisión o streaming), se clasifican en 09.4.3.01.00 “Arriendo 
+de software de videojuegos y suscripciones de videojuegos en línea (S)”. La compra directa de software 
+de videojuegos, en su forma física o virtual, se clasifica en 09.2.1.01.00 “Videojuegos de computadoras, 
+consolas de videojuegos, aplicaciones y software de juegos (SD)” (Naciones Unidas, 2018). 
+ 
+2.7 
+Software y aplicaciones (App) 
+ 
+El software es un conjunto de instrucciones, datos y documentación asociada, que proporciona 
+indicaciones al computador para realizar ciertas tareas. La definición de software considera los sistemas 
+operativos de computadores, las aplicaciones (App), programas de bases de datos y las aplicaciones 
+móviles (Naciones Unidas, 2018). 
+ 
+La clasificación del software dependerá de si se encuentra asociado a la prestación de un servicio al 
+hogar o no. Por ejemplo, los sistemas operativos, los paquetes ofimáticos, los editores de fotos, los 
+programas informáticos, los lenguajes de programación, los programas de bases de datos y los juegos 
+de computador son software que no están asociados a la prestación de un servicio al hogar. Este tipo 
+de software puede instalarse físicamente en el computador o proporcionarse a través de una red local 
+o por Internet. El gasto en software y aplicaciones que no están asociados a la prestación de un servicio 
+al hogar se clasifican dentro de la subclase 08.2.1.01.00 “Software, excepto software de juegos (S)” 
+cuando corresponden a softwares tradicionales o dentro de 09.2.1.01.00 “Videojuegos de 
+computadoras, consolas de videojuegos, aplicaciones y software de juegos (SD)” para el software de 
+juegos (Naciones Unidas, 2018). Además, se debe considerar, que si el pago no es realmente por el 
+uso del software sino por un servicio asociado que se presta con la ayuda del software o la aplicación 
+(App), se entiende que ese gasto debe clasificarse de acuerdo con el servicio correspondiente. Por 
+ejemplo, el requerimiento de un automóvil con chofer mediante una aplicación móvil y el posterior pago 
+del servicio de taxi a través de la aplicación (App), se clasifica dentro de la subclase 07.3.2.02.00 
+“Transporte de pasajeros en taxi y automóviles arrendados con chofer (S)” debido a que el pago es por 
+un servicio de transporte. Asimismo, el gasto por una aplicación de citas debe clasificarse en 
+13.9.1.09.00 “Otros servicios n.c.p. (S)”, ya que el pago es por un servicio de citas (Naciones Unidas, 
+2018). 
+ 
+En el caso de los paquetes de hardware y software (por ejemplo, un computador con sistemas 
+operativos y aplicaciones de software preinstalados), el gasto debe clasificarse de acuerdo con el 
+producto predominante, que normalmente es el hardware. Para el caso de los paquetes de bienes y 
+servicios, tales como, las suscripciones de un paquete ofimático que incluye servicios de 
+almacenamiento en la nube, entre otros, se aplican las normas generales para los paquetes de bienes 
+y servicios (Naciones Unidas, 2018), (para mayor detalle véase el, punto 2.5 “Paquete de bienes y 
+servicios”). 
+ 
+Por otra parte, el firmware es un tipo especial de software que está integrado en un dispositivo o equipo 
+de hardware y proporciona el control del programa de bajo nivel para el dispositivo o equipo. El firmware 
+se puede encontrar en electrodomésticos; equipos de comunicación como teléfonos móviles, tablets 
+(tabletas) y routers; computadores y periféricos, por ejemplo, la BIOS de un computador, impresoras, 
+
+
+--- PAGE 12 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+12 
+unidades de DVD-ROM2; dispositivos de entretenimiento del tipo televisores, decodificadores, 
+amplificadores, reproductores de DVD, reproductores de MP3, cámaras digitales, entre otros. Al ser una 
+parte integral para el funcionamiento del bien, el firmware por lo general suele no venderse ni tener un 
+precio por separado. Las actualizaciones de firmware, que proporcionan correcciones o nuevas 
+funciones para el bien, a menudo se proporcionan de forma gratuita. Sin embargo, en algunos casos 
+las actualizaciones de firmware no son gratuitas, por tanto, de ocurrir de esta manera, el gasto debe 
+clasificarse junto con el bien al que se destina la actualización del firmware (Naciones Unidas, 2018). 
+ 
+2.8 
+Tratamiento de bienes de segunda mano 
+ 
+Dado que los bienes de segunda mano se utilizan con la misma finalidad que los bienes nuevos, los 
+gastos en bienes de segunda mano no se clasifican por separado del bien original en la CCIF. La única 
+excepción al tema refiere a los vehículos de motor de segunda mano, creándose una subclase 
+independiente debido al importante mercado para estos bienes y el alto valor de sus transacciones. 
+Aunque, por lo general, se registra el valor total, para las estadísticas de precios, entre otras, debe 
+tenerse en cuenta que solo el margen comercial de los automóviles de segunda mano forma parte del 
+gasto de consumo del hogar y no del valor total del vehículo, excepto en los casos en que el vehículo 
+perteneció con anterioridad a empresas, al gobierno o hubiese sido importado (Naciones Unidas, 2018). 
+ 
+2.9 
+Tratamiento de los arriendos y leasing 
+ 
+Arrendamiento de terrenos 
+ 
+El arriendo de terrenos es el ingreso que recibe el propietario o arrendador de un recurso natural (como 
+la tierra), a razón de disponer, para otra unidad institucional (un arrendatario o inquilino), este recurso 
+natural para su utilización (Naciones Unidas, 2008). El arriendo es una forma de renta de la propiedad 
+(Naciones Unidas, 2008), por tanto, el pago de los hogares únicamente por el arriendo de terrenos está 
+fuera del alcance de la CCIF y se debe excluir de la clasificación. El lineamiento anterior se encuentra 
+en línea con la definición de “consumo de bienes y servicios” del SCN 2008 que señala lo siguiente: "El 
+consumo de bienes y servicios es el acto de utilizar por completo los bienes y servicios en un proceso 
+de producción o para la satisfacción directa de necesidades o deseos humanos" (Naciones Unidas, 
+2008, párr.9.39). Sobre lo anterior, el arriendo de terrenos para estacionamientos, huertos o animales 
+(por ejemplo, caballos) con fines recreativos no corresponde a un “consumo de la tierra o del terreno”, 
+por lo tanto, el gasto de los hogares relacionados con el arriendo de terrenos para los fines mencionados 
+queda fuera del ámbito de la CCIF (Naciones Unidas, 2018). 
+ 
+Servicios de arriendo 
+ 
+Existen muchas categorías en la CCIF que se relacionan con el “arriendo” o “contratación” de un 
+producto o servicio. El arriendo, en este sentido, se refiere al gasto en el servicio de contratación de un 
+producto o servicio que es propiedad de un tercero y, por tanto, está dentro del ámbito de la CCIF (por 
+ejemplo, arriendo de ropa o muebles). Por otra parte, se debe tener en consideración, que la 
+contratación de contratistas para realizar reparaciones considerables a la vivienda se encuentra fuera 
+del alcance de la CCIF (Naciones Unidas, 2018). 
+ 
+Leasing 
+ 
+El SCN 2008, distingue entre leasing operativo y leasing financiero (Naciones Unidas, 2018). 
+ 
+En el caso del leasing operativo, el propietario legal es a su vez el propietario económico, es decir, quien 
+acepta los riesgos operativos y proporciona el mantenimiento y reparación del activo. El SCN  2008 
+establece que: “Los pagos realizados en virtud de un leasing operativo se denomina arriendo y se 
+registran como pagos por un servicio” (Naciones Unidas, 2008, párr.17.302). Por lo tanto, este tipo de 
+leasing es tratado como un arriendo (Naciones Unidas, 2018). 
+ 
+2 Un DVD-ROM "Disco Versátil Digital de Memoria de Solo Lectura" (del inglés Digital Versatile Disc Read Only Memory). 
+
+
+--- PAGE 13 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+13 
+ 
+En el leasing financiero, el propietario legal transfiere la propiedad económica al arrendatario, que 
+acepta los riesgos operativos y se encarga de la reparación y mantenimiento. En este caso, los pagos 
+no se tratan como arriendos, sino como pagos de intereses y reembolso del capital al 
+propietario/arrendador legal. Por lo tanto, el leasing financiero de un bien se clasifica como compra de 
+un bien (Naciones Unidas, 2018). 
+ 
+2.10 Platos preparados (división 01) y servicios de comidas para llevar (división 11) 
+ 
+En esta nueva versión de la CCIF, los platos preparados se han incorporado a la división 01 debido a 
+la creciente disponibilidad de este tipo de comidas. Los platos preparados se venden, por lo general en 
+supermercados, donde la comida en ocasiones suele ser preparada o cocinada. Los platos preparados 
+se destinan para ser consumidos principalmente en el hogar, tal cual fueron adquiridos o luego de ser 
+calentados, pero nunca cocinados. Cabe señalar que cuando los platos preparados son consumidos en 
+el mismo supermercado o en un mercado, de igual forma, deben ser clasificados en la división 01 
+(Naciones Unidas, 2018). 
+ 
+Por otra parte, los servicios prestados por cafeterías, restaurantes y similares se clasifican en la división 
+11. Estos servicios incluyen desde el servicio integral de comidas (con garzones y a la mesa), así como 
+también, los servicios limitados y de autoservicio. Respecto a la diferencia con los platos preparados 
+de la división 01, el principal componente de los servicios prestados en restaurantes, cafeterías y 
+similares corresponde al precio que se paga por prestar el servicio de cocinar y servir los alimentos, 
+que incluye los bienes como las bebidas y comidas de consumo inmediato. Los productos adquiridos 
+en estos establecimientos deben clasificarse en la división 11, incluso si son consumidos en el hogar. 
+Por tanto, el criterio para distinguir entre la división 01 y la división 11 no es el lugar de consumo (en 
+casa o fuera de casa), sino más bien el tipo de gasto, es decir, si se consume un bien o un servicio 
+(Naciones Unidas, 2018). 
+ 
+El servicio de entrega a domicilio de alimentos de consumo inmediato debe ser clasificado en la división 
+07, cuando el gasto puede ser separado. 
+ 
+2.11 Servicios de la vivienda, domésticos y del hogar 
+ 
+Los servicios que comprenden la división 04 “Vivienda, agua, electricidad, gas y otros combustibles” 
+son los que permiten el uso de la vivienda, por ejemplo, la limpieza del camino para acceder a la 
+vivienda, el deshollinado y el retiro de nieve. Por su parte, los servicios incluidos en la división 05 
+“Muebles, equipamiento para el hogar y mantenimiento rutinario de la vivienda” consideran el 
+mantenimiento o servicios de apoyo al hogar, y no a la vivienda. La división 05 distingue también entre 
+servicios domésticos y otros servicios para el hogar, es decir, el primero se refiere a los servicios 
+prestados por personal remunerado (05.6.2.01.00) empleado por los hogares, tales como, cuidadores 
+de niños, limpiadores, cocineros, mayordomos, jardineros y similares, que reciben una compensación 
+o salario por sus servicios. Además, se incluye dentro de los servicios domésticos, los servicios 
+realizados por empresas o trabajadores por cuenta propia. Por otra parte, los otros servicios para el 
+hogar (05.6.2.09.00), corresponden a servicios que no son prestados habitualmente por personal 
+doméstico, ya sean en forma de empresas o de forma independiente, por ejemplo, la limpieza de 
+alfombras, la exterminación de plagas y similares (Naciones Unidas, 2018). 
+ 
+2.12 Vivienda (división 04) y servicios de alojamiento (grupo 11.2) 
+ 
+La CCIF utiliza los conceptos de vivienda principal, vivienda secundaria y vivienda de vacaciones, 
+definidos según las Recomendaciones Internacionales para las Estadísticas de Turismo (IRTS)3, en sus 
+párrafos 2.26 y 2.27, los que se definen a continuación (Naciones Unidas, 2018). 
+ 
+ 
+3 Por su sigla en inglés “IRTS” (International Recommendations on Tourism Statistics). 
+
+
+--- PAGE 14 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+14 
+Vivienda principal: cada hogar tiene una vivienda principal, la que normalmente se define en relación al 
+tiempo que se pasa en ella y cuya ubicación define el país y lugar de residencia habitual del hogar, así 
+como de todos sus miembros. Para el caso de las demás viviendas, ya sea, arrendadas o propias, se 
+consideran viviendas secundarias (Naciones Unidas, 2018). 
+ 
+Vivienda secundaria: se debe señalar, que no toda vivienda secundaria corresponde a una vivienda de 
+uso vacacional, por ejemplo, cuando una familia vive en una zona rural (en las afueras de la ciudad) 
+con un miembro trabajando en el centro de la ciudad y arrienda o es propietario de una vivienda 
+secundaria en la ciudad, ésta no se considera como vivienda de vacaciones, sino parte del entorno 
+habitual (Naciones Unidas, 2018). 
+ 
+Tanto los gastos de la vivienda principal como secundaria se clasifican en la división 04 “Vivienda, agua, 
+electricidad, gas y otros combustibles”. Los gastos vinculados con los servicios de alojamientos fuera 
+de la vivienda principal o secundaria (excluyendo las casas de vacaciones) como en hoteles, moteles, 
+centros de vacaciones, etc., se clasifican en el grupo 11.2.0.00.00 “Servicios de alojamiento” (Naciones 
+Unidas, 2018). 
+ 
+2.13 Propinas, gratificaciones y pagos no oficiales 
+ 
+El gasto en propinas, gratificaciones y pagos no oficiales (en adelante denominadas solo como 
+propinas) se clasifican con el servicio al que se refiere la propina. Por ejemplo (Naciones Unidas, 2018): 
+ 
+− 
+Entregar propina a una mucama por limpiar la habitación del hotel o al botones por trasladar el 
+equipaje, se considera que la propina está incluida con el gasto por el servicio de alojamiento, 
+es decir, dentro de la subclase 11.2.1.01.00 “Hoteles, moteles, posadas y servicios similares 
+de alojamiento (S)”; 
+ 
+− 
+Las propinas entregadas a los meseros en un restaurante, es un gasto incluido dentro de la 
+subclase 11.1.1.01.00 “Restaurantes, cafés y similares, con servicio completo (S)”; y 
+ 
+− 
+Las propinas a los repartidores de alimentos a domicilio se distribuyen de la siguiente manera: 
+si la tarifa por la entrega de los alimentos está incluida en el costo de los alimentos, este gasto 
+se incluye en la división 11. En cambio, si la entrega de los alimentos es realizada por una 
+empresa diferente o es facturado por separado, el gasto se incluye dentro de la subclase 
+07.4.9.02.00 “Entrega de bienes (S)”. 
+ 
+2.14 Regalos y donaciones 
+ 
+Los desembolsos realizados en regalos o donaciones se registran en el SCN 2008 como transferencias 
+y, por lo tanto, queda fuera del alcance de la CCIF. Por otra parte, los bienes o servicios obtenidos como 
+regalos o donaciones, en SCN 2008, se consideran como gastos de consumo de los hogares 
+receptores. Además, se considera el valor de mercado de los bienes o servicios recibidos. Los costos 
+de los gastos se están cubriendo con las transferencias recibidas tal como se ha señalado antes 
+(Naciones Unidas, 2018). 
+2.15 Gastos de entrega 
+ 
+En toda la CCIF, los gastos de entrega se clasifican por separado del producto entregado, siempre que 
+sea posible (es decir, los gastos de entrega se facturan por separado). La necesidad de realizar esta 
+distinción surge del principio de valoración del SCN 2008, que trata los servicios de transporte 
+facturados por separado como márgenes de transporte. El objetivo es separar el costo del servicio de 
+entrega del costo del producto entregado. Por otra parte, si la entrega y la instalación de un bien se 
+cobra de manera conjunta, por ejemplo, en el caso de los muebles y electrodomésticos, debe 
+clasificarse en la subclase adecuada para la instalación (05.1.2.01.00 para los muebles y 05.3.3.01.00 
+
+
+--- PAGE 15 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+15 
+para los electrodomésticos), ya que la instalación representa probablemente el mayor valor agregado 
+(Naciones Unidas, 2018). 
+ 
+2.16 Otras aclaraciones 
+ 
+En algunas ocasiones, la lógica aplicada para asignar bienes o servicios a determinadas divisiones no 
+es evidente de inmediato. Por ejemplo (Naciones Unidas, 2018): 
+ 
+− 
+Los libros de textos se clasifican en la división 09 “Recreación, deportes y cultura”, en lugar de 
+la división 10 “Servicios de educación”; 
+ 
+− 
+Los alimentos consumidos en un establecimiento de servicio de alimentos (por ejemplo, un 
+restaurante o una cafetería), se clasifican en la división 11 “Servicios de restaurantes y 
+alojamiento” y no en la división 01 “Alimentos y bebidas no alcohólicas”. 
+ 
+Estas situaciones no se tratan de bienes y servicios para finalidades múltiples, sino de la finalidad y tipo 
+de producto predominante. La división 10 se relaciona únicamente con los servicios de educación y, 
+por lo tanto, excluye los gastos en bienes que, por lo general, son requeridos para llevar a cabo los 
+servicios de educación (por ejemplo, libros de texto, uniformes escolares). Los alimentos consumidos 
+en establecimientos de servicio de alimentos suelen incluir un componente de servicio (por ejemplo, 
+para preparar y servir una comida) y, por lo tanto, es más apropiado clasificarlos en la división 11, que 
+está relacionada principalmente con el servicio (Naciones Unidas, 2018). 
+ 
+3 Cambios entre la CCIF 1999 y la CCIF 2018 
+ 
+La revisión de la CCIF 1999, se justificó debido a que los mercados de consumo habían modificado sus 
+requerimientos, por lo que ciertas categorías de la clasificación ya resultaban ser obsoletas en su 
+aplicación, provocando que al incorporar nuevos productos y servicios fuesen difíciles de clasificar y 
+tuviesen límites poco claros. Considerando el escenario antes descrito, la modernización de la 
+clasificación se realizó en base a nuevos patrones de consumo y acotando al máximo rupturas 
+resultantes en las series de tiempo (Naciones Unidas, 2018). 
+ 
+Los cambios más relevantes entre ambas versiones de la clasificación se señalan a continuación. 
+ 
+• 
+Una clasificación más detallada: la CCIF 2018 introduce un cuarto nivel denominado “subclase”. 
+La introducción del nivel de subclase (véase, tabla 1) se realizó por la necesidad de los 
+organismos nacionales de recopilar datos más detallados, de esta forma, mejorar la 
+armonización de la recogida de datos y, en consecuencia, de los resultados. 
+ 
+ 
+Tabla 1. Comparación del número de categorías por nivel de CCIF 1999 - CCIF 2018. 
+Niveles de CCIF 
+Número de categorías 
+CCIF 1999 
+CCIF 2018 
+División 
+14 
+15 
+Grupo 
+58 
+63 
+Clase 
+157 
+186 
+Subclase 
+NA 
+338 
+Fuente: Classification of Individual Consumption According to Purpose (COICOP 2018). 
+Nota. No aplica (NA). 
+ 
+
+
+--- PAGE 16 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+16 
+Respecto a la la nueva versión internacional de la CCIF 2018, destaca lo realizado en la división 
+01 “Alimentos y bebidas no alcohólicas”, para la cual se añadió un detalle complementario sobre 
+estos productos con la finalidad de contar con un marco común y referencial para las listas de 
+alimentos de las encuestas sobre presupuesto de los hogares, así como, mejorar la 
+comparabilidad con diversas fuentes. Señalar de igual forma, que el detalle adicional de la 
+división 01 incluye nuevos productos que se agrupan de acuerdo con su origen (por ejemplo, 
+cereales, carnes, mariscos), donde los productos primarios crudos ocupan el primer lugar de la 
+jerarquía dentro de cada grupo, seguidos de los procesados. Además, en la división 01 se ha 
+incorporado una nueva clase residual para los alimentos preparados y otros productos 
+alimenticios (Naciones Unidas, 2018). 
+ 
+• 
+Mejorar correspondencia entre la CCIF y otras clasificaciones: se consideró pertinente ajustar 
+la correspondencia entre la Clasificación Central de Productos, CPC4, y la CCIF para analizar 
+los flujos de productos. Sin embargo, no es posible alcanzar una correspondencia total entre 
+ambas debido a las diferencias de alcance que presentan las clasificaciones. Por lo demás, la 
+división 06 de CCIF se reestructuró5 con la finalidad de alinearse con la Clasificación 
+Internacional de Cuentas de Salud (ICHA)6 y su familia de clasificaciones. Asimismo, la división 
+10 fue revisada para ajustarse con la Clasificación Internacional Normalizada de la Educación 
+(CINE 2011). 
+ 
+• 
+Cambios estructurales a nivel de división: el nivel más alto de la clasificación, es el nivel de 
+“división” y se mantuvo en gran parte sin cambios para reducir las rupturas en las series 
+temporales. Sin embargo, las divisiones 08 y 09 se reorganizaron considerablemente para 
+convertirse en “Información y comunicación” (división 08) y “Recreación, deportes y cultura” 
+(división 09). El contenido de la división 08 se revisó para abarcar los nuevos equipos para 
+comunicar y recibir información. Dado que la tecnología cambia de manera vertiginosa en este 
+ámbito, la clasificación tiene principalmente una perspectiva de finalidad, e intenta en la medida 
+de lo posible, ser independiente del progreso de la tecnología. 
+ 
+Debido a su heterogeneidad y creciente importancia empírica en determinados países, la 
+anterior división 12 de la CCIF 1999 se separó en dos divisiones, quedando como: división 12 
+“Seguros y servicios financieros” y división 13 “Cuidado personal, asistencia social y bienes y 
+servicios diversos”. Por otra parte, la división 07 de “Transporte”, que en la anterior versión 
+abarcaba solo al transporte de personas, ahora incluye el transporte de mercancías. 
+ 
+• 
+Separación entre bienes y servicios: la CCIF 2018 considera la distinción entre bienes y 
+servicios siempre que sea posible, y por ello, se han creado sistemáticamente nuevas clases o 
+subclases para los servicios, como la reparación, mantenimiento, instalación o el arriendo de 
+productos. 
+ 
+Los gastos en reparaciones suelen incluir los materiales utilizados para la reparación. Sin 
+embargo, siempre que los gastos en materiales puedan identificarse, deben clasificarse por 
+separado del servicio. Otra excepción a esta regla se encuentra en la división 06 “Salud”, en 
+específico los “Servicios de atención a pacientes hospitalizados”, donde en la mayoría de los 
+países, será difícil distinguir entre los bienes y servicios de atención sanitaria recibidos durante 
+una atención hospitalaria, por tanto, en esta categoría, se incluye tanto el servicio como los 
+productos, incluso si son cobrados por separado. 
+ 
+• 
+Modernización de la clasificación: la lista de inclusiones y exclusiones de todas las clases se 
+revisó cuidadosamente para incluir bienes y servicios que no existían cuando se redactó la 
+ 
+4 Conocida por su sigla en inglés como “CPC” (Central Product Classification). 
+5 De acuerdo con sugerencias entregadas por la Organización Mundial de la Salud (OMS). 
+6 Conocida por su sigla en inglés como “ICHA” (International Classification for Health Accounts). 
+
+
+--- PAGE 17 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+17 
+versión anterior de la clasificación (CCIF 1999). A la inversa, se excluyeron de la lista de 
+inclusiones algunos productos que ya no existen en el mercado. 
+ 
+4 Proceso de adaptación del Clasificador Chileno del Consumo 
+Individual por Finalidades, CCIF 2018.CL 
+ 
+4.1 
+Antecedentes de la adaptación 
+ 
+El organismo responsable de la creación y actualización de las adaptaciones nacionales de los 
+clasificadores estadísticos es el Instituto Nacional de Estadísticas (INE), y debido a la necesidad de la 
+Institución de contar con estándares actualizados para la producción de estadísticas, es que se inicia 
+en el 2019 el proceso de adaptación de la clasificación, con base en la última versión internacional del 
+Clasificador del Consumo Individual por Finalidades (CCIF, 2018). Lo anterior, con el objetivo de 
+considerar la realidad nacional, en términos de reflejar los diferentes cambios que ha sostenido el 
+consumo en el transcurso del tiempo, por ejemplo, en el ámbito tecnológico, hábitos alimenticios o el 
+uso masivo de servicios virtuales a través de aplicaciones e Internet. 
+ 
+El proceso de adaptación se inició con la conformación de una mesa de trabajo institucional, la cual fue 
+integrada por el Departamento de Estadísticas Demográficas y Sociales, representado por el 
+Subdepartamento de Estadísticas Socioeconómicas; el Departamento de Estadísticas de Precios y el 
+Departamento de Metodologías e Innovación Estadística, a través del Subdepartamento de Calidad y 
+Estándares, en consideración a los diferentes productos estadísticos que representan y que se 
+involucran en el proceso de adaptación de la CCIF. Resulta importante indicar que, la adaptación 
+requirió en una determinada ocasión la colaboración de una institución externa, debido a la idoneidad 
+de su experiencia en la temática a resolver. Cada equipo interviniente cumplió un rol relevante desde 
+sus diferentes áreas de conocimiento, aportando desde su experiencia, señalando sus principales 
+necesidades y requerimientos en términos de la adaptación, generando propuestas de 
+desagregaciones y fusiones de los bienes y servicios, además, de las respectivas descripciones de las 
+categorías. 
+ 
+En lo particular, el Departamento de Metodologías e Innovación Estadística, también contribuyó al 
+proceso de adaptación nacional de la CCIF con la participación de la Sección de Nomenclaturas en su 
+rol activo como área encargada del desarrollo de las diversas adaptaciones nacionales de las 
+clasificaciones estadísticas a nivel institucional. Dentro de las funciones que debe realizar la Sección, 
+se considera la revisión de la pertinencia de las clasificaciones que ameriten ser actualizadas, además, 
+de velar en todo momento por el cumplimiento de los principios básicos de las clasificaciones 
+estadísticas al momento de realizar una adaptación.  
+ 
+El trabajo realizado en función de la adaptación nacional contempló tareas de diversa índole, que van 
+desde la traducción de la versión internacional de la CCIF 2018, pasando por la revisión exhaustiva de 
+cada división hasta obtener un borrador de la adaptación. Es así, como en el 2020 se obtiene una 
+versión preliminar de la estructura y contenido denominada CCIF 2018.CL, marcando así el cierre de la 
+primera etapa. 
+ 
+Posteriormente, se inició un segundo proceso de revisión de la versión preliminar CCIF 2018.CL, que 
+consistió en afinar detalles de la adaptación nacional. Dentro de este proceso, en el 2021, el 
+Departamento de Estadísticas Demográficas y Sociales, se contactó con el Departamento de Economía 
+de la Salud del Ministerio de Salud, con la finalidad de contar con su revisión y aprobación respecto a 
+la división 06 “Salud”. 
+ 
+Durante el 2022 y 2023, se finalizó la revisión de la versión preliminar que dio como resultado la 
+adaptación nacional de la CCIF 2018.CL, que consideró cambios a nivel de estructura en relación a la 
+
+
+--- PAGE 18 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+18 
+versión internacional y mejoras en determinadas notas explicativas que lo requerían desde el punto de 
+vista de la realidad nacional. 
+ 
+4.2 
+Objetivos de la adaptación nacional 
+ 
+La CCIF 2018.CL, tiene por objetivo mejorar la calidad, comparabilidad y homologación estadística 
+mediante la utilización del estándar internacional de clasificación de gastos de los hogares 
+recomendados por las Naciones Unidas (CCIF 2018). 
+ 
+Los objetivos de esta adaptación nacional son los siguientes: 
+ 
+• 
+Ser un instrumento normalizado para el tratamiento uniforme de los datos de gastos de los 
+hogares a nivel nacional. 
+ 
+• 
+Contener bienes y servicios nacionales relevantes para la economía del país. 
+ 
+• 
+Contar con notas explicativas que se ajusten al lenguaje nacional. 
+ 
+• 
+Responder a las necesidades de los usuarios. 
+ 
+• 
+Facilitar el uso en la codificación de gastos de consumo de los hogares. 
+ 
+4.3 
+Estructura de CCIF 2018.CL 
+ 
+La CCIF 2018.CL, corresponde a la adaptación nacional en base a la versión internacional de la CCIF 
+2018. La adaptación se conforma de cinco categorías o niveles jerárquicos: división, grupo, clase, 
+subclase y producto. La estructura de los códigos de la adaptación consta de ocho dígitos en todos sus 
+niveles como se muestra en la tabla 2. 
+ 
+Tabla 2. Ejemplo de estructura de CCIF 2018.CL. 
+Niveles 
+Códigos 
+Glosa CCIF 2018.CL 
+División 
+07.0.0.00.00 
+Transporte 
+Grupo 
+07.1.0.00.00 
+Compra de vehículos 
+Clase 
+07.1.1.00.00 
+Vehículos automotores (D) 
+Subclase 
+07.1.1.01.00 
+Vehículos automotores nuevos (D) 
+Producto 
+07.1.1.01.01 
+Automóviles nuevos 
+Fuente: Elaboración propia. 
+ 
+Respecto a la utilidad de separar los bienes y servicios, se estimó relevante replicar la distinción 
+realizada en CCIF 2018 en las clases y subclases, en consideración de los productos como bienes 
+duraderos “D”, semiduraderos “SD” y no duraderos “ND”, y de los servicios “S” para fines analíticos. Por 
+lo tanto, en la CCIF 2018.CL fueron incorporados hasta el nivel de subclase en concordancia a la versión 
+internacional. 
+ 
+En la tabla 3 se muestra la estructura comparativa entre CCIF 2018 y CCIF 2018.CL, en cuanto a los 
+niveles y la cantidad de categorías de ambas clasificaciones, quedando de manifiesto que la CCIF 
+2018.CL, mantiene los mismos niveles que la versión internacional hasta el nivel de “subclase”. 
+Además, la adaptación añade un nivel adicional denominado “producto” con la finalidad de reflejar de 
+mejor forma la realidad nacional. 
+ 
+
+
+--- PAGE 19 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+19 
+En términos comparativos, existen modificaciones de la estructura de la clasificación nacional respecto 
+a la internacional; a nivel de grupo se incorporan 12 categorías utilizadas para identificar los gastos no 
+desglosados a nivel de división, (para mayor detalle véase, pág. 20 "No desglosados").A nivel de clase, 
+se fusionan categorías, por ejemplo, en la división 04, la combinación de las clases internacionales 
+04.4.1 “Suministro de agua” y 04.4.3 “Recolección de aguas residuales” en una nueva clase 
+04.4.5.00.00 “Suministro de agua y recolección de aguas residuales (S)”. Además, de nuevas 
+desagregaciones como la creación de la clase 12.1.5.00.00 “Seguros asociados a instrumentos 
+financieros (S)” en la división 12. De forma similar, a nivel de subclase se observan cambios de la misma 
+naturaleza (fusión y desagregación). Estos y otros cambios serán señalados con mayor detalle en el 
+punto 5. “Principales cambios entre la CCIF 2018 y CCIF 2018.CL”. 
+ 
+En el caso de las divisiones 14 y 15 de la CCIF 2018.CL, se mantuvieron sin modificaciones respecto a 
+la versión internacional, ya que la adaptación puso énfasis en los gastos del consumo individual de los 
+hogares. Por lo tanto, con el propósito de mantener la consistencia en la estructura de la clasificación, 
+estas divisiones homologan el nivel creado por la adaptación, es decir, “producto”, con el último nivel 
+de la versión internacional “subclase”. 
+ 
+Tabla 3. Estructura comparativa entre CCIF 2018 y CCIF 2018.CL. 
+Divisiones 
+Grupos 
+Clases 
+Subclases 
+Productos 
+CCIF 
+2018 
+CCIF 
+2018.CL 
+CCIF 
+2018 
+CCIF 
+2018.CL 
+CCIF 
+2018 
+CCIF 
+2018.CL 
+CCIF 
+2018 
+CCIF 
+2018.CL 
+01 
+3 
+4 
+17 
+18 
+69 
+70 
+NA 
+305 
+02 
+4 
+5 
+7 
+8 
+10 
+11 
+NA 
+23 
+03 
+2 
+3 
+6 
+7 
+13 
+17 
+NA 
+94 
+04 
+5 
+6 
+15 
+15 
+24 
+23 
+NA 
+45 
+05 
+6 
+7 
+13 
+14 
+31 
+32 
+NA 
+113 
+06 
+4 
+5 
+11 
+12 
+19 
+21 
+NA 
+84 
+07 
+4 
+5 
+16 
+17 
+32 
+33 
+NA 
+93 
+08 
+3 
+4 
+13 
+14 
+17 
+18 
+NA 
+46 
+09 
+8 
+9 
+24 
+25 
+41 
+44 
+NA 
+107 
+10 
+5 
+6 
+5 
+6 
+7 
+9 
+NA 
+34 
+11 
+2 
+3 
+3 
+4 
+8 
+9 
+NA 
+56 
+12 
+2 
+3 
+8 
+10 
+10 
+12 
+NA 
+30 
+13 
+4 
+4 
+8 
+9 
+17 
+20 
+NA 
+81 
+14 
+6 
+6 
+22 
+22 
+22 
+22 
+NA 
+22 
+15 
+5 
+5 
+18 
+18 
+18 
+18 
+NA 
+18 
+Total 
+63 
+75 
+186 
+199 
+338 
+359 
+NA 
+1.151 
+Fuente: Elaboración propia. 
+Nota. No aplica (NA). 
+ 
+Para asegurar la exhaustividad de la clasificación, se utilizan códigos residuales con la finalidad de 
+clasificar los elementos que no se ajustan en el resto de las categorías. Para el caso de la CCIF 
+2018.CL, se utilizan dos tipos de códigos: 
+ 
+− 
+Residuales: creados para clasificar gastos en bienes y/o servicios que no se encuentran 
+contenidos en categorías anteriores. Su numeración termina con “99” y su denominación 
+incluye la extensión “n.c.p”, por ejemplo: 08.1.9.01.99 “Otros equipos de información y 
+comunicación n.c.p”. Los códigos residuales se suelen incluir al final de la estructura del nivel 
+correspondiente (véase, tabla 4). 
+
+
+--- PAGE 20 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+20 
+ 
+− 
+Sub residuales: los sub residuales, se conforman a partir de la agrupación de categorías 
+similares con el objetivo de asegurar la exhaustividad en los niveles más desagregados y son 
+creados con el objeto de contar con categorías balanceadas en términos del tamaño y evitar 
+una sobrecarga y desequilibro en el contenido de los códigos residuales. La ubicación de los 
+sub residuales dentro del nivel de la clasificación no es al final de la estructura como es el caso 
+del código residual, sino que se encuentran ubicados anterior a éste (véase, tabla 4). 
+ 
+Tabla 4. Ejemplo de extracto de códigos residuales y sub residuales subclase 01.1.2.02.00 "Carne 
+fresca, refrigerada o congelada (ND)". 
+Código 
+Glosa CCIF 2018.CL 
+Caracterización del código 
+01.1.2.02.00 
+Carne fresca, refrigerada o congelada 
+(ND) 
+Subclase para todas las carnes frescas, 
+refrigeradas o congeladas 
+01.1.2.02.01 
+Carne de vacuno corte asiento 
+Agrupación de los cortes de carne de 
+vacuno 
+01.1.2.02.02 
+Carne de vacuno corte lomo vetado 
+01.1.2.02.03 
+Carne de vacuno corte lomo liso y filete 
+01.1.2.02.04 
+Carne de vacuno corte posta 
+01.1.2.02.05 
+Carne de vacuno molida 
+01.1.2.02.06 
+Otros cortes de carne de vacuno 
+Sub residual cortes carne de vacuno 
+01.1.2.02.07 
+Cortes de carne de vacuno no 
+identificados 
+Carne de vacuno sin corte identificado 
+01.1.2.02.08 
+Carne de cerdo corte chuleta 
+Agrupación de los cortes de carne de 
+cerdo 
+01.1.2.02.09 
+Carne de cerdo corte costillar 
+01.1.2.02.10 
+Carne de cerdo corte pulpa 
+01.1.2.02.11 
+Otros cortes de carne de cerdo 
+Sub residual cortes carne de cerdo 
+01.1.2.02.99 
+Carne fresca, refrigerada o congelada de 
+otros tipos de animales n.c.p. 
+Residual general con extensión n.c.p 
+para la inclusión de carnes de otros 
+animales no mencionados en los 
+códigos anteriores 
+Fuente: Elaboración propia. 
+Nota. No se señalan todos los códigos de la subclase 01.1.2.02.00, solo se consideran las carnes de vacuno y cerdo. 
+ 
+Los códigos residuales no deben ser utilizados en aquella información recolectada de forma ambigua o 
+poco precisa, ya que para esos casos es necesario contar con categorías complementarias para tal 
+finalidad. En el caso de la CCIF 2018.CL, fueron incorporados dos tipos de códigos complementarios 
+como parte de la estructura del clasificador. Cabe señalar, que el objetivo de estos códigos, además de 
+ser un requerimiento propio de las operaciones estadísticas del INE, permitirá estandarizar y facilitar 
+para cualquier usuario o productor de información, el tratamiento de los bienes o servicios que en el 
+proceso de recolección resultaron complejos de capturar: 
+ 
+− 
+No identificados: se refiere a categorías creadas para clasificar gastos en bienes y/o servicios 
+donde se requiere especificar mayor detalle, por ejemplo, el tipo, variedad, procedencia, 
+especie, formato, etc. (véase, tabla 5). 
+ 
+− 
+No desglosados: son categorías creadas para clasificar gastos en bienes y/o servicios donde 
+se declara un valor único que corresponde al gasto realizado en más de un bien y/o servicio, 
+sin embargo, son productos que se comercializan por separado, donde cada uno tiene su propio 
+valor. A diferencia de los productos en formato de pack o combo cuya naturaleza considera dos 
+o más productos comercializados de forma conjunta bajo un solo valor, para los productos 
+clasificados en esta categoría, no se dispone del desglose del consumo de forma individual 
+
+
+--- PAGE 21 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+21 
+debido a las dificultades en el proceso de recolección para capturar el dato preciso (véase, tabla 
+5). 
+ 
+Tabla 5. Códigos residuales, no identificados y no desglosados subclase 03.2.1.05.00 "Accesorios 
+para calzado, calzado no identificado, no desglosado y otros tipos de calzado n.c.p. (SD)". 
+Código 
+Glosa CCIF 2018.CL 
+Caracterización del código 
+03.2.1.05.00 
+Accesorios para calzado, 
+calzado no identificado, no 
+desglosado y otros tipos de 
+calzado n.c.p. (SD) 
+Categoría para accesorios para calzado, 
+calzados no identificado, no desglosado y otros 
+tipos de calzado n.c.p. (SD) 
+03.2.1.05.01 
+Accesorios para calzado 
+Categoría para los accesorios de calzado 
+03.2.1.05.02 
+Calzado no identificado 
+Categoría para codificar información que no 
+cuenta con el detalle respecto al tipo de 
+calzado (zapatillas, zapatos formales, etc.), o 
+bien al usuario (hombre, mujer, niño, niña, etc.) 
+para el cual va destinado 
+03.2.1.05.88 
+Calzado no desglosado 
+Categoría para codificar compras agregadas 
+de diferentes tipos de calzado (zapatillas, 
+zapatos formales, etc.) o diferentes tipos de 
+usuarios (hombre, mujer, niño, niña, etc.) 
+03.2.1.05.99 
+Otros tipos de calzado n.c.p. 
+Categoría para codificar otros tipos de calzado 
+n.c.p. 
+Fuente: Elaboración propia. 
+ 
+Para la producción de estadísticas, es importante comentar que los códigos “No identificados” y “No 
+desglosados” son de uso excepcional, debiendo asegurar, en primera instancia, la aplicación de los 
+criterios de la CCIF en los procesos de recolección, así como los protocolos del usuario de la 
+clasificación para los casos que se requiera de información adicional o aclaración de esta. 
+ 
+5 Principales cambios entre la CCIF 2018 y CCIF 2018.CL 
+ 
+El Clasificador Chileno del Consumo Individual por Finalidades, CCIF 2018.CL, mantiene la estructura 
+de la CCIF 2018 de forma general. Sin embargo, como parte del proceso de adaptación de la 
+clasificación, se realizaron diversas modificaciones que permitieron reflejar, de mejor manera la 
+estructura del consumo nacional y los requerimientos de distintos usuarios de la clasificación. 
+Algunas de las modificaciones antes señaladas, se relacionan con: 
+ 
+• 
+Ajuste en la denominación de glosas y descripciones de las notas explicativas, adecuándose a 
+la terminología del país. 
+ 
+• 
+Incorporación de sinónimos para bienes o servicios con el fin de que la adaptación sea lo más 
+descriptiva y detallada posible. 
+ 
+• 
+Incorporación de denominaciones en inglés y español de forma simultánea para los casos en 
+que se considere una ayuda el indicar ambas formas de designación. 
+ 
+• 
+Incorporación de ejemplos de productos o servicios, ya sea en el ítem de lo que se incluye o 
+excluye en cada una de las categorías. 
+ 
+• 
+Modificación en la cantidad de dígitos de la numeración, de forma específica para el nivel de 
+subclase quedando en dos dígitos en la adaptación (CCIF 2018, 01.1.1.1 “Cereales (ND)”; CCIF 
+2018.CL, 01.1.1.01.00 “Cereales (ND)”). 
+ 
+• 
+Incorporación de un nivel de desagregación adicional denominado “producto” representado por 
+los dos últimos dígitos del código (véase, tabla 6). Tal como se señaló, en el punto 4.3 
+
+
+--- PAGE 22 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+22 
+“Estructura de CCIF 2018.CL”, un código expresado en su máximo nivel de detalle en la 
+adaptación nacional contiene un total de ocho dígitos. 
+ 
+Tabla 6. Comparación del número de categorías por nivel de CCIF 2018 - CCIF 2018.CL. 
+Niveles de CCIF 
+Número de categorías 
+CCIF 2018 
+CCIF 2018.CL 
+División 
+15 
+15 
+Grupo 
+63 
+75 
+Clase 
+186 
+199 
+Subclase 
+338 
+359 
+Producto 
+NA 
+1.151 
+Fuente. Elaboración propia. 
+Nota. No aplica (NA). 
+ 
+ 
+Principales cambios realizados a nivel de clase 
+ 
+A este nivel, se realizaron algunas modificaciones en términos de fusión y desagregación de clases. 
+Estos cambios, principalmente se visualizan en las divisiones 04 y 12 de CCIF 2018.CL y se detallan a 
+continuación: 
+ 
+• 
+En la división 04 de la CCIF 2018, se mencionan las clases 04.4.1 “Suministro de agua” y 04.4.3 
+“Recolección de aguas residuales”, las que en el proceso de adaptación nacional fueron 
+fusionadas incluyendo el contenido de sus notas explicativas, creando la nueva clase 
+04.4.5.00.00 “Suministro de agua y recolección de aguas residuales (S)”. Lo anterior responde 
+a la dificultad técnica que implica en los procesos de recolección el identificar ambos gastos de 
+forma separada. A raíz de lo anterior, la numeración del grupo 04.4.0.00.00 “Suministro de agua 
+y servicios diversos relacionados con la vivienda” de la adaptación no es secuencial, sino que 
+se estructura de la siguiente forma: 
+ 
+• 
+04.4.2.00.00 “Recolección de desechos (S)”, 
+ 
+• 
+04.4.4.00.00 “Otros servicios relacionados con la vivienda n.c.p. (S)”, 
+ 
+• 
+04.4.5.00.00 “Suministro de agua y recolección de aguas residuales (S)”. 
+ 
+La decisión de la no secuencialidad tiene que ver con visibilizar la modificación de estructura 
+llevada a cabo, respecto a la versión internacional. 
+ 
+• 
+En la división 12 de la CCIF 2018, no existe la nueva clase 12.1.5.00.00 “Seguros asociados a 
+instrumentos financieros (S)”, creada en la adaptación por solicitud de los usuarios 
+institucionales para identificar este gasto por separado de los demás seguros mencionados en 
+el grupo 12.1.0.00.00 “Seguros”. 
+ 
+Principales cambios realizados a nivel de subclase 
+ 
+A nivel de subclase, las categorías que sufren cambios se encuentran contenidas principalmente en las 
+divisiones 03, 04, 06, 09, 10, 12 y 13 de CCIF 2018.CL, las que se detallan a continuación: 
+ 
+• 
+En la división 03, a diferencia de la CCIF 2018, se incorporaron 3 nuevas subclases en la 
+adaptación nacional. Esto se debe a la creación de: 
+ 
+
+
+--- PAGE 23 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+23 
+• 
+03.1.2.05.00 “Vestuario no identificado, no desglosado y otros tipos de vestuario n.c.p. 
+(SD)”, con la finalidad de clasificar el “Vestuario no identificado”, es decir, cuyo tipo de 
+prenda o usuario no es posible identificar (03.1.2.05.01); además, para el “Vestuario no 
+desglosado” que, tal como su nombre lo indica, abarca el vestuario, que no es posible 
+desglosar por producto (03.1.2.05.88) y los “Otros tipos de vestuario n.c.p.” para 
+hombres o niños, mujeres o niñas, lactantes o escolares (03.1.2.05.99); 
+ 
+• 
+03.2.1.04.00 “Calzado escolar (SD)” con el objetivo de clasificar de forma 
+individualizada el calzado escolar; y 
+ 
+• 
+03.2.1.05.00 “Accesorios para calzado, calzado no identificado, no desglosado y otros 
+tipos de calzado n.c.p. (SD)” para identificar lo siguiente: “Accesorios para calzado” 
+como cordones, plantillas y partes del calzado como tacones y suelas (03.2.1.05.01); 
+“Calzado no identificado”, que no permite distinguir el tipo o al usuario para el cual va 
+destinado (03.2.1.05.02); “Calzado no desglosado”, tanto por compras agregadas de 
+diferentes tipos de calzado como por compras agregadas de diferentes tipos de 
+usuarios (03.2.1.05.88); y ”Otros tipos de calzado n.c.p.” (03.2.1.05.99). 
+ 
+• 
+En la división 04 de la CCIF 2018 “Vivienda, agua, electricidad, gas y otros combustibles”, se 
+mencionan las subclases internacionales 04.4.1.1 “Suministro de agua por cañerías”, 04.4.1.2 
+“Otros sistemas de suministro de agua”, 04.4.3.1 “Recolección de aguas residuales por 
+alcantarillado” y 04.4.3.2 “Recolección de aguas residuales a través de sistemas de 
+saneamiento in situ”. Estas fueron fusionadas en el proceso de adaptación nacional, 
+manteniendo el contenido de las notas explicativas de las subclases de origen, creando las 
+nuevas subclases: 
+ 
+• 
+04.4.5.01.00 “Suministro de agua potable por cañerías y recolección de aguas 
+residuales por alcantarillado (S)”, y 
+ 
+• 
+04.4.5.02.00 “Otros sistemas de suministro de agua y recolección de aguas residuales 
+(S)”. 
+ 
+• 
+En la división 06 de la CCIF 2018, se presentan en la subclase internacional 06.4.1.0 “Servicios 
+de diagnóstico por imagen y servicios de laboratorio médico” que incluye el servicio de toma de 
+muestras, por ejemplo, análisis de orina o sangre, junto a los servicios de diagnóstico por 
+imágenes como resonancia magnética, ecografía, entre otros. Sin embargo, por recomendación 
+del Ministerio de Salud (MINSAL) se consideró dividir la información de la subclase original en 
+dos subclases, quedando de la siguiente forma: 
+ 
+• 
+06.4.1.01.00 “Servicios de diagnóstico por imagen (S)”, considerando todos los 
+servicios de diagnóstico por imágenes (tomografía computarizada, resonancia 
+magnética, ecografía); y 
+ 
+• 
+06.4.1.02.00 “Servicios de laboratorio médico (S)”, que incluye solo los servicios de 
+laboratorios de análisis médicos (por ejemplo, análisis de orina/sangre). 
+ 
+• 
+En la división 09 de la CCIF 2018, los paquetes turísticos son presentados de forma específica 
+en la subclase 09.8.0.0 “Paquetes turísticos”. En la adaptación nacional fueron creadas dos 
+nuevas subclases para identificar los viajes nacionales e internacionales no desglosados: 
+ 
+• 
+09.8.1.02.00 “Viajes nacionales no desglosados (S)”, y 
+ 
+• 
+09.8.1.03.00 “Viajes internacionales no desglosados (S)”. 
+ 
+• 
+En la división 10 de la CCIF 2018, la educación secundaria es presentada en la versión 
+internacional en una subclase específica 10.2.0.0 “Educación secundaria”. Sin embargo, en la 
+
+
+--- PAGE 24 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+24 
+adaptación nacional la educación secundaria fue dividida en alta y baja para mantener 
+concordancia con el sistema educacional chileno, quedando desagregada en dos subclases: 
+ 
+• 
+10.2.1.01.00 “Educación secundaria baja (S)”, y 
+ 
+• 
+10.2.1.02.007 “Educación secundaria alta (S)”, 
+ 
+• 
+En la división 12 de la adaptación nacional se crea la nueva clase 12.1.5.00.00 “Seguros 
+asociados a instrumentos financieros”, que se desagrega en una única subclase: 
+ 
+• 
+12.1.5.01.00 “Seguros asociados a instrumentos financieros (S)”. 
+ 
+• 
+En la división 13 de la CCIF 2018, la clase 13.1.2 “Otros aparatos, artículos y productos para el 
+cuidado personal” se desagrega solo en la subclase 13.1.2.0 “Otros aparatos, artículos y 
+productos para el cuidado personal”. Sin embargo, en la CCIF 2018.CL, se añaden tres 
+subclases, quedando de la siguiente forma: 
+ 
+• 
+13.1.2.01.00 “Artículos no eléctricos para el cuidado personal (ND)” donde se clasifican 
+artículos no eléctricos tales como, máquinas de afeitar (desechables o no), cortadoras 
+de pelo y los repuestos para estos productos, tijeras, limas para uñas, cepillos para el 
+cabello, cepillos de dientes, rizadores, balanzas o pesas personales, etc.; 
+ 
+• 
+13.1.2.02.00 “Artículos para la higiene y cuidado personal (ND)” donde se incluyen 
+artículos para la higiene personal tales como, jabones de tocador, aceites y leches de 
+limpieza, cremas y espumas de afeitar, pasta de dientes, pañuelos de papel, etc.; y 
+ 
+• 
+13.1.2.03.00 “Artículos cosméticos (ND)” como esmalte de uñas, maquillaje y productos 
+para desmaquillar (incluidos los polvos compactos, brochas y almohadillas o 
+aplicadores de polvos cosméticos), lociones para el cabello, productos bronceadores, 
+ceras de depilación, perfumes y aguas de tocador, etc. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7 Para ambas subclases, en la CCIF 2018.CL, dentro de sus notas explicativas se indica la correspondencia entre la Clasificación Internacional Normalizada de Educación (CINE 2011) y el 
+sistema educacional chileno. 
+
+
+--- PAGE 25 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+25 
+6 Estructura general CCIF 2018.CL 
+ 
+6.1 
+Estructura general 
+ 
+División 
+Glosa de División 
+01.0.0.00.00 
+Alimentos y bebidas no alcohólicas 
+02.0.0.00.00 
+Bebidas alcohólicas, tabaco y estupefacientes 
+03.0.0.00.00 
+Vestuario y calzado 
+04.0.0.00.00 
+Vivienda, agua, electricidad, gas y otros combustibles 
+05.0.0.00.00 
+Muebles, equipamiento para el hogar y mantenimiento rutinario de la vivienda 
+06.0.0.00.00 
+Salud 
+07.0.0.00.00 
+Transporte 
+08.0.0.00.00 
+Información y comunicación 
+09.0.0.00.00 
+Recreación, deportes y cultura 
+10.0.0.00.00 
+Servicios de educación 
+11.0.0.00.00 
+Servicios de restaurantes y alojamiento 
+12.0.0.00.00 
+Seguros y servicios financieros 
+13.0.0.00.00 
+Cuidado personal, asistencia social y bienes y servicios diversos 
+14.0.0.00.00 
+Gastos de consumo individual de las Instituciones Sin Fines de Lucro que sirven a 
+los Hogares (ISFLSH) 
+15.0.0.00.00 
+Gastos de consumo individual del gobierno general 
+ 
+ 
+
+
+--- PAGE 26 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+26 
+División 01.0.0.00.00 
+Alimentos y bebidas no alcohólicas 
+La división 01.0.0.00.00 está compuesta por el grupo de alimentos (01.1.0.00.00) y de bebidas no 
+alcohólicas (01.2.0.00.00) compradas por el hogar principalmente para el consumo y/o la preparación 
+en el hogar. 
+Junto con ello, en esta división también se encuentran los servicios para el procesamiento de bienes 
+primarios que permiten producir alimentos y bebidas no alcohólicas para el consumo (01.3.0.00.00). 
+Los alimentos están compuestos por todos los bienes comestibles que son comprados y consumidos 
+por el hogar con el propósito de comer, alimentarse y/o nutrirse. Incluye cereales y productos de 
+cereales; carne; pescado y otros productos comestibles del mar; leche y otros productos lácteos; 
+huevos; aceites y grasas; frutas frescas y frutos secos; verduras, tubérculos, plátanos y bananas; 
+legumbres; azúcar, confites y postres; sal, salsas y condimentos, especias, hierbas y semillas culinarias. 
+La división 01.0.0.00.00 también incluye alimentos para bebés y platos preparados que se pueden 
+comer como están o bien, que pueden ser consumidos después de calentarlos. Las bebidas no 
+alcohólicas incluyen aquellas bebidas que no contienen alcohol. 
+Excluye alimentos y bebidas no alcohólicas que se proporcionan como parte de un servicio de 
+alimentación (división 11.0.0.00.00). 
+ 
+Grupo 01.1.0.00.00 
+Alimentos 
+Alimentos comprados por el hogar principalmente para el consumo inmediato y/o la preparación en el 
+hogar. 
+Los alimentos están compuestos por todos los bienes comestibles que son comprados y consumidos 
+por el hogar con el propósito de comer, alimentarse y/o nutrirse. Incluye cereales y productos de 
+cereales; carne; pescado y otros productos comestibles del mar; leche y otros productos lácteos; 
+huevos; aceites y grasas; frutas frescas y frutos secos; verduras, tubérculos, plátanos y bananas; 
+legumbres; azúcar, confites y postres; sal, salsas y condimentos, especias, hierbas y semillas culinarias. 
+Incluye: 
+- productos que necesitan ser cocinados y preparados, así como alimentos preparados. 
+Excluye: 
+- servicios de entrega local de alimentos o bebidas, cuando se cobran por separado 
+(07.4.9.02.01); 
+- productos para la alimentación animal (09.3.2.02.01); 
+- alimentos provistos por los servicios de alimentación (11.0.0.00.00). 
+ 
+Clase 01.1.1.00.00 
+Cereales y productos de cereal (ND) 
+ 
+ 
+
+
+--- PAGE 27 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+27 
+Subclase 01.1.1.01.00 
+Cereales (ND) 
+Esta categoría contiene granos de cereales secos, quebrados o precocidos (al vapor), pero sin otra 
+preparación. 
+Incluye: 
+- trigo; 
+- arroz, incluido el arroz parbolizado (o vaporizado); 
+- sorgo; 
+- cebada; 
+- mijo; 
+- maíz; 
+- quinoa; 
+- teff. 
+También incluye: 
+- bulgur (o burgul); 
+- centeno; 
+- avena; 
+- triticale; 
+- alforfón (o trigo sarraceno); 
+- alpiste; 
+- quihuicha o trigo inca; 
+- cañahua, cañihua o kañiwa; 
+- adlay o las lágrimas de Job; 
+- granos de cereales mezclados, en forma de granos secos, que también incluyen otros 
+ingredientes (siempre que estos no sean el ingrediente principal) pero sin otro procesamiento. 
+Excluye: 
+- harina de cereales (01.1.1.02.00); 
+- cereales para el desayuno (01.1.1.04.01); 
+- preparaciones elaboradas a base de cereales, como sopas preparadas a base de cereales 
+(01.1.9.01.04); 
+- cereales de arroz para bebés y otros cereales para bebés (01.1.9.02.01); 
+- sopas y cremas en polvo (01.1.9.09.01); 
+- semillas para siembra (09.3.1.02.02). 
+ 
+
+
+--- PAGE 28 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+28 
+Producto 01.1.1.01.01 
+Arroz 
+Incluye: 
+- arroz de todos los tipos como arroz grado 1, grado 2, grado 3, sea grano corto, largo o partido, 
+arroz para sopa, arroz sin grado; arroz especialidades de preparación rápida, arroz a granel, arroz 
+integral, arroz para sushi, arroz tipo primavera para cocinar, etc. 
+ 
+Producto 01.1.1.01.02 
+Maíz 
+Incluye: 
+- maíz seco. 
+Excluye: 
+- choclos frescos (01.1.7.04.06); 
+- choclos congelados (01.1.7.08.01); 
+- choclos en conserva (01.1.7.09.03). 
+ 
+Producto 01.1.1.01.03 
+Quinoa 
+Incluye: 
+- quinoa. 
+Excluye: 
+- harina de quinoa (01.1.1.02.99); 
+- quinoa pop (01.1.1.09.02). 
+ 
+Producto 01.1.1.01.04 
+Avena 
+Incluye: 
+- avena en grano. 
+Excluye: 
+- avena instantánea (01.1.1.04.01); 
+- avena tradicional (cruda) (01.1.1.04.01). 
+ 
+ 
+
+
+--- PAGE 29 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+29 
+Producto 01.1.1.01.99 
+Otros cereales n.c.p. 
+Incluye: 
+- trigo, germen y salvado de trigo, sorgo, cebada, mijo, teff, bulgur (o burgul), centeno, triticale, 
+alforfón (o trigo sarraceno), alpiste, quihuicha o trigo inca, canagua o cañahua, cañihua o kañiwa, 
+adlay o las lágrimas de Job, granos de cereales mezclados, en forma de granos secos, que 
+también incluyen otros ingredientes (siempre que estos no sean el ingrediente principal) pero sin 
+otro procesamiento. 
+Excluye: 
+- mote o trigo mote (01.1.1.09.99). 
+ 
+Subclase 01.1.1.02.00 
+Harina de cereales (ND) 
+Harina de los cereales mencionados en la subclase 01.1.1.01.00 ya sea instantánea (precocida - al 
+vapor - o que contiene levaduras) o no. 
+Incluye: 
+- harina de los cereales mencionados en la subclase 01.1.1.01.00. 
+También incluye: 
+- harina instantánea para productos de panadería o que contiene levaduras; 
+- harina de polenta, ya sea instantánea (precocida) o no. 
+Excluye: 
+- harina como alimento para bebés, cereales de arroz para bebés y otros cereales para bebés 
+(01.1.9.02.01). 
+ 
+Producto 01.1.1.02.01 
+Harina de trigo blanca 
+Incluye: 
+- harina de trigo envasada, a granel, harina de flor, con o sin polvos de hornear, harina de fuerza. 
+Excluye: 
+- harina integral de trigo (01.1.1.02.99); 
+- mezclas para productos de panadería, por ejemplo, mezclas para pan, tortas o queques 
+(01.1.1.09.01); 
+- azúcar flor (01.1.8.01.01). 
+ 
+ 
+
+
+--- PAGE 30 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+30 
+Producto 01.1.1.02.99 
+Harinas de otros cereales n.c.p. 
+Incluye: 
+- harina de arroz, harina de fécula de maíz (maicena), harina integral de todos los cereales 
+(incluido trigo), harina de cebada, harina de linaza, harina de quinoa, harina de arvejón, harina 
+tostada, harina de polenta y otras harinas de los cereales incluidos en la subclase 01.1.1.01.00, 
+excepto la harina de trigo blanca. 
+Excluye: 
+- mezclas para productos de panadería, por ejemplo, mezclas para pan, tortas o queques 
+(01.1.1.09.01); 
+- harina de frutas y frutos secos (01.1.6.09.99); 
+- harina de legumbres, hortalizas, tubérculos y bananas de cocción (01.1.7.09.01). 
+ 
+Subclase 01.1.1.03.00 
+Pan y productos de panadería (ND) 
+Incluye: 
+- pan y panecillos; 
+- pan crujiente, bizcochos, pan tostado, galletas saladas; 
+- tortillas; 
+- injera (o inyera); 
+- bases de pizza sin cubrir o sin ingredientes (masa de pizza), ya sean precocidas o no; 
+- pan de jengibre y similares; 
+- galletas dulces; 
+- waffles y obleas; 
+- conos de helado; 
+- bollos, muffins, croissant, pasteles, tartas dulces, pasteles dulces y otros productos de pastelería 
+y tortas. 
+Excluye: 
+- pizza (con agregados), quiches, pasteles de carne o pescado (01.1.9.01.00). 
+ 
+Producto 01.1.1.03.01 
+Pan corriente a granel 
+Incluye: 
+- pan fresco corriente a granel como marraqueta (pan batido o pan francés), hallulla. 
+
+
+--- PAGE 31 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+31 
+Excluye: 
+- panes dulces, por ejemplo, pan de nata, pan de anís, pan de huevo, pan brioche (01.1.1.03.10). 
+ 
+Producto 01.1.1.03.02 
+Pan especial a granel 
+Incluye: 
+- pan especial a granel como pan flauta, pan cocktail, pan baguette, pan pita, pan integral, pan 
+centeno, pan amasado, bollos, pan frica, pan para hamburguesa, pan para completo, pan coliza, 
+pan de hoja, hallulla especial, pan de ajo, dobladitas y otros tipos de pan especial a granel. 
+Excluye: 
+- panes dulces, por ejemplo, pan de nata, pan de anís, pan de huevo, pan brioche (01.1.1.03.10). 
+ 
+Producto 01.1.1.03.03 
+Pan envasado 
+Incluye: 
+- pan envasado (corriente o especial) como pan hallulla envasado, pan marraqueta (batido o 
+francés) envasado, pan para cocktail envasado, pan frica envasado, pan para hamburguesa 
+envasado, pan para completo envasado, pan molde envasado, pan pita envasado, pan rallado, 
+panko y cualquier tipo de pan envasado. 
+Excluye: 
+- panes dulces, por ejemplo, pan de nata, pan de anís, pan de huevo, pan brioche (01.1.1.03.10). 
+ 
+Producto 01.1.1.03.04 
+Tortillas de rescoldo y similares 
+Incluye: 
+- chapaleles, tortillas de rescoldo, tortillas de campo, milcaos y otros similares. 
+Excluye: 
+- tortillas para cocinar (01.1.1.03.12). 
+ 
+Producto 01.1.1.03.05 
+Galletas dulces con relleno 
+Incluye: 
+- galletas dulces con relleno o agregados como galletas tipo sándwich, galletas oblea, galletas 
+bañadas con chocolate, entre otras (que sean envasadas o granel), incluye versiones light o 
+dietéticas. 
+
+
+--- PAGE 32 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+32 
+ 
+Producto 01.1.1.03.06 
+Galletas dulces sin relleno 
+Incluye: 
+- galletas dulces sin relleno como galletas tipo coctel, champaña, galletas de vino, galletas dulces 
+integrales, galletas de chuño, entre otras (que sean envasadas o granel), incluye versiones light 
+o dietéticas. 
+Excluye: 
+- galletas de arroz (01.1.1.04.01). 
+ 
+Producto 01.1.1.03.07 
+Galletas no dulces 
+Incluye: 
+- galletas saladas, galletas de agua, galletas de soda, galletas de avena, galletas de linaza, 
+galletas de salvado de trigo, entre otras (que sean envasadas o granel), incluye versiones light o 
+dietéticas. 
+Excluye: 
+- galletas de arroz (01.1.1.04.01). 
+ 
+Producto 01.1.1.03.08 
+Galletas no identificadas 
+Incluye: 
+- galletas en general cuyo tipo no es posible identificar. 
+ 
+Producto 01.1.1.03.09 
+Tortas y masas dulces grandes 
+Incluye: 
+- tortas de todos los tipos como torta de bizcocho, de milhoja, de panqueques y similares; 
+- tartas, kuchen, tartaleta, pie de limón, cheesecake, brazo de reina, pan de pascua, queques 
+enteros. 
+ 
+Producto 01.1.1.03.10 
+Pasteles y masas dulces pequeñas o por porción 
+ 
+
+
+--- PAGE 33 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+33 
+Incluye: 
+- trozos o porciones de tortas, tartas, kuchen, tartaleta, pie de limón, cheesecake, brazo de reina, 
+pan de pascua, queques; 
+- pasteles, muffin, berlines, donas, queques pequeños o individuales, dulces chilenos, alfajores, 
+barquillos, conos de helado, palmera, cuchuflí, dulces artesanales, chumbeques, dulces de trigo 
+y otros productos similares; 
+- pan de nata, pan de anís, pan de huevo, pan brioche, pan de manzana y otros panes dulces; 
+- calzones rotos, trencita y otros productos similares; 
+- media luna (croissant dulce), conejitos, colegiales, churros, panqueques preparados; 
+- empanadas de pera, empanadas de manzanas, bizcochos bañados en chocolate y otras masas 
+dulces pequeñas o por porción sean envasadas o a granel. 
+ 
+Producto 01.1.1.03.11 
+Prepizza 
+Incluye: 
+- prepizza, masas base para elaborar pizzas. 
+Excluye: 
+- pizza con ingredientes listas para hornear (01.1.9.01.01); 
+- pizza con relleno lista para su consumo adquiridas en supermercados, ferias, almacenes, 
+panaderías y similares (01.1.9.01.08). 
+ 
+Producto 01.1.1.03.12 
+Masas saladas sin relleno y sin agregados para cocinar 
+Incluye: 
+- masas preparadas para sopaipillas, para empanadas, para pascualinas, pancutras (pantrucas), 
+tortillas de arroz, tortillas de maíz, de trigo u otro cereal tipo mexicanas para tacos o wraps, tortillas 
+integrales, masas para panqueques y otras masas saladas sin relleno y sin agregados para 
+cocinar. 
+Excluye: 
+- tortillas de rescoldo (01.1.1.03.04). 
+ 
+Subclase 01.1.1.04.00 
+Cereales para el desayuno (ND) 
+Incluye: 
+- copos de maíz, hojuelas o copos de avena tradicional (cruda), hojuelas o copos de avena 
+instantánea, muesli, granola, cereales inflados, incluidas las galletas de arroz inflado; 
+
+
+--- PAGE 34 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+34 
+- cereales para el desayuno con frutos secos, fruta seca o deshidratada. 
+Excluye: 
+- palomitas de maíz (01.1.1.09.02); 
+- quinoa pop (01.1.1.09.02); 
+- snacks, chips y frituras a base de cereal (01.1.1.09.02). 
+ 
+Producto 01.1.1.04.01 
+Cereales para el desayuno 
+Incluye: 
+- cereales en polvo, granola, hojuelas o copos de maíz, hojuelas o copos de avena tradicional 
+(cruda), hojuelas o copos de avena instantánea, muesli, cereales inflados, cereales que 
+contienen avena mezclada con otro tipo de ingredientes (frutos secos, fruta seca o deshidratada), 
+pasteles de arroz inflado o galletas de arroz y otros cereales para el desayuno. 
+Excluye: 
+- avena en grano (01.1.1.01.04); 
+- snacks, chips y frituras a base de cereal (01.1.1.09.02); 
+- fórmulas, cereales y similares para bebés (01.1.9.02.01); 
+- alimentos homogeneizados para bebés (01.1.9.02.02). 
+ 
+Subclase 01.1.1.05.00 
+Macarrones, fideos, cuscús y productos de pasta similares (ND) 
+Incluye: 
+- pasta sin cocer, ya sea rellena o no, y cuscús; 
+- empanadillas, dumplings, gyosas, ravioles y similares, sin cocer. 
+Excluye: 
+- bulgur (01.1.1.01.99); 
+- platos preparados que contengan pasta rellena; platos de cuscús preparados (01.1.9.01.00). 
+ 
+Producto 01.1.1.05.01 
+Espaguetis 
+Incluye: 
+- tallarines, espaguetis, espaguetinis. 
+ 
+
+
+--- PAGE 35 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+35 
+Producto 01.1.1.05.02 
+Espirales 
+Incluye: 
+- espirales. 
+ 
+Producto 01.1.1.05.03 
+Corbatas 
+Incluye: 
+- corbatas. 
+ 
+Producto 01.1.1.05.04 
+Cabellos de ángel 
+Incluye: 
+- cabellos de ángel largos o cortos. 
+ 
+Producto 01.1.1.05.05 
+Otras pastas secas sin relleno 
+Incluye: 
+- fideos largos como fideos chinos, fideos de arroz, fideos de soya, fetuchinis; 
+- fideos cortos como macarrones, quifaros, mostacholi, caracoles; 
+- fideos para sopa como sopa de letras, pepitas, estrellas, granizos, mariposas; excepto cabellos 
+de ángel; 
+- pastas sin relleno como canelones, lasañas, gnocchi (ñoquis), bombolotti sin relleno; 
+- pasta lista instantánea para uno. 
+Excluye: 
+- cabellos de ángel (01.1.1.05.04). 
+ 
+Producto 01.1.1.05.06 
+Pastas secas de todos los tipos, con relleno 
+Pastas secas con relleno. 
+Incluye: 
+- tortellini, ravioles, bombolotti, capeleti, panzotti, sorrentinos y otras pastas secas con relleno. 
+ 
+
+
+--- PAGE 36 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+36 
+Producto 01.1.1.05.07 
+Pastas frescas de todos los tipos (con o sin relleno) 
+Pastas frescas (con o sin relleno). 
+Incluye: 
+- tortellini, ravioles, bombolotti, capeletis, panzotti, sorrentinos y otras pastas frescas. 
+ 
+Producto 01.1.1.05.08 
+Cuscús 
+Incluye: 
+- cuscús. 
+ 
+Producto 01.1.1.05.99 
+Otros productos de pasta n.c.p. 
+Incluye: 
+- empanadillas, dumplings, gyosas u otros similares sin cocer. 
+ 
+Subclase 01.1.1.09.00 
+Otros cereales y productos de molinería (ND) 
+Incluye: 
+- mezclas y masas para la preparación de productos de panadería; 
+- palomitas de maíz; 
+- barras de granola; 
+- malta, extracto de malta; 
+- chips y frituras de cereal. 
+También incluye: 
+- seitán y otros sustitutos de la carne hechos de cereales. 
+Excluye: 
+- carne y hamburguesas de soja, hamburguesas vegetarianas, tofu, tempeh y otros sustitutos de 
+la carne hechos de verduras y nueces; almidón de papas, tapioca, sagú y otros almidones 
+(01.1.7.09.00); 
+- preparaciones a base de cereales, como sopas preparadas a base de cereales (01.1.9.01.00). 
+ 
+ 
+
+
+--- PAGE 37 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+37 
+Producto 01.1.1.09.01 
+Mezclas y pastas para la preparación de productos de panadería 
+Mezclas para la preparación de productos de panadería, las que pueden presentarse líquidas o en forma 
+de polvo, gránulos, en pasta u otra forma sólida. 
+Incluye: 
+- mezclas para pasteles (tortas, tartas, bizcochos); 
+- mezclas para pan, pizzas; 
+- mezclas para galletas. 
+ 
+Producto 01.1.1.09.02 
+Snacks, chips y frituras a base de cereal 
+Incluye: 
+- palomitas de maíz (dulces o saladas), barras de granola, barras de cereal, chips de quinoa, 
+quinoa pop, chips de maíz, suflés dulces y salados, etc. 
+Excluye: 
+- papas fritas envasadas (01.1.7.09.05); 
+- snacks y chips de verduras (01.1.7.09.99). 
+ 
+Producto 01.1.1.09.99 
+Otros cereales y productos de molinería n.c.p. 
+Incluye: 
+- mote, trigo mote, chuchoca, malta, extracto de malta, seitán y otros sustitutos de la carne hechos 
+de cereales. 
+ 
+Clase 01.1.2.00.00 
+Animales vivos, carnes y otras partes de animales terrestres sacrificados (ND) 
+ 
+Subclase 01.1.2.01.00 
+Animales terrestres vivos (ND) 
+Animales terrestres vivos, tanto domésticos como silvestres, para fines alimenticios. 
+Incluye: 
+- ganado bovino (vaca, ternera, buey común, cebú o buey jorobado, buey watussi, gaur, gayal, 
+banteng, yak tibetano); 
+
+
+--- PAGE 38 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+38 
+- búfalos (búfalos de la India o de agua, búfalos o arni asiáticos, búfalos de anebas o pigmeos, 
+búfalos africanos, como los búfalos enanos y los grandes búfalos cafarianos, el bisonte 
+americano o búfalo y el bisonte europeo, el "beefalo" (cruce entre un bisonte y un vacuno)); 
+- cerdos; 
+- cabras, corderos y ovejas; 
+- aves de corral (pollos, patos, gansos, pavos y gallinas de Guinea (pintadas)); 
+- liebres y conejos; 
+- caballos, burros y otros equinos; 
+- camellos, dromedarios, alpaca, llama, guanaco, vicuña y otros camélidos; 
+- avestruces, emúes, ñandú, faisán, urogallo, paloma, codorniz y otras aves; 
+- serpientes y otros reptiles; 
+- arañas, escorpiones y otros insectos y gusanos; 
+- caracoles terrestres; 
+- ranas. 
+Excluye: 
+- peces vivos (01.1.3.01.00); 
+- mariscos vivos (01.1.3.04.00); 
+- animales vivos para el transporte (07.1.4.01.02); 
+- animales vivos para recreación (09.1.2.04.01). 
+ 
+Producto 01.1.2.01.01 
+Animales terrestres vivos 
+Animales terrestres vivos, tanto domésticos como silvestres, para fines alimenticios. 
+Incluye: 
+- ganado bovino (vaca, ternera, buey común, cebú o buey jorobado, buey watussi, gaur, gayal, 
+banteng, yak tibetano); 
+- búfalos (búfalos de la India o de agua, búfalos o arni asiáticos, búfalos de anebas o pigmeos, 
+búfalos africanos, como los búfalos enanos y los grandes búfalos cafarianos, el bisonte 
+americano o búfalo y el bisonte europeo, el "beefalo" (cruce entre un bisonte y un vacuno)); 
+- cerdos; 
+- cabras, corderos y ovejas; 
+- aves de corral (pollos, patos, gansos, pavos y gallinas de Guinea (pintadas)); 
+- liebres y conejos; 
+- caballos, burros y otros equinos; 
+
+
+--- PAGE 39 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+39 
+- camellos, dromedarios, alpaca, llama, guanaco, vicuña y otros camélidos; 
+- avestruces, emúes, ñandú, faisán, urogallo, paloma, codorniz y otras aves; 
+- serpientes y otros reptiles; 
+- arañas, escorpiones y otros insectos y gusanos; 
+- caracoles terrestres; 
+- ranas. 
+Excluye: 
+- peces vivos (01.1.3.01.00); 
+- mariscos vivos (01.1.3.04.00); 
+- animales vivos para el transporte (07.1.4.01.02); 
+- animales vivos para recreación (09.1.2.04.01). 
+ 
+Subclase 01.1.2.02.00 
+Carne fresca, refrigerada o congelada (ND) 
+Carne de todos los animales, tanto domésticos como silvestres, fresca, refrigerada o congelada. 
+Incluye: 
+- carne de ganado bovino (vaca, ternera, buey común, cebú o buey jorobado, buey watussi, gaur, 
+gayal, banteng, yak tibetano); 
+- carne de búfalos (búfalos indios o acuáticos, búfalos o arni asiáticos, búfalos celebese anoa o 
+pigmy, búfalos africanos, como los búfalos enanos y los grandes búfalos cafares, el bisonte 
+americano o búfalo y el bisonte europeo, el "beefalo" (cruce entre un bisonte y un vacuno)); 
+- carne de cerdos; 
+- carne de corderos y ovejas; 
+- carne de aves de corral (pollos, patos, gansos, pavos y gallinas de Guinea (pintadas)); 
+- carne de liebres y conejos; 
+- carne de caballos, burros y otros equinos; 
+- carne de camellos, dromedarios, alpaca, llama, guanaco, vicuña y otros camélidos; 
+- carne de focas, morsas, ballenas y otros mamíferos marinos; 
+- carne de antílopes, ciervos, jabalíes, canguros; 
+- carne de avestruces, emúes, ñandú, faisán, urogallo, paloma, codorniz y otras aves; 
+- carne de serpientes, caimanes y otros reptiles; 
+- arañas, escorpiones, insectos y gusanos; 
+- caracoles terrestres; 
+- ranas. 
+
+
+--- PAGE 40 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+40 
+También incluye: 
+- carne picada de los animales antes mencionados. 
+ 
+Producto 01.1.2.02.01 
+Carne de vacuno corte asiento 
+Incluye: 
+- cortes de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como asiento; 
+- bistec de asiento. 
+Excluye: 
+- carne de vacuno molida (01.1.2.02.05). 
+ 
+Producto 01.1.2.02.02 
+Carne de vacuno corte lomo vetado 
+Incluye: 
+- cortes de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como lomo vetado; 
+- bistec de lomo vetado. 
+Excluye: 
+- carne de vacuno molida (01.1.2.02.05). 
+ 
+Producto 01.1.2.02.03 
+Carne de vacuno corte lomo liso y filete 
+Incluye: 
+- cortes de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como lomo liso y filete; 
+- bistec de lomo liso y filete. 
+Excluye: 
+- carne de vacuno molida (01.1.2.02.05). 
+ 
+Producto 01.1.2.02.04 
+Carne de vacuno corte posta 
+Incluye: 
+- cortes de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como posta paleta, posta rosada, 
+posta negra; 
+- bistec de posta paleta, posta rosada, posta negra. 
+
+
+--- PAGE 41 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+41 
+Excluye: 
+- carne de vacuno molida (01.1.2.02.05). 
+ 
+Producto 01.1.2.02.05 
+Carne de vacuno molida 
+Incluye: 
+- carne de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como carne molida, carne molida 
+especial, tártaro, hipervita, carne picada. 
+ 
+Producto 01.1.2.02.06 
+Otros cortes de carne de vacuno 
+Incluye: 
+- otros cortes de carne de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como huachalomo, 
+sobrecostilla, cogote, asado carnicero, plateada, choclillo, punta de paleta, osobuco, malaya, 
+tapapecho, asado de tira (costillar), palanca, tapabarriga, punta de ganso, punta de picana, 
+ganso, pollo ganso, abastero, entrecot, etc. 
+ 
+Producto 01.1.2.02.07 
+Cortes de carne de vacuno no identificados 
+Incluye: 
+- carne de vacuno (vaca, ternera o buey, wagyu, angus, kobe) cuyo corte no es posible identificar. 
+ 
+Producto 01.1.2.02.08 
+Carne de cerdo corte chuleta 
+Incluye: 
+- cortes de cerdo como chuleta centro, chuleta vetada, chuleta de lomo, chuleta de pierna, chuleta 
+parrillera. 
+ 
+Producto 01.1.2.02.09 
+Carne de cerdo corte costillar 
+Incluye: 
+- corte de cerdo como costillar. 
+ 
+ 
+
+
+--- PAGE 42 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+42 
+Producto 01.1.2.02.10 
+Carne de cerdo corte pulpa 
+Incluye: 
+- cortes de cerdo como pulpa pierna, pulpa paleta, pulpa paleta especial. 
+ 
+Producto 01.1.2.02.11 
+Otros cortes de carne de cerdo 
+Incluye: 
+- cortes de cerdo como lomo, malaya, solomillo, filete, pernil de cerdo, paleta, pierna entera, carne 
+molida de cerdo, otros cortes de carne de cerdo. 
+ 
+Producto 01.1.2.02.12 
+Cortes de carne de cerdo no identificados 
+Incluye: 
+- carne de cerdo cuyo corte no es posible identificar. 
+ 
+Producto 01.1.2.02.13 
+Carne de pavo molida 
+Incluye: 
+- carne de pavo molida o picada. 
+ 
+Producto 01.1.2.02.14 
+Pechuga de pavo 
+Incluye: 
+- pechuga de pavo. 
+ 
+Producto 01.1.2.02.15 
+Trutro de pavo 
+Incluye: 
+- trutro (entero - corto) deshuesado o no, de pavo. 
+ 
+Producto 01.1.2.02.16 
+Otros cortes de carne de pavo 
+
+
+--- PAGE 43 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+43 
+Incluye: 
+- pavo entero, osobuco, alas y otros cortes de carne de pavo. 
+ 
+Producto 01.1.2.02.17 
+Cortes de carne de pavo no identificados 
+Incluye: 
+- carne de pavo cuyo corte no es posible identificar. 
+ 
+Producto 01.1.2.02.18 
+Pechuga de pollo 
+Incluye: 
+- pechuga de pollo (o gallina). 
+ 
+Producto 01.1.2.02.19 
+Pollo entero 
+Incluye: 
+- pollo (o gallina) entero con y sin menudencias. 
+ 
+Producto 01.1.2.02.20 
+Trutro de pollo 
+Incluye: 
+- trutro de pollo (o gallina) como trutro corto, entero, combinado. 
+ 
+Producto 01.1.2.02.21 
+Otros cortes de carne de pollo 
+Incluye: 
+- otros cortes de carne de pollo como alitas, cazuela (especial o popular), escalopa, filetes de 
+pollo, carne de pollo molida y picada. 
+Excluye: 
+-croquetas y apanados de ave (01.1.2.05.11). 
+ 
+Producto 01.1.2.02.22 
+Cortes de carne de pollo no identificados 
+
+
+--- PAGE 44 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+44 
+Incluye: 
+- carne de pollo cuyo corte no es posible identificar. 
+ 
+Producto 01.1.2.02.23 
+Carne de otras aves 
+Incluye: 
+- carne de patos, perdices, gansos, avestruces, codornices y otras aves. 
+ 
+Producto 01.1.2.02.24 
+Carne de cordero y oveja 
+Incluye: 
+- carne de corderos y ovejas enteros, medio cordero, chuletas, costillar, pulpa, surtido y otros 
+cortes de cordero u oveja. 
+ 
+Producto 01.1.2.02.25 
+Carne fresca, refrigerada o congelada no identificada 
+Incluye: 
+- carne fresca, refrigerada o congelada cuyo animal de procedencia no es posible identificar. 
+ 
+Producto 01.1.2.02.99 
+Carne fresca, refrigerada o congelada de otros tipos de animales n.c.p. 
+Incluye: 
+- carne fresca, refrigerada o congeladas de otros tipos de animales n.c.p. como carne de cabra, 
+carne de búfalos, carne de liebres y conejos, carne de caballos y otros equinos, carne de alpaca, 
+llama, guanaco, vicuña y otros camélidos, carne de focas y otros mamíferos marinos, carne de 
+antílopes, ciervos, jabalíes, canguros, carne de serpientes, caimanes y otros reptiles, arañas, 
+escorpiones, insectos y gusanos, caracoles terrestres, cangrejos terrestres, carne de rana. 
+ 
+Subclase 01.1.2.03.00 
+Carne seca, salada, en salmuera o ahumada (ND) 
+Carne de todos los animales, seca, salada, en salmuera o ahumada. 
+Incluye: 
+- tocino, jamón, salame o salami. 
+Excluye: 
+
+
+--- PAGE 45 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+45 
+- patés (01.1.2.05.04). 
+ 
+Producto 01.1.2.03.01 
+Cortes de carne seca, salada, en salmuera o ahumada 
+Carne de todos los animales, seca, salada, en salmuera o ahumada. 
+Incluye: 
+- lomo ahumado, costillar ahumado, chuletas ahumadas, pierna de cerdo ahumada, cazuela 
+ahumada, charqui. 
+ 
+Producto 01.1.2.03.02 
+Cecinas secas y semisecas 
+Incluye: 
+- cecinas secas, semisecas, saladas o en salmuera en todas sus variedades como salame o 
+salami, salchichón, tocino, panceta, pastrami, jamón serrano. 
+ 
+Producto 01.1.2.03.03 
+Cecinas y fiambres de cerdo cocidos 
+Incluye: 
+- cecinas y fiambres de cerdo cocidos como jamón y pechuga, mortadela, pernil cocido embutido, 
+arrollado, arrollado huaso, y otros productos similares elaborados con carne de cerdo cocida. 
+Excluye: 
+- corte pernil de cerdo (01.1.2.02.11). 
+ 
+Producto 01.1.2.03.04 
+Cecinas y fiambres de pavo cocidos 
+Incluye: 
+- cecinas y fiambres de pavo cocidos como jamón y pechuga, mortadela y otros productos 
+similares elaborados con carne de pavo. 
+ 
+Producto 01.1.2.03.05 
+Cecinas y fiambres de pollo cocidos 
+Incluye: 
+- cecinas y fiambres de pollo cocidos como jamón y pechuga, mortadela y otros productos 
+similares elaborados con carne de pollo. 
+
+
+--- PAGE 46 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+46 
+ 
+Producto 01.1.2.03.06 
+Cecinas y fiambres no identificados 
+Incluye: 
+- cecinas y fiambres cuyo tipo y animal de procedencia no es posible identificar. 
+ 
+Producto 01.1.2.03.07 
+Otras cecinas y fiambres cocidos de otros tipos de animales 
+Cecinas y fiambres cocidos de otros tipos de animales. 
+Incluye: 
+- jamón y pechuga, mortadela y otros productos similares elaborados con carne de otro tipo de 
+animal. 
+ 
+Subclase 01.1.2.04.00 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, 
+secos, salados, en salmuera o ahumados (ND) 
+Despojos y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, salados, 
+en salmuera o ahumados. 
+Incluye: 
+- huesos; 
+- cabezas de cerdo, colas y orejas; patas de pollo. 
+Excluye: 
+- productos procesados en base a carne, despojos, sangre y otras partes de animales 
+sacrificados (01.1.2.05.00). 
+ 
+Producto 01.1.2.04.01 
+Subproductos y menudencias comestibles de vacuno 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, 
+salados, en salmuera o ahumados. 
+Incluye: 
+- subproductos y menudencias comestibles de vacuno, wagyu, angus, kobe como entrañas, 
+corazón, hígado (pana), guatitas, riñón, ubres, patas, lengua, criadillas, huesos, intestinos en 
+general. 
+ 
+ 
+
+
+--- PAGE 47 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+47 
+Producto 01.1.2.04.02 
+Subproductos y menudencias comestibles de cerdo 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, 
+salados, en salmuera o ahumados. 
+Incluye: 
+- subproductos y menudencias comestibles de cerdo como huesos, corazón, hígado (pana), 
+guatitas, riñón, cuero, manos, lengua, criadillas, intestinos en general, cabezas, colas, orejas y 
+patas de cerdo. 
+ 
+Producto 01.1.2.04.03 
+Subproductos y menudencias comestibles de pavo 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, 
+salados, en salmuera o ahumados. 
+Incluye: 
+- subproductos y menudencias comestibles de pavo como hígado (pana), contre, cogote, 
+corazón, intestinos en general. 
+ 
+Producto 01.1.2.04.04 
+Subproductos y menudencias comestibles de pollo 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, 
+salados, en salmuera o ahumados. 
+Incluye: 
+- subproductos y menudencias comestibles de pollo como patas de pollo, hígado (pana), contre, 
+cogote, corazón, intestinos en general. 
+ 
+Producto 01.1.2.04.99 
+Subproductos y menudencias comestibles de otros tipos de animales n.c.p. 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, 
+salados, en salmuera o ahumados. 
+Incluye: 
+- subproductos y menudencias comestibles de otros tipos de animales, por ejemplo, menudencias 
+de alpaca, guanaco. 
+ 
+Subclase 01.1.2.05.00 
+Carne, despojos, sangre y otras partes procesadas de animales sacrificados (ND) 
+Preparaciones de carne, de despojos o de sangre, incluso congeladas. 
+
+
+--- PAGE 48 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+48 
+Incluye: 
+- salchichas y productos similares de carne, despojos o sangre; 
+- carne marinada; 
+- carne enlatada, extractos de carne, jugos de carne; 
+- mezcla de carne picada, de diferentes tipos de carne; 
+- todo tipo de paté, incluido el paté de hígado; 
+- carne apanada; 
+- otras preparaciones de carne, despojos o sangre. 
+ 
+Producto 01.1.2.05.01 
+Vienesas tradicionales 
+Incluye: 
+- vienesas, salchichas tradicionales (de cerdo). 
+ 
+Producto 01.1.2.05.02 
+Vienesas de ave 
+Incluye: 
+- vienesas, salchichas de pollo, pavo y otras aves. 
+ 
+Producto 01.1.2.05.03 
+Vienesas de carne de otros tipos de animales 
+Incluye: 
+- vienesas, salchichas de carne de otros tipos de animales, distintos a los incluidos en 
+01.1.2.05.01 y 01.1.2.05.02. 
+ 
+Producto 01.1.2.05.04 
+Patés y pastas de untar 
+Incluye: 
+- patés y otras pastas de carne para untar; 
+- paté de hígado. 
+ 
+Producto 01.1.2.05.05 
+Otros embutidos frescos 
+
+
+--- PAGE 49 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+49 
+Incluye: 
+- otros embutidos frescos como gordas, morcillas, prietas, longanizas, chorizos, choricillos, 
+butifarras y otros productos similares elaborados con carne de todo tipo de animal. 
+ 
+Producto 01.1.2.05.06 
+Hamburguesas de vacuno 
+Incluye: 
+- hamburguesas elaboradas con carne de vacuno. 
+ 
+Producto 01.1.2.05.07 
+Hamburguesas de ave 
+Incluye: 
+- hamburguesas elaboradas con carne de pollo, de pavo y de otras aves. 
+ 
+Producto 01.1.2.05.08 
+Hamburguesas de cerdo 
+Incluye: 
+- hamburguesas elaboradas con carne de cerdo. 
+ 
+Producto 01.1.2.05.09 
+Hamburguesas no identificadas 
+Incluye: 
+- hamburguesas elaboradas con carne cuyo animal de procedencia no es posible identificar. 
+ 
+Producto 01.1.2.05.10 
+Hamburguesas de carne de otros tipos de animales 
+Incluye: 
+- hamburguesas elaboradas con carne de otros tipos de animales. 
+Excluye: 
+- carne de soya, hamburguesas vegetarianas, hamburguesas de carne vegetal, tofu, tempeh y 
+otros sustitutos de la carne hechos de verduras y nueces (01.1.7.09.07). 
+ 
+ 
+
+

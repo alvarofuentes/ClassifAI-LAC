@@ -1,0 +1,804 @@
+--- PAGE 100 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+100 
+Incluye: 
+- helados en formato individual como paletas, barquillos, vasitos, helados artesanales, helados 
+caseros como cubos o similares (de leche, de agua o sorbetes, de yogur, de tofu, etc.). 
+ 
+Producto 01.1.8.06.04 
+Postres de helados 
+Incluye: 
+- postres y tortas heladas. 
+Excluye: 
+- helados de fruta, de agua o sorbete (01.1.8.06.00). 
+ 
+Producto 01.1.8.06.05 
+Helados comestibles no identificados 
+Incluye: 
+- helados cuyo formato o tipo no es posible identificar. 
+ 
+Subclase 01.1.8.09.00 
+Otros productos dulces de confitería y postres n.c.p. (ND) 
+Incluye: 
+- postres n.c.p.; 
+- hortalizas, frutas, nueces, cáscaras de frutas y otras partes de plantas, conservadas en azúcar; 
+- chicles, toffee, caramelos, pastillas; 
+- otros productos de confitería. 
+Excluye: 
+- productos de confitería a base de cacao y chocolate (01.1.8.05.00). 
+ 
+Producto 01.1.8.09.01 
+Hortalizas, frutas y frutos secos confitados o conservados en azúcar 
+Incluye: 
+- manzanas confitadas, plátanos confitados, frutillas confitadas, cáscaras de naranja confitadas, 
+maníes confitados, almendras confitadas, maníes con miel, etc. 
+ 
+ 
+
+
+--- PAGE 101 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+101 
+Producto 01.1.8.09.02 
+Caramelos y chicles 
+Incluye: 
+- chicles, dulces, caramelos, toffee, calugones, grageas o pastillas, gomitas, masticables. 
+ 
+Producto 01.1.8.09.03 
+Productos para repostería 
+Incluye: 
+- perlas comestibles, coco rallado, mostacillas comestibles, merengues para decorar, coberturas 
+de repostería, esencias (vainilla, pan de pascua, etc.), colorantes para galletas, etc. 
+Excluye: 
+- salsas de chocolate (01.1.8.05.03); 
+- merengues como producto de confitería (no decoración) (01.1.8.09.99); 
+- salsas no dulces (01.1.9.03.06). 
+ 
+Producto 01.1.8.09.99 
+Otros productos de confitería y postres n.c.p. 
+Incluye: 
+- postres n.c.p.; 
+- cocadas, merengues, mazapanes, turrones, sustancias, malvaviscos, helados de invierno en 
+cono, melcochas, otros productos de confitería que no contienen cacao. 
+Excluye: 
+- malvaviscos bañados en chocolate (01.1.8.05.01); 
+- merengues para decorar (01.1.8.09.03). 
+ 
+Clase 01.1.9.00.00 
+Platos preparados y otros productos alimenticios n.c.p. (ND) 
+ 
+Subclase 01.1.9.01.00 
+Platos preparados (ND) 
+Refiere a platos o menús listos para servir, es decir, comidas que se pueden comer como están o 
+alimentos precocidos que después de calentarse terminan su cocción. Contienen ingredientes 
+mezclados y pueden ser frescos, congelados o deshidratados/instantáneos. Pueden incluir salsas y 
+aderezos que, especialmente cuando los alimentos son frescos, se pueden proporcionar en bolsas 
+separadas. Pueden incluir tenedores, cuchillos, cucharas o palillos desechables. 
+
+
+--- PAGE 102 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+102 
+Incluye: 
+- platos precocinados que contienen pasta rellena, arroz y otros cereales, tales como platos de 
+cuscús, incluidas verduras y/o carne, pescado, queso u otros ingredientes; albóndigas, ravioles, 
+fideos y similares, con salsa listos para comer; 
+- comidas preparadas y platos a base de carne precocida, sucedáneo de la carne y/o pescado; 
+- comida preparada empaquetada que solo requiere calentar antes de que esté lista para comer; 
+- ensaladas compuestas y otros platos y comidas preparadas a base de verduras, legumbres y 
+papas que también incluyen otros ingredientes, como carne, pescado y queso; 
+- sándwiches, pizzas, quichés, empanadas de carne o pescado, congelados o no; 
+- tortillas (omelette), crepes y otros productos alimenticios a base de huevos cuando se cocinan 
+previamente y se sirven como plato principal; 
+- sopas preparadas, incluidas sopas y guisos deshidratados e instantáneos; 
+- otros platos y comidas preparadas n.c.p. 
+Excluye: 
+- productos de panadería, pasteles (01.1.1.03.00); 
+- macarrones, fideos, cuscús y productos de pasta similares sin cocer, ya sean rellenos o no 
+(01.1.1.05.00); 
+- quesos (01.1.4.05.00) y yogur (01.1.4.06.00); 
+- papas fritas y prefritas congeladas (01.1.7.09.04); 
+- helado (01.1.8.06.00) y otros postres n.c.p. (01.1.8.09.99). 
+ 
+Producto 01.1.9.01.01 
+Pizzas con ingredientes listas para hornear, freír o calentar 
+Incluye: 
+- pizzas con ingredientes listas para hornear, freír o calentar. 
+Excluye: 
+- prepizzas (01.1.1.03.11); 
+- pizzas con relleno listas para su consumo adquiridas en supermercados, ferias, almacenes, 
+panaderías y similares (01.1.9.01.08). 
+ 
+Producto 01.1.9.01.02 
+Empanadas saladas rellenas o con agregados para hornear, freír o calentar 
+Incluye: 
+- empanadas de queso, empanadas de queso más otros ingredientes agregados, empanadas de 
+carne de distintos animales, empanadas de verduras. 
+
+
+--- PAGE 103 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+103 
+ 
+Producto 01.1.9.01.03 
+Otros tipos de masas saladas rellenas o con ingredientes para hornear, freír o calentar 
+Incluye: 
+- pasteles de cocktail para hornear, quichés para hornear, otras masas saladas rellenas o con 
+ingredientes para freír u hornear; 
+- masas saladas rellenas o con ingredientes para freír, hornear o calentar como, por ejemplo, 
+arrollados primavera. 
+ 
+Producto 01.1.9.01.04 
+Platos de fondo para hornear, descongelar o calentar 
+Incluye: 
+- platos preparados a base de legumbres y hortalizas combinados con carne de todo tipo para 
+calentar, descongelar u otros similares; 
+- platos congelados preparados a base de pastas rellenas como ravioles o lasaña con salsas; 
+- sopas preparadas, incluidas sopas y guisos deshidratados e instantáneos. 
+ 
+Producto 01.1.9.01.05 
+Ensaladas preparadas frescas 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- hortalizas frescas lavadas, pueden ser cocinadas y envasadas como lechugas, repollos, 
+zanahorias, apios, cebollas, habas, choclos; 
+- ensaladas, es decir, varias verduras cortadas y mezcladas, frescas, lavadas; ensaladas surtidas 
+con o sin aderezos, por ejemplo, mayonesa, salsas y similares, ensaladas cesar, mixta, entre 
+otras. 
+ 
+Producto 01.1.9.01.06 
+Platos de fondo listos para su consumo 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- platos de fondo para almuerzo o cena (arroz con pollo, tallarines con salsa, tortillas), sushi. 
+ 
+Producto 01.1.9.01.07 
+Menús listos para su consumo 
+
+
+--- PAGE 104 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+104 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- menús, almuerzos y cenas donde no es posible obtener el detalle de sus platos o bebidas por 
+separado (entrada o ensalada, plato de fondo, postre, bebidas no alcohólicas, en cualquiera de 
+sus combinaciones). 
+ 
+Producto 01.1.9.01.08 
+Sándwiches, completos, pizzas, empanadas y masas saladas con relleno listos para su consumo 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- sándwiches en todas sus variedades (lomitos, churrascos, vegetarianos, ave mayo, lengua, 
+pernil, etc.), completos, chaparritas, fajitas, tacos, burritos, hamburguesas, pizzas y empanadas, 
+masas saladas con relleno. 
+Excluye: 
+- prepizzas (01.1.1.03.11); 
+- pizzas con ingredientes listas para hornear (01.1.9.01.01). 
+ 
+Producto 01.1.9.01.09 
+Papas fritas, sopaipillas y otros alimentos de picoteo listos para su consumo 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- papas fritas, sopaipillas, wantán, nachos, masas saladas sin relleno. 
+ 
+Producto 01.1.9.01.10 
+Combos o promociones de comida rápida listos para su consumo 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- combos o promociones de comida rápida. 
+ 
+Producto 01.1.9.01.11 
+Pollos asados listos para su consumo 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- pollos asados preparados y listos para su consumo (enteros, trozados, etc.). 
+
+
+--- PAGE 105 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+105 
+ 
+Producto 01.1.9.01.12 
+Té, café y otras bebidas preparadas listas para su consumo 
+Incluye: 
+- té, café y otras bebidas preparadas listas para su consumo adquiridos en supermercados, ferias, 
+almacenes, panaderías y similares (incluidos los adquiridos mediante máquinas expendedoras 
+relacionadas con este tipo de establecimientos). 
+Excluye: 
+- preparaciones de bebidas a base de café y cafés preparados (embotellados, enlatados, 
+envasado de cartón y similares) (01.2.2.01.03); 
+- té y otras infusiones embotelladas (01.2.3.01.04). 
+ 
+Subclase 01.1.9.02.00 
+Alimentos para bebé (ND) 
+Alimentos destinados al uso exclusivo del bebé. 
+Incluye: 
+- fórmula para bebés (leche en polvo, condensada y evaporada para uso en bebés); 
+- cereales y harina de arroz para bebés; 
+- alimentos homogeneizados para bebés. 
+Excluye: 
+- cereales y harina no destinados al uso exclusivo del bebé (01.1.1.01.00, 01.1.1.02.00); 
+- leche en polvo no destinada exclusivamente para uso en bebés (01.1.4.03.01); 
+- yogur para niños (01.1.4.06.00); 
+- preparaciones homogeneizadas de frutas y hortalizas que no están destinadas exclusivamente 
+para uso en bebés (01.1.6.09.00; 01.1.7.09.00). 
+ 
+Producto 01.1.9.02.01 
+Fórmulas, cereales y similares para bebés 
+Alimentos destinados al uso exclusivo del bebé. 
+Incluye: 
+- fórmulas para bebés (leches en polvo, condensada o evaporada para uso en bebés), sustitutos 
+de leche materna, fórmulas infantiles con hierro, complementos nutricionales a base de 
+maltodextrina; 
+- cereales y harinas de arroz o avena para bebés. 
+ 
+
+
+--- PAGE 106 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+106 
+Producto 01.1.9.02.02 
+Alimentos homogeneizados para bebés 
+Incluye: 
+- alimentos homogeneizados para bebés, por ejemplo, colados y picados en todas sus variedades 
+como colados y picados de carne, verduras, carne con verduras, carbonada, cazuela de ave, 
+charquicán, lasaña, pescado, pollo, porotos, posta, espagueti, frutas. 
+ 
+Subclase 01.1.9.03.00 
+Sal, condimentos y salsas (ND) 
+Incluye: 
+- sal, salsas, condimentos y sazonadores (mostaza, mayonesa, kétchup, salsa de soja, etc.), 
+vinagre. 
+También incluye: 
+- crema de coco. 
+Excluye: 
+- leche de coco para beber (01.1.4.04.01); 
+- frutas y verduras encurtidas (01.1.7.09.00). 
+ 
+Producto 01.1.9.03.01 
+Sal 
+Incluye: 
+- sal en todas sus variedades como sal de mesa, gruesa, condimentada, marina, normal, dietética 
+o con cantidades distintas de sodio o yodo. 
+ 
+Producto 01.1.9.03.02 
+Salsas de tomate 
+Incluye: 
+- salsas de tomate en todas sus variedades para preparaciones culinarias como salsa de tomates 
+con trozos o sin trozos de tomate, con o sin más ingredientes. 
+Excluye: 
+- tomates deshidratados (01.1.7.07.01); 
+- kétchup (01.1.9.03.04). 
+ 
+ 
+
+
+--- PAGE 107 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+107 
+Producto 01.1.9.03.03 
+Mayonesas 
+Incluye: 
+- mayonesas en todas sus variedades como mayonesa light, libre de colesterol, con ajo, con 
+cebolla. 
+Excluye: 
+- mayonesas de origen no animal (01.1.9.03.99). 
+ 
+Producto 01.1.9.03.04 
+Kétchup 
+Incluye: 
+- kétchup en todas sus variedades como kétchup light, orgánico, libre de colesterol, reducido en 
+azúcar. 
+ 
+Producto 01.1.9.03.05 
+Mostazas 
+Incluye: 
+- mostazas en todas sus variedades como mostaza light, libre de colesterol, americana, Dijon, 
+suave, fuerte, semifuerte, con champán y eneldo, con cranberry y miel, dulce, picante, extra 
+picante. 
+ 
+Producto 01.1.9.03.06 
+Salsas, cremas, pulpas o pastas de ají 
+Incluye: 
+- ajíes en salsas, cremas, pastas, pulpas y similares de todos los tipos de ajíes o preparaciones 
+de ajíes como jalapeños, pebre, oro, verdes, amarillos, extracto de ajíes, pastas de rocoto, salsas 
+picantes, salsas verdes. 
+Excluye: 
+- salsas dulces de otros tipos que no sean de chocolate, por ejemplo, de manjar, frambuesa, 
+caramelo, etc. (01.1.8.02.99); 
+- salsas dulces de chocolate (01.1.8.05.03); 
+- salsas de tomate (01.1.9.03.02). 
+ 
+Producto 01.1.9.03.07 
+Vinagres 
+
+
+--- PAGE 108 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+108 
+Incluye: 
+- vinagres en todas sus variedades como vinagres de vino (tinto, blanco, rosado), de arroz, de 
+ajo, de manzana, acetos balsámicos. 
+ 
+Producto 01.1.9.03.99 
+Otros condimentos o salsas n.c.p. 
+Incluye: 
+- sucedáneos jugo de limón, salsa inglesa, salsa blanca, salsa aceituna, chucrut, salsa tártara, 
+salsa eneldo, salsa de champiñones, salsa a la pimienta, aliño ensaladas, crema sésamo, salsa 
+de ajo, salsa de soja, salsa de carne, crema de coco, chimichurri, otros aderezos n.c.p.; 
+- mayonesas de origen no animal. 
+Excluye: 
+- leche de coco para beber (01.1.4.04.01); 
+- salsa americana (01.1.7.09.08). 
+ 
+Subclase 01.1.9.04.00 
+Especias, hierbas culinarias y semillas (ND) 
+Incluye: 
+- pimienta, pimiento, jengibre y otras especias; 
+- perejil, romero, tomillo y otras hierbas culinarias; 
+- semillas de amapola, semillas de sésamo, semillas de linaza y otras semillas. 
+Excluye: 
+- aceites vegetales (01.1.5.01.00); 
+- semillas para sembrar (09.3.1.02.02). 
+ 
+Producto 01.1.9.04.01 
+Especias y semillas 
+Incluye: 
+- especias y semillas comestibles como pimienta, comino, jengibre, ají de color, aliño completo, 
+canela, varilla de vainilla, semillas de anís, clavos de olor, nuez moscada, curry, azafrán, 
+merquén, ají cacho cabra seco, semillas de maravilla, semillas de linaza, semillas de sésamo, 
+semillas de chía, semillas de zapallo, semillas de amapola, etc. 
+ 
+Producto 01.1.9.04.02 
+Hierbas frescas y secas 
+
+
+--- PAGE 109 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+109 
+Incluye: 
+- hierbas frescas o secas en todas sus variedades, perejil, orégano, cilantro, albahaca, laurel, 
+ciboulette, tomillo o chascú, romero, eneldo, hinojo, salvia, estragón, entre otros. 
+Excluye: 
+- té de menta para infusión (01.2.3.01.03). 
+ 
+Subclase 01.1.9.09.00 
+Otros productos alimenticios n.c.p. (ND) 
+Incluye: 
+- caña de azúcar consumida para extraer zumo o como aperitivo; 
+- levaduras y polvos para hornear, caldos de huesos, caldos de verduras o carnes, cubitos de 
+caldo, bases para sopas, agar-agar, preparaciones de postres instantáneos; 
+- suplementos alimenticios y nutricionales, productos alimenticios fortificados, fórmulas dietéticas 
+para deportistas, suplementos para la tercera edad. 
+ 
+Producto 01.1.9.09.01 
+Sopas y cremas en polvo 
+Incluye: 
+- sopas y cremas para preparar, no instantáneas. 
+ 
+Producto 01.1.9.09.02 
+Caldos y concentrados 
+Incluye: 
+- caldos de huesos, caldos de verduras o carnes, cubitos de caldo, concentrados para sopas 
+como concentrado de ave, carne, longaniza, pescado, verdura o sofritos en todas sus variedades, 
+bases para hamburguesas, bases para aliñar carnes, pescados, pollo y verduras, etc., bases 
+para apanar, bases comida china. 
+ 
+Producto 01.1.9.09.03 
+Levaduras y polvos de hornear 
+Incluye: 
+- levaduras, polvos para hornear, bicarbonato. 
+ 
+Producto 01.1.9.09.04 
+Postres en polvo 
+
+
+--- PAGE 110 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+110 
+Incluye: 
+- postres en polvos para preparar jaleas, budines y flanes, helados, leches asadas y otros. 
+Excluye: 
+- postres preparados a base de leche (01.1.4.07.00); 
+- postres no lácteos preparados (01.1.8.03.04). 
+ 
+Producto 01.1.9.09.05 
+Manjar (dulce de leche) 
+Incluye: 
+- manjar y dulce de leche tradicional o clásico, de repostería, para helados, dietético, mixto. 
+ 
+Producto 01.1.9.09.06 
+Suplementos alimenticios y nutricionales 
+Incluye: 
+- suplementos alimenticios y nutricionales, fórmulas dietéticas para deportistas, suplementos 
+para la tercera edad. 
+Excluye: 
+- sustitutos de leche materna, fórmulas infantiles con hierro, complementos nutricionales a base 
+de maltodextrina para bebés (01.1.9.02.01). 
+ 
+Producto 01.1.9.09.07 
+Saborizantes para leches 
+Incluye: 
+- saborizantes para la leche de distintos sabores como frutilla, vainilla, berries, entre otros según 
+corresponda, tengan o no adición de vitaminas y minerales. 
+Excluye: 
+- cacao en polvo, saborizantes para leche con cacao o sabor chocolate (01.1.8.05.02); 
+- sustitutos de leche materna, fórmulas infantiles con hierro, complementos nutricionales a base 
+de maltodextrina para bebés (01.1.9.02.01). 
+ 
+Producto 01.1.9.09.99 
+Otros productos alimenticios n.c.p. 
+ 
+ 
+
+
+--- PAGE 111 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+111 
+Incluye: 
+- caña de azúcar consumida para extraer zumo o como aperitivo, agar-agar y otros productos 
+alimenticios n.c.p. 
+ 
+Grupo 01.2.0.00.00 
+Bebidas no alcohólicas 
+Bebidas no alcohólicas compradas por el hogar, sin importar dónde se consuman, excluyendo las 
+bebidas que se proporcionan como parte de un servicio de alimentación (división 11.0.0.00.00). 
+Incluye: 
+- bebidas que no contengan alcohol. 
+Excluye: 
+- leche (01.1.4.01.00, 01.1.4.02.00, 01.1.4.03.00, 01.1.4.04.00); 
+- vino sin alcohol (02.1.2.01.03); 
+- cerveza sin alcohol (02.1.3.01.02); 
+- bebidas no alcohólicas para consumo inmediato provistas por un servicio de alimentación 
+(11.1.1.00.00). 
+ 
+Clase 01.2.1.00.00 
+Jugos de frutas y verduras (ND) 
+Incluye: 
+- jugos de frutas y verduras sin fermentar y que no contengan alcohol agregado, ya sea que 
+contengan o no azúcar añadida u otro edulcorante; 
+- jugos concentrados y jugos congelados; 
+- jugos en polvo. 
+Excluye: 
+- jugos gasificados (carbonatados) (01.2.6.01.01). 
+ 
+Subclase 01.2.1.01.00 
+Jugos de frutas y verduras (ND) 
+Incluye: 
+- jugos de frutas y verduras sin fermentar y que no contengan alcohol agregado, ya sea que 
+contengan o no azúcar añadida u otro edulcorante; 
+- jugos concentrados y jugos congelados; 
+- jugos en polvo. 
+
+
+--- PAGE 112 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+112 
+Excluye: 
+- jugos gasificados (carbonatados) (01.2.6.01.01). 
+ 
+Producto 01.2.1.01.01 
+Jugos líquidos 
+Incluye: 
+-jugos de frutas y verduras sin fermentar y que no contengan alcohol agregado, ya sea que 
+contengan o no azúcar añadida u otro edulcorante, jugos de larga o corta vida, jugos vegetales 
+(de tomate, de soya o similares), néctares. 
+Excluye: 
+- jugo concentrado y pulpa (01.2.1.01.02); 
+- té helado embotellado, adquirido en supermercado, almacén o similares (01.2.3.01.04); 
+- limonada (01.2.6.01.01). 
+ 
+Producto 01.2.1.01.02 
+Jugos concentrados y pulpas 
+Incluye: 
+- jugos concentrados (concentrados de frutas, verduras, etc.) y pulpas. 
+ 
+Producto 01.2.1.01.03 
+Jugos y refrescos en polvo 
+Incluye: 
+- jugos y refrescos en polvo. 
+ 
+Clase 01.2.2.00.00 
+Café y sucedáneos del café (ND) 
+Incluye: 
+- café, incluso descafeinado, tostado o molido, incluido el café instantáneo; 
+- sustitutos del café; 
+- extractos, esencias y concentrados de café; 
+- preparaciones de bebidas a base de café. 
+También incluye: 
+
+
+--- PAGE 113 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+113 
+- achicoria tostada y otros sucedáneos y extractos de café tostados, esencias y concentrados de 
+los mismos. 
+Excluye: 
+- leche saborizada con café (01.1.4.07.00). 
+ 
+Subclase 01.2.2.01.00 
+Café y sucedáneos del café (ND) 
+Incluye: 
+- café, incluso descafeinado, tostado o molido, incluido el café instantáneo; 
+- sustitutos del café; 
+- extractos, esencias y concentrados de café; 
+- preparaciones de bebidas a base de café. 
+También incluye: 
+- achicoria tostada y otros sucedáneos y extractos de café tostados, esencias y concentrados de 
+los mismos. 
+Excluye: 
+- leche saborizada con café (01.1.4.07.00). 
+ 
+Producto 01.2.2.01.01 
+Café 
+Incluye: 
+- café para preparar, en todas sus variedades y sabores como café instantáneo, molido y en 
+grano, café capuchino, café amaretto, café moka, café con crema, descafeinado, express, 
+tostado, arábiga, forte, colombiano, extractos y concentrados de café. 
+Excluye: 
+- leche saborizada con café (01.1.4.07.00); 
+- preparaciones de bebidas a base de café (embotellados, enlatados, envasado de cartón y 
+similares) (01.2.2.01.03). 
+ 
+Producto 01.2.2.01.02 
+Sucedáneos de café 
+Incluye: 
+- cebadas y otros cereales para preparar, en todas sus variedades como cebada y otros cereales 
+tostados, instantáneos en polvo, café de higo y otros frutos, achicoria tostada y otros sucedáneos 
+(o sustitutos), esencias y concentrados de los mismos. 
+
+
+--- PAGE 114 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+114 
+Excluye: 
+- preparaciones de bebidas a base de café (embotellados, enlatados, envasado de cartón y 
+similares) (01.2.2.01.03). 
+ 
+Producto 01.2.2.01.03 
+Cafés preparados envasados 
+Productos adquiridos en supermercados, almacenes, panaderías y similares. 
+Incluye: 
+- preparaciones de bebidas a base de café y cafés preparados (embotellados, enlatados, 
+envasado de cartón y similares). 
+Excluye: 
+- té, café y otras bebidas preparadas listas para su consumo adquiridos en supermercados, ferias, 
+almacenes, panaderías y similares (incluidos los adquiridos mediante máquinas expendedoras 
+relacionadas con este tipo de establecimientos) (01.1.9.01.12); 
+- estos mismos productos cuando se comercializan como parte de un servicio de alimentación 
+(11.0.0.00.00). 
+ 
+Clase 01.2.3.00.00 
+Té, mate y otros productos vegetales para infusión (ND) 
+Incluye: 
+- té verde (no fermentado), té negro (fermentado) y té parcialmente fermentado, mate y otros 
+productos vegetales para infusión; 
+- extractos y esencias de té. 
+También incluye: 
+- té de frutas y hierbas; 
+- té rooibos; 
+- té instantáneo; 
+- té helado (para preparar infusiones o que ya se encuentren preparados). 
+ 
+Subclase 01.2.3.01.00 
+Té, mate y otros productos vegetales para infusión (ND) 
+Incluye: 
+- té verde (no fermentado), té negro (fermentado) y té parcialmente fermentado, mate y otros 
+productos vegetales para infusión; 
+- extractos y esencias de té. 
+
+
+--- PAGE 115 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+115 
+También incluye: 
+- té de frutas y hierbas; 
+- té rooibos; 
+- té instantáneo; 
+- té helado (para preparar infusiones o que ya se encuentren preparados). 
+ 
+Producto 01.2.3.01.01 
+Té 
+Incluye: 
+- té para preparar, en todas sus variedades (té verde, té negro, té rojo, té de frutas, té mezclado 
+con hierbas, té rooibos, etc.) y presentaciones (en hojas, en bolsa, polvo, instantáneo, etc.), 
+extractos y esencias de té, té helado en polvo (para preparar infusiones). 
+Excluye: 
+- té helado embotellado, adquirido en supermercado, almacén o similares (01.2.3.01.04). 
+ 
+Producto 01.2.3.01.02 
+Mate 
+Incluye: 
+- mate para preparar, en todas sus variedades como mate amargo, dulce, entre otras. 
+ 
+Producto 01.2.3.01.03 
+Té de hierbas para infusión 
+Incluye: 
+- otros productos vegetales para preparar infusiones como boldo, menta, manzanilla, bailahuén 
+y otros productos vegetales para infusión. 
+Excluye: 
+- té mezclado con hierbas (01.2.3.01.01). 
+ 
+Producto 01.2.3.01.04 
+Té, mate y otras infusiones preparadas envasadas 
+Productos adquiridos en supermercados, almacenes, panaderías y similares. 
+Incluye: 
+- té, mate y otras infusiones preparadas envasadas, té helado preparado (embotellados, 
+enlatados, envasado de cartón y similares). 
+
+
+--- PAGE 116 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+116 
+Excluye: 
+- té, café y otras bebidas preparadas listas para su consumo adquiridos en supermercados, ferias, 
+almacenes, panaderías y similares (incluidos los adquiridos mediante máquinas expendedoras 
+relacionadas con este tipo de establecimientos) (01.1.9.01.12); 
+- té para preparar, por ejemplo, té en bolsita (01.2.3.01.01); 
+- estos mismos productos cuando se comercializan como parte de un servicio de alimentación 
+(11.0.0.00.00). 
+ 
+Clase 01.2.4.00.00 
+Bebidas de cacao (ND) 
+Incluye: 
+- bebidas a base de cacao y chocolate. 
+Excluye: 
+- leche, saborizada con chocolate o cacao (01.1.4.07.01); 
+- cacao en polvo para todos los fines; chocolate en barra o tabletas; preparaciones alimenticias 
+a base de cacao y postres a base de cacao (01.1.8.05.00). 
+ 
+Subclase 01.2.4.01.00 
+Bebidas de cacao (ND) 
+Incluye: 
+- bebidas a base de cacao y chocolate. 
+Excluye: 
+- leche, saborizada con chocolate o cacao (01.1.4.07.01); 
+- cacao en polvo para todos los fines; chocolate en barra o tabletas; preparaciones alimenticias 
+a base de cacao y postres a base de cacao (01.1.8.05.00). 
+ 
+Producto 01.2.4.01.01 
+Bebidas de cacao 
+Incluye: 
+- bebidas a base de cacao y chocolate. 
+Excluye: 
+- leche, saborizada con chocolate o cacao (01.1.4.07.01); 
+- cacao en polvo para todos los fines; chocolate en barra o tabletas; preparaciones alimenticias 
+a base de cacao y postres a base de cacao (01.1.8.05.00). 
+ 
+
+
+--- PAGE 117 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+117 
+Clase 01.2.5.00.00 
+Aguas (ND) 
+Aguas minerales o de manantiales, con o sin gas, sin otros ingredientes adicionales. 
+Excluye: 
+- agua saborizada (01.2.9.01.01). 
+ 
+Subclase 01.2.5.01.00 
+Aguas (ND) 
+Aguas minerales o de manantiales, con o sin gas, sin otros ingredientes adicionales. 
+Excluye: 
+- agua saborizada (01.2.9.01.01). 
+ 
+Producto 01.2.5.01.01 
+Aguas minerales embotelladas sin sabor 
+Incluye: 
+- aguas minerales o de manantiales, aguas purificadas, aguas soda, con o sin sodio, con o sin 
+gas, sin otros ingredientes adicionales. 
+Excluye: 
+- agua saborizada (01.2.9.01.01). 
+ 
+Clase 01.2.6.00.00 
+Refrescos (ND) 
+Incluye: 
+- refrescos, como bebidas gaseosas (carbonatadas), limonadas, bebidas colas y bebidas de 
+fantasía; 
+- jugos gasificados (carbonatados). 
+Excluye: 
+- agua con gas sin sabor (01.2.5.01.01); 
+- agua saborizada (01.2.9.01.01). 
+ 
+Subclase 01.2.6.01.00 
+Refrescos (ND) 
+ 
+
+
+--- PAGE 118 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+118 
+Incluye: 
+- refrescos, como bebidas gaseosas (carbonatadas), limonadas, bebidas colas y bebidas de 
+fantasía; 
+- jugos gasificados (carbonatados). 
+Excluye: 
+- agua con gas sin sabor (01.2.5.01.01); 
+- agua saborizada (01.2.9.01.01). 
+ 
+Producto 01.2.6.01.01 
+Refrescos 
+Incluye: 
+-refrescos, como bebidas gaseosas (carbonatadas), limonadas, bebidas colas y bebidas de 
+fantasía; 
+- jugos gasificados (carbonatados). 
+Excluye: 
+- agua con gas sin sabor (01.2.5.01.01); 
+- agua saborizada (01.2.9.01.01). 
+ 
+Clase 01.2.9.00.00 
+Otras bebidas no alcohólicas (ND) 
+Incluye: 
+- agua con sabor; 
+- bebidas energéticas y polvos para la preparación de este tipo de bebidas; 
+- jugo y savia de abedul, jugos y bebidas de aloe vera; 
+- siropes y concentrados para la preparación de bebidas; 
+- otras bebidas no alcohólicas. 
+ 
+Subclase 01.2.9.01.00 
+Otras bebidas no alcohólicas (ND) 
+Incluye: 
+- agua con sabor; 
+- bebidas energéticas y polvos para la preparación de este tipo de bebidas; 
+- jugo y savia de abedul, jugos y bebidas de aloe vera; 
+
+
+--- PAGE 119 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+119 
+- siropes y concentrados para la preparación de bebidas; 
+- otras bebidas no alcohólicas. 
+ 
+Producto 01.2.9.01.01 
+Aguas saborizadas 
+Incluye: 
+- aguas minerales con sabor, aguas con sabor, con o sin gas. 
+ 
+Producto 01.2.9.01.02 
+Bebidas energizantes 
+Incluye: 
+- bebidas energizantes y polvos para la preparación de este tipo de bebidas. 
+ 
+Producto 01.2.9.01.03 
+Bebidas isotónicas 
+Incluye: 
+- bebidas isotónicas, rehidratantes, vitaminadas. 
+ 
+Producto 01.2.9.01.99 
+Otras bebidas no alcohólicas n.c.p. 
+Incluye: 
+- jugo y savia de abedul, jugos y bebidas de aloe vera, siropes y concentrados para la preparación 
+de bebidas (granadina, goma, etc.), otras bebidas no alcohólicas. 
+Excluye: 
+- siropes utilizados para repostería y usos distintos a la preparación de bebidas (01.1.8.02.99). 
+ 
+Grupo 01.3.0.00.00 
+Servicios para el procesamiento de productos primarios para alimentos y bebidas no alcohólicas 
+Servicios adquiridos para el procesamiento de productos primarios provistos por los hogares para 
+producir alimentos y bebidas no alcohólicas para consumo propio por parte de los hogares. 
+ 
+ 
+ 
+
+

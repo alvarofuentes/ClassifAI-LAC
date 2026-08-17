@@ -1,0 +1,1867 @@
+--- PAGE 3 ---
+ 
+ 
+3 
+ 
+Índice de tablas 
+Tabla 1. Comparación del número de categorías por nivel de CCIF 1999 - CCIF 2018 ................... 15 
+Tabla 2. Ejemplo de estructura de CCIF 2018.CL ............................................................................ 18 
+Tabla 3. Estructura comparativa entre CCIF 2018 y CCIF 2018.CL ................................................. 19 
+Tabla 4. Ejemplo de extracto de códigos residuales y sub residuales subclase 01.1.2.02.00 "Carne 
+fresca, refrigerada o congelada (ND)" ............................................................................................... 20 
+Tabla 5. Códigos residuales, no identificados y no desglosados subclase 03.2.1.05.00 "Accesorios 
+para calzado, calzado no identificado, no desglosado y otros tipos de calzado n.c.p.(SD)" ............ 21 
+Tabla 6. Comparación del número de categorías por nivel de CCIF 2018 - CCIF 2018.CL ............. 22 
+
+
+--- PAGE 20 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+20 
+ 
+− 
+Sub residuales: los sub residuales, se conforman a partir de la agrupación de categorías 
+similares con el objetivo de asegurar la exhaustividad en los niveles más desagregados y son 
+creados con el objeto de contar con categorías balanceadas en términos del tamaño y evitar 
+una sobrecarga y desequilibro en el contenido de los códigos residuales. La ubicación de los 
+sub residuales dentro del nivel de la clasificación no es al final de la estructura como es el caso 
+del código residual, sino que se encuentran ubicados anterior a éste (véase, tabla 4). 
+ 
+Tabla 4. Ejemplo de extracto de códigos residuales y sub residuales subclase 01.1.2.02.00 "Carne 
+fresca, refrigerada o congelada (ND)". 
+Código 
+Glosa CCIF 2018.CL 
+Caracterización del código 
+01.1.2.02.00 
+Carne fresca, refrigerada o congelada 
+(ND) 
+Subclase para todas las carnes frescas, 
+refrigeradas o congeladas 
+01.1.2.02.01 
+Carne de vacuno corte asiento 
+Agrupación de los cortes de carne de 
+vacuno 
+01.1.2.02.02 
+Carne de vacuno corte lomo vetado 
+01.1.2.02.03 
+Carne de vacuno corte lomo liso y filete 
+01.1.2.02.04 
+Carne de vacuno corte posta 
+01.1.2.02.05 
+Carne de vacuno molida 
+01.1.2.02.06 
+Otros cortes de carne de vacuno 
+Sub residual cortes carne de vacuno 
+01.1.2.02.07 
+Cortes de carne de vacuno no 
+identificados 
+Carne de vacuno sin corte identificado 
+01.1.2.02.08 
+Carne de cerdo corte chuleta 
+Agrupación de los cortes de carne de 
+cerdo 
+01.1.2.02.09 
+Carne de cerdo corte costillar 
+01.1.2.02.10 
+Carne de cerdo corte pulpa 
+01.1.2.02.11 
+Otros cortes de carne de cerdo 
+Sub residual cortes carne de cerdo 
+01.1.2.02.99 
+Carne fresca, refrigerada o congelada de 
+otros tipos de animales n.c.p. 
+Residual general con extensión n.c.p 
+para la inclusión de carnes de otros 
+animales no mencionados en los 
+códigos anteriores 
+Fuente: Elaboración propia. 
+Nota. No se señalan todos los códigos de la subclase 01.1.2.02.00, solo se consideran las carnes de vacuno y cerdo. 
+ 
+Los códigos residuales no deben ser utilizados en aquella información recolectada de forma ambigua o 
+poco precisa, ya que para esos casos es necesario contar con categorías complementarias para tal 
+finalidad. En el caso de la CCIF 2018.CL, fueron incorporados dos tipos de códigos complementarios 
+como parte de la estructura del clasificador. Cabe señalar, que el objetivo de estos códigos, además de 
+ser un requerimiento propio de las operaciones estadísticas del INE, permitirá estandarizar y facilitar 
+para cualquier usuario o productor de información, el tratamiento de los bienes o servicios que en el 
+proceso de recolección resultaron complejos de capturar: 
+ 
+− 
+No identificados: se refiere a categorías creadas para clasificar gastos en bienes y/o servicios 
+donde se requiere especificar mayor detalle, por ejemplo, el tipo, variedad, procedencia, 
+especie, formato, etc. (véase, tabla 5). 
+ 
+− 
+No desglosados: son categorías creadas para clasificar gastos en bienes y/o servicios donde 
+se declara un valor único que corresponde al gasto realizado en más de un bien y/o servicio, 
+sin embargo, son productos que se comercializan por separado, donde cada uno tiene su propio 
+valor. A diferencia de los productos en formato de pack o combo cuya naturaleza considera dos 
+o más productos comercializados de forma conjunta bajo un solo valor, para los productos 
+clasificados en esta categoría, no se dispone del desglose del consumo de forma individual 
+
+
+--- PAGE 21 ---
+PRESENTACIÓN DEL CLASIFICADOR 
+ 
+21 
+debido a las dificultades en el proceso de recolección para capturar el dato preciso (véase, tabla 
+5). 
+ 
+Tabla 5. Códigos residuales, no identificados y no desglosados subclase 03.2.1.05.00 "Accesorios 
+para calzado, calzado no identificado, no desglosado y otros tipos de calzado n.c.p. (SD)". 
+Código 
+Glosa CCIF 2018.CL 
+Caracterización del código 
+03.2.1.05.00 
+Accesorios para calzado, 
+calzado no identificado, no 
+desglosado y otros tipos de 
+calzado n.c.p. (SD) 
+Categoría para accesorios para calzado, 
+calzados no identificado, no desglosado y otros 
+tipos de calzado n.c.p. (SD) 
+03.2.1.05.01 
+Accesorios para calzado 
+Categoría para los accesorios de calzado 
+03.2.1.05.02 
+Calzado no identificado 
+Categoría para codificar información que no 
+cuenta con el detalle respecto al tipo de 
+calzado (zapatillas, zapatos formales, etc.), o 
+bien al usuario (hombre, mujer, niño, niña, etc.) 
+para el cual va destinado 
+03.2.1.05.88 
+Calzado no desglosado 
+Categoría para codificar compras agregadas 
+de diferentes tipos de calzado (zapatillas, 
+zapatos formales, etc.) o diferentes tipos de 
+usuarios (hombre, mujer, niño, niña, etc.) 
+03.2.1.05.99 
+Otros tipos de calzado n.c.p. 
+Categoría para codificar otros tipos de calzado 
+n.c.p. 
+Fuente: Elaboración propia. 
+ 
+Para la producción de estadísticas, es importante comentar que los códigos “No identificados” y “No 
+desglosados” son de uso excepcional, debiendo asegurar, en primera instancia, la aplicación de los 
+criterios de la CCIF en los procesos de recolección, así como los protocolos del usuario de la 
+clasificación para los casos que se requiera de información adicional o aclaración de esta. 
+ 
+5 Principales cambios entre la CCIF 2018 y CCIF 2018.CL 
+ 
+El Clasificador Chileno del Consumo Individual por Finalidades, CCIF 2018.CL, mantiene la estructura 
+de la CCIF 2018 de forma general. Sin embargo, como parte del proceso de adaptación de la 
+clasificación, se realizaron diversas modificaciones que permitieron reflejar, de mejor manera la 
+estructura del consumo nacional y los requerimientos de distintos usuarios de la clasificación. 
+Algunas de las modificaciones antes señaladas, se relacionan con: 
+ 
+• 
+Ajuste en la denominación de glosas y descripciones de las notas explicativas, adecuándose a 
+la terminología del país. 
+ 
+• 
+Incorporación de sinónimos para bienes o servicios con el fin de que la adaptación sea lo más 
+descriptiva y detallada posible. 
+ 
+• 
+Incorporación de denominaciones en inglés y español de forma simultánea para los casos en 
+que se considere una ayuda el indicar ambas formas de designación. 
+ 
+• 
+Incorporación de ejemplos de productos o servicios, ya sea en el ítem de lo que se incluye o 
+excluye en cada una de las categorías. 
+ 
+• 
+Modificación en la cantidad de dígitos de la numeración, de forma específica para el nivel de 
+subclase quedando en dos dígitos en la adaptación (CCIF 2018, 01.1.1.1 “Cereales (ND)”; CCIF 
+2018.CL, 01.1.1.01.00 “Cereales (ND)”). 
+ 
+• 
+Incorporación de un nivel de desagregación adicional denominado “producto” representado por 
+los dos últimos dígitos del código (véase, tabla 6). Tal como se señaló, en el punto 4.3 
+
+
+--- PAGE 26 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+26 
+División 01.0.0.00.00 
+Alimentos y bebidas no alcohólicas 
+La división 01.0.0.00.00 está compuesta por el grupo de alimentos (01.1.0.00.00) y de bebidas no 
+alcohólicas (01.2.0.00.00) compradas por el hogar principalmente para el consumo y/o la preparación 
+en el hogar. 
+Junto con ello, en esta división también se encuentran los servicios para el procesamiento de bienes 
+primarios que permiten producir alimentos y bebidas no alcohólicas para el consumo (01.3.0.00.00). 
+Los alimentos están compuestos por todos los bienes comestibles que son comprados y consumidos 
+por el hogar con el propósito de comer, alimentarse y/o nutrirse. Incluye cereales y productos de 
+cereales; carne; pescado y otros productos comestibles del mar; leche y otros productos lácteos; 
+huevos; aceites y grasas; frutas frescas y frutos secos; verduras, tubérculos, plátanos y bananas; 
+legumbres; azúcar, confites y postres; sal, salsas y condimentos, especias, hierbas y semillas culinarias. 
+La división 01.0.0.00.00 también incluye alimentos para bebés y platos preparados que se pueden 
+comer como están o bien, que pueden ser consumidos después de calentarlos. Las bebidas no 
+alcohólicas incluyen aquellas bebidas que no contienen alcohol. 
+Excluye alimentos y bebidas no alcohólicas que se proporcionan como parte de un servicio de 
+alimentación (división 11.0.0.00.00). 
+ 
+Grupo 01.1.0.00.00 
+Alimentos 
+Alimentos comprados por el hogar principalmente para el consumo inmediato y/o la preparación en el 
+hogar. 
+Los alimentos están compuestos por todos los bienes comestibles que son comprados y consumidos 
+por el hogar con el propósito de comer, alimentarse y/o nutrirse. Incluye cereales y productos de 
+cereales; carne; pescado y otros productos comestibles del mar; leche y otros productos lácteos; 
+huevos; aceites y grasas; frutas frescas y frutos secos; verduras, tubérculos, plátanos y bananas; 
+legumbres; azúcar, confites y postres; sal, salsas y condimentos, especias, hierbas y semillas culinarias. 
+Incluye: 
+- productos que necesitan ser cocinados y preparados, así como alimentos preparados. 
+Excluye: 
+- servicios de entrega local de alimentos o bebidas, cuando se cobran por separado 
+(07.4.9.02.01); 
+- productos para la alimentación animal (09.3.2.02.01); 
+- alimentos provistos por los servicios de alimentación (11.0.0.00.00). 
+ 
+Clase 01.1.1.00.00 
+Cereales y productos de cereal (ND) 
+ 
+ 
+
+
+--- PAGE 27 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+27 
+Subclase 01.1.1.01.00 
+Cereales (ND) 
+Esta categoría contiene granos de cereales secos, quebrados o precocidos (al vapor), pero sin otra 
+preparación. 
+Incluye: 
+- trigo; 
+- arroz, incluido el arroz parbolizado (o vaporizado); 
+- sorgo; 
+- cebada; 
+- mijo; 
+- maíz; 
+- quinoa; 
+- teff. 
+También incluye: 
+- bulgur (o burgul); 
+- centeno; 
+- avena; 
+- triticale; 
+- alforfón (o trigo sarraceno); 
+- alpiste; 
+- quihuicha o trigo inca; 
+- cañahua, cañihua o kañiwa; 
+- adlay o las lágrimas de Job; 
+- granos de cereales mezclados, en forma de granos secos, que también incluyen otros 
+ingredientes (siempre que estos no sean el ingrediente principal) pero sin otro procesamiento. 
+Excluye: 
+- harina de cereales (01.1.1.02.00); 
+- cereales para el desayuno (01.1.1.04.01); 
+- preparaciones elaboradas a base de cereales, como sopas preparadas a base de cereales 
+(01.1.9.01.04); 
+- cereales de arroz para bebés y otros cereales para bebés (01.1.9.02.01); 
+- sopas y cremas en polvo (01.1.9.09.01); 
+- semillas para siembra (09.3.1.02.02). 
+ 
+
+
+--- PAGE 28 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+28 
+Producto 01.1.1.01.01 
+Arroz 
+Incluye: 
+- arroz de todos los tipos como arroz grado 1, grado 2, grado 3, sea grano corto, largo o partido, 
+arroz para sopa, arroz sin grado; arroz especialidades de preparación rápida, arroz a granel, arroz 
+integral, arroz para sushi, arroz tipo primavera para cocinar, etc. 
+ 
+Producto 01.1.1.01.02 
+Maíz 
+Incluye: 
+- maíz seco. 
+Excluye: 
+- choclos frescos (01.1.7.04.06); 
+- choclos congelados (01.1.7.08.01); 
+- choclos en conserva (01.1.7.09.03). 
+ 
+Producto 01.1.1.01.03 
+Quinoa 
+Incluye: 
+- quinoa. 
+Excluye: 
+- harina de quinoa (01.1.1.02.99); 
+- quinoa pop (01.1.1.09.02). 
+ 
+Producto 01.1.1.01.04 
+Avena 
+Incluye: 
+- avena en grano. 
+Excluye: 
+- avena instantánea (01.1.1.04.01); 
+- avena tradicional (cruda) (01.1.1.04.01). 
+ 
+ 
+
+
+--- PAGE 29 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+29 
+Producto 01.1.1.01.99 
+Otros cereales n.c.p. 
+Incluye: 
+- trigo, germen y salvado de trigo, sorgo, cebada, mijo, teff, bulgur (o burgul), centeno, triticale, 
+alforfón (o trigo sarraceno), alpiste, quihuicha o trigo inca, canagua o cañahua, cañihua o kañiwa, 
+adlay o las lágrimas de Job, granos de cereales mezclados, en forma de granos secos, que 
+también incluyen otros ingredientes (siempre que estos no sean el ingrediente principal) pero sin 
+otro procesamiento. 
+Excluye: 
+- mote o trigo mote (01.1.1.09.99). 
+ 
+Subclase 01.1.1.02.00 
+Harina de cereales (ND) 
+Harina de los cereales mencionados en la subclase 01.1.1.01.00 ya sea instantánea (precocida - al 
+vapor - o que contiene levaduras) o no. 
+Incluye: 
+- harina de los cereales mencionados en la subclase 01.1.1.01.00. 
+También incluye: 
+- harina instantánea para productos de panadería o que contiene levaduras; 
+- harina de polenta, ya sea instantánea (precocida) o no. 
+Excluye: 
+- harina como alimento para bebés, cereales de arroz para bebés y otros cereales para bebés 
+(01.1.9.02.01). 
+ 
+Producto 01.1.1.02.01 
+Harina de trigo blanca 
+Incluye: 
+- harina de trigo envasada, a granel, harina de flor, con o sin polvos de hornear, harina de fuerza. 
+Excluye: 
+- harina integral de trigo (01.1.1.02.99); 
+- mezclas para productos de panadería, por ejemplo, mezclas para pan, tortas o queques 
+(01.1.1.09.01); 
+- azúcar flor (01.1.8.01.01). 
+ 
+ 
+
+
+--- PAGE 30 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+30 
+Producto 01.1.1.02.99 
+Harinas de otros cereales n.c.p. 
+Incluye: 
+- harina de arroz, harina de fécula de maíz (maicena), harina integral de todos los cereales 
+(incluido trigo), harina de cebada, harina de linaza, harina de quinoa, harina de arvejón, harina 
+tostada, harina de polenta y otras harinas de los cereales incluidos en la subclase 01.1.1.01.00, 
+excepto la harina de trigo blanca. 
+Excluye: 
+- mezclas para productos de panadería, por ejemplo, mezclas para pan, tortas o queques 
+(01.1.1.09.01); 
+- harina de frutas y frutos secos (01.1.6.09.99); 
+- harina de legumbres, hortalizas, tubérculos y bananas de cocción (01.1.7.09.01). 
+ 
+Subclase 01.1.1.03.00 
+Pan y productos de panadería (ND) 
+Incluye: 
+- pan y panecillos; 
+- pan crujiente, bizcochos, pan tostado, galletas saladas; 
+- tortillas; 
+- injera (o inyera); 
+- bases de pizza sin cubrir o sin ingredientes (masa de pizza), ya sean precocidas o no; 
+- pan de jengibre y similares; 
+- galletas dulces; 
+- waffles y obleas; 
+- conos de helado; 
+- bollos, muffins, croissant, pasteles, tartas dulces, pasteles dulces y otros productos de pastelería 
+y tortas. 
+Excluye: 
+- pizza (con agregados), quiches, pasteles de carne o pescado (01.1.9.01.00). 
+ 
+Producto 01.1.1.03.01 
+Pan corriente a granel 
+Incluye: 
+- pan fresco corriente a granel como marraqueta (pan batido o pan francés), hallulla. 
+
+
+--- PAGE 31 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+31 
+Excluye: 
+- panes dulces, por ejemplo, pan de nata, pan de anís, pan de huevo, pan brioche (01.1.1.03.10). 
+ 
+Producto 01.1.1.03.02 
+Pan especial a granel 
+Incluye: 
+- pan especial a granel como pan flauta, pan cocktail, pan baguette, pan pita, pan integral, pan 
+centeno, pan amasado, bollos, pan frica, pan para hamburguesa, pan para completo, pan coliza, 
+pan de hoja, hallulla especial, pan de ajo, dobladitas y otros tipos de pan especial a granel. 
+Excluye: 
+- panes dulces, por ejemplo, pan de nata, pan de anís, pan de huevo, pan brioche (01.1.1.03.10). 
+ 
+Producto 01.1.1.03.03 
+Pan envasado 
+Incluye: 
+- pan envasado (corriente o especial) como pan hallulla envasado, pan marraqueta (batido o 
+francés) envasado, pan para cocktail envasado, pan frica envasado, pan para hamburguesa 
+envasado, pan para completo envasado, pan molde envasado, pan pita envasado, pan rallado, 
+panko y cualquier tipo de pan envasado. 
+Excluye: 
+- panes dulces, por ejemplo, pan de nata, pan de anís, pan de huevo, pan brioche (01.1.1.03.10). 
+ 
+Producto 01.1.1.03.04 
+Tortillas de rescoldo y similares 
+Incluye: 
+- chapaleles, tortillas de rescoldo, tortillas de campo, milcaos y otros similares. 
+Excluye: 
+- tortillas para cocinar (01.1.1.03.12). 
+ 
+Producto 01.1.1.03.05 
+Galletas dulces con relleno 
+Incluye: 
+- galletas dulces con relleno o agregados como galletas tipo sándwich, galletas oblea, galletas 
+bañadas con chocolate, entre otras (que sean envasadas o granel), incluye versiones light o 
+dietéticas. 
+
+
+--- PAGE 32 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+32 
+ 
+Producto 01.1.1.03.06 
+Galletas dulces sin relleno 
+Incluye: 
+- galletas dulces sin relleno como galletas tipo coctel, champaña, galletas de vino, galletas dulces 
+integrales, galletas de chuño, entre otras (que sean envasadas o granel), incluye versiones light 
+o dietéticas. 
+Excluye: 
+- galletas de arroz (01.1.1.04.01). 
+ 
+Producto 01.1.1.03.07 
+Galletas no dulces 
+Incluye: 
+- galletas saladas, galletas de agua, galletas de soda, galletas de avena, galletas de linaza, 
+galletas de salvado de trigo, entre otras (que sean envasadas o granel), incluye versiones light o 
+dietéticas. 
+Excluye: 
+- galletas de arroz (01.1.1.04.01). 
+ 
+Producto 01.1.1.03.08 
+Galletas no identificadas 
+Incluye: 
+- galletas en general cuyo tipo no es posible identificar. 
+ 
+Producto 01.1.1.03.09 
+Tortas y masas dulces grandes 
+Incluye: 
+- tortas de todos los tipos como torta de bizcocho, de milhoja, de panqueques y similares; 
+- tartas, kuchen, tartaleta, pie de limón, cheesecake, brazo de reina, pan de pascua, queques 
+enteros. 
+ 
+Producto 01.1.1.03.10 
+Pasteles y masas dulces pequeñas o por porción 
+ 
+
+
+--- PAGE 33 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+33 
+Incluye: 
+- trozos o porciones de tortas, tartas, kuchen, tartaleta, pie de limón, cheesecake, brazo de reina, 
+pan de pascua, queques; 
+- pasteles, muffin, berlines, donas, queques pequeños o individuales, dulces chilenos, alfajores, 
+barquillos, conos de helado, palmera, cuchuflí, dulces artesanales, chumbeques, dulces de trigo 
+y otros productos similares; 
+- pan de nata, pan de anís, pan de huevo, pan brioche, pan de manzana y otros panes dulces; 
+- calzones rotos, trencita y otros productos similares; 
+- media luna (croissant dulce), conejitos, colegiales, churros, panqueques preparados; 
+- empanadas de pera, empanadas de manzanas, bizcochos bañados en chocolate y otras masas 
+dulces pequeñas o por porción sean envasadas o a granel. 
+ 
+Producto 01.1.1.03.11 
+Prepizza 
+Incluye: 
+- prepizza, masas base para elaborar pizzas. 
+Excluye: 
+- pizza con ingredientes listas para hornear (01.1.9.01.01); 
+- pizza con relleno lista para su consumo adquiridas en supermercados, ferias, almacenes, 
+panaderías y similares (01.1.9.01.08). 
+ 
+Producto 01.1.1.03.12 
+Masas saladas sin relleno y sin agregados para cocinar 
+Incluye: 
+- masas preparadas para sopaipillas, para empanadas, para pascualinas, pancutras (pantrucas), 
+tortillas de arroz, tortillas de maíz, de trigo u otro cereal tipo mexicanas para tacos o wraps, tortillas 
+integrales, masas para panqueques y otras masas saladas sin relleno y sin agregados para 
+cocinar. 
+Excluye: 
+- tortillas de rescoldo (01.1.1.03.04). 
+ 
+Subclase 01.1.1.04.00 
+Cereales para el desayuno (ND) 
+Incluye: 
+- copos de maíz, hojuelas o copos de avena tradicional (cruda), hojuelas o copos de avena 
+instantánea, muesli, granola, cereales inflados, incluidas las galletas de arroz inflado; 
+
+
+--- PAGE 34 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+34 
+- cereales para el desayuno con frutos secos, fruta seca o deshidratada. 
+Excluye: 
+- palomitas de maíz (01.1.1.09.02); 
+- quinoa pop (01.1.1.09.02); 
+- snacks, chips y frituras a base de cereal (01.1.1.09.02). 
+ 
+Producto 01.1.1.04.01 
+Cereales para el desayuno 
+Incluye: 
+- cereales en polvo, granola, hojuelas o copos de maíz, hojuelas o copos de avena tradicional 
+(cruda), hojuelas o copos de avena instantánea, muesli, cereales inflados, cereales que 
+contienen avena mezclada con otro tipo de ingredientes (frutos secos, fruta seca o deshidratada), 
+pasteles de arroz inflado o galletas de arroz y otros cereales para el desayuno. 
+Excluye: 
+- avena en grano (01.1.1.01.04); 
+- snacks, chips y frituras a base de cereal (01.1.1.09.02); 
+- fórmulas, cereales y similares para bebés (01.1.9.02.01); 
+- alimentos homogeneizados para bebés (01.1.9.02.02). 
+ 
+Subclase 01.1.1.05.00 
+Macarrones, fideos, cuscús y productos de pasta similares (ND) 
+Incluye: 
+- pasta sin cocer, ya sea rellena o no, y cuscús; 
+- empanadillas, dumplings, gyosas, ravioles y similares, sin cocer. 
+Excluye: 
+- bulgur (01.1.1.01.99); 
+- platos preparados que contengan pasta rellena; platos de cuscús preparados (01.1.9.01.00). 
+ 
+Producto 01.1.1.05.01 
+Espaguetis 
+Incluye: 
+- tallarines, espaguetis, espaguetinis. 
+ 
+
+
+--- PAGE 35 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+35 
+Producto 01.1.1.05.02 
+Espirales 
+Incluye: 
+- espirales. 
+ 
+Producto 01.1.1.05.03 
+Corbatas 
+Incluye: 
+- corbatas. 
+ 
+Producto 01.1.1.05.04 
+Cabellos de ángel 
+Incluye: 
+- cabellos de ángel largos o cortos. 
+ 
+Producto 01.1.1.05.05 
+Otras pastas secas sin relleno 
+Incluye: 
+- fideos largos como fideos chinos, fideos de arroz, fideos de soya, fetuchinis; 
+- fideos cortos como macarrones, quifaros, mostacholi, caracoles; 
+- fideos para sopa como sopa de letras, pepitas, estrellas, granizos, mariposas; excepto cabellos 
+de ángel; 
+- pastas sin relleno como canelones, lasañas, gnocchi (ñoquis), bombolotti sin relleno; 
+- pasta lista instantánea para uno. 
+Excluye: 
+- cabellos de ángel (01.1.1.05.04). 
+ 
+Producto 01.1.1.05.06 
+Pastas secas de todos los tipos, con relleno 
+Pastas secas con relleno. 
+Incluye: 
+- tortellini, ravioles, bombolotti, capeleti, panzotti, sorrentinos y otras pastas secas con relleno. 
+ 
+
+
+--- PAGE 36 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+36 
+Producto 01.1.1.05.07 
+Pastas frescas de todos los tipos (con o sin relleno) 
+Pastas frescas (con o sin relleno). 
+Incluye: 
+- tortellini, ravioles, bombolotti, capeletis, panzotti, sorrentinos y otras pastas frescas. 
+ 
+Producto 01.1.1.05.08 
+Cuscús 
+Incluye: 
+- cuscús. 
+ 
+Producto 01.1.1.05.99 
+Otros productos de pasta n.c.p. 
+Incluye: 
+- empanadillas, dumplings, gyosas u otros similares sin cocer. 
+ 
+Subclase 01.1.1.09.00 
+Otros cereales y productos de molinería (ND) 
+Incluye: 
+- mezclas y masas para la preparación de productos de panadería; 
+- palomitas de maíz; 
+- barras de granola; 
+- malta, extracto de malta; 
+- chips y frituras de cereal. 
+También incluye: 
+- seitán y otros sustitutos de la carne hechos de cereales. 
+Excluye: 
+- carne y hamburguesas de soja, hamburguesas vegetarianas, tofu, tempeh y otros sustitutos de 
+la carne hechos de verduras y nueces; almidón de papas, tapioca, sagú y otros almidones 
+(01.1.7.09.00); 
+- preparaciones a base de cereales, como sopas preparadas a base de cereales (01.1.9.01.00). 
+ 
+ 
+
+
+--- PAGE 37 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+37 
+Producto 01.1.1.09.01 
+Mezclas y pastas para la preparación de productos de panadería 
+Mezclas para la preparación de productos de panadería, las que pueden presentarse líquidas o en forma 
+de polvo, gránulos, en pasta u otra forma sólida. 
+Incluye: 
+- mezclas para pasteles (tortas, tartas, bizcochos); 
+- mezclas para pan, pizzas; 
+- mezclas para galletas. 
+ 
+Producto 01.1.1.09.02 
+Snacks, chips y frituras a base de cereal 
+Incluye: 
+- palomitas de maíz (dulces o saladas), barras de granola, barras de cereal, chips de quinoa, 
+quinoa pop, chips de maíz, suflés dulces y salados, etc. 
+Excluye: 
+- papas fritas envasadas (01.1.7.09.05); 
+- snacks y chips de verduras (01.1.7.09.99). 
+ 
+Producto 01.1.1.09.99 
+Otros cereales y productos de molinería n.c.p. 
+Incluye: 
+- mote, trigo mote, chuchoca, malta, extracto de malta, seitán y otros sustitutos de la carne hechos 
+de cereales. 
+ 
+Clase 01.1.2.00.00 
+Animales vivos, carnes y otras partes de animales terrestres sacrificados (ND) 
+ 
+Subclase 01.1.2.01.00 
+Animales terrestres vivos (ND) 
+Animales terrestres vivos, tanto domésticos como silvestres, para fines alimenticios. 
+Incluye: 
+- ganado bovino (vaca, ternera, buey común, cebú o buey jorobado, buey watussi, gaur, gayal, 
+banteng, yak tibetano); 
+
+
+--- PAGE 38 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+38 
+- búfalos (búfalos de la India o de agua, búfalos o arni asiáticos, búfalos de anebas o pigmeos, 
+búfalos africanos, como los búfalos enanos y los grandes búfalos cafarianos, el bisonte 
+americano o búfalo y el bisonte europeo, el "beefalo" (cruce entre un bisonte y un vacuno)); 
+- cerdos; 
+- cabras, corderos y ovejas; 
+- aves de corral (pollos, patos, gansos, pavos y gallinas de Guinea (pintadas)); 
+- liebres y conejos; 
+- caballos, burros y otros equinos; 
+- camellos, dromedarios, alpaca, llama, guanaco, vicuña y otros camélidos; 
+- avestruces, emúes, ñandú, faisán, urogallo, paloma, codorniz y otras aves; 
+- serpientes y otros reptiles; 
+- arañas, escorpiones y otros insectos y gusanos; 
+- caracoles terrestres; 
+- ranas. 
+Excluye: 
+- peces vivos (01.1.3.01.00); 
+- mariscos vivos (01.1.3.04.00); 
+- animales vivos para el transporte (07.1.4.01.02); 
+- animales vivos para recreación (09.1.2.04.01). 
+ 
+Producto 01.1.2.01.01 
+Animales terrestres vivos 
+Animales terrestres vivos, tanto domésticos como silvestres, para fines alimenticios. 
+Incluye: 
+- ganado bovino (vaca, ternera, buey común, cebú o buey jorobado, buey watussi, gaur, gayal, 
+banteng, yak tibetano); 
+- búfalos (búfalos de la India o de agua, búfalos o arni asiáticos, búfalos de anebas o pigmeos, 
+búfalos africanos, como los búfalos enanos y los grandes búfalos cafarianos, el bisonte 
+americano o búfalo y el bisonte europeo, el "beefalo" (cruce entre un bisonte y un vacuno)); 
+- cerdos; 
+- cabras, corderos y ovejas; 
+- aves de corral (pollos, patos, gansos, pavos y gallinas de Guinea (pintadas)); 
+- liebres y conejos; 
+- caballos, burros y otros equinos; 
+
+
+--- PAGE 39 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+39 
+- camellos, dromedarios, alpaca, llama, guanaco, vicuña y otros camélidos; 
+- avestruces, emúes, ñandú, faisán, urogallo, paloma, codorniz y otras aves; 
+- serpientes y otros reptiles; 
+- arañas, escorpiones y otros insectos y gusanos; 
+- caracoles terrestres; 
+- ranas. 
+Excluye: 
+- peces vivos (01.1.3.01.00); 
+- mariscos vivos (01.1.3.04.00); 
+- animales vivos para el transporte (07.1.4.01.02); 
+- animales vivos para recreación (09.1.2.04.01). 
+ 
+Subclase 01.1.2.02.00 
+Carne fresca, refrigerada o congelada (ND) 
+Carne de todos los animales, tanto domésticos como silvestres, fresca, refrigerada o congelada. 
+Incluye: 
+- carne de ganado bovino (vaca, ternera, buey común, cebú o buey jorobado, buey watussi, gaur, 
+gayal, banteng, yak tibetano); 
+- carne de búfalos (búfalos indios o acuáticos, búfalos o arni asiáticos, búfalos celebese anoa o 
+pigmy, búfalos africanos, como los búfalos enanos y los grandes búfalos cafares, el bisonte 
+americano o búfalo y el bisonte europeo, el "beefalo" (cruce entre un bisonte y un vacuno)); 
+- carne de cerdos; 
+- carne de corderos y ovejas; 
+- carne de aves de corral (pollos, patos, gansos, pavos y gallinas de Guinea (pintadas)); 
+- carne de liebres y conejos; 
+- carne de caballos, burros y otros equinos; 
+- carne de camellos, dromedarios, alpaca, llama, guanaco, vicuña y otros camélidos; 
+- carne de focas, morsas, ballenas y otros mamíferos marinos; 
+- carne de antílopes, ciervos, jabalíes, canguros; 
+- carne de avestruces, emúes, ñandú, faisán, urogallo, paloma, codorniz y otras aves; 
+- carne de serpientes, caimanes y otros reptiles; 
+- arañas, escorpiones, insectos y gusanos; 
+- caracoles terrestres; 
+- ranas. 
+
+
+--- PAGE 40 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+40 
+También incluye: 
+- carne picada de los animales antes mencionados. 
+ 
+Producto 01.1.2.02.01 
+Carne de vacuno corte asiento 
+Incluye: 
+- cortes de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como asiento; 
+- bistec de asiento. 
+Excluye: 
+- carne de vacuno molida (01.1.2.02.05). 
+ 
+Producto 01.1.2.02.02 
+Carne de vacuno corte lomo vetado 
+Incluye: 
+- cortes de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como lomo vetado; 
+- bistec de lomo vetado. 
+Excluye: 
+- carne de vacuno molida (01.1.2.02.05). 
+ 
+Producto 01.1.2.02.03 
+Carne de vacuno corte lomo liso y filete 
+Incluye: 
+- cortes de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como lomo liso y filete; 
+- bistec de lomo liso y filete. 
+Excluye: 
+- carne de vacuno molida (01.1.2.02.05). 
+ 
+Producto 01.1.2.02.04 
+Carne de vacuno corte posta 
+Incluye: 
+- cortes de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como posta paleta, posta rosada, 
+posta negra; 
+- bistec de posta paleta, posta rosada, posta negra. 
+
+
+--- PAGE 41 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+41 
+Excluye: 
+- carne de vacuno molida (01.1.2.02.05). 
+ 
+Producto 01.1.2.02.05 
+Carne de vacuno molida 
+Incluye: 
+- carne de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como carne molida, carne molida 
+especial, tártaro, hipervita, carne picada. 
+ 
+Producto 01.1.2.02.06 
+Otros cortes de carne de vacuno 
+Incluye: 
+- otros cortes de carne de vacuno (vaca, ternera o buey, wagyu, angus, kobe) como huachalomo, 
+sobrecostilla, cogote, asado carnicero, plateada, choclillo, punta de paleta, osobuco, malaya, 
+tapapecho, asado de tira (costillar), palanca, tapabarriga, punta de ganso, punta de picana, 
+ganso, pollo ganso, abastero, entrecot, etc. 
+ 
+Producto 01.1.2.02.07 
+Cortes de carne de vacuno no identificados 
+Incluye: 
+- carne de vacuno (vaca, ternera o buey, wagyu, angus, kobe) cuyo corte no es posible identificar. 
+ 
+Producto 01.1.2.02.08 
+Carne de cerdo corte chuleta 
+Incluye: 
+- cortes de cerdo como chuleta centro, chuleta vetada, chuleta de lomo, chuleta de pierna, chuleta 
+parrillera. 
+ 
+Producto 01.1.2.02.09 
+Carne de cerdo corte costillar 
+Incluye: 
+- corte de cerdo como costillar. 
+ 
+ 
+
+
+--- PAGE 42 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+42 
+Producto 01.1.2.02.10 
+Carne de cerdo corte pulpa 
+Incluye: 
+- cortes de cerdo como pulpa pierna, pulpa paleta, pulpa paleta especial. 
+ 
+Producto 01.1.2.02.11 
+Otros cortes de carne de cerdo 
+Incluye: 
+- cortes de cerdo como lomo, malaya, solomillo, filete, pernil de cerdo, paleta, pierna entera, carne 
+molida de cerdo, otros cortes de carne de cerdo. 
+ 
+Producto 01.1.2.02.12 
+Cortes de carne de cerdo no identificados 
+Incluye: 
+- carne de cerdo cuyo corte no es posible identificar. 
+ 
+Producto 01.1.2.02.13 
+Carne de pavo molida 
+Incluye: 
+- carne de pavo molida o picada. 
+ 
+Producto 01.1.2.02.14 
+Pechuga de pavo 
+Incluye: 
+- pechuga de pavo. 
+ 
+Producto 01.1.2.02.15 
+Trutro de pavo 
+Incluye: 
+- trutro (entero - corto) deshuesado o no, de pavo. 
+ 
+Producto 01.1.2.02.16 
+Otros cortes de carne de pavo 
+
+
+--- PAGE 43 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+43 
+Incluye: 
+- pavo entero, osobuco, alas y otros cortes de carne de pavo. 
+ 
+Producto 01.1.2.02.17 
+Cortes de carne de pavo no identificados 
+Incluye: 
+- carne de pavo cuyo corte no es posible identificar. 
+ 
+Producto 01.1.2.02.18 
+Pechuga de pollo 
+Incluye: 
+- pechuga de pollo (o gallina). 
+ 
+Producto 01.1.2.02.19 
+Pollo entero 
+Incluye: 
+- pollo (o gallina) entero con y sin menudencias. 
+ 
+Producto 01.1.2.02.20 
+Trutro de pollo 
+Incluye: 
+- trutro de pollo (o gallina) como trutro corto, entero, combinado. 
+ 
+Producto 01.1.2.02.21 
+Otros cortes de carne de pollo 
+Incluye: 
+- otros cortes de carne de pollo como alitas, cazuela (especial o popular), escalopa, filetes de 
+pollo, carne de pollo molida y picada. 
+Excluye: 
+-croquetas y apanados de ave (01.1.2.05.11). 
+ 
+Producto 01.1.2.02.22 
+Cortes de carne de pollo no identificados 
+
+
+--- PAGE 44 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+44 
+Incluye: 
+- carne de pollo cuyo corte no es posible identificar. 
+ 
+Producto 01.1.2.02.23 
+Carne de otras aves 
+Incluye: 
+- carne de patos, perdices, gansos, avestruces, codornices y otras aves. 
+ 
+Producto 01.1.2.02.24 
+Carne de cordero y oveja 
+Incluye: 
+- carne de corderos y ovejas enteros, medio cordero, chuletas, costillar, pulpa, surtido y otros 
+cortes de cordero u oveja. 
+ 
+Producto 01.1.2.02.25 
+Carne fresca, refrigerada o congelada no identificada 
+Incluye: 
+- carne fresca, refrigerada o congelada cuyo animal de procedencia no es posible identificar. 
+ 
+Producto 01.1.2.02.99 
+Carne fresca, refrigerada o congelada de otros tipos de animales n.c.p. 
+Incluye: 
+- carne fresca, refrigerada o congeladas de otros tipos de animales n.c.p. como carne de cabra, 
+carne de búfalos, carne de liebres y conejos, carne de caballos y otros equinos, carne de alpaca, 
+llama, guanaco, vicuña y otros camélidos, carne de focas y otros mamíferos marinos, carne de 
+antílopes, ciervos, jabalíes, canguros, carne de serpientes, caimanes y otros reptiles, arañas, 
+escorpiones, insectos y gusanos, caracoles terrestres, cangrejos terrestres, carne de rana. 
+ 
+Subclase 01.1.2.03.00 
+Carne seca, salada, en salmuera o ahumada (ND) 
+Carne de todos los animales, seca, salada, en salmuera o ahumada. 
+Incluye: 
+- tocino, jamón, salame o salami. 
+Excluye: 
+
+
+--- PAGE 45 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+45 
+- patés (01.1.2.05.04). 
+ 
+Producto 01.1.2.03.01 
+Cortes de carne seca, salada, en salmuera o ahumada 
+Carne de todos los animales, seca, salada, en salmuera o ahumada. 
+Incluye: 
+- lomo ahumado, costillar ahumado, chuletas ahumadas, pierna de cerdo ahumada, cazuela 
+ahumada, charqui. 
+ 
+Producto 01.1.2.03.02 
+Cecinas secas y semisecas 
+Incluye: 
+- cecinas secas, semisecas, saladas o en salmuera en todas sus variedades como salame o 
+salami, salchichón, tocino, panceta, pastrami, jamón serrano. 
+ 
+Producto 01.1.2.03.03 
+Cecinas y fiambres de cerdo cocidos 
+Incluye: 
+- cecinas y fiambres de cerdo cocidos como jamón y pechuga, mortadela, pernil cocido embutido, 
+arrollado, arrollado huaso, y otros productos similares elaborados con carne de cerdo cocida. 
+Excluye: 
+- corte pernil de cerdo (01.1.2.02.11). 
+ 
+Producto 01.1.2.03.04 
+Cecinas y fiambres de pavo cocidos 
+Incluye: 
+- cecinas y fiambres de pavo cocidos como jamón y pechuga, mortadela y otros productos 
+similares elaborados con carne de pavo. 
+ 
+Producto 01.1.2.03.05 
+Cecinas y fiambres de pollo cocidos 
+Incluye: 
+- cecinas y fiambres de pollo cocidos como jamón y pechuga, mortadela y otros productos 
+similares elaborados con carne de pollo. 
+
+
+--- PAGE 46 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+46 
+ 
+Producto 01.1.2.03.06 
+Cecinas y fiambres no identificados 
+Incluye: 
+- cecinas y fiambres cuyo tipo y animal de procedencia no es posible identificar. 
+ 
+Producto 01.1.2.03.07 
+Otras cecinas y fiambres cocidos de otros tipos de animales 
+Cecinas y fiambres cocidos de otros tipos de animales. 
+Incluye: 
+- jamón y pechuga, mortadela y otros productos similares elaborados con carne de otro tipo de 
+animal. 
+ 
+Subclase 01.1.2.04.00 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, 
+secos, salados, en salmuera o ahumados (ND) 
+Despojos y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, salados, 
+en salmuera o ahumados. 
+Incluye: 
+- huesos; 
+- cabezas de cerdo, colas y orejas; patas de pollo. 
+Excluye: 
+- productos procesados en base a carne, despojos, sangre y otras partes de animales 
+sacrificados (01.1.2.05.00). 
+ 
+Producto 01.1.2.04.01 
+Subproductos y menudencias comestibles de vacuno 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, 
+salados, en salmuera o ahumados. 
+Incluye: 
+- subproductos y menudencias comestibles de vacuno, wagyu, angus, kobe como entrañas, 
+corazón, hígado (pana), guatitas, riñón, ubres, patas, lengua, criadillas, huesos, intestinos en 
+general. 
+ 
+ 
+
+
+--- PAGE 47 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+47 
+Producto 01.1.2.04.02 
+Subproductos y menudencias comestibles de cerdo 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, 
+salados, en salmuera o ahumados. 
+Incluye: 
+- subproductos y menudencias comestibles de cerdo como huesos, corazón, hígado (pana), 
+guatitas, riñón, cuero, manos, lengua, criadillas, intestinos en general, cabezas, colas, orejas y 
+patas de cerdo. 
+ 
+Producto 01.1.2.04.03 
+Subproductos y menudencias comestibles de pavo 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, 
+salados, en salmuera o ahumados. 
+Incluye: 
+- subproductos y menudencias comestibles de pavo como hígado (pana), contre, cogote, 
+corazón, intestinos en general. 
+ 
+Producto 01.1.2.04.04 
+Subproductos y menudencias comestibles de pollo 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, 
+salados, en salmuera o ahumados. 
+Incluye: 
+- subproductos y menudencias comestibles de pollo como patas de pollo, hígado (pana), contre, 
+cogote, corazón, intestinos en general. 
+ 
+Producto 01.1.2.04.99 
+Subproductos y menudencias comestibles de otros tipos de animales n.c.p. 
+Despojos, sangre y otras partes de animales sacrificados, frescos, refrigerados o congelados, secos, 
+salados, en salmuera o ahumados. 
+Incluye: 
+- subproductos y menudencias comestibles de otros tipos de animales, por ejemplo, menudencias 
+de alpaca, guanaco. 
+ 
+Subclase 01.1.2.05.00 
+Carne, despojos, sangre y otras partes procesadas de animales sacrificados (ND) 
+Preparaciones de carne, de despojos o de sangre, incluso congeladas. 
+
+
+--- PAGE 48 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+48 
+Incluye: 
+- salchichas y productos similares de carne, despojos o sangre; 
+- carne marinada; 
+- carne enlatada, extractos de carne, jugos de carne; 
+- mezcla de carne picada, de diferentes tipos de carne; 
+- todo tipo de paté, incluido el paté de hígado; 
+- carne apanada; 
+- otras preparaciones de carne, despojos o sangre. 
+ 
+Producto 01.1.2.05.01 
+Vienesas tradicionales 
+Incluye: 
+- vienesas, salchichas tradicionales (de cerdo). 
+ 
+Producto 01.1.2.05.02 
+Vienesas de ave 
+Incluye: 
+- vienesas, salchichas de pollo, pavo y otras aves. 
+ 
+Producto 01.1.2.05.03 
+Vienesas de carne de otros tipos de animales 
+Incluye: 
+- vienesas, salchichas de carne de otros tipos de animales, distintos a los incluidos en 
+01.1.2.05.01 y 01.1.2.05.02. 
+ 
+Producto 01.1.2.05.04 
+Patés y pastas de untar 
+Incluye: 
+- patés y otras pastas de carne para untar; 
+- paté de hígado. 
+ 
+Producto 01.1.2.05.05 
+Otros embutidos frescos 
+
+
+--- PAGE 49 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+49 
+Incluye: 
+- otros embutidos frescos como gordas, morcillas, prietas, longanizas, chorizos, choricillos, 
+butifarras y otros productos similares elaborados con carne de todo tipo de animal. 
+ 
+Producto 01.1.2.05.06 
+Hamburguesas de vacuno 
+Incluye: 
+- hamburguesas elaboradas con carne de vacuno. 
+ 
+Producto 01.1.2.05.07 
+Hamburguesas de ave 
+Incluye: 
+- hamburguesas elaboradas con carne de pollo, de pavo y de otras aves. 
+ 
+Producto 01.1.2.05.08 
+Hamburguesas de cerdo 
+Incluye: 
+- hamburguesas elaboradas con carne de cerdo. 
+ 
+Producto 01.1.2.05.09 
+Hamburguesas no identificadas 
+Incluye: 
+- hamburguesas elaboradas con carne cuyo animal de procedencia no es posible identificar. 
+ 
+Producto 01.1.2.05.10 
+Hamburguesas de carne de otros tipos de animales 
+Incluye: 
+- hamburguesas elaboradas con carne de otros tipos de animales. 
+Excluye: 
+- carne de soya, hamburguesas vegetarianas, hamburguesas de carne vegetal, tofu, tempeh y 
+otros sustitutos de la carne hechos de verduras y nueces (01.1.7.09.07). 
+ 
+ 
+
+
+--- PAGE 50 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+50 
+Producto 01.1.2.05.11 
+Croquetas, nuggets y apanados de ave 
+Incluye: 
+- croquetas, nuggets y apanados de ave. 
+Excluye: 
+- croquetas que no son de ave (01.1.2.05.99); 
+- productos apanados de pescado (01.1.3.03.01). 
+ 
+Producto 01.1.2.05.99 
+Otros procesados de carne, despojos, sangre y otras partes de animales sacrificados n.c.p. 
+Incluye: 
+- carne en conserva o enlatada, extractos de carne, jugos de carne, mezcla de carne picada de 
+diferentes tipos de carne, croquetas (que no son de aves o de especies marinas), chicharrones, 
+albóndigas, carne marinada, carne apanada, otras preparaciones de carne, despojos o sangre; 
+- procesados de otros tipos de animales como camarones de tierra en conserva, caracoles de 
+tierra en conserva, cangrejos de tierra en conserva. 
+Excluye: 
+- carne de pollo sin marinar (01.1.2.02.00); 
+- croquetas y apanados de ave (01.1.2.05.11); 
+- croquetas de pescado (01.1.3.03.01). 
+ 
+Clase 01.1.3.00.00 
+Pescados y mariscos (ND) 
+Pescado y mariscos, cosechados o criados en aguas dulces (ríos, lagos) y aguas saladas (marinas), 
+como crustáceos, moluscos y otros invertebrados acuáticos, en su totalidad o en parte (es decir, cortes, 
+filetes, su carne, picados o no), incluidos hígados, huevas, aletas, harina y otros despojos. 
+Incluye: 
+- tortugas acuáticas; 
+- otros invertebrados acuáticos comestibles y animales, como los pepinos de mar, los erizos de 
+mar, los chorros de mar y las medusas. 
+Excluye: 
+- mamíferos marinos, ranas y caracoles terrestres (01.1.2.01.00, 01.1.2.02.00, 01.1.2.03.00); 
+- algas y otras plantas acuáticas (01.1.7.04.00); 
+- algas frescas o refrigeradas (01.1.7.04.08); 
+- algas marinas secas o deshidratadas (01.1.7.07.01). 
+
+
+--- PAGE 51 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+51 
+ 
+Subclase 01.1.3.01.00 
+Peces vivos, pescados frescos, refrigerados o congelados (ND) 
+Peces vivos o pescado fresco, refrigerado o congelado. 
+Incluye: 
+- peces vivos con fines alimenticios; 
+- pescado fresco, refrigerado o congelado; 
+- filetes y carne de pescado, picados o no, frescos, refrigerados o congelados. 
+Excluye: 
+- hígados, huevas, aletas y otros despojos de pescados y mariscos (01.1.3.07.01); 
+- peces vivos ornamentales o mascotas (09.3.2.01.01). 
+ 
+Producto 01.1.3.01.01 
+Merluzas vivas, frescas, refrigeradas o congeladas 
+Incluye: 
+- merluza o pescada y merluza austral viva con fines alimenticios; filetes y carne de merluza o 
+pescada y merluza austral, picados o no, frescos, refrigerados o congelados. 
+ 
+Producto 01.1.3.01.02 
+Reinetas o palometas del sur vivas, frescas, refrigeradas o congeladas 
+Incluye: 
+- reineta o palometa del sur viva con fines alimenticios; filetes y carne de pescado de reineta o 
+palometa del sur, picados o no, frescos, refrigerados o congelados. 
+ 
+Producto 01.1.3.01.03 
+Salmones vivos, frescos, refrigerados o congelados 
+Incluye: 
+- salmón vivo con fines alimenticios; filetes y carne de salmón, picados o no, frescos, refrigerados 
+o congelados. 
+ 
+Producto 01.1.3.01.04 
+Peces vivos, pescados frescos, refrigerados o congelados no identificados 
+Incluye: 
+
+
+--- PAGE 52 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+52 
+- peces y pescados (con fines alimenticios) cuya especie no es posible identificar. 
+ 
+Producto 01.1.3.01.99 
+Otros tipos de peces vivos, pescados frescos, refrigerados o congelados n.c.p. 
+Incluye: 
+- otros tipos de peces y pescados con fines alimenticios como congrio (colorado, negro, dorado), 
+jurel, tollo, lenguado, corvina, sardina, atún, sierra, albacora o pez espada, pejegallo, anchoveta, 
+bacalao, pejerrey, caballa y otros tipos de peces y pescados, vivos, frescos, refrigerados o 
+congelados n.c.p. 
+ 
+Subclase 01.1.3.02.00 
+Pescados secos, salados, en salmuera o ahumados (ND) 
+Pescados secos, salados o en salmuera; ahumados. 
+Incluye: 
+- filetes y carne de pescados secos, salados o en salmuera; ahumados. 
+Excluye: 
+- hígados, huevas, aletas y otros despojos de pescados y mariscos (01.1.3.07.01). 
+ 
+Producto 01.1.3.02.01 
+Pescados secos, salados, en salmuera o ahumados 
+Incluye: 
+- filetes y carne de pescados secos, salados o en salmuera, ahumados como charqui de pescado, 
+merluza, salmón, congrio y otros pescados secos, salados, en salmuera o ahumados. 
+Excluye: 
+- hígados, huevas, aletas y otros despojos de pescados y mariscos (01.1.3.07.01). 
+ 
+Subclase 01.1.3.03.00 
+Procesados de pescado (ND) 
+Alimentos procesados a base de pescado, congelados o no. 
+Incluye: 
+- filetes apanados o cubiertos con batido, estén o no congelados; 
+- surimi, palitos de cangrejo o kanikama. 
+Excluye: 
+
+
+--- PAGE 53 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+53 
+- caviar y sustitutos de caviar y aletas de tiburón procesadas y conservadas; hígados, huevas, 
+aletas y otros despojos (01.1.3.07.01). 
+ 
+Producto 01.1.3.03.01 
+Hamburguesas y croquetas de pescado 
+Incluye: 
+- hamburguesas de pescado, croquetas de pescado, nuggets de pescado, filetes apanados o 
+cubiertos con batido, estén o no congelados y otros productos similares de pescado. 
+ 
+Producto 01.1.3.03.02 
+Atún en conserva 
+Incluye: 
+- atún en conserva (al agua, al aceite u otra variedad; en lomitos, desmenuzado u otra variedad). 
+ 
+Producto 01.1.3.03.03 
+Jurel en conserva 
+Incluye: 
+- jurel en conserva. 
+ 
+Producto 01.1.3.03.04 
+Otros tipos de pescados en conserva 
+Incluye: 
+- otros tipos de pescados en conserva, tales como merluza, pescada, merluza austral, congrio 
+(colorado, negro, dorado), reineta o palometa del sur, salmón, tollo, lenguado, corvina, sardina, 
+sierra, albacora o pez espada, pejegallo, anchoveta, bacalao, pejerrey, entre otros. 
+ 
+Producto 01.1.3.03.05 
+Pescados en conserva no identificados 
+Incluye: 
+- pescados en conserva cuya especie no es posible identificar. 
+ 
+Producto 01.1.3.03.99 
+Otros procesados de pescado n.c.p. 
+Incluye: 
+
+
+--- PAGE 54 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+54 
+- paté y pastas de pescado, surimi, palitos de cangrejo o kanikama, estén o no congelados. 
+ 
+Subclase 01.1.3.04.00 
+Mariscos vivos, frescos, refrigerados o congelados (ND) 
+Incluye: 
+- cangrejos, langostas, cangrejos de río, krill, arañas marinas, camarones y langostinos y otros 
+crustáceos, vivos, frescos, refrigerados o congelados; 
+- sepia, calamar, pulpo, caracoles de mar, abulón y bivalvos como ostras, vieiras, mejillones, 
+almejas, berberechos y conchas de arca y otros moluscos, vivos, frescos, refrigerados o 
+congelados; 
+- erizos de mar, pepinos de mar (bêches de mer), medusas y otros invertebrados acuáticos, vivos, 
+frescos, refrigerados o congelados. 
+Excluye: 
+- moluscos terrestres, incluidos los caracoles terrestres vivos, frescos, refrigerados o congelados 
+(01.1.2.01.01, 01.1.2.02.99); 
+- algas frescas o refrigeradas (01.1.7.04.08);  
+- algas marinas secas o deshidratadas (01.1.7.07.01). 
+ 
+Producto 01.1.3.04.01 
+Almejas vivas, frescas o refrigeradas, en su concha o congeladas 
+Incluye: 
+- almejas vivas, frescas, refrigeradas o congeladas. 
+ 
+Producto 01.1.3.04.02 
+Camarones vivos, frescos, refrigerados o congelados 
+Incluye: 
+- camarones de tierra y agua vivos, frescos, refrigerados o congelados. 
+ 
+Producto 01.1.3.04.03 
+Cholgas o choritos vivos, frescos o refrigerados, en su concha o congelados 
+Incluye: 
+- cholgas vivas, frescas, refrigeradas o congeladas; 
+- choritos, choros o choro maltón vivos, frescos, refrigerados o congelados. 
+ 
+
+
+--- PAGE 55 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+55 
+Producto 01.1.3.04.04 
+Machas vivas, frescas o refrigeradas, en su concha o congeladas 
+Incluye: 
+- machas vivas, frescas, refrigeradas o congeladas. 
+ 
+Producto 01.1.3.04.05 
+Mariscos no identificados 
+Incluye: 
+- mariscos cuya variedad no es posible identificar. 
+ 
+Producto 01.1.3.04.99 
+Otros tipos de mariscos vivos, frescos, refrigerados o congelados n.c.p. 
+Incluye: 
+- cangrejos, jaibas, centollas, langostas, cangrejos de río, krill, arañas marinas, langostinos, 
+gambas, picorocos y otros crustáceos, vivos, frescos, refrigerados o congelados; 
+- sepia o jibia, calamar, pulpo, caracoles de mar, lapas, abulón y bivalvos, como ostras, ostiones, 
+locos, culengues, vieiras, mejillones, berberechos, conchas de arca y otros moluscos, vivos, 
+frescos, refrigerados o congelados; 
+- erizos de mar, piures, pepinos de mar (bêches de mer), medusas y otros invertebrados 
+acuáticos, vivos, frescos, refrigerados o congelados; 
+- surtidos de mariscos. 
+ 
+Subclase 01.1.3.05.00 
+Mariscos secos, salados, en salmuera o ahumados (ND) 
+Los siguientes mariscos, secos, salados o en salmuera, ahumados. 
+Incluye: 
+- cangrejos, langostas, cangrejos de río, krill, arañas marinas, camarones y langostinos y otros 
+crustáceos; 
+- sepia, calamar, pulpo, caracoles de mar, abulón y bivalvos, como ostras, vieiras, mejillones, 
+almejas, berberechos, conchas de arca y otros moluscos; 
+- erizos de mar, pepinos de mar (bêches de mer), medusas y otros invertebrados acuáticos. 
+ 
+Producto 01.1.3.05.01 
+Mariscos secos, salados, en salmuera o ahumados 
+Los siguientes mariscos, secos, salados o en salmuera, ahumados. 
+
+
+--- PAGE 56 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+56 
+Incluye: 
+- cangrejos, langostas, cangrejos de río, krill, arañas marinas, camarones y langostinos y otros 
+crustáceos; 
+- sepia, calamar, pulpo, caracoles de mar, abulón y bivalvos, como ostras, vieiras, mejillones, 
+almejas, berberechos, conchas de arca y otros moluscos; 
+- erizos de mar, pepinos de mar (bêches de mer), medusas y otros invertebrados acuáticos; 
+- choritos, almejas, jaibas, piures y otros mariscos. 
+ 
+Subclase 01.1.3.06.00 
+Procesados de mariscos (ND) 
+Alimentos procesados de los siguientes productos del mar, ya sean congelados o no. 
+Incluye: 
+- cangrejos, langostas, cangrejos de río, krill, arañas marinas, camarones y langostinos y otros 
+crustáceos; 
+- sepia, calamar, pulpo, caracoles de mar, abulón y bivalvos, como ostras, vieiras, mejillones, 
+almejas, berberechos, conchas de arca y otros moluscos; 
+- erizos de mar, pepinos de mar (bêches de mer), medusas y otros invertebrados acuáticos. 
+ 
+Producto 01.1.3.06.01 
+Mariscos en conserva 
+Este código comprende todo tipo de conservas preparadas a base de mariscos. 
+Incluye: 
+- surtido para caldillo, surtido de mariscos, picorocos en conserva, erizos en conserva, camarones 
+de agua en conserva, langostas en conserva, langostinos en conserva, gambas en conserva, 
+caracoles de agua en conserva, cangrejos de agua en conserva, jaibas en conserva, centollas 
+en conserva y otros crustáceos en conserva; almejas en conserva, choritos en conserva, choros 
+en conserva, cholgas en conserva, machas en conserva, ostras en conserva, ostiones en 
+conserva, locos en conserva, piures en conserva, lapas en conserva, calamares o pulpos en 
+conserva, culengues en conserva, jibia en conserva y otros moluscos en conserva. 
+ 
+Producto 01.1.3.06.99 
+Otros procesados de mariscos n.c.p. 
+Incluye: 
+- paté y pastas de mariscos, mariscos apanados o cubiertos con batido, estén o no congelados. 
+ 
+Subclase 01.1.3.07.00 
+
+
+--- PAGE 57 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+57 
+Hígados, huevas y despojos de pescados y mariscos en todas las formas (ND) 
+Incluye: 
+- hígados, huevas, aletas, fauces, harina y otros despojos de pescados y mariscos, en todas las 
+formas del producto, es decir, frescos, refrigerados, congelados, secos, salados, en salmuera o 
+ahumados, preparados o conservados. 
+Excluye: 
+- algas frescas o refrigeradas (01.1.7.04.08);  
+- algas marinas secas o deshidratadas (01.1.7.07.01). 
+ 
+Producto 01.1.3.07.01 
+Hígados, huevas y despojos de pescados y mariscos en todas las formas 
+Incluye: 
+- hígados, huevas, aletas, fauces, harina y otros despojos de pescados y mariscos, en todas las 
+formas del producto, es decir, frescos, refrigerados, congelados, secos, salados, en salmuera o 
+ahumados, preparados o conservados. 
+Excluye: 
+- algas frescas o refrigeradas (01.1.7.04.08); 
+- algas marinas secas o deshidratadas (01.1.7.07.01). 
+ 
+Clase 01.1.4.00.00 
+Leche, otros productos lácteos y huevos (ND) 
+ 
+Subclase 01.1.4.01.00 
+Leche líquida y entera (ND) 
+Leche cruda y entera de bovinos y búfalos, ovinos y caprinos, camellos y otros animales, fresca, 
+pasteurizada, esterilizada (UHT) y reconstituida. 
+Excluye: 
+- leche y nata cuajada (crema de leche), fermentada o acidificada (01.1.4.06.04). 
+ 
+Producto 01.1.4.01.01 
+Leche líquida entera 
+Incluye: 
+- leche cruda y entera de bovinos y búfalos, ovinos y caprinos, camellos y otros animales, fresca, 
+pasteurizada, esterilizada (UHT) y reconstituida, con o sin lactosa. 
+ 
+
+
+--- PAGE 65 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+65 
+Incluye: 
+- huevos frescos de gallina y otras aves; 
+- huevos frescos de otros animales, incluidos los huevos de tortuga; 
+- huevos con cáscara o no, conservados o cocidos; 
+- yemas de huevo frescas o en conserva; 
+- albúmina de huevo o clara de huevo deshidratada. 
+Excluye: 
+- huevas de pescado (01.1.3.07.01); 
+- tortillas, crepes y otros productos alimenticios procesados a base de huevos (01.1.9.01.00). 
+ 
+Producto 01.1.4.08.01 
+Huevos de gallina, frescos y con cáscara 
+Incluye: 
+- huevos de gallina frescos y con cáscara, blancos o de color. 
+ 
+Producto 01.1.4.08.02 
+Huevos de otras aves y otros animales, frescos y con cáscara 
+Incluye: 
+- huevos de otras aves, frescos y con cáscara, de codorniz, tórtola, avestruz, etc.; 
+- huevos de otros animales, frescos y con cáscara, incluidos los huevos de tortuga. 
+Excluye: 
+- huevas de pescado (01.1.3.07.01). 
+ 
+Producto 01.1.4.08.03 
+Huevos en otro formato y otros productos derivados del huevo 
+Incluye: 
+- huevos conservados o cocidos de gallina y otros animales con cáscara o no; 
+- yemas de huevo frescas o en conserva; 
+- albúmina de huevo o clara de huevo deshidratada; 
+- huevos en polvo, huevos pasteurizados. 
+ 
+ 
+
+
+--- PAGE 80 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+80 
+Incluye: 
+- frutos secos salados, tostados, ahumados o preparados de otra manera como maní salado, 
+avellanas tostadas, maní con merquén, etc. 
+Excluye: 
+- mermeladas, jaleas de frutas, purés y pastas de frutas (01.1.8.03.00); 
+- puré de frutos secos, mantequilla de frutos secos y pastas de frutos secos (01.1.8.04.01); 
+- frutos secos confitados (01.1.8.09.01); 
+- preparaciones homogeneizadas como alimento para bebés (01.1.9.02.02). 
+ 
+Producto 01.1.6.09.02 
+Mix de frutos secos con frutas deshidratadas 
+Incluye: 
+- maníes, pasas y almendras, maníes con pasas y otros surtidos de frutos secos y deshidratados 
+de todo tipo. 
+ 
+Producto 01.1.6.09.03 
+Frutas enlatadas y en conserva 
+Incluye: 
+- pote de fruta lista en conserva, cajas de fruta lista en conserva, duraznos, piñas, papayas, 
+damascos, frutillas, peras, macedonia (o cocktail) de frutas, cerezas y guindas, castañas en 
+almíbar, marrasquinos y otras frutas. 
+ 
+Producto 01.1.6.09.99 
+Otras preparaciones de frutas y frutos secos n.c.p. 
+Incluye: 
+- harina de frutas y frutos secos, preparaciones de fruta homogeneizadas, encurtidos de frutas, 
+fruta conservada en vinagre. 
+Excluye: 
+- harinas de cereal (01.1.1.02.00); 
+- harinas de legumbres, hortalizas, tubérculos y bananas para cocinar (01.1.7.09.01); 
+- preparaciones de frutas homogeneizadas para bebés (01.1.9.02.02). 
+ 
+Clase 01.1.7.00.00 
+Hortalizas, tubérculos, plátanos, bananas para cocinar y legumbres (ND) 
+
+
+--- PAGE 87 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+87 
+ 
+Producto 01.1.7.04.05 
+Cebollas frescas o refrigeradas 
+Incluye: 
+- cebollas y chalotas, frescas o refrigeradas en todas sus variedades o denominaciones, por 
+ejemplo, nueva o de guarda, cambrayes, rojas, cebollines, puerros. 
+ 
+Producto 01.1.7.04.06 
+Choclos frescos o refrigerados 
+Incluye: 
+- choclos frescos o refrigerados; 
+- choclos dulces, conocidos como "choclos americanos" frescos o refrigerados. 
+Excluye: 
+- maíz seco (cereal) (01.1.1.01.02); 
+- choclos congelados (01.1.7.08.01); 
+- choclos en conserva (01.1.7.09.03). 
+ 
+Producto 01.1.7.04.07 
+Hongos comestibles frescos o refrigerados 
+Incluye: 
+- hongos comestibles frescos o refrigerados en todas sus variedades o denominaciones, por 
+ejemplo, champiñones, setas, callampas, trufas, digüeñes y otros hongos comestibles frescos o 
+refrigerados. 
+Excluye: 
+- hongos psilocibina, hongos alucinógenos (02.4.1.01.01). 
+ 
+Producto 01.1.7.04.08 
+Algas marinas comestibles frescas o refrigeradas 
+Incluye: 
+- algas marinas comestibles frescas o refrigeradas como cochayuyos, ultes, luches, hinojos 
+marinos y otras algas similares frescas o refrigeradas. 
+Excluye: 
+- algas marinas secas o deshidratadas, por ejemplo, cochayuyos secos, nori (01.1.7.07.01). 
+ 
+
+
+--- PAGE 90 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+90 
+Arvejas secas 
+Incluye: 
+- arvejas secas, arvejas partidas, guisantes y guisantes de vaca. 
+Excluye: 
+- arvejas frescas (01.1.7.03.01). 
+ 
+Producto 01.1.7.06.99 
+Otras legumbres secas n.c.p. 
+Incluye: 
+- habas secas, habas de bambara, mezclas de legumbres. 
+ 
+Subclase 01.1.7.07.00 
+Otras hortalizas, tubérculos, plátanos y bananas para cocinar, secas y deshidratadas (ND) 
+Hortalizas (que no sean leguminosas), tubérculos, plátanos y bananas para cocinar, secas y 
+deshidratadas. 
+Incluye: 
+- soja seca; 
+- papas secas; 
+- ajos y cebollas deshidratadas. 
+Excluye: 
+- harinas de cereales (01.1.1.02.00); 
+- harinas de hortalizas (01.1.7.09.01). 
+ 
+Producto 01.1.7.07.01 
+Otras hortalizas, tubérculos, plátanos y bananas para cocinar, secas y deshidratadas 
+Hortalizas (que no sean leguminosas), tubérculos, plátanos y bananas para cocinar, algas marinas, 
+secas y deshidratadas. 
+Incluye: 
+- soja seca, papas secas, ajos y cebollas deshidratados (ajo en polvo, ajo en láminas o ajo entero, 
+cebolla en polvo, cebolla en láminas o cebolla entera), papa chuño, zanahorias deshidratadas, 
+betarragas deshidratadas, algas marinas secas o deshidratadas (cochayuyo seco, nori, otras 
+algas marinas secas o deshidratadas), etc. 
+Excluye: 
+- harinas de cereales (01.1.1.02.00); 
+
+
+--- PAGE 92 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+92 
+- otras hortalizas, tubérculos, plátanos, bananas para cocinar, congelados como espárragos, 
+porotos verdes, porotos granados, habas, cebollas, papas y otros tubérculos congelados, otras 
+hortalizas congeladas. 
+Excluye: 
+- papas duquesa, fritas y prefritas congeladas (01.1.7.09.04). 
+ 
+Subclase 01.1.7.09.00 
+Hortalizas, tubérculos, plátanos, bananas para cocinar y legumbres molidas y otras preparaciones 
+(ND) 
+Hortalizas, tubérculos, plátanos, bananas para cocinar y preparaciones de legumbres, ya sean 
+congeladas o no. 
+Incluye: 
+- harinas de hortalizas, legumbres, tubérculos, plátanos y bananas para cocinar; 
+- verduras enlatadas; 
+- aceitunas en conserva, hojuelas de verduras, puré de verduras, chips de verduras y chips en 
+base a papas fritas; 
+- papas congeladas y fritas; 
+- concentrados vegetales; 
+- preparaciones homogeneizadas; 
+- encurtidos de verduras. 
+También incluye: 
+- carne y hamburguesas de soja, hamburguesas vegetarianas, tofu, tempeh y otros sustitutos de 
+la carne hechos de verduras y nueces; 
+- kocho (pan plano hecho de tallo vegetal); 
+- almidón de papa, tapioca, sagú y otros almidones. 
+Excluye: 
+- seitán y otros sustitutos de la carne hechos de cereales (01.1.1.09.99); 
+- hortalizas preparadas, congelados o no, incluidos otros ingredientes, como queso o 
+carne/pescado; sopas preparadas (01.1.9.01.00); 
+- preparaciones homogeneizadas como alimento para bebés (01.1.9.02.02); 
+- hierbas y especias culinarias (01.1.9.04.00); 
+- caldos y caldos que contienen verduras (01.1.9.09.02); 
+- jugos de verduras (01.2.1.01.00). 
+ 
+ 
+
+
+--- PAGE 93 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+93 
+Producto 01.1.7.09.01 
+Harinas de legumbres, hortalizas, tubérculos, plátanos y bananas para cocinar 
+Incluye: 
+- harinas de legumbres (porotos, arvejas, garbanzos y mezclas), harinas de hortalizas, harinas 
+de tubérculos, harinas de plátanos y bananas para cocinar, harinas de soja. 
+Excluye: 
+- harinas de cereal (01.1.1.02.00); 
+- harinas de frutas y frutos secos (01.1.6.09.99). 
+ 
+Producto 01.1.7.09.02 
+Legumbres enlatadas y en conserva 
+Incluye: 
+- todo tipo de legumbres enlatadas y en conserva como arvejas, porotos, lentejas, garbanzos, 
+porotos verdes, entre otros. 
+ 
+Producto 01.1.7.09.03 
+Hortalizas, tubérculos y bananas para cocinar, en conserva 
+Incluye: 
+- hortalizas, tubérculos y bananas para cocinar, en conserva como espárragos, champiñones, 
+choclos, palmitos, tomates enteros, alcaparras, fondos de alcachofa, dientes de dragón, etc. 
+ 
+Producto 01.1.7.09.04 
+Papas precocinadas congeladas 
+Incluye: 
+- papas duquesa, papas prefritas, papas fritas, congeladas. 
+Excluye: 
+- papas naturales congeladas (01.1.7.08.99). 
+ 
+Producto 01.1.7.09.05 
+Snacks y chips de papas fritas envasadas 
+Incluye: 
+- snacks y chips en base a papas fritas, preparadas y envasadas con peso definido. 
+ 
+
+
+--- PAGE 94 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+94 
+Excluye: 
+- snacks, chips y frituras a base de cereal (01.1.1.09.02); 
+- snacks y chips de verduras (01.1.7.09.99). 
+ 
+Producto 01.1.7.09.06 
+Puré de papas 
+Incluye: 
+- papas desmenuzadas o molidas, puré de papas instantáneo. 
+ 
+Producto 01.1.7.09.07 
+Sustitutos de carne a base de soja, verduras y frutos secos 
+Incluye: 
+- carne vegetal de soja, hamburguesas de soja, hamburguesas vegetarianas, tofu, tempeh y otros 
+sustitutos de la carne hechos de verduras y frutos secos. 
+ 
+Producto 01.1.7.09.08 
+Verduras encurtidas 
+Incluye: 
+- aceitunas, pepinillos, pickle, cebollas perla, ajíes escabeche y los surtidos de las mismas como 
+pichanga o similares (como salsa americana). 
+ 
+Producto 01.1.7.09.99 
+Otras hortalizas, legumbres y tubérculos conservados o procesados n.c.p. 
+Incluye: 
+- hojuelas de verduras, puré de verduras, snacks o chips de verduras, concentrados de vegetales, 
+preparaciones homogeneizadas, kocho (pan plano hecho de tallo vegetal), almidones de papa, 
+tapioca, sagú y otros almidones. 
+Excluye: 
+- snacks, chips y frituras a base de cereal (01.1.1.09.02); 
+- papas fritas envasadas (01.1.7.09.05). 
+ 
+Clase 01.1.8.00.00 
+Azúcar, repostería y postres (ND) 
+ 
+
+
+--- PAGE 102 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+102 
+Incluye: 
+- platos precocinados que contienen pasta rellena, arroz y otros cereales, tales como platos de 
+cuscús, incluidas verduras y/o carne, pescado, queso u otros ingredientes; albóndigas, ravioles, 
+fideos y similares, con salsa listos para comer; 
+- comidas preparadas y platos a base de carne precocida, sucedáneo de la carne y/o pescado; 
+- comida preparada empaquetada que solo requiere calentar antes de que esté lista para comer; 
+- ensaladas compuestas y otros platos y comidas preparadas a base de verduras, legumbres y 
+papas que también incluyen otros ingredientes, como carne, pescado y queso; 
+- sándwiches, pizzas, quichés, empanadas de carne o pescado, congelados o no; 
+- tortillas (omelette), crepes y otros productos alimenticios a base de huevos cuando se cocinan 
+previamente y se sirven como plato principal; 
+- sopas preparadas, incluidas sopas y guisos deshidratados e instantáneos; 
+- otros platos y comidas preparadas n.c.p. 
+Excluye: 
+- productos de panadería, pasteles (01.1.1.03.00); 
+- macarrones, fideos, cuscús y productos de pasta similares sin cocer, ya sean rellenos o no 
+(01.1.1.05.00); 
+- quesos (01.1.4.05.00) y yogur (01.1.4.06.00); 
+- papas fritas y prefritas congeladas (01.1.7.09.04); 
+- helado (01.1.8.06.00) y otros postres n.c.p. (01.1.8.09.99). 
+ 
+Producto 01.1.9.01.01 
+Pizzas con ingredientes listas para hornear, freír o calentar 
+Incluye: 
+- pizzas con ingredientes listas para hornear, freír o calentar. 
+Excluye: 
+- prepizzas (01.1.1.03.11); 
+- pizzas con relleno listas para su consumo adquiridas en supermercados, ferias, almacenes, 
+panaderías y similares (01.1.9.01.08). 
+ 
+Producto 01.1.9.01.02 
+Empanadas saladas rellenas o con agregados para hornear, freír o calentar 
+Incluye: 
+- empanadas de queso, empanadas de queso más otros ingredientes agregados, empanadas de 
+carne de distintos animales, empanadas de verduras. 
+
+
+--- PAGE 104 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+104 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- menús, almuerzos y cenas donde no es posible obtener el detalle de sus platos o bebidas por 
+separado (entrada o ensalada, plato de fondo, postre, bebidas no alcohólicas, en cualquiera de 
+sus combinaciones). 
+ 
+Producto 01.1.9.01.08 
+Sándwiches, completos, pizzas, empanadas y masas saladas con relleno listos para su consumo 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- sándwiches en todas sus variedades (lomitos, churrascos, vegetarianos, ave mayo, lengua, 
+pernil, etc.), completos, chaparritas, fajitas, tacos, burritos, hamburguesas, pizzas y empanadas, 
+masas saladas con relleno. 
+Excluye: 
+- prepizzas (01.1.1.03.11); 
+- pizzas con ingredientes listas para hornear (01.1.9.01.01). 
+ 
+Producto 01.1.9.01.09 
+Papas fritas, sopaipillas y otros alimentos de picoteo listos para su consumo 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- papas fritas, sopaipillas, wantán, nachos, masas saladas sin relleno. 
+ 
+Producto 01.1.9.01.10 
+Combos o promociones de comida rápida listos para su consumo 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- combos o promociones de comida rápida. 
+ 
+Producto 01.1.9.01.11 
+Pollos asados listos para su consumo 
+Productos adquiridos en supermercados, ferias, almacenes, panaderías y similares. 
+Incluye: 
+- pollos asados preparados y listos para su consumo (enteros, trozados, etc.). 
+
+
+--- PAGE 105 ---
+ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS 
+ 
+105 
+ 
+Producto 01.1.9.01.12 
+Té, café y otras bebidas preparadas listas para su consumo 
+Incluye: 
+- té, café y otras bebidas preparadas listas para su consumo adquiridos en supermercados, ferias, 
+almacenes, panaderías y similares (incluidos los adquiridos mediante máquinas expendedoras 
+relacionadas con este tipo de establecimientos). 
+Excluye: 
+- preparaciones de bebidas a base de café y cafés preparados (embotellados, enlatados, 
+envasado de cartón y similares) (01.2.2.01.03); 
+- té y otras infusiones embotelladas (01.2.3.01.04). 
+ 
+Subclase 01.1.9.02.00 
+Alimentos para bebé (ND) 
+Alimentos destinados al uso exclusivo del bebé. 
+Incluye: 
+- fórmula para bebés (leche en polvo, condensada y evaporada para uso en bebés); 
+- cereales y harina de arroz para bebés; 
+- alimentos homogeneizados para bebés. 
+Excluye: 
+- cereales y harina no destinados al uso exclusivo del bebé (01.1.1.01.00, 01.1.1.02.00); 
+- leche en polvo no destinada exclusivamente para uso en bebés (01.1.4.03.01); 
+- yogur para niños (01.1.4.06.00); 
+- preparaciones homogeneizadas de frutas y hortalizas que no están destinadas exclusivamente 
+para uso en bebés (01.1.6.09.00; 01.1.7.09.00). 
+ 
+Producto 01.1.9.02.01 
+Fórmulas, cereales y similares para bebés 
+Alimentos destinados al uso exclusivo del bebé. 
+Incluye: 
+- fórmulas para bebés (leches en polvo, condensada o evaporada para uso en bebés), sustitutos 
+de leche materna, fórmulas infantiles con hierro, complementos nutricionales a base de 
+maltodextrina; 
+- cereales y harinas de arroz o avena para bebés. 
+ 
+
+

@@ -1,0 +1,4100 @@
+id,text
+0711,productos que necesitan ser cocinados y preparados
+0711,así como alimentos preparados
+0111,trigo
+0111,arroz
+0111,incluido el arroz parbolizado (o vaporizado)
+0111,sorgo
+0111,cebada
+0111,mijo
+0111,maíz
+0111,quinoa
+0111,teff
+0111,arroz de todos los tipos como arroz grado 1
+0111,grado 2
+0111,grado 3
+0111,sea grano corto
+0111,largo o partido
+0111,maíz seco
+0111,avena en grano
+0111,germen y salvado de trigo
+0111,bulgur (o burgul)
+0111,centeno
+0111,triticale
+0111,harina de los cereales mencionados en la subclase 01.1.1.01.00
+0111,harina de trigo envasada
+0111,a granel
+0111,harina de flor
+0111,con o sin polvos de hornear
+0111,harina de fuerza
+0111,harina de arroz
+0111,harina de fécula de maíz (maicena)
+0111,harina integral de todos los cereales
+0111,pan y panecillos
+0111,pan crujiente
+0111,bizcochos
+0111,pan tostado
+0111,galletas saladas
+0111,tortillas
+0111,injera (o inyera)
+0111,bases de pizza sin cubrir o sin ingredientes (masa de pizza)
+0111,ya sean precocidas o no
+0111,pan de jengibre y similares
+0111,galletas dulces
+0111,waffles y obleas
+0111,conos de helado
+0111,bollos
+0111,muffins
+0111,croissant
+0111,pasteles
+0111,tartas dulces
+0111,pasteles dulces y otros productos de pastelería
+0111,pan fresco corriente a granel como marraqueta (pan batido o pan francés)
+0111,hallulla
+0111,pan especial a granel como pan flauta
+0111,pan cocktail
+0111,pan baguette
+0111,pan pita
+0111,pan integral
+0111,pan
+0111,pan envasado (corriente o especial) como pan hallulla envasado
+0111,pan marraqueta (batido o
+0111,chapaleles
+0111,tortillas de rescoldo
+0111,tortillas de campo
+0111,milcaos y otros similares
+0111,galletas dulces con relleno o agregados como galletas tipo sándwich
+0111,galletas oblea
+0111,galletas
+0111,galletas dulces sin relleno como galletas tipo coctel
+0111,champaña
+0111,galletas de vino
+0111,galletas de agua
+0111,galletas de soda
+0111,galletas de avena
+0111,galletas de linaza
+0111,galletas en general cuyo tipo no es posible identificar
+0111,tortas de todos los tipos como torta de bizcocho
+0111,de milhoja
+0111,de panqueques y similares
+0111,tartas
+0111,kuchen
+0111,tartaleta
+0111,pie de limón
+0111,cheesecake
+0111,brazo de reina
+0111,pan de pascua
+0111,queques
+0111,trozos o porciones de tortas
+0111,prepizza
+0111,masas base para elaborar pizzas
+0111,masas preparadas para sopaipillas
+0111,para empanadas
+0111,para pascualinas
+0111,pancutras (pantrucas)
+0111,copos de maíz
+0111,hojuelas o copos de avena tradicional (cruda)
+0111,hojuelas o copos de avena
+0111,cereales en polvo
+0111,granola
+0111,hojuelas o copos de maíz
+0111,hojuelas o copos de avena tradicional
+0111,pasta sin cocer
+0111,ya sea rellena o no
+0111,y cuscús
+0111,empanadillas
+0111,dumplings
+0111,gyosas
+0111,ravioles y similares
+0111,sin cocer
+0111,tallarines
+0111,espaguetis
+0111,espaguetinis
+0111,espirales
+0111,corbatas
+0111,cabellos de ángel largos o cortos
+0111,fideos largos como fideos chinos
+0111,fideos de arroz
+0111,fideos de soya
+0111,fetuchinis
+0111,fideos cortos como macarrones
+0111,quifaros
+0111,mostacholi
+0111,caracoles
+0111,fideos para sopa como sopa de letras
+0111,pepitas
+0111,estrellas
+0111,granizos
+0111,mariposas; excepto cabellos
+0111,tortellini
+0111,ravioles
+0111,bombolotti
+0111,capeleti
+0111,panzotti
+0111,sorrentinos y otras pastas secas con relleno
+0111,capeletis
+0111,sorrentinos y otras pastas frescas
+0111,cuscús
+0111,gyosas u otros similares sin cocer
+0111,mezclas y masas para la preparación de productos de panadería
+0111,palomitas de maíz
+0111,barras de granola
+0111,malta
+0111,extracto de malta
+0111,chips y frituras de cereal
+0111,mezclas para pasteles (tortas
+0111,bizcochos)
+0111,mezclas para pan
+0111,pizzas
+0111,mezclas para galletas
+0111,palomitas de maíz (dulces o saladas)
+0111,barras de cereal
+0111,chips de quinoa
+0111,mote
+0111,trigo mote
+0111,chuchoca
+0111,seitán y otros sustitutos de la carne hechos
+0112,ganado bovino (vaca
+0112,ternera
+0112,buey común
+0112,cebú o buey jorobado
+0112,buey watussi
+0112,gaur
+0112,gayal
+0112,carne de ganado bovino (vaca
+0112,cortes de vacuno (vaca
+0112,ternera o buey
+0112,wagyu
+0112,angus
+0112,kobe) como asiento
+0112,bistec de asiento
+0112,kobe) como lomo vetado
+0112,bistec de lomo vetado
+0112,kobe) como lomo liso y filete
+0112,bistec de lomo liso y filete
+0112,kobe) como posta paleta
+0112,posta rosada
+0112,carne de vacuno (vaca
+0112,kobe) como carne molida
+0112,carne molida
+0112,otros cortes de carne de vacuno (vaca
+0112,kobe) como huachalomo
+0112,kobe) cuyo corte no es posible identificar
+0112,cortes de cerdo como chuleta centro
+0112,chuleta vetada
+0112,chuleta de lomo
+0112,chuleta de pierna
+0112,chuleta
+0112,corte de cerdo como costillar
+0112,cortes de cerdo como pulpa pierna
+0112,pulpa paleta
+0112,pulpa paleta especial
+0112,cortes de cerdo como lomo
+0112,malaya
+0112,solomillo
+0112,filete
+0112,pernil de cerdo
+0112,paleta
+0112,pierna entera
+0112,carne
+0112,carne de cerdo cuyo corte no es posible identificar
+0112,carne de pavo molida o picada
+0112,pechuga de pavo
+0112,trutro (entero - corto) deshuesado o no
+0112,de pavo
+0112,pavo entero
+0112,osobuco
+0112,alas y otros cortes de carne de pavo
+0112,carne de pavo cuyo corte no es posible identificar
+0112,pechuga de pollo (o gallina)
+0112,pollo (o gallina) entero con y sin menudencias
+0112,trutro de pollo (o gallina) como trutro corto
+0112,entero
+0112,combinado
+0112,otros cortes de carne de pollo como alitas
+0112,cazuela (especial o popular)
+0112,escalopa
+0112,filetes de
+0112,carne de pollo cuyo corte no es posible identificar
+0112,carne de patos
+0112,perdices
+0112,gansos
+0112,avestruces
+0112,codornices y otras aves
+0112,carne de corderos y ovejas enteros
+0112,medio cordero
+0112,chuletas
+0112,costillar
+0112,pulpa
+0112,surtido y otros
+0112,carne fresca
+0112,refrigerada o congelada cuyo animal de procedencia no es posible identificar
+0112,refrigerada o congeladas de otros tipos de animales n.c.p. como carne de cabra
+0112,tocino
+0112,jamón
+0112,salame o salami
+0112,lomo ahumado
+0112,costillar ahumado
+0112,chuletas ahumadas
+0112,pierna de cerdo ahumada
+0112,cazuela
+0112,cecinas secas
+0112,semisecas
+0112,saladas o en salmuera en todas sus variedades como salame o
+0112,cecinas y fiambres de cerdo cocidos como jamón y pechuga
+0112,mortadela
+0112,pernil cocido embutido
+0112,cecinas y fiambres de pavo cocidos como jamón y pechuga
+0112,mortadela y otros productos
+0112,cecinas y fiambres de pollo cocidos como jamón y pechuga
+0112,cecinas y fiambres cuyo tipo y animal de procedencia no es posible identificar
+0112,jamón y pechuga
+0112,mortadela y otros productos similares elaborados con carne de otro tipo de
+0112,huesos
+0112,cabezas de cerdo
+0112,colas y orejas; patas de pollo
+0112,subproductos y menudencias comestibles de vacuno
+0112,kobe como entrañas
+0112,subproductos y menudencias comestibles de cerdo como huesos
+0112,corazón
+0112,hígado (pana)
+0112,subproductos y menudencias comestibles de pavo como hígado (pana)
+0112,contre
+0112,cogote
+0112,subproductos y menudencias comestibles de pollo como patas de pollo
+0112,subproductos y menudencias comestibles de otros tipos de animales
+0112,por ejemplo
+0112,menudencias
+0112,salchichas y productos similares de carne
+0112,despojos o sangre
+0112,carne marinada
+0112,carne enlatada
+0112,extractos de carne
+0112,jugos de carne
+0112,mezcla de carne picada
+0112,de diferentes tipos de carne
+0112,todo tipo de paté
+0112,incluido el paté de hígado
+0112,carne apanada
+0112,otras preparaciones de carne
+0112,vienesas
+0112,salchichas tradicionales (de cerdo)
+0112,salchichas de pollo
+0112,pavo y otras aves
+0112,salchichas de carne de otros tipos de animales
+0112,distintos a los incluidos en
+0112,patés y otras pastas de carne para untar
+0112,paté de hígado
+0112,otros embutidos frescos como gordas
+0112,morcillas
+0112,prietas
+0112,longanizas
+0112,chorizos
+0112,choricillos
+0112,hamburguesas elaboradas con carne de vacuno
+0112,hamburguesas elaboradas con carne de pollo
+0112,de pavo y de otras aves
+0112,hamburguesas elaboradas con carne de cerdo
+0112,hamburguesas elaboradas con carne cuyo animal de procedencia no es posible identificar
+0112,hamburguesas elaboradas con carne de otros tipos de animales
+0112,croquetas
+0112,nuggets y apanados de ave
+0112,carne en conserva o enlatada
+0112,mezcla de carne picada de
+0113,tortugas acuáticas
+0113,otros invertebrados acuáticos comestibles y animales
+0113,como los pepinos de mar
+0113,los erizos de
+0113,peces vivos con fines alimenticios
+0113,pescado fresco
+0113,refrigerado o congelado
+0113,filetes y carne de pescado
+0113,picados o no
+0113,frescos
+0113,refrigerados o congelados
+0113,merluza o pescada y merluza austral viva con fines alimenticios; filetes y carne de merluza o
+0113,reineta o palometa del sur viva con fines alimenticios; filetes y carne de pescado de reineta o
+0113,salmón vivo con fines alimenticios; filetes y carne de salmón
+0113,refrigerados
+0113,otros tipos de peces y pescados con fines alimenticios como congrio (colorado
+0113,negro
+0113,dorado)
+0113,filetes y carne de pescados secos
+0113,salados o en salmuera; ahumados
+0113,salados o en salmuera
+0113,ahumados como charqui de pescado
+0113,filetes apanados o cubiertos con batido
+0113,estén o no congelados
+0113,surimi
+0113,palitos de cangrejo o kanikama
+0113,hamburguesas de pescado
+0113,croquetas de pescado
+0113,nuggets de pescado
+0113,filetes apanados o
+0113,atún en conserva (al agua
+0113,al aceite u otra variedad; en lomitos
+0113,desmenuzado u otra variedad)
+0113,jurel en conserva
+0113,otros tipos de pescados en conserva
+0113,tales como merluza
+0113,pescada
+0113,merluza austral
+0113,congrio
+0113,pescados en conserva cuya especie no es posible identificar
+0113,cangrejos
+0113,langostas
+0113,cangrejos de río
+0113,krill
+0113,arañas marinas
+0113,camarones y langostinos y otros
+0113,almejas vivas
+0113,frescas
+0113,refrigeradas o congeladas
+0113,camarones de tierra y agua vivos
+0113,cholgas vivas
+0113,choritos
+0113,choros o choro maltón vivos
+0113,machas vivas
+0113,mariscos cuya variedad no es posible identificar
+0113,jaibas
+0113,centollas
+0113,langostinos
+0113,surtido para caldillo
+0113,surtido de mariscos
+0113,picorocos en conserva
+0113,erizos en conserva
+0113,camarones
+0113,paté y pastas de mariscos
+0113,mariscos apanados o cubiertos con batido
+0113,hígados
+0113,huevas
+0113,aletas
+0113,fauces
+0113,harina y otros despojos de pescados y mariscos
+0113,en todas las
+0114,leche cruda y entera de bovinos y búfalos
+0114,ovinos y caprinos
+0114,camellos y otros animales
+0114,fresca
+0114,leche líquida descremada (o desnatada)
+0114,leche líquida semidescremada
+0114,con o sin lactosa
+0114,leche en polvo (entera o descremada (desnatada))
+0114,leche evaporada y condensada
+0114,crema fresca
+0114,coagulada
+0114,espesada y batida
+0114,crema (nata)
+0114,concentrada o con azúcar añadida u otro edulcorante; crema en polvo
+0114,leche en polvo
+0114,endulzada o sin endulzar
+0114,entera
+0114,semidescremada o descremada
+0114,leche condensada
+0114,leche evaporada
+0114,cualquier leche concentrada o evaporada
+0114,endulzada o no
+0114,en formato líquido o como pasta
+0114,cremas de leche larga o corta vida y otras cremas (chantilly
+0114,pastelera
+0114,crema espesa)
+0114,cremas
+0114,leche al horno (variedad de leche hervida que se cocina a fuego lento)
+0114,otras leches n.c.p
+0114,leche de almendras
+0114,leche de coco para beber
+0114,leche de avena
+0114,leche de arroz
+0114,leche de soja
+0114,otras leches vegetales y de frutos secos
+0114,otras leches de vegetales y frutos secos
+0114,queso gouda
+0114,queso Ranco
+0114,de origen animal
+0114,queso chanco o mantecoso
+0114,queso rallado de todo tipo
+0114,quesillo
+0114,queso fresco
+0114,queso ricota
+0114,queso requesón
+0114,queso chacra y queso cottage
+0114,queso crema
+0114,queso mascarpone
+0114,quesos untables
+0114,quesos untables saborizados
+0114,pastas
+0114,todo tipo de quesos producidos con ingredientes de origen no animal
+0114,quesos cuya variedad o tipo no es posible identificar
+0114,quesos sólidos y semisólidos no clasificados previamente como queso parmesano
+0114,queso
+0114,yogur
+0114,suero de leche de la producción de mantequilla (buttermilk) y otros productos lácteos
+0114,yogur batido con o sin sabor
+0114,con agregados (por ejemplo
+0114,yogur con frutas
+0114,cereales
+0114,yogur con probióticos y/o lactobacilos
+0114,yogur de coco
+0114,yogur de soja
+0114,otros yogures elaborados con leche de origen no animal
+0114,postres a base de leche de origen animal y no animal
+0114,bebidas a base de leche de origen animal y no animal aromatizadas con cacao
+0114,café u otras
+0114,postres a base de leche de origen animal y no animal como flan
+0114,mousse
+0114,arroz con leche
+0114,bebidas lácteas con probióticos y/o lactobacilos
+0114,postres de queso con probióticos
+0114,postres con
+0114,huevos frescos de gallina y otras aves
+0114,huevos frescos de otros animales
+0114,incluidos los huevos de tortuga
+0114,huevos con cáscara o no
+0114,conservados o cocidos
+0114,yemas de huevo frescas o en conserva
+0114,albúmina de huevo o clara de huevo deshidratada
+0114,huevos de gallina frescos y con cáscara
+0114,blancos o de color
+0114,huevos de otras aves
+0114,frescos y con cáscara
+0114,de codorniz
+0114,tórtola
+0114,avestruz
+0114,huevos de otros animales
+0114,huevos conservados o cocidos de gallina y otros animales con cáscara o no
+0114,huevos en polvo
+0114,huevos pasteurizados
+0114,suero de leche de la producción de queso (whey) y caseína
+0114,otros productos derivados de la composición de la leche
+0114,concentrados de proteínas de leche y
+0115,aceite de semillas de girasol y aceite de cártamo
+0115,aceite de palma
+0115,aceite de oliva
+0115,aceite de soja
+0115,aceite de maní (cacahuate)
+0115,aceite de colza y aceite mostaza
+0115,aceite vegetal
+0115,aceite de maravilla
+0115,aceite de maíz
+0115,aceite de pepitas de uva
+0115,aceite de semillas
+0115,manteca vegetal
+0115,mantequilla
+0115,aceite de mantequilla
+0115,mantequilla de leche con o sin sal
+0115,ghee o mantequilla clarificada
+0115,otras grasas y aceites derivados de la
+0115,margarina
+0115,margarina dietética
+0115,margarina vegetal
+0115,margarinas dietéticas
+0115,grasas de cerdo y manteca de cerdo (puede incluir hierbas u otras especias)
+0115,grasas de bovinos
+0115,búfalos
+0115,ovejas
+0115,cabras
+0115,aves de corral
+0115,grasas de chicharrones y primeros jugos (oleo stock)
+0115,grasas y aceites de pescado
+0115,aceite de todo tipo de animales
+0115,aceite de manteca de cerdo
+0115,aceite de pescado
+0115,primeros jugos
+0115,manteca de grasa de cerdo u otro animal (puede incluir hierbas u otras especias)
+0115,cabras y aves de corral
+0115,grasas de chicharrones
+0115,grasas de pescado
+0116,dátiles frescos
+0116,higos frescos
+0116,paltas (aguacates) frescas
+0116,plátanos frescos
+0116,mangos
+0116,guayabas y mangostanes frescos
+0116,papayas frescas
+0116,piñas frescas
+0116,cocos frescos
+0116,frutas del árbol del pan (breadfruits)
+0116,otras frutas tropicales y subtropicales
+0116,frescas
+0116,plátanos y bananas
+0116,mangos frescos en todas sus variedades o denominaciones
+0116,por ejemplo
+0116,mango de hilachas
+0116,piñas (ananás) frescas en todas sus variedades o denominaciones
+0116,hilo
+0116,red
+0116,chirimoyas frescas en todas sus variedades o denominaciones
+0116,higos y brevas
+0116,frescos
+0116,en todas sus variedades o denominaciones
+0116,papayas frescas en todas sus variedades o denominaciones
+0116,chilena
+0116,carica
+0116,paltas (aguacates) frescas en todas sus variedades o denominaciones
+0116,hass
+0116,negra
+0116,dátiles
+0116,guayabas y mangostanes
+0116,cocos
+0116,maracuyá
+0116,feijoa
+0116,naranjas frescas
+0116,pomelos y toronjas
+0116,limones y limas
+0116,mandarinas
+0116,tangerinas y clementinas
+0116,otros cítricos frescos
+0116,naranjas frescas en todas sus variedades o denominaciones
+0116,Pica
+0116,fino
+0116,otras frutas cítricas frescas
+0116,manzanas frescas
+0116,peras y membrillos
+0116,damascos (albaricoques) frescos
+0116,cerezas y guindas
+0116,duraznos (melocotones) y nectarinas
+0116,ciruelas y endrinas
+0116,otras frutas de cuesco y frutas de pepita
+0116,rojas y verdes
+0116,fuji
+0116,peras frescas en todas sus variedades o denominaciones
+0116,winter nelis
+0116,packham’s
+0116,duraznos frescos
+0116,conservero
+0116,damascos frescos en todas sus variedades o denominaciones
+0116,albaricoque
+0116,frescas en todas sus variedades o denominaciones
+0116,membrillos frescos en todas sus variedades o denominaciones
+0116,cydonia
+0116,chino
+0116,nísperos y lúcumas
+0116,otras frutas de cuesco o pepita frescas
+0116,grosellas y grosellas espinosas
+0116,frambuesas frescas
+0116,zarzamoras frescas
+0116,moras y arándanos
+0116,frutillas (fresas) frescas
+0116,otras bayas frescas
+0116,frutillas (fresas) frescas en todas sus variedades o denominaciones
+0116,Douglas
+0116,moras y zarzamoras
+0116,alba
+0116,frambuesas frescas en todas sus variedades o denominaciones
+0116,roja
+0116,azul
+0116,arándanos frescos en todas sus variedades o denominaciones
+0116,negro
+0116,azul y rojo
+0116,grosellas
+0116,murtas
+0116,murtillas
+0116,caquis o mancaquis
+0116,calafates y otras bayas
+0116,uvas frescas
+0116,kiwis frescos
+0116,granadas frescas en todas sus variedades o denominaciones
+0116,uvas frescas en todas sus variedades o denominaciones
+0116,Tudor
+0116,Thompson
+0116,Ruby
+0116,kiwis frescos en todas sus variedades o denominaciones
+0116,Hortgem Wha
+0116,Jin Li
+0116,melones frescos en todas sus variedades o denominaciones
+0116,calameño
+0116,sandías (o melón de agua) frescas en todas sus variedades o denominaciones
+0116,tunas frescas en todas sus variedades o denominaciones
+0116,morada
+0116,amarilla
+0116,verde
+0116,pepinos dulces (pepino melón o pera melón) frescos en todas sus variedades o
+0116,frutas frescas cuyo gasto no es posible desglosar
+0116,copaos frescos y otras frutas frescas n.c.p
+0116,frutas congeladas
+0116,crudas o cocidas
+0116,incluidas aquellas con azúcar añadida u otro edulcorante
+0116,pasas
+0116,ciruelas deshidratadas
+0116,damascos deshidratados (albaricoques deshidratados)
+0116,cocos deshidratados
+0116,otras frutas secas
+0116,almendras
+0116,castañas de cajú (anacardos)
+0116,castañas
+0116,frutos secos naturales
+0116,con cáscara o sin cáscara como piñones
+0116,maníes (cacahuetes)
+0116,harina de frutas y frutos secos
+0116,nueces
+0116,maní (cacahuetes)
+0116,tostados
+0116,salados o preparados de otra manera
+0116,fruta enlatada
+0116,preparaciones de fruta homogeneizadas
+0116,encurtidos de frutas
+0116,fruta conservada en vinagre
+0116,frutos secos salados
+0116,ahumados o preparados de otra manera como maní salado
+0116,maníes
+0116,pasas y almendras
+0116,maníes con pasas y otros surtidos de frutos secos y deshidratados
+0116,pote de fruta lista en conserva
+0116,cajas de fruta lista en conserva
+0116,duraznos
+0116,piñas
+0116,papayas
+0117,espárragos
+0117,coles
+0117,coliflores y brócolis
+0117,lechuga y achicoria
+0117,espinacas
+0117,alcachofas
+0117,otras hortalizas de hoja o tallo
+0117,frescas o refrigeradas
+0117,lechugas frescas o refrigeradas en todas sus variedades o denominaciones
+0117,por ejemplo
+0117,apios frescos o refrigerados en todas sus variedades o denominaciones
+0117,acelgas frescas o refrigeradas en todas sus variedades o denominaciones
+0117,verde
+0117,espinacas frescas o refrigeradas
+0117,alcachofas frescas o refrigeradas en todas sus variedades o denominaciones
+0117,espárragos frescos o refrigerados en todas sus variedades o denominaciones
+0117,repollos (coles) frescos o refrigerados
+0117,coliflores frescas o refrigeradas
+0117,brócolis frescos o refrigerados
+0117,rúculas
+0117,pencas
+0117,nalcas
+0117,berros
+0117,achicorias
+0117,chagual
+0117,endivias o endibias frescas o refrigeradas
+0117,ajíes (chiles) y pimientos
+0117,pepinos y pepinillos
+0117,berenjenas
+0117,tomates
+0117,calabazas
+0117,zapallos italianos (zucchini) y zapallos
+0117,otras hortalizas frutales
+0117,ajíes frescos o refrigerados en todas sus variedades o denominaciones
+0117,zapallos frescos o refrigerados en todas sus variedades o denominaciones
+0117,pepinos frescos o refrigerados como pepino maduro
+0117,pepino verde
+0117,morrones
+0117,pimentones frescos o refrigerados en todas sus variedades o denominaciones y
+0117,berenjenas frescas o refrigeradas
+0117,zapallos italianos frescos o refrigerados en todas sus variedades o denominaciones
+0117,tomates frescos o refrigerados en todas sus variedades o denominaciones
+0117,cherry
+0117,pepinillos
+0117,caiguas o caihuas
+0117,porotos verdes (frijoles verdes)
+0117,arvejas (guisantes)
+0117,arvejas (guisantes) frescas o refrigeradas
+0117,porotos verdes (frijoles verdes) frescos o refrigerados
+0117,habas frescas o refrigeradas
+0117,otras leguminosas verdes
+0117,frescas o refrigeradas como granos de soja
+0117,dientes de dragón
+0117,zanahorias y nabos
+0117,ajos
+0117,betarragas y remolachas
+0117,frescas o refrigeradas en todas sus variedades o denominaciones
+0117,ajos frescos o refrigerados en todas sus variedades o denominaciones
+0117,de cuello
+0117,zanahorias frescas o refrigeradas en todas sus variedades o denominaciones
+0117,rábanos y nabos
+0117,frescos o refrigerados en todas sus variedades o denominaciones
+0117,por
+0117,cebollas y chalotas
+0117,choclos frescos o refrigerados
+0117,choclos dulces
+0117,"conocidos como ""choclos americanos"" frescos o refrigerados"
+0117,hongos comestibles frescos o refrigerados en todas sus variedades o denominaciones
+0117,algas marinas comestibles frescas o refrigeradas como cochayuyos
+0117,ultes
+0117,luches
+0117,hinojos
+0117,aceitunas frescas o refrigeradas
+0117,mezclas de hortalizas frescas o refrigeradas para posterior
+0117,todo tipo de papas
+0117,incluyendo las batatas
+0117,mandioca y yuca
+0117,ñames
+0117,taro
+0117,yautía
+0117,también conocida como malanga
+0117,new cocoyam
+0117,ocumo
+0117,tannia
+0117,plátanos y bananas para cocinar
+0117,papas y tubérculos en todas sus variedades o denominaciones
+0117,asoberana
+0117,plátanos y bananas para cocinar como plátano barraganete (plátanos verdes)
+0117,frijoles (porotos) comunes y otros frijoles
+0117,habas secas
+0117,garbanzos
+0117,lentejas
+0117,guisantes
+0117,guisantes de vaca
+0117,arvejas
+0117,habas de bambara
+0117,mezclas de legumbres
+0117,porotos secos en todas sus variedades o denominaciones
+0117,apolo
+0117,venus
+0117,torcaza
+0117,lentejas secas en todas sus variedades o denominaciones
+0117,armuña
+0117,pardina
+0117,garbanzos secos en todas sus variedades o denominaciones
+0117,desi
+0117,gulabi
+0117,kabuli
+0117,arvejas secas
+0117,arvejas partidas
+0117,guisantes y guisantes de vaca
+0117,soja seca
+0117,papas secas
+0117,ajos y cebollas deshidratadas
+0117,ajos y cebollas deshidratados (ajo en polvo
+0117,ajo en láminas o ajo entero
+0117,hortalizas de 01.1.7.01.00 a 01.1.7.04.00
+0117,congeladas
+0117,tubérculos congelados
+0117,plátanos y bananas para cocinar congelados
+0117,choclos congelados
+0117,arvejas congeladas
+0117,mix de verduras congeladas de todo tipo como surtidos de verduras congeladas
+0117,primavera
+0117,harinas de hortalizas
+0117,legumbres
+0117,tubérculos
+0117,verduras enlatadas
+0117,aceitunas en conserva
+0117,hojuelas de verduras
+0117,puré de verduras
+0117,chips de verduras y chips en
+0117,harinas de legumbres (porotos
+0117,garbanzos y mezclas)
+0117,harinas
+0117,todo tipo de legumbres enlatadas y en conserva como arvejas
+0117,porotos
+0117,hortalizas
+0117,tubérculos y bananas para cocinar
+0117,en conserva como espárragos
+0117,champiñones
+0117,papas duquesa
+0117,papas prefritas
+0117,papas fritas
+0117,snacks y chips en base a papas fritas
+0117,preparadas y envasadas con peso definido
+0117,papas desmenuzadas o molidas
+0117,puré de papas instantáneo
+0117,carne vegetal de soja
+0117,hamburguesas de soja
+0117,hamburguesas vegetarianas
+0117,tofu
+0117,tempeh y otros
+0117,aceitunas
+0117,pickle
+0117,cebollas perla
+0117,ajíes escabeche y los surtidos de las mismas como
+0117,snacks o chips de verduras
+0117,concentrados de vegetales
+0118,azúcar de caña o de remolacha
+0118,en bruto o refinada
+0118,en polvo
+0118,cristalizada o en terrones
+0118,azúcar
+0118,azúcar distinta de la caña y la remolacha (por ejemplo
+0118,azúcar de coco)
+0118,estevia
+0118,glucosa y jarabe de glucosa
+0118,fructosa y jarabe de fructosa
+0118,lactosa y jarabe de lactosa
+0118,azúcar invertido
+0118,miel artificial
+0118,sacarina y otros edulcorantes artificiales
+0118,caña de azúcar refinada o azúcar de remolacha
+0118,en forma sólida
+0118,que contenga aromatizantes
+0118,endulzantes y edulcorantes en todas sus variedades como sucralosa
+0118,sacarina
+0118,chancaca
+0118,jarabes o siropes de arce
+0118,de melaza
+0118,de glucosa
+0118,de fructosa
+0118,de lactosa
+0118,salsas
+0118,miel natural
+0118,mermeladas
+0118,compotas
+0118,gelatinas de fruta
+0118,purés y pastas de frutas
+0118,mermeladas de frutas en todas sus variedades como mermelada de durazno
+0118,mora
+0118,naranja
+0118,dulces o pastas de frutas en todas sus variedades como dulce de membrillo
+0118,camote
+0118,papaya
+0118,miel de abeja
+0118,de caña
+0118,de palma y similares (productos naturales)
+0118,jaleas y gelatinas preparadas
+0118,purés de frutas
+0118,cuajada de limón
+0118,cuajadas de otras
+0118,mantequilla de maní
+0118,otras mantequillas de frutos secos
+0118,tales como mantequilla de almendras
+0118,mantequilla de
+0118,cacao (incluidos los granos de cacao) y cacao en polvo para todos los fines
+0118,chocolate en barras o losas
+0118,incluido el chocolate blanco
+0118,alimentos a base de chocolate y cacao y postres a base de cacao
+0118,cremas o productos para untar a base de chocolate y cacao
+0118,malvaviscos cubiertos de chocolate y gelatina cubierta de chocolate
+0118,siempre que el ingrediente
+0118,chocolates en todas sus variedades
+0118,blancos
+0118,negros
+0118,amargos
+0118,rellenos
+0118,con frutos
+0118,tales como
+0118,cacao (incluidos los granos de cacao)
+0118,cacao en polvo (para todos los fines) con o sin azúcar
+0118,saborizantes para leche con cacao o
+0118,por ejemplo
+0118,cremas o
+0118,cubitos de hielo para bebidas
+0118,helado y kulfi
+0118,sorbete
+0118,helado de yogur o yogur congelado
+0118,paletas heladas
+0118,hielo comestible (picado
+0118,en cubos o en cualquiera de sus formas)
+0118,helados en formato familiar como cassatas de uno o más sabores (helados de leche
+0118,de agua o
+0118,helados en formato individual como paletas
+0118,barquillos
+0118,vasitos
+0118,helados artesanales
+0118,helados
+0118,postres y tortas heladas
+0118,helados cuyo formato o tipo no es posible identificar
+0118,postres n.c.p
+0118,hortalizas
+0118,frutas
+0118,nueces
+0118,cáscaras de frutas y otras partes de plantas
+0118,conservadas en azúcar
+0118,chicles
+0118,toffee
+0118,caramelos
+0118,pastillas
+0118,otros productos de confitería
+0118,manzanas confitadas
+0118,plátanos confitados
+0118,frutillas confitadas
+0118,cáscaras de naranja confitadas
+0118,dulces
+0118,calugones
+0118,grageas o pastillas
+0118,gomitas
+0118,masticables
+0118,perlas comestibles
+0118,coco rallado
+0118,mostacillas comestibles
+0118,merengues para decorar
+0118,coberturas
+0118,cocadas
+0118,merengues
+0118,mazapanes
+0118,turrones
+0118,sustancias
+0118,malvaviscos
+0118,helados de invierno en
+0119,platos precocinados que contienen pasta rellena
+0119,arroz y otros cereales
+0119,tales como platos de
+0119,pizzas con ingredientes listas para hornear
+0119,freír o calentar
+0119,empanadas de queso
+0119,empanadas de queso más otros ingredientes agregados
+0119,empanadas de
+0119,pasteles de cocktail para hornear
+0119,quichés para hornear
+0119,otras masas saladas rellenas o con
+0119,platos preparados a base de legumbres y hortalizas combinados con carne de todo tipo para
+0119,hortalizas frescas lavadas
+0119,pueden ser cocinadas y envasadas como lechugas
+0119,repollos
+0119,platos de fondo para almuerzo o cena (arroz con pollo
+0119,tallarines con salsa
+0119,tortillas)
+0119,sushi
+0119,menús
+0119,almuerzos y cenas donde no es posible obtener el detalle de sus platos o bebidas por
+0119,sándwiches en todas sus variedades (lomitos
+0119,churrascos
+0119,vegetarianos
+0119,ave mayo
+0119,lengua
+0119,papas fritas
+0119,sopaipillas
+0119,wantán
+0119,nachos
+0119,masas saladas sin relleno
+0119,combos o promociones de comida rápida
+0119,pollos asados preparados y listos para su consumo (enteros
+0119,trozados
+0119,café y otras bebidas preparadas listas para su consumo adquiridos en supermercados
+0119,ferias
+0119,fórmula para bebés (leche en polvo
+0119,condensada y evaporada para uso en bebés)
+0119,cereales y harina de arroz para bebés
+0119,alimentos homogeneizados para bebés
+0119,fórmulas para bebés (leches en polvo
+0119,condensada o evaporada para uso en bebés)
+0119,sustitutos
+0119,por ejemplo
+0119,colados y picados en todas sus variedades
+0119,sal
+0119,salsas
+0119,condimentos y sazonadores (mostaza
+0119,mayonesa
+0119,kétchup
+0119,salsa de soja
+0119,sal en todas sus variedades como sal de mesa
+0119,gruesa
+0119,condimentada
+0119,marina
+0119,normal
+0119,dietética
+0119,salsas de tomate en todas sus variedades para preparaciones culinarias como salsa de tomates
+0119,mayonesas en todas sus variedades como mayonesa light
+0119,libre de colesterol
+0119,con ajo
+0119,con
+0119,kétchup en todas sus variedades como kétchup light
+0119,orgánico
+0119,reducido en
+0119,mostazas en todas sus variedades como mostaza light
+0119,americana
+0119,Dijon
+0119,ajíes en salsas
+0119,cremas
+0119,pastas
+0119,pulpas y similares de todos los tipos de ajíes o preparaciones
+0119,vinagres en todas sus variedades como vinagres de vino (tinto
+0119,blanco
+0119,rosado)
+0119,de arroz
+0119,sucedáneos jugo de limón
+0119,salsa inglesa
+0119,salsa blanca
+0119,salsa aceituna
+0119,chucrut
+0119,salsa tártara
+0119,pimienta
+0119,pimiento
+0119,jengibre y otras especias
+0119,perejil
+0119,romero
+0119,tomillo y otras hierbas culinarias
+0119,semillas de amapola
+0119,semillas de sésamo
+0119,semillas de linaza y otras semillas
+0119,especias y semillas comestibles como pimienta
+0119,comino
+0119,jengibre
+0119,ají de color
+0119,aliño completo
+0119,hierbas frescas o secas en todas sus variedades
+0119,orégano
+0119,cilantro
+0119,albahaca
+0119,laurel
+0119,caña de azúcar consumida para extraer zumo o como aperitivo
+0119,levaduras y polvos para hornear
+0119,caldos de huesos
+0119,caldos de verduras o carnes
+0119,cubitos de
+0119,sopas y cremas para preparar
+0119,no instantáneas
+0119,cubitos de caldo
+0119,concentrados para sopas
+0119,levaduras
+0119,polvos para hornear
+0119,bicarbonato
+0119,postres en polvos para preparar jaleas
+0119,budines y flanes
+0119,helados
+0119,leches asadas y otros
+0119,manjar y dulce de leche tradicional o clásico
+0119,de repostería
+0119,para helados
+0119,dietético
+0119,mixto
+0119,suplementos alimenticios y nutricionales
+0119,fórmulas dietéticas para deportistas
+0119,suplementos
+0119,saborizantes para la leche de distintos sabores como frutilla
+0119,vainilla
+0119,berries
+0119,entre otros según
+0119,agar-agar y otros productos
+0121,jugos de frutas y verduras sin fermentar y que no contengan alcohol agregado
+0121,ya sea que
+0121,jugos concentrados (concentrados de frutas
+0121,verduras
+0121,jugos y refrescos en polvo
+0122,café
+0122,incluso descafeinado
+0122,tostado o molido
+0122,incluido el café instantáneo
+0122,sustitutos del café
+0122,extractos
+0122,esencias y concentrados de café
+0122,preparaciones de bebidas a base de café
+0122,café para preparar
+0122,en todas sus variedades y sabores como café instantáneo
+0122,molido y en
+0122,cebadas y otros cereales para preparar
+0122,en todas sus variedades como cebada y otros cereales
+0122,preparaciones de bebidas a base de café y cafés preparados (embotellados
+0122,enlatados
+0123,té verde (no fermentado)
+0123,té negro (fermentado) y té parcialmente fermentado
+0123,mate y otros
+0123,té para preparar
+0123,en todas sus variedades (té verde
+0123,té negro
+0123,té rojo
+0123,té de frutas
+0123,té mezclado
+0123,mate para preparar
+0123,en todas sus variedades como mate amargo
+0123,dulce
+0123,entre otras
+0123,otros productos vegetales para preparar infusiones como boldo
+0123,menta
+0123,manzanilla
+0123,bailahuén
+0123,mate y otras infusiones preparadas envasadas
+0123,té helado preparado (embotellados
+0124,bebidas a base de cacao y chocolate
+0125,aguas minerales o de manantiales
+0125,aguas purificadas
+0125,aguas soda
+0125,con o sin sodio
+0125,con o sin
+0126,refrescos
+0126,como bebidas gaseosas (carbonatadas)
+0126,limonadas
+0126,bebidas colas y bebidas de
+0129,agua con sabor
+0129,bebidas energéticas y polvos para la preparación de este tipo de bebidas
+0129,jugo y savia de abedul
+0129,jugos y bebidas de aloe vera
+0129,siropes y concentrados para la preparación de bebidas
+0129,otras bebidas no alcohólicas
+0129,aguas minerales con sabor
+0129,aguas con sabor
+0129,con o sin gas
+0129,bebidas energizantes y polvos para la preparación de este tipo de bebidas
+0129,bebidas isotónicas
+0129,rehidratantes
+0129,vitaminadas
+0129,siropes y concentrados para la preparación
+0131,molienda de cereales para la producción de harina
+0131,prensado de aceite
+0131,servicios de trituración y prensado de frutas/verduras para la producción de zumos
+0141,aguardientes
+0141,licores y otras bebidas alcohólicas destiladas
+0141,aguamiel o hidromiel
+0141,aguardiente de todo tipo como pisco
+0141,grappa
+0141,orujo
+0211,aguardientes
+0211,licores y otras bebidas alcohólicas destiladas
+0211,aguamiel o hidromiel
+0211,aguardiente de todo tipo como pisco
+0211,grappa
+0211,orujo
+0211,pisco puro (sin mezclar o combinar con otras bebidas alcohólicas u otro tipo de bebidas no
+0211,ron puro (sin mezclar o combinar con otras bebidas alcohólicas u otro tipo de bebidas no
+0211,whisky puro (sin mezclar o combinar con otras bebidas alcohólicas u otro tipo de bebidas no
+0211,vodka puro (sin mezclar o combinar con otras bebidas alcohólicas u otro tipo de bebidas no
+0211,destilados como aguardiente
+0211,gin
+0211,tequila
+0211,coñac
+0211,cachaza
+0211,mezcal
+0211,licores como manzanilla
+0211,menta
+0211,amaretto
+0211,fernet
+0211,cacao
+0211,anís
+0211,mistela
+0211,licor amargo
+0211,otros destilados y licores n.c.p
+0212,vino
+0212,sidra y perada
+0212,incluido el sake
+0212,cócteles a base de vino
+0212,vinos fortificados
+0212,champán y otros vinos espumosos
+0212,vino de hielo (ice-wine)
+0212,vino de bajo contenido alcohólico y sin alcohol
+0212,vino de uvas
+0212,vinos fortificados como vermut
+0212,jerez
+0212,oporto
+0212,champán y otros vinos espumosos de uvas
+0212,vino de uvas en todas sus presentaciones
+0212,orígenes y variedades
+0212,por ejemplo
+0212,tinto
+0212,blanco
+0212,vino espumoso de uvas en todas sus variedades
+0212,champán
+0212,cava
+0212,prosecco
+0212,otros vinos espumosos de uvas
+0212,vino de uvas con bajo contenido de alcohol o sin alcohol
+0212,vino espumoso de uvas con bajo contenido de alcohol o sin alcohol
+0212,champán sin
+0212,jerez y oporto
+0212,chicha de uva
+0212,otros vinos de uvas n.c.p
+0212,vino de otras frutas o cereales con bajo contenido de alcohol o sin alcohol
+0212,sidra de manzana
+0212,sidra de manzana y pera
+0212,sidra sin alcohol
+0212,otros vinos de frutas y cereales con bajo contenido de alcohol o sin alcohol
+0213,todo tipo de cerveza (artesanales o industriales) como ale
+0213,lager
+0213,stout
+0213,porter
+0213,India pale ale
+0213,todo tipo de cerveza con alcohol (artesanales o industriales) como ale
+0213,India
+0213,todo tipo de cerveza sin alcohol (artesanales o industriales)
+0213,cerveza sin alcohol saborizada con miel
+0213,maqui
+0213,arándanos
+0213,chocolate
+0213,lúcuma
+0213,malta sin alcohol
+0219,bebidas mezcladas a base de alcohol
+0219,como las bebidas alcohólicas mezcladas con agua
+0219,cócteles (que no sean a base de vino) y cremas de licor con alcohol en todas sus
+0219,cócteles (que no sean a base de vino) y cremas de licor con bajo contenido de alcohol o sin
+0219,alcopops elaborados en base a pisco
+0219,ron
+0219,whisky o vodka con alcohol combinados con otras
+0221,servicios de trituración y prensado de frutas/hortalizas para la producción de bebidas
+0231,cigarrillos y cigarros
+0231,tabaco para cigarrillos y cigarros
+0231,papeles y filtros para cigarrillos y cigarros de un solo uso
+0231,puros
+0231,tabaco de pipa
+0231,tabaco de mascar o rapé y hojas de tabaco
+0231,recargas para cigarrillos electrónicos
+0231,con o sin nicotina
+0231,tabaco para pipas shisha o de narguile (cachimba
+0231,pipas de agua
+0231,pipas orientales
+0231,chimbombo)
+0231,cigarrillos y cigarros en cajetilla o sueltos
+0231,en sus versiones fuertes
+0231,suaves o con sabor (click o
+0231,habanos
+0231,puritos y tiparillos
+0231,puritos y tiparillos que se compran en bares y restaurantes
+0231,siempre que no se
+0231,papeles y filtros de un solo uso para cigarrillos y cigarros
+0241,marihuana
+0241,opio
+0241,cocaína y sus derivados
+0241,otros estupefacientes de origen vegetal como las nueces de cola
+0241,kava
+0241,khat
+0241,hojas de betel
+0241,marihuana (Cannabis sativa)
+0241,nueces de cola
+0241,hojas y nueces de betel
+0241,hongos de psilocibina (hongos alucinógenos)
+0241,cocaína
+0241,pasta base
+0241,crack
+0241,anfetaminas o metanfetaminas
+0241,heroína
+0241,PCP (fenciclidina)
+0241,éxtasis
+0241,LSD (ácido)
+0241,BMDP (bencilona)
+0241,otras drogas químicas y sintéticas
+0251,materiales para la confección de vestuario de fibras naturales (algodón
+0251,seda
+0251,lana
+0251,entre otros)
+0311,materiales para la confección de vestuario de fibras naturales (algodón
+0311,seda
+0311,lana
+0311,entre otros)
+0311,materiales de fibras naturales (algodón
+0311,de fibras sintéticas (poliéster
+0312,capas
+0312,abrigos
+0312,impermeables
+0312,parkas cortas o largas
+0312,chaquetas
+0312,pantalones
+0312,chalecos
+0312,trajes
+0312,trajes completos (al menos pantalón y vestón)
+0312,ambos
+0312,ternos
+0312,trajes rectos
+0312,trajes cruzados
+0312,traje completo (al menos pantalón y vestón)
+0312,esmoquin (smoking)
+0312,chaquetas de vestir (vestón o blazer)
+0312,chaquetas de cuero (natural o
+0312,polerones
+0312,polerones con gorro
+0312,polerones de polar
+0312,polerones tipo beatle
+0312,jersey
+0312,camisas manga larga y corta
+0312,guayaberas
+0312,poleras manga larga
+0312,corta y sin mangas
+0312,pantalones de tela
+0312,pantalones cargo
+0312,pantalones desmontables
+0312,pantalones tres cuartos
+0312,calzas
+0312,conjunto o buzo completo
+0312,para hombre
+0312,para niño
+0312,trajes de baño para hombre y las versiones deportivas de estos
+0312,según corresponda
+0312,trajes de baño para niño y las versiones deportivas de estos
+0312,calzoncillos
+0312,calzoncillos largos
+0312,slips
+0312,zungas
+0312,sutien
+0312,bóxers
+0312,camisetas manga corta
+0312,larga y
+0312,larga y sin
+0312,pijamas
+0312,camisones y batas de levantarse (o de descanso) para hombre
+0312,batas de baño
+0312,salidas de baño y similares
+0312,camisones y batas de levantarse para niño
+0312,uniformes de Instituciones Sin Fines de Lucro (ISFL) y otras agrupaciones afines
+0312,blusones
+0312,trajes completos
+0312,trajes (conjuntos)
+0312,trajes de dos piezas para mujer
+0312,trajes típicos o tradicionales para mujer
+0312,traje de dos piezas para niña
+0312,trajes típicos o tradicionales para niña
+0312,montgomery
+0312,chamarras
+0312,casacas
+0312,chaquetas de vestir
+0312,blazer
+0312,blusas manga larga y corta
+0312,tres cuartos
+0312,faldas y vestidos para mujer
+0312,faldas y vestidos para niña
+0312,para mujer
+0312,para niña
+0312,bikinis y trajes de baño de todo tipo para mujer y las versiones deportivas de estos
+0312,según
+0312,bikinis y trajes de baño de todo tipo para niña y las versiones deportivas de estos
+0312,calzones para mujer en todas sus variedades
+0312,enaguas
+0312,leotardos
+0312,sostenes
+0312,brasieres y
+0312,calzones para niña en todas sus variedades
+0312,brasieres y corpiños
+0312,camisones
+0312,baby doll y batas de levantarse para mujer
+0312,camisones y batas de levantarse para niña
+0312,para mujer o
+0312,trajes completos de dos piezas (conjuntos) para lactante
+0312,cortavientos
+0312,parkas largas o cortas
+0312,faldas y vestidos para lactante
+0312,mamelucos (osito) para lactante
+0312,trajes de baño para lactante y las versiones deportivas de estos
+0312,calzoncillos (cortos y largos)
+0312,calzones
+0312,camisetas tipo beatle
+0312,body
+0312,piluchos para lactante
+0312,calcetas
+0312,calcetines
+0312,medias y panty para lactante
+0312,polainas que se utilizan como calcetines
+0312,batas para levantarse
+0312,batas de baño y similares para lactante
+0312,uniformes escolares
+0312,faldas
+0312,chaquetas y blazers escolares
+0312,suéteres y polerones escolares
+0312,camisas
+0312,blusas y poleras escolares
+0312,jumper y faldas escolares
+0312,blazers o chaquetas escolares
+0312,conjuntos tales como pantalones y blazers escolares
+0312,jumper y blazers escolares
+0312,faldas y
+0312,pantalones cortos (shorts)
+0312,bermudas y trajes de baño escolares en su versión deportiva
+0312,poleras y polerones solo de uso deportivo escolar
+0312,conjuntos o buzos deportivos que incluyen pantalones
+0312,poleras y polerones solo de uso
+0312,vestuario cuyo tipo de prenda o usuario no es posible identificar
+0312,vestuario cuyo gasto no es posible desglosar
+0312,ajuares de lactante
+0312,jardineras
+0312,enteritos
+0312,overoles y otros tipos de vestuario n.c.p. para hombres
+0313,corbatas
+0313,pañuelos
+0313,bufandas
+0313,guantes
+0313,mitones
+0313,manguito de tela u otro material para calentar
+0313,bufandas y cuellos de todos los materiales y diseños (lana
+0313,algodón
+0313,poliéster
+0313,polar
+0313,mitones de lana
+0313,de cuero y otros materiales
+0313,manguito de tela u otro material para
+0313,corbatines
+0313,humitas y similares de cualquier tipo de material y confección
+0313,cinturones
+0313,correas
+0313,cintos y suspensores
+0313,sombreros
+0313,jockeys
+0313,gorras
+0313,gorros
+0313,boinas y similares
+0313,bufandas y cuellos escolares de todos los materiales y diseños (lana
+0313,delantales
+0313,protectores de mangas
+0313,otros artículos y accesorios de vestir n.c.p
+0313,hilos para coser
+0313,hilados o lanas para tejer y accesorios para confeccionar vestuario
+0313,como
+0313,hilados o lanas para tejer
+0313,hilos para bordar
+0313,pitillas
+0313,sisal
+0313,yute y otras fibras
+0313,patrones o moldes
+0313,elásticos
+0313,huinchas de medir
+0313,mostacillas
+0313,escarchas
+0313,lentejuelas
+0313,hombreras
+0313,cierres eclair (cremalleras) y hebillas
+0313,ojetillos
+0313,botones
+0313,botones de presión
+0313,velcros
+0313,argollas plásticas
+0313,remaches y broches para costuras
+0313,cordones para buzos
+0313,artículos de pasamanería
+0313,como tiras bordadas
+0313,cintas
+0313,cintas rotuladas (bordadas o impresas)
+0314,tintorería
+0314,lavado y teñido de vestuario
+0314,zurcido
+0314,arreglo
+0314,reparación y modificación de vestuario
+0314,servicios de modificación o confección cuando el cliente suministra el material
+0314,arriendo de vestuario
+0314,compra de fichas o tickets para el lavado y secado de vestuario
+0314,pago por el uso de lavadoras y secadoras de autoservicio
+0314,pago por el uso de máquinas disponibles en los espacios comunes de los edificios y lavanderías
+0314,lavado de vestuario en agua o en seco
+0314,servicios de limpieza por encargo en centros de lavado
+0314,servicios de tinte y teñido de vestuario
+0314,arreglos
+0314,zurcidos
+0314,bordados
+0314,hechuras de tejidos con palillos o crochet
+0314,posturas de cierres
+0314,arriendo de toda clase de vestuario de hombre
+0314,mujer
+0314,niños
+0314,niñas y lactantes
+0321,todo el calzado para hombres o niños
+0321,mujeres o niñas y lactantes
+0321,ya sea listo para usar o
+0321,todo el calzado para hombres
+0321,ya sea listo para usar o hecho a medida
+0321,botas
+0321,botines y bototos para hombre
+0321,zapatos (formal o casual) para hombre
+0321,zapatillas
+0321,zapatillas deportivas para hombre
+0321,sandalias
+0321,chalas
+0321,hawaianas para hombre
+0321,todo el calzado para mujeres
+0321,botines y bototos para mujer
+0321,zapatos (formal o casual)
+0321,zuecos
+0321,zapatos de tacón o tacos (alto
+0321,bajo
+0321,aguja
+0321,plataforma) para
+0321,zapatillas deportivas para mujer
+0321,hawaianas para mujer
+0321,todo el calzado infantil (niñas y niños entre 2 y 12 años) y para lactantes (menores de 2 años)
+0321,botines y bototos para niño o niña
+0321,botines y bototos para lactante
+0321,zapatos formales o casuales para niño o niña
+0321,zapatos para lactante
+0321,zapatos formales o casuales
+0321,zapatillas deportivas para niño o niña
+0321,zapatillas deportivas para lactante
+0321,hawaianas para niño o niña
+0321,hawaianas para lactantes
+0321,zapatos escolares ya sean listos para usar o hechos a medida
+0321,cordones de zapatos
+0321,partes del calzado
+0321,como tacones
+0321,suelas y similares
+0321,compradas por los hogares con la
+0321,calzado cuyo tipo o usuario para el cual va destinado no es posible identificar
+0321,calzado cuyo gasto no es posible desglosar
+0321,pantuflas (zapatillas de levantarse)
+0321,alpargatas
+0321,zapatillas para agua
+0321,botas para agua o de
+0322,reparación de calzado
+0322,servicios de limpieza de calzado
+0322,teñido de calzado
+0322,arriendo de calzado
+0322,limpieza
+0322,lustrado y pulido de calzado (incluye servicios prestados por lustrabotas)
+0322,reparación especializada de calzado en general
+0322,por ejemplo
+0322,cambio de tapillas
+0322,cambio de
+0331,arriendos pagados por arrendatarios o subarrendatarios que ocupan edificaciones sin amoblar
+0411,arriendos efectivos pagados por arrendatarios o subarrendatarios que ocupan viviendas
+0411,sin
+0412,arriendos efectivos pagados por viviendas secundarias
+0412,arriendos de unidades de almacenamiento
+0412,arriendos de estacionamientos
+0412,arriendos efectivos pagados para viviendas secundarias
+0412,viviendas arrendadas para miembros del hogar con motivo de trabajo
+0412,estudio y otros
+0412,arriendos efectivos pagados para viviendas secundarias por miembros del hogar con motivo de
+0412,arriendos de estacionamientos en conexión con la vivienda
+0412,arriendos de unidades de almacenamiento o bodegas relacionadas con la vivienda
+0412,arriendos de estacionamientos para el uso del hogar
+0412,arriendos de bodegas
+0412,cuando son de uso exclusivo para el hogar
+0421,arriendos imputados de propietarios que ocupan su vivienda principal
+0421,arriendos imputados de propietarios que ocupan su vivienda principal (solo para propietarios)
+0422,arriendos imputados para viviendas secundarias
+0422,arriendos imputados de estacionamientos en relación con la vivienda
+0422,arriendos imputados de unidades de almacenamiento
+0422,arriendos imputados de la vivienda principal para hogares que pagan un arriendo reducido o
+0422,arriendos imputados para viviendas secundarias (solo para propietarios)
+0431,productos y materiales
+0431,tales como pinturas y barnices
+0431,enlucidos
+0431,papel tapiz
+0431,revestimientos
+0431,esmaltes
+0431,óleos
+0431,látex
+0431,anticorrosivos
+0431,antióxidos
+0431,pinturas para piscina
+0431,pinturas para techos
+0431,cañerías
+0431,tuberías y uniones
+0431,juntas
+0431,codos o fittings (de cobre
+0431,bronce
+0431,polietileno
+0431,PVC y
+0431,tejas de todo tipo
+0431,cumbreras
+0431,frontones
+0431,planchas de zinc
+0431,planchas de policarbonato
+0431,fonolitas
+0431,pisos flotantes
+0431,pisos laminados
+0431,tablas para el piso
+0431,pisos vinílicos
+0431,espumas (o esponjas)
+0431,pegamentos o adhesivos de cerámica
+0431,pegamentos o adhesivos para empapelar
+0431,pegamentos
+0431,cemento
+0431,cales
+0431,yesos
+0431,hormigones
+0431,morteros
+0431,asfaltos
+0431,alquitrán
+0431,pasta muro
+0431,tierra de color
+0431,puertas y ventanas (de cualquier material)
+0431,cristales para ventanas
+0431,marcos para puertas y
+0431,celosías
+0431,brochas y raspadores para pintar
+0431,barnizar y empapelar
+0431,rodillos
+0431,bandejas para
+0431,pequeños equipos de vigilancia/seguridad para la vivienda individual (detectores de humo
+0432,servicios de gásfiter
+0432,electricistas
+0432,carpinteros
+0432,vidrieros
+0432,pintores
+0432,decoradores
+0432,pulidores de
+0432,instalación y reparación de puertas
+0432,ventanas
+0432,vidrios o cristales (para puertas y ventanas)
+0432,gastos por mano de obra en gasfitería
+0432,por ejemplo
+0432,detección y reparación de filtraciones o
+0432,gastos por mano de obra en instalaciones eléctricas
+0432,aislación y reparación de red
+0432,gastos por mano de obra en pintura y albañilería para la vivienda
+0432,servicio de
+0432,servicio de decoración de interiores (dormitorios
+0432,cocina
+0432,living
+0432,comedor
+0432,sala de estar)
+0432,instalación y plan de monitoreo de la vivienda (mediante pequeños equipos de
+0432,servicios de maestros en reparaciones generales o diversas (maestro chasquilla)
+0432,servicios que implican reparaciones generales o diversas
+0432,servicios de pulidores de pisos
+0432,otros servicios para el mantenimiento y reparación de la vivienda n.c.p
+0442,recolección y eliminación de desechos
+0442,cuotas de reciclaje pagadas por los hogares
+0442,recolección y eliminación de desechos (retiro de basura) de la vivienda principal (derechos de
+0442,recolección y eliminación de desechos (retiro de basura) de viviendas secundarias (derechos
+0444,cargos del copropietario por vigilancia
+0444,jardinería
+0444,limpieza de escaleras
+0444,calefacción e
+0444,gastos de administración (remuneraciones y cotizaciones previsionales del personal:
+0444,limpieza de caminos
+0444,aceras y chimeneas
+0444,medición de radiación de fondo y contenido de sustancias nocivas en viviendas
+0444,paisajismo y limpieza de los terrenos que rodean la vivienda
+0444,remoción de nieve
+0444,paisajismo y servicio de decoración de exteriores (jardín
+0444,piscinas
+0444,quinchos
+0444,limpieza de los terrenos que rodean la vivienda
+0444,limpieza de canaletas
+0445,suministro de agua
+0445,recogida de aguas residuales
+0445,vaciado de pozos y eliminación
+0445,todos los cargos generalmente considerados en las cuentas pagadas por los hogares
+0445,servicios pagados a un puesto público/bebederos y a vendedores de agua (por ejemplo
+0445,por
+0451,electricidad de todas las fuentes (carbón
+0451,solar
+0451,hidroeléctrica
+0451,gastos de la vivienda principal relacionados a electricidad de todas las fuentes (carbón
+0451,energía
+0451,gastos de la vivienda secundaria relacionados a electricidad de todas las fuentes (carbón
+0452,gas de ciudad o cañería y gas natural
+0452,hidrocarburos licuados (butano
+0452,propano
+0452,gas natural y gas de ciudad o cañería entregados a través de redes de gas
+0452,gastos asociados
+0452,tales como arriendo de medidores
+0452,lectura de medidores
+0452,cargos fijos
+0453,combustibles domésticos de calefacción
+0453,alumbrado y cocción
+0453,biocombustibles para uso doméstico
+0453,alcohol para chimeneas
+0453,tales como bencina blanca
+0454,carbón mineral
+0454,coque
+0454,briquetas
+0454,leña
+0454,carbón vegetal
+0454,turba y similares
+0454,biomasa (trigo
+0454,briquetas de carbón mineral
+0454,turba
+0454,briquetas de turba
+0454,madera para combustible
+0454,en troncos
+0454,en leños
+0454,en ramas
+0454,en atados de leña o en formas
+0454,carbón de leña y bambú
+0454,carbón de nuez o cáscara
+0454,briquetas de carbón
+0454,otras briquetas
+0454,otra biomasa n.c.p.
+0454,como desechos de la producción agrícola (por ejemplo
+0454,trigo y cáscara de
+0455,agua caliente y vapor comprados en plantas de calefacción urbana o de energía distrital
+0455,hielo utilizado con fines de enfriamiento y refrigeración
+0461,sofás
+0461,sillones
+0461,mesas
+0461,sillas
+0461,armarios
+0461,cajoneras y estantes
+0461,percheros de pedestal o mueble
+0511,sofás
+0511,sillones
+0511,mesas
+0511,sillas
+0511,armarios
+0511,cajoneras y estantes
+0511,percheros de pedestal o mueble
+0511,todo tipo de camas como box spring
+0511,camas americanas
+0511,camas europeas
+0511,camas nido
+0511,camas
+0511,colchones en todos sus tamaños (plaza
+0511,plaza y media
+0511,dos plazas
+0511,king
+0511,clósets
+0511,roperos
+0511,cómodas
+0511,cajoneras
+0511,veladores
+0511,respaldos de cama
+0511,combos
+0511,sofás (dos
+0511,tres o más cuerpos)
+0511,futones (tipo sillón)
+0511,bergere
+0511,pouf o peras
+0511,sitiales
+0511,mesas de centro
+0511,mesas laterales
+0511,mesas para poner el teléfono
+0511,arrimos
+0511,racks
+0511,modulares de
+0511,juegos de comedor
+0511,mesas de comedor
+0511,sillas para comedor
+0511,pisos de comedor
+0511,buffet o bufé
+0511,set de muebles de cocina
+0511,muebles para cocina vendidos por separado (módulos
+0511,cajones
+0511,muebles de botiquín
+0511,muebles lavamanos (vanitorios)
+0511,toalleros (muebles)
+0511,repisas de baño
+0511,escritorios
+0511,escritorios con sillas
+0511,mesas para computador
+0511,mesas de dibujo
+0511,sillas para
+0511,paragüeros
+0511,percheros
+0511,revisteros
+0511,atriles
+0511,corrales para bebé
+0511,otros muebles para el hogar n.c.p
+0511,muebles principalmente para uso en jardines
+0511,bancos y mesas de hierro forjado
+0511,cenadores (pérgolas
+0511,glorietas)
+0511,bodegas o pequeñas casas de jardín para guardar herramientas y máquinas de jardín
+0511,muebles de camping
+0511,juegos de jardín o terraza (sillas y mesas)
+0511,sillas y sillones colgantes (tipo columpio)
+0511,quitasoles
+0511,equipos de iluminación como luces de techo
+0511,lámparas estándar
+0511,luces de globo y lámparas de
+0511,apliques
+0511,faroles
+0511,focos
+0511,plafón
+0511,luces de globo
+0511,alfombras sueltas
+0511,alfombras a medida o dimensionadas
+0511,cuadros
+0511,esculturas
+0511,grabados
+0511,tapices y otros objetos de arte
+0511,incluidas las reproducciones de
+0511,bajadas de cama
+0511,reproducciones de obras de arte
+0511,retratos y similares (con sus marcos y
+0511,estatuillas y otros artículos decorativos de porcelana y cristal
+0511,artesanías en cobre
+0511,mimbre
+0512,reparación de muebles
+0512,mobiliario y alfombras sueltas
+0512,alfombras a medida o dimensionadas
+0512,restauración de obras de arte
+0512,muebles antiguos y revestimientos de pisos antiguos
+0512,distintos
+0512,mobiliario
+0512,carpintería para muebles
+0512,barnizados
+0512,tapizados y reparación
+0512,instalación de muebles
+0512,accesorios y alfombras sueltas
+0512,arriendo de muebles
+0521,telas para revestir muebles y telas de tapicería
+0521,material para cortinas
+0521,cortinas
+0521,cortinas dobles
+0521,telas para revestir muebles
+0521,toldos de género
+0521,telas de tapicería (osnaburgo
+0521,cretona
+0521,napa
+0521,tocuyo
+0521,crea
+0521,cutí
+0521,velos y visillos
+0521,género para cortinas
+0521,cenefas
+0521,cortinas para puertas
+0521,ropa de cama como sábanas
+0521,fundas de almohadas
+0521,mantas
+0521,mantas de viaje
+0521,colchas
+0521,almohadas
+0521,almohadones
+0521,cojines
+0521,sábanas
+0521,fundas de almohada
+0521,cubrecamas
+0521,plumones
+0521,frazadas
+0521,chalones
+0521,edredones
+0521,cubre colchones
+0521,textiles para mesa y baño
+0521,como manteles
+0521,servilletas
+0521,toallas para manos
+0521,cuerpo y rostro
+0521,manteles de género
+0521,servilletas de género
+0521,individuales
+0521,esconeras de género o tejidos a crochet
+0521,cortinas de baño
+0521,otros textiles para el hogar
+0521,como bolsas de compras
+0521,bolsas de lavandería
+0521,bolsas de zapatos
+0521,bolsas de compras
+0521,bolsas para lavar ropa
+0521,fundas para ropa (fundas para ternos
+0521,trajes
+0521,fundas para muebles (fundas para lavadoras
+0522,reparación de textiles para el hogar
+0522,servicios de costura de textiles para el hogar
+0522,cargos por el arriendo de textiles para el hogar
+0522,reparación y costura de los productos incluidos en 05.2.1.00.00
+0522,arriendo de los productos incluidos en 05.2.1.00.00
+0531,refrigeradores y refrigeradores de temperatura dual
+0531,lavavajillas
+0531,placas eléctricas/a gas/petróleo/vitrocerámica/inducción
+0531,encimeras
+0531,asadores
+0531,hornos
+0531,freezer
+0531,frigobar
+0531,conservadores de alimentos
+0531,cocinas a gas
+0531,encimeras solares
+0531,cocinas a leña
+0531,cocinas combinadas
+0531,hornos eléctricos grandes
+0531,hornos de gas
+0531,hornos de convección
+0531,hornos microondas
+0531,parrillas a gas
+0531,parrillas a carbón
+0531,asadores eléctricos grandes
+0531,parrillas eléctricas
+0531,discos para asado
+0531,campanas extractoras
+0531,lavadoras
+0531,secadoras
+0531,secadoras de tambor
+0531,armarios de secado
+0531,radiadores de secado
+0531,lavadoras automáticas
+0531,lavadoras manuales
+0531,centrífugas
+0531,secadoras de ropa
+0531,armarios o
+0531,aire acondicionado
+0531,humidificadores
+0531,calentadores de espacios
+0531,calentadores de agua
+0531,ventiladores de cielo o empotrados
+0531,estufas (a parafina
+0531,gas
+0531,eléctricas
+0531,oleoeléctricas
+0531,a cuarzo)
+0531,accesorios para estufas a parafina
+0531,calefón
+0531,calefón solar
+0531,ducha eléctrica (calienta agua)
+0531,serpentín
+0531,termos
+0531,salamandras
+0531,braseros
+0531,estufas y otros productos similares a leña
+0531,pellets u otro combustible
+0531,extractores de aire
+0531,deshumidificadores
+0531,aspiradoras
+0531,máquinas de limpieza a vapor
+0531,máquinas de lavado de alfombras y máquinas para
+0531,aspiradoras de arrastre
+0531,aspiradoras de tambor
+0531,aspiradoras portátiles
+0531,aspiradoras robot
+0531,máquinas de lavado de alfombras y máquinas para fregar
+0531,pulir
+0531,otros artefactos grandes como cajas fuertes de gran tamaño
+0531,máquinas de coser
+0531,máquinas de
+0531,máquinas de tejer
+0531,máquinas bordadoras
+0531,y sus repuestos
+0531,tinas
+0531,lavamanos
+0531,lavaplatos (fregadero)
+0531,salas de baño
+0531,estanques
+0531,jacuzzi
+0531,cabinas de
+0531,paneles solares (colector solar térmico y panel solar fotovoltaico)
+0531,termos solares
+0531,o cualquier
+0531,otros artefactos grandes para el hogar cuyo gasto no es posible desglosar
+0531,cajas fuertes de gran tamaño
+0531,suavizadores o ablandadores de agua
+0531,artefactos grandes para
+0532,máquina multifunción
+0532,procesadoras de alimentos
+0532,licuadoras y licuadoras con elementos para
+0532,batidoras
+0532,licuadoras
+0532,batidoras o licuadoras de mano (minipimer)
+0532,hornos eléctricos pequeños
+0532,sacacorchos eléctricos y no eléctricos
+0532,cuchillos eléctricos
+0532,abrelatas eléctricos y no eléctricos
+0532,cafeteras
+0532,teteras
+0532,termo hervidor
+0532,hervidores
+0532,molinillos de café
+0532,máquinas para hacer agua con gas
+0532,extractores de jugo
+0532,termo hervidor y teteras eléctricas
+0532,extractores de jugo (saca jugos)
+0532,máquinas para hacer
+0532,planchas eléctricas
+0532,ventiladores de pedestal
+0532,ventiladores de mesa
+0532,mantas eléctricas
+0532,planchas para ropa
+0532,eléctricas y no eléctricas
+0532,termo ventiladores
+0532,calentadores de ambiente
+0532,calientacamas y mantas eléctricas
+0532,tablas de planchar
+0532,tendederos de ropa portátil
+0533,reparación de artefactos para el hogar
+0533,cargos por el arriendo de artefactos para el hogar
+0533,cargos por la instalación de artefactos para el hogar (si se cobran por separado)
+0541,artículos de vidrio
+0541,cristal
+0541,cerámica y porcelana utilizados para la mesa
+0541,la cocina
+0541,el baño
+0541,todo tipo de vajilla de cristal
+0541,vidrio
+0541,loza o porcelana
+0541,por ejemplo
+0541,copas
+0541,vasos
+0541,juegos de
+0541,cuchillería
+0541,cubiertos
+0541,juegos de cuchillería
+0541,cuchillos
+0541,cucharas
+0541,tenedores
+0541,cuchillos de cocina
+0541,utensilios de cocina de todos los materiales
+0541,como cacerolas
+0541,ollas
+0541,ollas a presión
+0541,sartenes
+0541,artículos para el hogar de todos los materiales
+0541,tales como recipientes para pan
+0541,café
+0541,especias
+0541,pailas
+0541,wok
+0541,cacerolas
+0541,colador
+0541,espumadera
+0541,mezquino
+0541,cucharón
+0541,cuchara de palo
+0541,espátula de cocina
+0541,rallador
+0541,molde
+0541,paneras
+0541,mantequilleras
+0541,mermeladeros
+0541,pimenteros
+0541,saleros
+0541,pocillos
+0541,contenedores o potes
+0541,lavatorios o palanganas
+0541,baldes o cubetas
+0541,papeleros
+0541,basureros
+0541,cestos para ropa
+0541,canastas
+0541,organizadores de ropa
+0541,cajas organizadoras
+0541,organizadores de productos para la ducha
+0541,porta
+0541,reparación y arriendo de artículos de vidrio
+0541,cerámica y porcelana
+0551,taladros eléctricos
+0551,taladros de percusión
+0551,sierras eléctricas
+0551,lijadoras eléctricas
+0551,tractores de jardín
+0551,motosierras
+0551,cortadoras de césped
+0551,podadoras de césped
+0551,cortasetos
+0551,tractores de jardín o cortadores de césped
+0551,trituradoras de ramas
+0551,orilladoras eléctricas
+0551,taladros portátiles eléctricos
+0551,cepillos eléctricos para madera
+0551,pulidoras
+0551,esmeriles
+0551,rectificadoras
+0551,fresadoras
+0551,tornos para trabajar metales
+0551,máquinas para soldar
+0551,repuestos para orilladora eléctrica
+0551,cadenas de motosierra
+0551,brocas
+0551,avellanador
+0551,puntas
+0551,rotomartillos
+0551,taladro de percusión
+0551,herramientas multipropósito
+0551,tronzadoras
+0551,generadores
+0552,herramientas manuales
+0552,tales como sierras
+0552,martillos
+0552,destornilladores
+0552,llaves
+0552,llaves inglesas
+0552,sierras
+0552,alicates
+0552,cuchillos cartoneros
+0552,llaves de tuerca
+0552,llaves punta corona
+0552,llaves de combinación
+0552,llaves Allen
+0552,diablitos
+0552,serruchos
+0552,lápiz carpintero
+0552,lijas
+0552,cepillos manuales para madera
+0552,taladros
+0552,pie de metro
+0552,metros
+0552,escuadras
+0552,huinchas de medir
+0552,nivel
+0552,inglete
+0552,reglas
+0552,tiza línea
+0552,plomadas
+0552,cinceles de uso manual
+0552,puntos (punto de marcar
+0552,granete)
+0552,combos (mazos)
+0552,chuzos
+0552,plana
+0552,tijeras podadoras
+0552,tijeras corta pasto
+0552,repuestos para tijera corta pasto
+0552,cortadoras de césped
+0552,regaderas
+0552,mangueras
+0552,conectores de manguera
+0552,colgadores de manguera
+0552,rompe chorros
+0552,cizallas
+0552,destornilladores manuales
+0552,pistolas silicona (calafatear)
+0552,engrapadoras
+0552,remachadoras
+0552,accesorios para radiadores y chimeneas
+0552,otros artículos metálicos para la casa (rieles para
+0552,argollas de cortinas
+0552,ganchos para cortinas de baño
+0552,toma cortinas (lazos
+0552,piolas y similares)
+0552,alambres de fierro
+0552,candados
+0552,abrazaderas de metal
+0552,números para la vivienda metálicos
+0552,ampolletas (distintos tipos)
+0552,tubos fluorescentes
+0552,linternas
+0552,lámparas de mano
+0552,pilas (de todos los tipos)
+0552,baterías
+0552,eliminadores de pilas (transformadores universales)
+0552,mallas para sombra
+0552,mallas de acero
+0552,mallas para jardín
+0552,rejas de PVC
+0552,cercos para jardín
+0552,accesorios varios cuyo gasto no es posible desglosar
+0552,accesorios varios para el hogar y el jardín
+0553,reparación y arriendo de herramientas y equipos motorizados
+0553,reparación y arriendo de herramientas no motorizadas y accesorios varios
+0553,reparación de herramientas y equipos motorizados (incluidos en 05.5.1.00.00)
+0553,reparación de herramientas no motorizadas y accesorios varios (incluidos en 05.5.2.00.00)
+0553,arriendo de herramientas y equipos motorizados (incluidos en 05.5.1.00.00)
+0553,arriendo de herramientas no motorizadas y accesorios varios (incluidos en 05.5.2.00.00)
+0561,detergentes
+0561,detergentes para lavar platos a mano y para lavavajillas
+0561,polvos para fregar
+0561,preparaciones para la limpieza de ropa como detergentes para ropa (en polvo o líquidos)
+0561,preparaciones para la limpieza de calzado como abrillantadores
+0561,cremas
+0561,betún para calzado
+0561,preparaciones para la limpieza de vajillas y ollas como lavaloza (en polvo o líquidos)
+0561,preparaciones para la limpieza de pisos como ceras para pisos
+0561,abrillantadores
+0561,quitamanchas
+0561,preparaciones para la limpieza de superficies (para muebles
+0561,pisos
+0561,vidrio o metal) como
+0561,preparaciones para la desinfección como desinfectantes de ambientes
+0561,desinfectantes de
+0561,otros preparados para la limpieza como anilinas
+0561,agentes desbloqueantes
+0561,destapadores de
+0561,cepillos y escobillas para ropa
+0561,esponjas para calzado
+0561,cepillos o escobillas para calzado
+0561,lustrín
+0561,cepillos para platos
+0561,esponjas para lavar loza y de uso doméstico
+0561,estropajos
+0561,viruta de acero
+0561,paños para limpiar
+0561,recogedores y cepillos para el polvo
+0561,plumeros
+0561,guaipes
+0561,escobas
+0561,escobas de curahuilla
+0561,escobillones
+0561,baldes escurridores
+0561,palas de basura
+0561,traperos
+0561,cepillos limpia inodoro
+0561,sopapos
+0561,insecticidas
+0561,pesticidas
+0561,fungicidas
+0561,agua destilada
+0561,matamoscas
+0561,trampas para ratón
+0561,bolas de naftalina y repelentes de insecto
+0561,filtros
+0561,manteles y servilletas desechables
+0561,papel de cocina
+0561,rollo de papel para hornear
+0561,papel
+0561,raticidas
+0561,fumigantes
+0561,servilletas de papel de distintos tamaños
+0561,pintadas o no
+0561,toallas de papel para el hogar
+0561,bolsas para basura
+0561,bolsas plásticas de todo tipo (para sacar escombros
+0561,bolsas conservadoras
+0561,platos (de papel
+0561,plástico
+0561,plumavit
+0561,cartón
+0561,vasos (de papel
+0561,agujas de coser
+0561,alfileres
+0561,alfileres de gancho (imperdibles)
+0561,agujas para tejer
+0561,abre ojal
+0561,palillos
+0561,clavos
+0561,tornillos
+0561,tuercas
+0561,pernos
+0561,tachuelas
+0561,tarugos
+0561,golillas
+0561,roscalatas
+0561,grapas
+0561,arandelas
+0561,desodorantes ambientales
+0561,dispensadores de fragancias
+0561,desodorizadores de aire
+0561,inciensos
+0561,fósforos o cerillos
+0561,velas (tradicionales
+0561,decorativas
+0561,de cumpleaños)
+0561,figuras para tortas
+0562,servicios domésticos prestados por personal remunerado empleado en servicios privados
+0562,como
+0562,limpieza en seco de ropa y textiles de uso doméstico
+0562,limpieza de alfombras
+0562,lavado y teñido de textiles de uso doméstico
+0562,otros servicios prestados por empresas o trabajadores por cuenta propia
+0562,exterminio de plagas
+0562,desinfección
+0562,cuidado de departamentos en ausencia de dueño
+0562,cuidado de casas
+0562,lavado y teñido de
+0571,medicamentos
+0571,vacunas
+0571,preparaciones farmacéuticas
+0571,dispositivos médicos
+0571,productos de
+0611,medicamentos
+0611,vacunas y otras preparaciones farmacéuticas (todos los medicamentos
+0611,todos los medicamentos
+0611,incluidos los productos de marca y genéricos para tratar enfermedades
+0611,medicamentos antiinfecciosos
+0611,como aciclovir (antivirales)
+0611,efavirenz
+0611,lamivudina
+0611,nevirapina
+0611,medicamentos para el sistema cardiovascular
+0611,como amiodarona
+0611,captopril
+0611,carvedilol
+0611,medicamentos para el aparato genitourinario y hormonas sexuales
+0611,como desogestrel
+0611,estradiol
+0611,preparados hormonales (excepto hormonas sexuales e insulinas)
+0611,como calcitonina
+0611,medicamentos para el sistema musculoesquelético
+0611,como diclofenaco
+0611,glucosamina
+0611,medicamentos para el sistema respiratorio
+0611,como aminofilina
+0611,bromuro de ipratropio
+0611,medicamentos dermatológicos
+0611,como clotrimazol (antifúngicos para uso dermatológico)
+0611,medicamentos para el sistema nervioso
+0611,como alprazolam
+0611,clonazepam
+0611,fluoxetina
+0611,melatonina
+0611,medicamentos para el sistema digestivo y metabólico
+0611,como domperidona
+0611,famotidina
+0611,medicamentos para órganos de los sentidos
+0611,como betaxolol (oftalmológicos)
+0611,brimonidina
+0611,antineoplásicos y agentes inmunológicos
+0611,como anastrozol
+0611,azatioprina
+0611,imatinib
+0611,metotrexato
+0611,vacunas y otras preparaciones farmacéuticas cuyo tipo y/o uso no es posible
+0611,vacunas y otras preparaciones farmacéuticas cuyo gasto no es posible
+0611,alérgenos
+0611,antídotos
+0611,preparaciones utilizadas en la alimentación con sonda gástrica
+0611,gases
+0611,los medicamentos herbarios incluyen hierbas
+0611,materiales herbales
+0611,preparaciones herbales y
+0612,equipo de diagnóstico para autoevaluación o venta sin receta para uso personal fuera de un
+0612,preservativos o condones y otros dispositivos anticonceptivos mecánicos
+0612,mascarillas
+0612,medias
+0612,preservativos o condones (masculinos y femeninos)
+0612,diafragmas
+0612,dispositivos intrauterinos
+0612,medias medicinales (por ejemplo
+0612,medias de compresión para várices
+0612,inhaladores
+0612,jeringas
+0612,humidificadores de uso médico
+0612,nebulizadores
+0612,compresas frío/calor
+0612,bandas protectoras o parches curita
+0612,gasas quirúrgicas
+0612,vendas
+0612,vendas elásticas
+0612,vendas de
+0613,productos de ayuda para la visión
+0613,la audición y la comunicación; la movilidad y el
+0613,lentes ópticos (para baja visión
+0613,corta distancia
+0613,larga distancia)
+0613,bastones guía para personas ciegas o con baja visión
+0613,prótesis ocular (por ejemplo
+0613,ojos de cristal) y lentes de contacto
+0613,lentes ópticos
+0613,lentes de contacto (blandos y rígidos) permanentes y desechables
+0613,lentes
+0613,bastones guía para personas ciegas o con baja visión; prótesis ocular (por ejemplo
+0613,ojos de
+0613,audífonos para sordera
+0613,audífonos para sordera (por ejemplo
+0613,digitales
+0613,intracanales
+0613,retroauriculares
+0613,con receptor de
+0613,calzado terapéutico (diabético/neuropático/ortopédico)
+0613,cerchas ortopédicas y soportes
+0613,órtesis (refuerzo
+0613,férula u otro dispositivo externo artificial que sirva para apoyar la pierna
+0613,faja toráxica
+0613,faja cuatro bandas
+0613,faja lumbar
+0613,soporte para hombro
+0613,inmovilizador de hombro
+0613,prótesis para miembros inferiores (piernas y pies)
+0613,prótesis para miembros superiores (brazos
+0613,calzado terapéutico (diabético
+0613,neuropático
+0613,ortopédico
+0613,posoperatorio)
+0613,sillas de ruedas (eléctricas o con baterías
+0613,estándar o manuales
+0613,con o sin cojines)
+0613,scooter de
+0613,sillas para ducha/baño/WC
+0613,pasamanos/asideros o barras de apoyo
+0613,productos para la incontinencia
+0613,absorbentes que incluyen pañales para personas adultas
+0613,prótesis mamarias y otros productos de asistencia para el funcionamiento de las personas en
+0614,limpieza
+0614,reparación
+0614,arriendo y mantenimiento de productos de diagnóstico médico para uso
+0614,reparación y mantenimiento de lentes para corrección
+0614,en sus diferentes partes como
+0614,reparación y mantenimiento de productos de diagnóstico médico para uso personal
+0614,arriendo de productos de diagnóstico médico para uso personal (incluidos en 06.1.2.00.00)
+0621,servicios de inmunización/vacunación
+0621,servicios de inmunización/vacunación para la atención maternoinfantil
+0621,vacunación para viajes y turismo
+0621,así como cualquier otro servicio obligatorio o voluntario de
+0621,planificación familiar y asesoramiento (incluido el asesoramiento genético)
+0621,servicios de atención prenatal y postnatal
+0621,servicios de chequeo de rutina general que incluyen crecimiento y desarrollo infantil
+0621,planificación familiar y asesoramiento (en temas como asesoramiento genético
+0621,métodos
+0622,servicios de dentistas
+0622,odontólogos
+0622,endodoncistas
+0622,cirujanos dentistas; cirujanos orales y
+0622,chequeos dentales preventivos de rutina
+0622,tales como exámenes bucales regulares (cada seis
+0622,todos los demás servicios dentales que no requieren de hospitalización (excluyendo los
+0623,servicios en hospitales o en un entorno hospitalario sin pasar la noche (excluyendo preventivo
+0623,todos los componentes del cuidado curativo de la enfermedad o el tratamiento de la lesión; las
+0623,servicios de profesionales de la salud con fines curativos y de rehabilitación (en
+0623,servicios de otros profesionales y técnicos de la salud
+0623,con fines curativos y de rehabilitación
+0623,consultas por medicina complementaria y tradicional con fines curativos y de rehabilitación (en
+0623,procedimientos médicos ambulatorios en cráneo
+0623,cuero cabelludo y cuello
+0623,como hematoma
+0623,procedimientos médicos ambulatorios en columna
+0623,como tratamiento quirúrgico hernia núcleo
+0623,procedimientos médicos ambulatorios en nervios periféricos
+0623,como electromiografías (incluye
+0623,procedimientos médicos ambulatorios en oftalmología
+0623,como campimetría (campo visual del ojo)
+0623,procedimientos médicos ambulatorios en otorrinolaringología
+0623,como vaciamiento cavidades
+0623,procedimientos médicos ambulatorios en cirugía plástica y reparadora
+0623,como escarotomía
+0623,procedimientos médicos ambulatorios en dermatología
+0623,como fototerapia UVB
+0623,UVA localizada
+0623,procedimientos médicos ambulatorios en cardiología
+0623,como gasometría arterial en reposo y
+0623,procedimientos médicos ambulatorios en gastroenterología
+0623,como gastroduodenoscopía
+0623,procedimientos médicos ambulatorios en urología
+0623,como exploración de uretra ántero-posterior
+0623,procedimientos médicos ambulatorios en ginecología y obstetricia
+0623,como colposcopía
+0623,procedimientos médicos ambulatorios en traumatología
+0623,como procedimiento para colocar yeso
+0623,procedimientos médicos ambulatorios en neumología
+0623,como toracocentesis evacuadora con o
+0623,curación de heridas
+0623,otras prestaciones de servicios quirúrgicos ambulatorios n.c.p
+0623,centros de cuidado médico diurnos; servicios de atención médica diurna para personas mayores
+0631,los servicios curativos/de rehabilitación para pacientes hospitalizados comprenden tratamiento
+0631,cirugía y procedimientos médicos hospitalarios en cráneo
+0631,cuero cabelludo y cuello
+0631,como
+0631,cirugía y procedimientos médicos hospitalarios en columna
+0631,como tratamiento quirúrgico hernia
+0631,cirugía y procedimientos médicos hospitalarios en nervios periféricos
+0631,como electromiografías
+0631,cirugía y procedimientos médicos hospitalarios en oftalmología y oftalmología láser
+0631,cirugía y procedimientos médicos hospitalarios en otorrinolaringología
+0631,como vaciamiento
+0631,cirugía y procedimientos médicos hospitalarios en cirugía plástica y reparadora
+0631,cirugía y procedimientos médicos hospitalarios en dermatología
+0631,como fototerapia UVB
+0631,UVA
+0631,cirugía y procedimientos médicos hospitalarios en cardiología
+0631,como gasometría arterial en
+0631,cirugía
+0631,cirugía y procedimientos médicos hospitalarios en urología
+0631,como exploración de uretra ántero-
+0631,cirugía y procedimientos médicos hospitalarios en ginecología y obstetricia
+0631,como colposcopía
+0631,cirugía y procedimientos médicos hospitalarios en traumatología
+0631,como procedimiento para
+0631,cirugía y procedimientos médicos hospitalarios en neumología para enfermedades de los
+0631,medicamentos asociados a servicios de hospitalización
+0631,productos de salud
+0631,tales como materiales e insumos utilizados en servicios de hospitalización
+0631,atenciones médicas asociadas a servicios de hospitalización
+0631,exámenes asociados a servicios de hospitalización
+0631,gasto en uso de infraestructura y hotelería de las instituciones de salud en contexto de servicios
+0631,servicios curativos y de rehabilitación para pacientes hospitalizados cuyo tipo de servicio no es
+0631,otras cirugías y procedimientos médicos hospitalarios n.c.p.
+0631,como cirugías y procedimientos
+0632,servicios de casas de convalecencia médica u hospitales de convalecencia; servicios de
+0641,servicios de laboratorios de análisis médicos (por ejemplo
+0641,análisis de orina/sangre)
+0641,servicios de diagnóstico por imágenes
+0641,incluidos todos los métodos de diagnóstico por imágenes
+0641,imagenología
+0641,exámenes radiológicos (exámenes simples y complejos)
+0641,como estudio
+0641,exámenes de sangre (hematológicos
+0641,bioquímicos y hormonales)
+0641,como perfil hepático (incluye
+0641,exámenes de orina
+0641,como beta-hCG (subunidad beta de la gonadotropina coriónica humana)
+0641,exámenes genéticos
+0641,como cariotipo con técnicas especiales (incluye muestra de sangre o de
+0641,exámenes inmunológicos
+0641,citológicos y citoquímicos como anticuerpos antimicrosomales y
+0641,exámenes microbiológicos (bacterias y hongos
+0641,cultivos
+0641,antibiogramas
+0641,serológicos
+0641,parásitos
+0641,exámenes de deposiciones
+0641,exudados
+0641,secreciones y otros líquidos
+0641,como secreciones y otros
+0641,servicios de diagnóstico por imagen y servicios de laboratorio médico cuyo gasto no es posible
+0641,otros servicios de laboratorios de análisis médicos n.c.p
+0642,servicios de ambulancia para personas con o sin rescate de emergencia
+0642,el transporte de la persona por avión y vehículos por razones de emergencia médica
+0642,ya sea
+0642,dentro del territorio
+0651,compra de vehículos utilizados para el transporte
+0711,automóviles
+0711,furgones de pasajeros
+0711,station wagons
+0711,vehículos familiares
+0711,vehículos utilitarios
+0711,automóviles nuevos
+0711,furgones de pasajeros nuevos
+0711,station wagons nuevos
+0711,vehículos
+0711,automóviles sedan
+0711,automóviles deportivos (coupé o convertibles)
+0711,automóviles hatchback
+0711,vehículos todo terreno
+0711,vehículos utilitarios deportivos (SUV)
+0711,vehículos todo
+0711,utilitarios
+0711,pick-ups
+0711,camionetas
+0711,furgones
+0711,vans
+0711,miniván nuevas
+0711,vehículos utilitarios livianos
+0711,vehículos nuevos cuyo tipo no es posible identificar
+0711,automóviles de carreras y vehículos para espectáculos
+0711,nuevos
+0711,camionetas de pasajeros
+0711,miniván usadas
+0711,vehículos usados cuyo tipo no es posible identificar
+0711,usados
+0712,motocicletas de todo tipo
+0712,scooters y bicicletas motorizadas con motores de combustión
+0712,motocicletas nuevas
+0712,tales como motocicletas tradicionales de dos ruedas o con sidecar
+0712,otro tipo de motocicletas nuevas como motocicletas eléctricas
+0712,bicicletas motorizadas con
+0712,motocicletas usadas
+0712,otro tipo de motocicletas usadas como motocicletas eléctricas
+0713,bicicletas y triciclos de todo tipo
+0713,bicitaxi (cycle rickshaws)
+0713,bicicletas eléctricas
+0713,bicicletas eléctricas de pedaleo asistido (pedelecs o bicimotos eléctricas)
+0713,bicicletas de montaña o mountain bikes
+0713,bicicletas cross
+0713,bicicletas pisteras o ruteras
+0713,de aro 21
+0713,bicicletas californianas
+0713,de paseo
+0713,choperas
+0713,plegables
+0713,eléctricas
+0713,bicicletas eléctricas de
+0714,vehículos de tracción animal
+0714,animales requeridos para tirar de vehículos y equipo relacionado (yugos
+0714,collares
+0714,arneses
+0714,carretas
+0714,carretelas
+0714,carruajes y otros vehículos de tracción animal
+0714,caballos
+0714,asnos
+0714,mulas
+0714,bueyes
+0714,vacas y otros animales que sean utilizados para el transporte
+0714,yugos
+0714,bridas
+0714,riendas
+0721,neumáticos (nuevos
+0721,usados o recauchutados)
+0721,cámaras de aire
+0721,bujías
+0721,baterías
+0721,incluyendo cámaras de aire para vehículos
+0721,neumáticos nuevos
+0721,usados o recauchutados (tubulares o cámaras)
+0721,neumáticos de repuesto
+0721,amortiguadores
+0721,filtros
+0721,bombas y otras partes para equipos de transporte
+0721,sujetadores de baterías
+0721,partidores
+0721,compresores
+0721,terminales de baterías
+0721,alternadores
+0721,piezas para sistema de suspensión
+0721,piezas para sistema de transmisión
+0721,llantas
+0721,capós
+0721,puertas
+0721,espejos (retrovisores
+0721,laterales)
+0721,asientos
+0721,pomos de palancas de
+0721,bielas
+0721,cilindros
+0721,culatas
+0721,pistones
+0721,cigüeñales
+0721,válvulas
+0721,filtros de aire
+0721,filtros de aceite
+0721,espejos laterales
+0721,parabrisas
+0721,tubos de escape
+0721,puños para motocicletas
+0721,otras
+0721,pedales
+0721,asientos traseros tipo parrilla
+0721,luces para bicicletas (delanteras
+0721,traseras
+0721,piezas para vehículos automotores
+0721,motocicletas y bicicletas cuyo tipo no es posible identificar
+0721,motocicletas y bicicletas cuyo gasto no es posible
+0721,equipos de GPS (posicionamiento por satélite) para transporte personal
+0721,accesorios para equipos de transporte personal
+0721,pero comprados por separado
+0721,como cadenas
+0721,alarmas
+0721,bastones traba volante
+0721,bastones traba volante-pedal
+0721,seguros antirrobos para tapa de
+0721,productos específicamente para el mantenimiento del vehículo automotor
+0721,tales como
+0721,productos específicamente para la limpieza del vehículo automotor
+0721,tales como limpiadores de
+0721,accesorios para el transporte de equipaje en vehículos automotores comprados por separado
+0721,cadenas de seguridad antirrobos
+0721,candados de seguridad antirrobos
+0721,seguros antirrobos para
+0721,productos específicamente para el mantenimiento de la motocicleta
+0721,tales como cobertores para
+0721,productos específicamente para la limpieza de la motocicleta
+0721,tales como pinturas
+0721,limpiadores
+0721,accesorios para el transporte de equipaje en motocicletas comprados por separado
+0721,candados antirrobos
+0721,traba ruedas
+0721,astas con bandera
+0721,computadores para bicicletas (incluyen
+0721,por ejemplo
+0721,cuenta calorías
+0721,velocímetros
+0721,odómetros
+0721,accesorios para el transporte de equipaje en la bicicleta comprados por separado
+0722,gasolina y otros combustibles
+0722,como diésel
+0722,gas licuado de petróleo
+0722,alcohol y mezclas para
+0722,combustible diésel
+0722,combustible diésel (petróleo diésel
+0722,gasoil
+0722,gasóleo)
+0722,para equipos de transporte personal
+0722,para
+0722,bencina/gasolina
+0722,bencina/gasolina de 93
+0722,95 y 97 octanos
+0722,mezclas de bencina/gasolina
+0722,como gasolina con
+0722,gas licuado de petróleo (GLP)
+0722,gas natural (GNC
+0722,GNL)
+0722,alcohol
+0722,biocombustibles (etanol
+0722,metanol)
+0722,metano
+0722,biodiesel y mezclas para motores de dos
+0722,lubricantes
+0722,líquidos de frenos y transmisión
+0722,refrigerantes y aditivos
+0722,lubricantes (aceite para motor
+0722,aditivo aceite
+0722,grasa lubricante
+0722,lubricante multiuso
+0722,aceite
+0723,servicios adquiridos para el mantenimiento y reparación de equipos de transporte personal
+0723,servicio de mantenimiento y reparación del sistema eléctrico de automóviles: luces
+0723,focos y
+0723,servicio de mantenimiento y reparación de las partes mecánicas de automóviles: análisis con
+0723,servicio de mantenimiento
+0723,reparación e instalación de puertas y cerrajería para automóviles
+0723,servicio de pintura
+0723,desabolladura y pulido para automóviles
+0723,reparación e instalación de vidrios y espejos para automóviles:
+0723,reparación e instalación de tapiz para vehículos automotores
+0723,reparación e instalación de GPS
+0723,alarmas
+0723,cámaras
+0723,radios
+0723,pantallas o monitores para
+0723,servicio de lavado de automóviles: lavado de carrocería
+0723,tapices
+0723,alfombras y cubre pisos
+0723,mantenciones y reparaciones que por su naturaleza no es posible diferenciar por tipo de
+0723,servicios de mantenimiento y reparación del sistema eléctrico de motocicletas: luces
+0723,encendido
+0723,servicios de mantenimiento y reparación de neumáticos y frenos de bicicletas
+0723,servicios de mantenimiento y reparación de pintura y desabolladura de bicicletas
+0723,servicios de mantenimiento y reparación mecánica de bicicletas: cadenas
+0723,cambios
+0723,llantas
+0723,servicios de grúa o remolque de vehículos
+0723,servicio de asistencia en ruta
+0723,servicios de mantenimiento y reparación de otros equipos de transporte personal
+0724,arriendo de garajes o estacionamientos que no proporcionen estacionamiento relacionado con
+0724,arriendo de estacionamientos de forma periódica (mensual
+0724,semestral
+0724,anual) en parques de
+0724,arriendo de estacionamientos por hora
+0724,medio día
+0724,día entero o noche
+0724,en parques de
+0724,peajes para puentes
+0724,túneles
+0724,autopistas
+0724,cobros por arriendo o compra de TAG y dispositivos electrónicos de peaje
+0724,clases
+0724,exámenes
+0724,licencias de manejo
+0724,pruebas de revisión técnica (prueba de seguridad vial) y pruebas de control de emisiones
+0724,clases de conducción teóricas y prácticas
+0724,para manejar vehículos de transporte particular (tipo
+0724,pago por exámenes y licencias de conducir (obtención por primera vez y renovación de licencia)
+0724,revisión técnica (prueba de seguridad vial) y pruebas de control de emisiones de todo tipo de
+0724,gastos por transferencia de propiedad para vehículos
+0724,arriendos de equipos de transporte personal sin conductor (por ejemplo
+0724,arriendo de vehículos)
+0724,cuotas de participación en sistemas de uso compartido de vehículos o bicicletas
+0731,transporte de personas y grupos de personas
+0731,y su equipaje en tren
+0731,trenes de alta velocidad
+0731,y su equipaje en trenes de pasajeros
+0731,urbanos
+0731,y su equipaje por sistemas de tránsito rápido
+0732,transporte de personas y grupos de personas
+0732,y su equipaje en autobús
+0732,trolebús y bus
+0732,y su equipaje en taxis colectivos (los taxis
+0732,y su equipaje en microbús
+0732,y su equipaje en taxis colectivos (medio de
+0732,pasajes en microbús o micros
+0732,pasajes en trolebús
+0732,pasajes en microbús o bus interprovincial
+0732,servicios de transporte de pasajeros entre la ciudad y el aeropuerto
+0732,con recorridos
+0732,paradas y
+0732,pasajes en bus interurbano nacional (servicios de transporte con recorrido entre regiones)
+0732,pasajes en bus internacional
+0732,pasajes en taxi colectivo (colectivo)
+0732,y su equipaje en taxis y vehículos arrendados
+0732,pasajes en taxi y radio taxi
+0732,y su equipaje en automóviles arrendados con
+0732,transporte de pasajeros contratado por medio de aplicaciones web y móviles
+0732,servicios de arriendo de autobuses escolares locales
+0732,con chofer
+0732,servicios de arriendo de autobuses escolares interurbanos o interciudades programados
+0732,servicios de transporte de alumnos en autobús escolar entre sus hogares y escuela y entre
+0732,valor mensual del transporte escolar desde y hacia la escuela
+0732,servicios de arriendo de autobuses interurbanos o interciudades programados (viajes o
+0732,y su equipaje en vehículos de tracción animal
+0733,transporte de personas y grupos de personas
+0733,y su equipaje por avión y helicóptero
+0733,servicios de transporte aéreo nacional regular y chárter de pasajeros
+0733,transporte nacional de personas y su equipaje en avión por vuelos regulares
+0733,transporte aéreo nacional de personas y grupos de personas
+0733,y su equipaje
+0733,en aeroplanos
+0733,pagos de tasas de embarque para viajes nacionales
+0733,transporte de pasajeros por vía aérea en vuelos internacionales regulares y vuelos chárter
+0733,transporte internacional de pasajeros en avión por vuelos regulares
+0733,transporte aéreo internacional de pasajeros en aeroplanos
+0733,avionetas o helicópteros por vuelos
+0733,pagos de tasas de embarque para viajes internacionales
+0734,transporte de personas y grupos de personas
+0734,y su equipaje por buque
+0734,barco
+0734,transbordador
+0735,transporte de personas y grupos de personas
+0735,y su equipaje en dos o más medios de transporte
+0736,transporte en funiculares
+0736,ascensores
+0736,teleféricos y telesillas
+0736,servicios de custodia y depósito de equipaje (servicios de almacenamiento del equipaje de los
+0736,servicios de custodia y de depósito de equipaje (servicios de almacenamiento del equipaje de
+0736,ascensores (por ejemplo
+0736,ascensores de Valparaíso)
+0736,teleféricos
+0736,servicios de custodia y de depósitos de equipaje (servicios de almacenamiento del equipaje de
+0736,comisiones de agentes de viajes
+0736,si se cobran por separado
+0736,pagos por tarjeta de adulto mayor
+0736,escolar y BIP
+0736,puentes transbordadores
+0736,elevadores inclinados
+0736,pagos por otros servicios asociados al transporte de pasajeros
+0741,sellos postales nuevos y otros materiales postales prefranqueados (por ejemplo
+0741,tarjetas
+0741,sellos postales nuevos (estampillas) y otros materiales postales prefranqueados (por ejemplo
+0741,servicios de entrega de encomiendas (entrantes y salientes — envío y entrega de encomiendas
+0749,servicios de mudanza de muebles
+0749,servicios de almacenamiento de muebles
+0749,servicios de entrega de productos
+0749,como muebles y comestibles
+0749,si se cobran por separado
+0749,entrega local de artículos comprados
+0749,como comidas para llevar y medicamentos recetados
+0749,servicios de almacenaje de muebles
+0749,servicios de almacenaje de muebles no relacionados con la vivienda
+0749,servicios de entrega de bienes
+0749,como muebles
+0749,compras en supermercados
+0749,si se cobran
+0751,teléfonos
+0751,radioteléfonos
+0751,máquinas de fax (que se conectan a teléfonos fijos)
+0751,contestadores
+0811,teléfonos
+0811,radioteléfonos
+0811,máquinas de fax (que se conectan a teléfonos fijos)
+0811,contestadores
+0812,teléfonos móviles
+0812,incluidos dispositivos con varias funciones
+0812,teléfonos inteligentes (smartphones)
+0812,teléfonos móviles (celulares)
+0812,teléfonos móviles básicos
+0812,teléfonos móviles satelitales
+0812,incluidos
+0813,computadores personales
+0813,impresoras
+0813,escáneres
+0813,monitores
+0813,proyectores
+0813,cascos y lentes de
+0813,computadores de escritorio y computadores portátiles (notebooks
+0813,laptops)
+0813,tabletas (tablets)
+0813,computadores de escritorio (Unidad Central de Procesamiento o CPU
+0813,teclado
+0813,ratones (mouse)
+0813,computadores portátiles tales como notebooks
+0813,laptops
+0813,netbooks
+0813,tabletas (tablets) en todas sus variedades y marcas
+0813,cascos y lentes de realidad virtual (VR) y
+0813,impresoras (de inyección de tinta
+0813,láser)
+0813,multifuncionales (impresora
+0813,fotocopiadora
+0813,monitores convencionales
+0813,monitores LCD
+0813,LED
+0813,LED 3D
+0813,teclados
+0813,cascos y lentes de realidad aumentada (AR) y realidad virtual (VR)
+0813,módems
+0814,televisores
+0814,reproductores y grabadoras de videocasete
+0814,grabadoras de video digitales
+0814,televisores convencionales
+0814,LCD
+0814,plasma
+0814,LED
+0814,LED 3D
+0814,Full HD
+0814,televisores portátiles
+0814,reproductores y grabadores de DVD
+0814,receptores de radio (equipos de radio
+0814,equipos de radio digitales
+0814,equipos de radio por Internet
+0814,auriculares
+0814,auriculares de cintillo
+0814,auriculares deportivos
+0814,inalámbricos
+0814,bluetooth
+0814,estén o no
+0814,reproductores de sonido
+0814,imágenes o videos (portátiles y personales): MP3
+0814,MP4
+0814,WAV
+0814,WMA
+0814,emisoras VHF/UHF
+0814,emisoras HF
+0814,antenas para equipos de radio
+0814,antenas móviles para equipos
+0814,antenas de televisión en todas sus variedades
+0814,cajas de transmisión (streaming boxes)
+0815,dispositivos de almacenamiento de información sin grabar (vírgenes) como discos duros
+0815,CD (R y RW)
+0815,DVD (R y RW)
+0815,discos Blu-ray (R y RE)
+0815,cintas de video
+0815,cintas de audio
+0815,casetes
+0819,monitores para bebés
+0819,relojes inteligentes
+0819,rastreadores de actividad física y otros dispositivos portátiles como
+0819,por ejemplo
+0819,gafas
+0819,rastreadores de actividad física y otros dispositivos portátiles
+0819,como gafas inteligentes que no
+0819,relojes y bandas inteligentes (o rastreadores de actividad física)
+0819,dispositivos para libros digitales o electrónicos (e-book reader) y otros
+0819,accesorios para teléfonos
+0819,computadores (y otros equipos de información y comunicación)
+0819,tales
+0819,accesorios para teléfonos fijos
+0819,tales como acoplamiento telefónico (enchufe modular
+0819,tipo
+0819,accesorios para teléfonos móviles
+0819,tales como laminas protectoras o carcasas para celulares
+0819,accesorios para computadores
+0819,notebooks
+0819,tablets (y otros equipos de procesamiento de
+0819,accesorios para televisores
+0819,radios (y otros equipos de recepción
+0819,grabación y reproducción de
+0819,componentes (partes y piezas) de computador
+0819,tales como procesadores
+0819,discos duros internos
+0819,dispositivos ópticos para computadores
+0819,tablets (y otros equipos de procesamiento
+0821,paquetes de software
+0821,como sistemas operativos
+0821,aplicaciones
+0821,lenguajes de programación
+0821,software y paquetes de software
+0821,tales como sistemas operativos
+0821,lenguajes de
+0831,costos de instalación y suscripción de equipos telefónicos personales
+0831,llamadas telefónicas desde una línea privada o desde una línea pública (cabinas telefónicas
+0831,llamadas telefónicas desde una línea privada (llamadas locales
+0831,regionales
+0831,nacionales e
+0831,llamadas locales o larga distancia desde teléfonos públicos
+0831,centros de llamados
+0831,llamadas
+0832,llamadas locales
+0832,regionales
+0832,nacionales e internacionales
+0832,incluidas llamadas de voz y video
+0832,mensajes
+0832,incluidos mensajes de voz
+0832,escritos (SMS) e imágenes (MMS)
+0832,tarifas de suscripción
+0833,servicios de acceso a Internet proporcionados por operadores de infraestructura por cable
+0833,servicios de banda ancha móvil con contrato
+0833,ya sea por cable o sistema wifi
+0833,arriendo de equipos si se encuentran incluidos en el servicio de Internet
+0833,servicios de almacenamiento en la nube
+0833,alojamiento de archivos
+0833,alojamiento web y
+0833,servicios de Internet con cobro por tiempo de uso (por ejemplo
+0833,en los cibercafés)
+0834,paquetes de telefonía/Internet/TV
+0834,cualquier combinación de paquete de telecomunicaciones
+0834,pagos por servicios de instalación y planes de paquetes que contengan servicios de telefonía
+0835,reparación de todos los equipos de información y comunicación
+0835,arriendo de teléfonos
+0835,máquinas de fax
+0835,contestadores automáticos y altavoces telefónicos
+0835,arriendo de equipos de telefonía inalámbrica
+0835,arriendo de equipos de suministro de acceso a Internet
+0835,arriendo de equipos de telegrafía
+0835,télex
+0835,telefax
+0835,radiotelefonía
+0835,radiotelegrafía y radiotelex
+0835,por ejemplo
+0835,teléfonos fijos y
+0839,servicios de telegrafía
+0839,télex y telefax
+0839,provisión de VoIP (Voz sobre Protocolo de Internet) (uso nómada)
+0839,licencias de radio y televisión
+0839,suscripción a TV por cable
+0839,TV satelital
+0839,IPTV y TV paga
+0839,servicios de streaming
+0839,servicios de videograbadora en línea (servicios DVR basados en la web)
+0839,servicios de VOD (video a pedido)
+0839,arriendo o suscripción de CD
+0839,cintas de video
+0839,DVD
+0839,discos Blu-ray
+0839,software (excluyendo
+0839,servicios de streaming (cine y música)
+0839,arriendo
+0839,descarga o suscripción de CD
+0839,software (excepto
+0839,servicio de instalación y pago mensual
+0839,TV por cable
+0839,IPTV
+0839,TV digital
+0839,servicios
+0839,arriendo de contenidos audiovisuales (películas
+0839,conciertos
+0839,tales como
+0839,servicios de radiotelefonía
+0839,radiotelegrafía y radiotelex
+0839,tarifas de arriendo de un decodificador
+0839,servicios de instalación de software
+0841,cámaras fotográficas
+0841,cámaras audiovisuales
+0841,proyectores de películas (cintas de video) y
+0911,cámaras fotográficas
+0911,cámaras audiovisuales
+0911,proyectores de películas (cintas de video) y
+0911,cámaras fotográficas digitales
+0911,tales como cámaras fotográficas réflex (DSLR)
+0911,sin espejo
+0911,cámaras de cine y cámaras audiovisuales
+0911,videocámaras y cámaras móviles (cámaras
+0911,proyectores de películas (cintas de video)
+0911,proyectores de diapositivas (láminas)
+0911,ampliadoras y
+0911,pantallas
+0911,visores
+0911,lentes (incluyendo lentes de aumento o zoom)
+0911,equipos de flash
+0911,filtros y
+0911,cintas
+0911,películas o rollos fotográficos y cinematográficos
+0911,líquidos para revelado fotográfico y papeles fotográficos
+0911,binoculares
+0911,microscopios
+0911,telescopios y brújulas
+0911,telescopios
+0911,brújulas
+0911,catalejos y lupas
+0912,casas rodantes
+0912,caravanas y remolques
+0912,aeroplanos
+0912,avionetas
+0912,aviones ultraligeros
+0912,planeadores
+0912,alas delta y globos aerostáticos
+0912,botes
+0912,yates
+0912,motores fuera de borda
+0912,velas
+0912,aparejos y superestructuras náuticas
+0912,embarcaciones para recreación
+0912,veleros y tablas para deportes acuáticos
+0912,canoas
+0912,kayaks
+0912,tablas de windsurf
+0912,equipos de buceo marítimo
+0912,caballos y ponis
+0912,vehículos tirados por caballos o ponis
+0912,camellos y dromedarios comprados con
+0912,motos de agua (motos acuáticas o jetskies)
+0912,kayaks y tablas de windsurf
+0912,tablas de bodyboard
+0912,camellos y dromedarios
+0912,y su
+0912,carros de golf
+0912,motos de nieve
+0912,piscinas grandes de estructura de acero para instalar sobre el jardín
+0912,mesas de billar
+0912,mesas de ping-pong
+0912,máquinas de pinball (flipper)
+0912,máquinas de juegos
+0912,bicicletas de cuatro ruedas
+0912,tablas de skate eléctricos (patinetas eléctricas)
+0912,monopatines eléctricos (scooters eléctricos)
+0912,mesas de billar (pool
+0912,poolina)
+0912,mesas de cartas
+0912,máquinas de juegos (por
+0912,drones (de carga o equipados con cámaras digitales u otros dispositivos integrados
+0921,juegos de cartas
+0921,juegos de mesa
+0921,tableros de ajedrez y similares
+0921,programas de videojuegos
+0921,videojuegos electrónicos para conectar al televisor (TV games)
+0921,videojuegos de computador
+0921,consolas de videojuegos
+0921,controles de videojuegos
+0921,joysticks
+0921,volante para videojuego (racing wheels) y otros accesorios
+0921,todo tipo de consolas de videojuegos
+0921,tales como consolas portátiles
+0921,consolas electrónicas para
+0921,videojuegos (físicos y con descarga en línea)
+0921,videojuegos para computador
+0921,softwares de videojuegos (para consolas de juegos
+0921,computadores
+0921,tablets
+0921,teléfonos
+0921,volante de videojuego (racing wheels) y otros accesorios
+0921,muñecas
+0921,figuras de acción
+0921,autos y trenes de juguetes
+0921,bicicletas y triciclos de juguete
+0921,juguetes de trapo
+0921,peluches
+0921,juegos de construcción
+0921,rompecabezas (puzzles)
+0921,juegos de arcilla o masas para jugar
+0921,máscaras
+0921,disfraces
+0921,juegos o artículos de bromas
+0921,modelos o réplicas de aviones
+0921,botes
+0921,trenes
+0921,estampillas
+0921,sellos y cualquier otro documento postal para coleccionar (usados o no)
+0921,álbumes y otros elementos para coleccionar estampillas y documentos postales
+0921,otros artículos de colección (monedas
+0921,medallas
+0921,minerales
+0921,especímenes relacionados a la
+0921,bicicletas para niños de aro 20 o menos
+0921,correpasillos
+0921,rodados
+0921,andadores
+0921,mini vehículos eléctricos para niños
+0921,juegos de mesa (naipes de todos los tipos
+0921,ajedrez
+0921,dominó
+0921,dardos
+0921,lota
+0921,autos de juguete
+0921,trenes y similares
+0921,juegos de bienes raíces
+0921,juguetes didácticos y de construcción
+0921,piezas de ensamble o bloques
+0921,fuegos artificiales
+0921,guirnaldas y lámparas de papel
+0921,árboles de Navidad naturales y artificiales
+0921,decoración para festividades (Navidad
+0921,Pascua de Resurrección
+0921,Janucá
+0921,Eid
+0921,Fiestas Patrias
+0922,equipos para gimnasia
+0922,educación física y deportes
+0922,como por ejemplo
+0922,pelotas o balones
+0922,como pelotas o balones para la práctica de
+0922,máquinas de ejercicio para gimnasia
+0922,tales como bicicletas
+0922,armas de fuego y municiones (rifles
+0922,escopetas
+0922,pistolas
+0922,revólveres)
+0922,otras armas
+0922,incluidas las
+0922,cañas de pescar para ríos y lagos
+0922,cañas de pescar para mar
+0922,wader de pesca (prenda
+0922,artículos para jugar en la playa y al aire libre
+0922,como paletas de playa
+0922,discos voladores (frisbee)
+0922,equipos para campamentos (camping)
+0922,como carpas
+0922,sacos de dormir
+0922,mochilas para acampar
+0922,discos voladores (frisbees)
+0931,tierra
+0931,turba y fertilizantes
+0931,pesticidas para plantas
+0931,abono y compost
+0931,césped para terrenos o para suelos tratados especialmente para jardines ornamentales
+0931,maceteros y porta maceteros
+0931,decoraciones
+0931,adornos y ornamentos para jardines (que no son plantas)
+0931,plantas de interior
+0931,naturales o artificiales
+0931,plantas de exterior
+0931,semillas
+0931,bulbos y tubérculos de plantas para sembrar
+0931,arbustos
+0931,tierra de hoja
+0931,tierra ácida
+0931,turba
+0931,abonos
+0931,compost
+0931,fertilizantes
+0931,césped (palmetas de pasto) para terrenos o para suelos tratados especialmente para jardines
+0931,maceteros
+0931,macetas
+0931,porta maceteros
+0931,jardineras de maceteros
+0931,maceteros colgantes
+0931,cubre
+0931,flores de interior (naturales o artificiales estén o no en floreros)
+0931,flores de exterior
+0931,semillas y bulbos de flores para sembrar
+0931,flores y coronas naturales o artificiales para funerales y decoración de lápidas
+0931,plantas naturales de interior y exterior como plantas florales
+0931,suculentas
+0931,cactus
+0931,helechos
+0931,bulbos y tubérculos para sembrar (plantas
+0931,flores
+0931,verduras
+0931,frutas y hortalizas)
+0931,árboles y arbustos naturales (de interior y exterior)
+0931,cobros por servicio de entrega de árboles y arbustos si no se cobran por separado
+0931,flores cortadas y arreglos florales naturales (ramos
+0931,canastillos)
+0931,coronas naturales para funerales y decoración de lápidas
+0931,cobros por servicio de entrega de flores cortadas y arreglos florales si no se cobran por
+0931,plantas
+0931,árboles
+0931,arreglos florales y flores artificiales
+0931,cobros por servicio de entrega de plantas
+0931,árboles y flores artificiales si no se cobran
+0932,compra de mascotas
+0932,alimentos para mascotas
+0932,productos veterinarios y productos de aseo
+0932,compra de todo tipo de mascotas tales como aves
+0932,perros
+0932,gatos
+0932,peces
+0932,tortugas
+0932,cerdos
+0932,productos veterinarios y productos de aseo para mascotas
+0932,collares
+0932,alimentos para aves corrientes (pollos
+0932,patos
+0932,gansos
+0932,pavos)
+0932,alimentos para aves exóticas
+0932,jaulas para pájaros y roedores
+0932,caniles
+0932,gatiles
+0932,casas para perro
+0932,acuarios y sus insumos
+0932,productos veterinarios y medicamentos para mascotas
+0932,insecticidas para animales domésticos
+0941,arriendo de equipos fotográficos
+0941,cinematográficos e instrumentos ópticos
+0941,reparación de equipos fotográficos
+0941,arriendo de cámaras fotográficas
+0941,cámaras audiovisuales
+0941,proyectores de películas (cintas de
+0941,mantenimiento y reparación de los bienes durables grandes para recreación que se describen
+0942,arriendo de casas rodantes y caravanas
+0942,mantenimiento y reparación de casas rodantes y caravanas
+0942,arriendo de un espacio físico donde almacenar en época de invierno las casas rodantes y
+0942,arriendo de bienes durables grandes para recreación descritos en 09.1.2.02.00
+0942,09.1.2.03.00
+0942,arriendo de aeroplanos
+0942,avionetas
+0942,aviones ultraligeros
+0942,planeadores
+0942,alas delta y globos
+0942,mantenimiento y reparación de aeroplanos
+0942,alas
+0943,arriendo y suscripción de consolas de videojuegos
+0943,software y aplicaciones
+0943,reparación de consolas de videojuegos
+0943,juguetes y artículos para pasatiempos (hobbies)
+0943,arriendo físico de softwares de videojuegos (en formato de CD-ROM
+0943,DVD
+0943,discos de Blu-ray
+0943,suscripción de softwares y aplicaciones de videojuegos
+0943,suscripción para jugar videojuegos en línea (o streaming)
+0943,arriendo y reparación de consolas de videojuegos y otros equipos para jugar
+0943,arriendo de consolas de videojuegos y otros equipos para jugar
+0943,arriendo de juguetes y artículos para pasatiempos (hobbies)
+0943,arriendo de juguetes y juegos
+0943,reparación de consolas de videojuegos y otros equipos para jugar
+0943,reparación de juguetes y artículos para pasatiempos (hobbies)
+0944,arriendo y reparación de equipos para deportes
+0944,campamentos (camping) y recreación al aire
+0944,arriendo de equipo para deportes
+0944,campamentos (camping) y recreación al aire libre
+0944,tales como
+0944,reparación de equipo para deportes
+0944,tales
+0945,servicios de atención veterinaria y otros servicios para mascotas
+0945,como aseo
+0945,tatuajes y
+0945,servicios de atención veterinaria como consultas para todo tipo de mascotas y animales
+0945,servicios de peluquería y estética para mascotas
+0945,tales como cortes de pelo
+0945,baños estéticos
+0945,servicios de alojamiento o de guardería para mascotas
+0945,tales como hoteles para mascotas y
+0946,entradas a ferias y parques de diversiones
+0946,parques o centros acuáticos
+0946,salas de escape
+0946,recargas de tarjetas o compra de fichas para taca-taca
+0946,videojuegos y máquinas de juegos (por
+0946,clases y actividades de cocina
+0946,tales como clases de pastelería
+0946,coctelería
+0946,repostería y
+0946,actividades recreativas
+0946,incluidas las actividades extraprogramáticas individuales o grupales
+0946,pagos o cuotas por participación en asociaciones recreativas y voluntariados tales como Scouts
+0946,suscripciones o membresías en productos y servicios
+0946,tales como club de viajeros
+0946,club del vino
+0946,pago por servicios de guía turístico de rutas urbanas y rurales
+0946,tales como guías turísticos de
+0946,entradas a discotecas
+0946,salsotecas
+0946,centros nocturnos (night clubs)
+0946,tanguerías y similares
+0946,servicios prestados por discotecas
+0946,tanguerías y
+0946,pistas de patineta (skate)
+0946,piscinas
+0946,circuitos o campos de golf
+0946,gimnasios
+0946,centros deportivos
+0946,servicios de arriendo diario o por horas de
+0946,pistas de patinetas (skate)
+0946,circuitos o
+0946,pago por entradas para el uso de pistas de esquí
+0946,transporte en elevadores
+0946,tales como teleféricos
+0946,telesquíes
+0946,funiculares
+0946,andariveles
+0946,clases de diferentes deportes
+0946,tales como clases de aeróbica
+0946,zumba
+0946,patinaje
+0946,esquí
+0946,natación
+0946,cuotas de incorporación al gimnasio
+0946,cuotas periódicas de gimnasio
+0946,servicios de entrenamiento
+0946,cuotas de inscripción para participar en competencias deportivas (maratones y similares)
+0946,cuotas por otorgamiento de certificados y títulos deportivos
+0946,servicios de ayuda a la navegación
+0946,arriendo de calzados específicos para deporte asociado al servicio de práctica deportiva (botas
+0946,entradas (tickets) y abonos a clubes deportivos para asistir a eventos deportivos en vivo
+0946,tales
+0947,cobros por servicios de lotería
+0947,casas de apuestas
+0947,máquinas tragamonedas
+0947,casinos o cualquier
+0947,apuestas deportivas en general
+0947,apuestas en carreras de caballos
+0947,apuestas deportivas en
+0947,entradas a casinos
+0947,apuestas en juegos de casinos tales como mesa de póquer
+0947,ruleta
+0947,boletos de lotería
+0947,raspes y sus versiones para adquirirlos en línea
+0947,otros juegos de azar n.c.p
+0951,instrumentos musicales de cualquier tamaño
+0951,incluye instrumentos musicales electrónicos
+0951,instrumentos musicales de cuerda en sus versiones acústicas y electrónicas
+0951,como guitarra
+0951,instrumentos musicales de viento en sus versiones acústicas y electrónicas
+0951,como clarinete
+0951,instrumentos musicales de percusión en sus versiones acústicas y electrónicas
+0951,como sonajas
+0951,pedales de efectos y multiefectos
+0951,partituras y similares
+0951,estuches para instrumentos musicales
+0951,otros instrumentos musicales n.c.p.
+0951,tales como órganos electrónicos o teclados
+0951,claviórgano
+0952,cintas grabadas CD-ROM
+0952,DVD
+0952,discos Blu-ray
+0952,discos de gramófono
+0952,unidades USB
+0952,para la
+0952,medios audiovisuales para la reproducción de sonido e imagen tales como películas
+0961,entradas al cine (para todo tipo de salas)
+0961,entradas y abonos al teatro (ópera
+0961,ballet
+0961,obras de teatro)
+0961,salas de conciertos y música
+0961,servicios de músicos
+0961,DJ para fiestas
+0961,payasos y artistas intérpretes (performers) prestados de
+0962,entradas a museos tales como el Museo de Historia Natural
+0962,Museo de Bellas Artes
+0962,Museo
+0962,entradas a parques de reservas nacionales
+0962,parques zoológicos
+0962,jardines botánicos
+0962,acuarios y
+0963,servicios de fotógrafos
+0963,tales como revelado de rollos fotográficos
+0963,impresiones de fotos
+0963,servicios de revelado de rollos fotográficos
+0963,impresiones de fotos digitales
+0963,copias de fotos y
+0963,servicios de fotógrafos tales como sesión de fotografías de retratos
+0963,sesión de fotografías y
+0969,servicios de arriendo y reparación de instrumentos musicales
+0969,servicios de encuadernación o anillado de libros
+0969,clases de fotografía
+0969,música
+0969,danza y artes (en aulas o vía e-learning)
+0969,servicios de encuadernación
+0969,empaste o anillado de libros
+0969,servicios de arriendo y reparación de instrumentos musicales tales como instrumentos de
+0969,empaste y anillado de libros
+0969,clases de danza (en aulas o vía e-learning) de merengue
+0969,salsa
+0969,tango
+0969,cueca
+0969,bailes folclóricos
+0969,clases de música y canto (en aulas o vía e-learning) de interpretación musical
+0969,clases de canto
+0969,clases de fotografía y artes (en aulas o vía e-learning) de pintura
+0969,dibujo
+0969,acuarela
+0969,arriendo de locales para ensayos de grupos de música amateur (arriendo de salas de ensayo)
+0971,todo tipo de libros
+0971,educativos o no
+0971,incluyendo atlas
+0971,diccionarios
+0971,enciclopedias
+0971,libros de
+0971,libros de educación formal (textos escolares/manuales académicos
+0971,reproducción libros educativos en formatos grabados de casetes
+0971,CD-ROM
+0971,DVD
+0971,discos Blu-
+0971,libros de educación formal tales como textos escolares
+0971,libros para enseñanza básica y media
+0971,apuntes
+0971,guías de estudio
+0971,fascículos
+0971,tabla periódica
+0971,libros de ficción y no ficción
+0971,libros o cuentos infantiles
+0971,libros para recortes y álbumes de manualidades infantiles
+0971,libros para
+0971,descargas de libros no educativos
+0971,libros electrónicos (e-books)
+0971,libros en línea
+0971,libros digitales
+0971,libros para colorear
+0971,guías de viaje
+0972,diarios
+0972,revistas y otras publicaciones periódicas
+0972,diarios comprados en kioscos
+0972,suscripciones a diarios (entrega a domicilio de diarios impresos)
+0972,suscripción a diarios en formato digital o electrónico
+0972,suscripción a diarios en formato digital o electrónico a los que se puede acceder por Internet
+0972,revistas de estilos de vida
+0972,revistas infantiles
+0972,revistas de pasatiempos (hobbies) y ocio
+0972,revistas de negocios y política
+0972,revistas de televisión
+0972,suscripciones a revistas y otras publicaciones periódicas (entrega a domicilio)
+0972,suscripciones a revistas y otras publicaciones periódicas en formato digital o electrónico a los
+0972,revistas de todo tipo de temáticas: estilos de vida
+0972,infantiles
+0972,pasatiempos (hobbies) y ocio
+0973,catálogos y materiales de publicidad
+0973,pósteres
+0973,láminas y calendarios
+0973,postales sin franquear
+0973,sobres y otros materiales postales no franqueados
+0973,tarjetas con saludos especiales
+0973,tarjetas de presentación
+0973,tarjetas de anuncios y mensajes
+0973,mapas y globos terráqueos
+0973,postales sin franquear (lisas o con imágenes)
+0973,sobres y otros materiales postales no
+0973,láminas impresas
+0973,calendarios
+0973,láminas
+0973,mapas de GPS si se compran por separado del equipo de GPS (posicionamiento satelital)
+0974,blocs de notas
+0974,sobres
+0974,libros de contabilidad
+0974,diarios de vida
+0974,papel de dibujo
+0974,materiales educativos
+0974,como libros de ejercicios
+0974,papel de regalo
+0974,lápices
+0974,plumas
+0974,plumas estilográficas
+0974,bolígrafos
+0974,rotuladores
+0974,tintas
+0974,gomas de borrar
+0974,cuadernos de todo tipo
+0974,incluidos los cuadernos de música
+0974,caligrafía y croquis
+0974,cuadernos de
+0974,todo tipo de lápices
+0974,portaminas
+0974,lápices scripto
+0974,lápices glitter
+0974,lápices marcadores de placa
+0974,tijeras de papel
+0974,cortadores o guillotinas de papel
+0974,abridores de carta
+0974,grapadoras y grapas
+0981,vacaciones o tours con todo incluido (all inclusive)
+0981,es decir
+0981,que comprenden el transporte
+0981,vacaciones o tours con todo incluido (all inclusive) que incluyen transporte
+0981,alojamiento
+0981,paquetes turísticos nacionales asociados a viajes o vacaciones que incluyen todo tipo de
+0981,paquetes turísticos internacionales asociados a viajes o vacaciones que incluyen todo tipo de
+0981,viajes o vacaciones nacionales cuyo gasto no es posible desglosar
+0981,viajes o vacaciones internacionales cuyo gasto no es posible desglosar
+0991,niveles 0 y 1 de la CINE 2011 Educación de primera infancia y primaria
+0991,programas de alfabetización para estudiantes mayores que cursan la escuela primaria
+0991,servicios de educación para niños con necesidades educativas especiales
+1011,nivel 0 de CINE 2011: la educación de primera infancia está diseñada principalmente para
+1011,otros gastos n.c.p. en educación para la primera infancia
+1011,tales como excursiones que forman
+1011,nivel 1 de CINE 2011: la educación primaria usualmente comienza a la edad de 6 o 7 años y
+1011,gastos en matrículas de 1° a 6° básico (aplica para cursos de este nivel impartidos por diferentes
+1011,gastos en aranceles mensualizados de 1° a 6° básico (aplica para cursos de este nivel
+1011,gastos en cuotas de incorporación y exámenes de admisión de 1° a 6° básico (aplica para cursos
+1011,otros gastos n.c.p. en educación de 1° a 6° básico
+1011,tales como programas de alfabetización para
+1021,nivel 2 y 3 de CINE 2011: educación secundaria inferior y secundaria superior. La educación
+1021,gastos en matrículas de 7° y 8° básico (aplica para cursos de este nivel impartidos por diferentes
+1021,gastos en aranceles mensualizados de 7° y 8° básico (aplica para cursos de este nivel
+1021,gastos en cuotas de incorporación y exámenes de admisión de 7° y 8° básico (aplica para cursos
+1021,otros gastos n.c.p. en educación de 7° y 8° básico
+1021,tales como educación secundaria para
+1021,gastos en matrículas de educación media (1° a 4° medio)
+1021,en sus diferentes modalidades:
+1021,gastos en aranceles mensualizados de educación media (1° a 4° medio)
+1021,en sus diferentes
+1021,gastos en cuotas de incorporación y exámenes de admisión de educación media (1° a 4° medio)
+1021,otros gastos n.c.p. en educación media (1° a 4° medio)
+1031,nivel 4 de CINE 2011: la educación postsecundaria no terciaria proporciona experiencias de
+1041,nivel 5
+1041,7 y 8 de CINE 2011: la educación terciaria se basa en la educación secundaria y
+1041,gastos en inscripción a prueba de admisión universitaria y exámenes a carreras específicas
+1041,gastos en matrículas de educación superior para clases o cursos en cualquiera de sus
+1041,gastos en aranceles mensualizados de educación superior para clases o cursos en cualquiera
+1041,gastos en matrículas de postítulo y postgrado para clases o cursos en cualquiera de sus
+1041,gastos en aranceles mensualizados de postítulo y postgrado para clases o cursos en cualquiera
+1041,otros gastos n.c.p. en educación superior
+1041,tales como excursiones o intercambios de estudiantes
+1051,tutores independientes (lecciones privadas)
+1051,centros de tutores (referido a centros que brindan
+1051,tutores independientes (clases privadas que apoyan la educación formal)
+1051,centros de tutores
+1051,tutores independientes (clases privadas que apoyan la educación formal
+1051,como clases
+1051,gastos en matrículas de preuniversitarios
+1051,en cualquiera de sus modalidades (presenciales
+1051,gastos en aranceles mensualizados de preuniversitarios
+1051,en cualquiera de sus modalidades
+1051,programas de educación
+1051,generalmente para adultos
+1051,que no requieren de una formación previa
+1051,cursos de idiomas no conducentes a un grado
+1051,tales como cursos de inglés
+1051,francés
+1051,chino
+1051,cursos de computación y tecnología de la información en todos sus niveles (básicos
+1051,medios y
+1051,actividades de perfeccionamiento y validación de estudios que no conducen a un grado
+1051,gastos en matrículas de educación especial no atribuibles a un nivel específico
+1051,gastos en aranceles mensualizados de educación especial no atribuibles a un nivel específico
+1051,gastos en cuotas de incorporación y/o exámenes de admisión de educación especial no
+1051,otros gastos en educación especial no atribuibles a un nivel especifico
+1051,tales como excursiones
+1060,alimentos y bebidas proporcionados por establecimientos de servicio completo que sirven
+1111,sándwiches en todas sus variedades (lomito
+1111,churrasco
+1111,vegetariano
+1111,ave mayo
+1111,lengua
+1111,pernil
+1111,papas fritas
+1111,papas bravas
+1111,pichangas
+1111,wantán frito
+1111,aceitunas
+1111,sopaipillas
+1111,nachos
+1111,quesos
+1111,tortas
+1111,tartaletas
+1111,donas
+1111,kuchen
+1111,pie
+1111,panqueques
+1111,croissant
+1111,galletas dulces
+1111,postres en base
+1111,helados (artesanales
+1111,industriales) y granizados
+1111,mote con huesillos
+1111,café helado y otros postres
+1111,té (verde
+1111,rojo
+1111,blanco
+1111,frío
+1111,té helado
+1111,café (de grano
+1111,café cortado
+1111,capuchino
+1111,aguas minerales
+1111,jugos
+1111,bebidas gaseosas
+1111,jugos naturales
+1111,limonadas y otros tipos de bebidas no alcohólicas que son preparadas en el
+1111,vinos en todas sus variedades (comprende también oporto
+1111,vermut y jerez)
+1111,vinos espumantes
+1111,propinas
+1111,todo tipo de cervezas (sean artesanales o industriales)
+1111,como ale
+1111,lager
+1111,stout
+1111,porter
+1111,India pale
+1111,bebidas alcohólicas tales como sidra
+1111,chicha
+1111,ron
+1111,whisky
+1111,vodka
+1111,pisco
+1111,entre otras similares
+1111,entradas (ensalada surtida
+1111,ensalada chilena
+1111,sopas o consomés u otras entradas)
+1111,platos de fondo que se consumen en el almuerzo o cena y otros tipos de alimentos que pueden
+1111,desayunos completos
+1111,onces completas: té
+1111,café o bebidas
+1111,sándwiches o tostadas
+1111,masas
+1111,menús que se consumen en almuerzos o cenas donde no es posible obtener el detalle de sus
+1111,combos o promociones de comida rápida
+1111,tales como completos o sándwich + bebida
+1111,alimentos y bebidas no alcohólicas que son preparados y se encuentran listos para su consumo
+1111,servicios de alimentos y bebidas proporcionados por restaurantes de autoservicio
+1111,alimentos y bebidas proporcionados por puestos de refrescos
+1111,puestos de pescado y papas
+1111,masas saladas sin relleno
+1111,pie de limón
+1111,churros
+1111,calzones rotos y otros productos dulces con masa
+1111,sin
+1111,café helado
+1111,algodón de
+1111,pollos asados preparados y listos para su consumo (enteros
+1111,trozados
+1111,mate
+1111,plato de fondo para almuerzo y cena (arroz con pollo
+1111,tallarines con salsa
+1111,tortillas)
+1111,ensaladas consumidas como plato de fondo
+1111,por ejemplo
+1111,ensalada cesar
+1111,sushi
+1111,menús
+1111,almuerzos y cenas donde no es posible obtener el detalle de sus platos o bebidas por
+1111,combo o promociones de comida rápida
+1111,completos
+1111,limonadas y otros tipos de bebidas no alcohólicas que son preparados en el
+1111,cervezas
+1111,tortillas
+1111,productos alimenticios y bebidas preparados en el local y dispensados a través de máquinas
+1111,alimentos y bebidas preparados y listos para su consumo que son entregados por un servicio
+1111,alimentos y bebidas preparados y listos para su consumo que son entregados por servicios de
+1111,casinos de alimentación universitarios
+1111,salas y comedores para militares
+1112,comedores de jardines infantiles
+1112,comedores escolares
+1112,casinos de alimentación universitarios
+1112,salas y comedores militares
+1121,resorts
+1121,hoteles
+1121,hoteles que arriendan habitaciones por hora
+1121,moteles
+1121,posadas y pensiones
+1121,servicios de alojamiento proporcionados por casas particulares
+1121,casas de vacaciones
+1121,casas de
+1121,servicios de alojamiento en resorts
+1121,hoteles y moteles
+1121,servicios de alojamiento en posadas
+1121,pensiones y establecimientos similares
+1121,servicios de alojamiento a corto plazo proporcionados por casas de vacaciones
+1121,servicios de alojamiento en hoteles
+1121,apart hotel
+1121,arriendo de departamentos o casas para
+1121,servicios de alojamiento en hostales
+1121,posadas
+1121,hosterías
+1121,pensiones y residenciales
+1121,servicios de alojamiento a corto plazo proporcionados por casas de huéspedes
+1121,unidades de
+1121,unidades de tiempo compartido
+1121,lodges
+1121,otros servicios en este tipo de establecimientos si no se cobran por separado
+1121,tales como
+1121,servicios de alojamiento en complejos vacacionales y centros de vacaciones
+1121,servicios de alojamiento en sitios para camping
+1121,casas rodantes y barcos fijos (no móviles)
+1121,servicios de alojamiento en camping o sitios para camping
+1121,casas rodantes y barcos fijos (no
+1121,servicios de alojamiento en albergues juveniles y refugios de montaña
+1121,servicios de alojamiento en cabañas
+1121,cabañas rústicas
+1121,casas de campo
+1121,búngalos o bungalows
+1121,residencias de estudiantes
+1121,dormitorios de escuelas y de otros establecimientos educacionales
+1121,servicios de alojamiento en residencias de estudiantes
+1121,dormitorios de escuelas y de otros
+1121,vagones para dormir de ferrocarril y de otros transportes públicos
+1121,cuando se cobren por
+1121,servicios de alojamiento en vagones para dormir de ferrocarril y de otros transportes públicos
+1131,cargos por servicios de seguros de vida
+1131,anualidades
+1131,seguros de muerte (o defunción)
+1131,seguros
+1211,cargos por servicios de seguros de vida
+1211,anualidades
+1211,seguros de muerte (o defunción)
+1211,seguros
+1211,cargos por servicios de seguros de accidentes
+1211,como pólizas de seguros que cubren los daños
+1212,cargos por servicios de seguros de enfermedad
+1212,cargos por servicios de seguros de salud
+1212,cargos por servicios de seguros de invalidez
+1212,cargos por servicios de seguros de enfermedades críticas
+1212,cargos por servicios de seguros de cuidados a largo plazo
+1212,cargos por servicios de seguros complementarios de salud
+1212,cargos por servicios de seguros complementarios de medicamentos recetados
+1212,cargos por servicios de seguros médicos de viaje
+1212,cargos por servicios de seguros de invalidez (por ejemplo
+1212,seguro de invalidez y sobrevivencia)
+1212,cargos por servicios de seguros de enfermedades críticas o graves (por ejemplo
+1212,seguro
+1213,cargos por servicios pagados por los propietarios-ocupantes y por los arrendatarios
+1213,cargos por servicios pagados por los propietarios-ocupantes y por los arrendatarios por los tipos
+1214,cargos por servicios de seguros relacionados con equipos de transporte personal
+1214,cargos por servicios de seguros de viaje (por cambio en planes de viaje
+1214,cancelación de viaje
+1214,cargos por servicios de seguros relacionados con automóviles
+1214,cargos por servicios de seguros que cubren responsabilidad civil o daños a terceros o sus
+1214,cargos por servicios de seguros relacionados con vehículos automotores como automóviles
+1214,cargos por servicios de seguros relacionados con otros equipos de transporte personal
+1214,como
+1214,cargos por servicios de seguros de viaje (para cambio de planes de viaje
+1215,cargos por servicios de seguros asociados a préstamos
+1215,cuentas corrientes
+1215,cuentas vistas
+1215,cargos por servicios de seguros asociados a instrumentos financieros (préstamos
+1215,cuentas
+1215,cargos por servicios de seguros asociados a instrumentos financieros (tarjetas de crédito
+1215,cargos por servicios de seguros asociados a instrumentos financieros (préstamos) otorgados
+1219,cargos por servicios de otros seguros
+1219,tales como responsabilidad civil por lesiones o daños a
+1221,servicios de intermediación financiera medidos indirectamente de sociedades captadoras de
+1221,gastos financieros en intereses por préstamos de instituciones bancarias
+1221,gastos financieros en intereses por préstamos (o avances en efectivo) de casas comerciales
+1221,gastos financieros en intereses por préstamos de cajas de compensación y cooperativas
+1221,gastos financieros en intereses por préstamos otorgados por otras instituciones de
+1222,cargos explícitos por los servicios financieros de las corporaciones que toman depósitos
+1222,tales
+1222,gastos financieros de administración asociados a préstamos de instituciones bancarias
+1222,gastos financieros de administración asociados a préstamos de cajas de compensación y
+1222,valores mensuales de cuenta corriente (plan de productos)
+1222,comisiones de apertura y
+1222,comisiones asociadas a los gastos financieros de cajas de compensación y cooperativas
+1229,cargos explícitos e implícitos por los servicios financieros de los cambistas y otras instituciones
+1229,cargos por remesas en relación a servicios financieros provistos por auxiliares financieros
+1229,tales
+1229,gastos financieros de administración asociados a préstamos (o avances en efectivo) de casas
+1229,gastos financieros de administración asociados a préstamos de otras instituciones que otorgan
+1229,cargos administrativos e implícitos de los fondos privados de pensiones y servicios similares
+1229,comisiones por aperturas
+1229,renovaciones y mantenciones de tarjetas de crédito de casas
+1229,comisiones asociadas a los gastos financieros de establecimientos que otorgan crédito
+1229,comisiones por la compra y venta de divisas
+1229,gastos asociados a custodia de valores y arriendos de cajas de seguridad
+1229,comisiones por giro
+1231,máquinas de afeitar eléctricas
+1231,cortadoras de pelo y depiladoras
+1231,secadores de pelo manuales
+1311,máquinas de afeitar eléctricas
+1311,cortadoras de pelo y depiladoras
+1311,secadores de pelo manuales
+1311,máquinas eléctricas para cortar pelo
+1311,barba y afeitar
+1311,máquinas depiladoras eléctricas
+1311,removedores eléctricos de vello facial
+1311,aparatos eléctricos para alisar o planchar el pelo
+1311,onduladores o pinzas para rizar el pelo
+1311,eléctricos
+1311,cepillos y peines de pelo eléctricos
+1311,secadores de pelo manuales y de capucha
+1311,lámparas de luz ultravioleta
+1311,vibradores
+1311,reparación de aparatos eléctricos para el cuidado personal
+1311,tales como máquinas de barbear
+1312,artículos no eléctricos: máquinas de afeitar (desechables o no)
+1312,cortadoras de pelo y los
+1312,artículos no eléctricos tales como máquinas de afeitar (desechables o no)
+1312,cortadoras de pelo y
+1312,máquinas de afeitar no eléctricas (desechables o no)
+1312,repuestos para máquinas de afeitar no eléctricas (desechables o no)
+1312,cortadoras de pelo (no eléctricas) y sus repuestos
+1312,peinetas
+1312,cepillos
+1312,ondulines (tubos o rizadores)
+1312,cepillos para tinturar el pelo
+1312,gorros de ducha
+1312,gorros de baño protectores de ojos para bebés
+1312,peines para pediculosis
+1312,tijeras para cortar el pelo
+1312,horquillas
+1312,pinches
+1312,cintillos y similares
+1312,elásticos o colet para pelo
+1312,pelucas
+1312,extensiones
+1312,mechas
+1312,moños postizos
+1312,cepillos de dientes no eléctricos
+1312,cepillos interdentales
+1312,limpiador de lengua
+1312,balanzas o pesas personales
+1312,básculas para medir la masa corporal
+1312,cortaúñas
+1312,limas para uñas
+1312,pinzas para cejas
+1312,encrespadores de pestañas
+1312,espejos de bolsillo
+1312,pestañas postizas
+1312,otros artículos no eléctricos para el cuidado personal n.c.p
+1312,artículos para la higiene personal tales como jabones de tocador
+1312,jabones medicinales
+1312,aceites
+1312,champús
+1312,bálsamos y acondicionadores para el cabello
+1312,jabones en todos sus formatos y tipos
+1312,líquidos
+1312,en barra
+1312,astringentes
+1312,exfoliantes
+1312,neutros
+1312,cremas de afeitar
+1312,espumas de afeitar
+1312,jabones de afeitar
+1312,productos para antes y después del afeitado
+1312,cremas corporales
+1312,faciales
+1312,para manos
+1312,crema para masaje
+1312,crema de baba de caracol
+1312,desodorantes y antitranspirantes
+1312,talcos de todo tipo para el cuidado personal
+1312,perfumados
+1312,antitranspirantes
+1312,mentolados
+1312,con
+1312,pastas dentales
+1312,enjuagues bucales
+1312,seda o hilo dental
+1312,pañuelos desechables
+1312,papel higiénico
+1312,papel cubre sanitario
+1312,pañales desechables para bebé
+1312,toallas higiénicas
+1312,protectores diarios
+1312,tampones y copa menstrual
+1312,bloqueadores o protectores solares (en crema
+1312,spray
+1312,pantallas solares
+1312,algodón
+1312,cotones
+1312,tapones de algodón
+1312,hisopos
+1312,toallas húmedas (para bebé
+1312,intimas
+1312,protectores mamarios
+1312,repelente corporal
+1312,aguas termales para el cuerpo
+1312,cepillos o escobillas para uñas
+1312,piedra pómez
+1312,guantes y esponjas para aseo personal
+1312,parches removedores de puntos negros
+1312,artículos de cosméticos tales como labiales
+1312,esmalte de uñas
+1312,maquillaje y productos para
+1312,base de maquillaje
+1312,sombra de ojos
+1312,corrector de ojeras
+1312,delineador (ojos y labios)
+1312,rímel y
+1312,barniz o esmalte de uñas
+1312,lápiz para el pintado de uñas
+1312,acetona
+1312,quitaesmalte
+1312,gel
+1312,mousse o espuma
+1312,lacas
+1312,cremas para peinar
+1312,tinturas
+1312,cremas y aceites reparadores
+1312,barro
+1312,perfumes
+1312,agua de colonia o eau de toilette
+1312,agua de perfume
+1312,colonia
+1312,lociones
+1312,fragancias para
+1312,ceras de depilación
+1312,miel depilatoria
+1312,mousse o espuma depilatoria
+1312,gel o jalea depilatoria
+1312,bronceadores (en crema
+1312,autobronceantes
+1312,set de maquillaje (con productos combinados)
+1312,set de manicura
+1312,artículos cosméticos y de
+1312,otros artículos cosméticos y de belleza n.c.p
+1313,servicios de peluquerías
+1313,barberías
+1313,centros de belleza
+1313,manicura
+1313,pedicura
+1313,baños turcos
+1313,servicios de peluquerías o barberías
+1313,corte de pelo para hombre o niño
+1313,corte y afeitado de barba
+1313,corte de pelo para mujer o niña
+1313,lavado
+1313,peinado
+1313,tintura y coloración
+1313,visos
+1313,rayos
+1313,reflejos
+1313,permanente
+1313,alisado
+1313,brushing
+1313,tratamientos de belleza facial
+1313,depilación
+1313,solárium
+1313,cuidado del cuerpo
+1313,servicios de maquillaje para el rostro
+1313,limpieza facial
+1313,encrespado permanente de pestañas
+1313,servicios de manicura y pedicura
+1313,servicios de depilación con cera o crema
+1313,depilación láser
+1313,fotodepilación
+1313,depilación eléctrica o
+1313,servicios de masaje corporal no terapéuticos de espalda y cuello
+1313,abdomen
+1313,pies
+1313,masajes
+1313,servicios de baños turcos y saunas
+1313,servicios de bronceado en centros de solárium
+1313,servicios de bronceado spray o químico
+1313,piercing
+1313,tatuajes
+1313,tatuajes de henna
+1313,expansiones y perforaciones
+1313,talasoterapia (uso terapéutico de los baños o del aire de mar)
+1313,decoloración del vello y otros
+1321,piedras y metales preciosos
+1321,joyas fabricadas con piedras y metales preciosos
+1321,bisutería
+1321,colleras y alfileres de corbata
+1321,relojes
+1321,cronómetros
+1321,reparación
+1321,remodelación y arriendo de joyas y relojes
+1321,piedras preciosas o semipreciosas
+1321,sintéticas o reconstruidas
+1321,labradas o no
+1321,metales preciosos
+1321,joyas fabricadas con piedras preciosas o semipreciosas
+1321,metales preciosos o enchapados en
+1321,joyas fabricadas con productos de bisutería
+1321,tales como anillos
+1321,collares
+1321,gargantillas y cadenas
+1321,relojes de pulsera
+1321,de bolsillo y similares
+1321,reparación de joyas y relojes de pulsera o de bolsillo
+1321,reparación de relojes para el hogar como
+1321,por ejemplo
+1321,relojes de pared
+1321,de piso y relojes para
+1322,artículos de devoción o para ser usados en celebraciones religiosas o rituales como crucifijos
+1322,artículos de viaje y otros productos para el transporte de artículos personales como maletas
+1329,artículos de viaje y otros productos para el transporte de artículos personales como maletas
+1329,maletas
+1329,maletas con ruedas
+1329,bolsos de viaje
+1329,bolsos deportivos
+1329,mochilas
+1329,mochilas escolares
+1329,mochilas para notebook
+1329,porta loncheras
+1329,maletines
+1329,maletines para notebook
+1329,carteras de todo tipo
+1329,carteras infantiles
+1329,bolsos y mochilas maternales
+1329,bolsos de playa
+1329,morrales
+1329,cosmetiqueros en sus distintos formatos (maleta
+1329,maletín
+1329,bolso
+1329,neceser
+1329,bananos
+1329,bandoleras
+1329,billeteras
+1329,monederos
+1329,fundas o estuches para celular
+1329,fundas o estuches para notebook
+1329,porta documentos
+1329,baúles
+1329,coche de paseo
+1329,coche cuna
+1329,portabebés delanteros y traseros (por ejemplo
+1329,mochilas portabebés
+1329,fular o mochilas
+1329,asiento urinario
+1329,bacinica (pelela)
+1329,entrenador de baño
+1329,bañera de plástico para bebés
+1329,barandas o rejas de seguridad para bebés
+1329,casco o gorro protector antigolpes para bebés
+1329,mudador portátil
+1329,mecedora o silla nido
+1329,encendedores a gas
+1329,a bencina
+1329,mecánicos o eléctricos para fumadores
+1329,pipas de madera
+1329,de agua
+1329,de porcelana o de maíz
+1329,gas
+1329,bencina o piedras para encendedores
+1329,pinzas y boquillas para fumar
+1329,máquinas para armar cigarrillos (enroladoras
+1329,cortadoras)
+1329,cigarreras (cajas para guardar cigarrillos)
+1329,dispositivos de cigarrillos electrónicos y sus accesorios
+1329,ceniceros
+1329,lentes para el sol
+1329,paraguas
+1329,sombrillas
+1329,abanicos
+1329,sombrillas de sol para coche
+1329,protector de lluvia para coche y
+1329,ataúdes
+1329,urnas funerarias
+1329,ánforas
+1329,lápidas
+1329,otros artículos funerarios
+1329,lentes protectores
+1329,bastones no terapéuticos (paseo)
+1329,llaveros
+1329,organizadores de pastillas
+1329,tapones para los oídos
+1329,termómetros de pared (o ambiental)
+1329,barómetros
+1329,reparación de otros artículos personales
+1329,arriendo de otros artículos personales
+1331,casas de reposo y hogares para personas mayores sin atención médica
+1331,residencias sin
+1331,servicios de cuidado de niños fuera del hogar
+1331,guarderías y otros servicios de cuidados de bebés
+1331,centros de actividades después de la jornada de escuela (after school)
+1331,residencias sin atención médica para personas en situación de discapacidad
+1331,casas de reposo y residencias para personas mayores sin atención médica
+1331,servicios de cuidados y ayuda a personas mayores y personas en situación de discapacidad en
+1331,instituciones para personas en situación de discapacidad donde el objetivo principal es
+1391,agencias de empleo
+1391,pagos por servicios legales
+1391,notariales o de contadores
+1391,servicios funerarios
+1391,pagos por servicios de corredores de propiedades
+1391,subastadores y otros intermediarios
+1391,pagos por fotocopias
+1391,impresión y reproducción de documentos
+1391,pagos por la emisión de certificados de nacimiento
+1391,matrimonios
+1391,defunción y otros documentos
+1391,servicios prestados por trabajadores sexuales y similares
+1391,pagos por servicios religiosos para la celebración de misas
+1391,bautizos
+1391,matrimonios y otras
+1391,pagos por asesoramiento jurídico
+1391,pagos por servicios de abogados
+1391,incluyendo la representación que realizan estos en Tribunales
+1391,pagos por servicios de agencias de empleo y headhunters
+1391,pagos por servicios de asesoramiento y de profesionales
+1391,tales como contadores
+1391,ingenieros
+1391,pagos por servicios funerarios (pompa
+1391,velatorio
+1391,traslado
+1391,ya sea por el servicio completo
+1391,pagos de derechos en cementerio
+1391,derecho de sepultación
+1391,pagos por mantención del parque
+1391,pagos por servicios de agentes inmobiliarios
+1391,corredores de propiedades
+1391,subastadores y otros
+1391,impresiones y digitalizaciones de documentos
+1391,pagos por transcripciones y otros servicios de reproducción de documentos
+1391,pagos por servicios de anillado y empastado de documentos
+1391,pagos por la emisión de certificados y otros documentos administrativos emitidos por
+1391,pagos por servicios de producción de fiestas y ceremonias privadas prestados por centros
+1391,pagos por cuotas de curso y de centro general de padres y apoderados para los niveles
+1391,pagos por cuotas a centros comunitarios (centros de madres
+1391,juntas de vecinos o similares)
+1391,pagos por avisos y anuncios en diarios o periódicos como avisos clasificados
+1391,defunciones
+1391,pagos por mesadas y entregas de dinero sin especificar
+1391,pagos por servicios de grafólogos
+1391,astrólogos
+1391,lectura de tarot
+1391,quirománticos
+1391,pagos por servicios de detectives privados
+1391,guardaespaldas
+1391,pagos por servicios de agencias de matrimonio y consejeros matrimoniales
+1391,pagos por concesiones diversas (asientos
+1391,guardarropía)
+1391,pagos por el uso de baños públicos en centros comerciales
+1391,terminales de buses
+1391,pagos por servicios de picado y apilado de leña
+1391,otros pagos por servicios n.c.p

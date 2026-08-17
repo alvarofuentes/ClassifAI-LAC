@@ -40,6 +40,7 @@ from pathlib import Path
 import numpy as np
 import polars as pl
 from tqdm.autonotebook import tqdm
+from rank_bm25 import BM25Okapi
 
 from classifai.exceptions import (
     ClassifaiError,
@@ -95,6 +96,7 @@ class VectorStore:
         output_dir: str | None = None,
         overwrite: bool = False,
         hooks: dict | None = None,
+        reranker=None,
     ):
         """Initializes the `VectorStore` object by processing the input CSV file and generating
         vector embeddings.
@@ -163,6 +165,8 @@ class VectorStore:
         self.num_vectors = None
         self.vectoriser_class = vectoriser.__class__.__name__
         self.hooks = {} if hooks is None else hooks
+        self.reranker = reranker
+        self.bm25 = None
 
         # ---- Output directory handling (filesystem problems) -> ConfigurationError
         try:
@@ -382,6 +386,12 @@ class VectorStore:
                 embeddings.extend(batch_embeddings)
 
             self.vectors = self.vectors.with_columns(pl.Series(embeddings).alias("embeddings"))
+
+            # Build BM25 index
+            logging.info("Building BM25 index in memory...")
+            tokenized_corpus = [doc.split() for doc in documents]
+            self.bm25 = BM25Okapi(tokenized_corpus)
+
         except ClassifaiError:
             raise
         except Exception as e:
@@ -637,8 +647,16 @@ class VectorStore:
         # ---- Main search (wrap operational failures) -> SearchError / VectorisationError
         try:
             doc_embeddings = self.vectors["embeddings"].to_numpy()
+            docs_text = self.vectors["text"].to_list()
+            docs_ids = self.vectors["id"].to_list()
 
             all_results: list[pl.DataFrame] = []
+
+            # Param for Reciprocal Rank Fusion
+            k_rrf = 60
+            
+            # Param for how many docs to re-rank (we fetch a bit more than n_results)
+            top_k_rerank = n_results * 5 if self.reranker else n_results
 
             for i in tqdm(range(0, len(query), batch_size), desc="Processing query batches"):
                 query_text_batch = query.query.to_list()[i : i + batch_size]
@@ -665,46 +683,73 @@ class VectorStore:
                 import torch
 
                 query_vectors = torch.nn.functional.normalize(torch.from_numpy(query_vectors), p=2, dim=1).numpy()
+                dense_cosine = query_vectors @ doc_embeddings.T
 
-                # Similarity + top-k
-                cosine = query_vectors @ doc_embeddings.T
+                for j in range(len(query_text_batch)):
+                    q_text = query_text_batch[j]
+                    q_id = query_ids_batch[j]
+                    
+                    # 1. Dense Ranking
+                    dense_scores = dense_cosine[j]
+                    dense_ranked_indices = np.argsort(dense_scores)[::-1]
+                    
+                    # 2. BM25 Ranking
+                    tokenized_q = q_text.split()
+                    bm25_scores = self.bm25.get_scores(tokenized_q)
+                    bm25_ranked_indices = np.argsort(bm25_scores)[::-1]
+                    
+                    # 3. Reciprocal Rank Fusion
+                    rrf_scores = np.zeros(len(docs_text), dtype=float)
+                    
+                    # Add dense ranks to RRF
+                    for rank, doc_idx in enumerate(dense_ranked_indices):
+                        rrf_scores[doc_idx] += 1.0 / (k_rrf + rank + 1)
+                        
+                    # Add BM25 ranks to RRF
+                    for rank, doc_idx in enumerate(bm25_ranked_indices):
+                        rrf_scores[doc_idx] += 1.0 / (k_rrf + rank + 1)
+                        
+                    # Get top candidates from RRF
+                    hybrid_ranked_indices = np.argsort(rrf_scores)[::-1][:top_k_rerank]
+                    
+                    # 4. Re-Ranking (Optional)
+                    if self.reranker is not None:
+                        candidate_docs = [docs_text[idx] for idx in hybrid_ranked_indices]
+                        rerank_scores = self.reranker.predict(q_text, candidate_docs)
+                        
+                        # Sort candidates by reranker score
+                        reranked_local_indices = np.argsort(rerank_scores)[::-1][:n_results]
+                        final_indices = [hybrid_ranked_indices[idx] for idx in reranked_local_indices]
+                        final_scores = [rerank_scores[idx] for idx in reranked_local_indices]
+                    else:
+                        final_indices = hybrid_ranked_indices[:n_results]
+                        final_scores = [rrf_scores[idx] for idx in final_indices]
+                        
+                    # Build batch result table for this query
+                    result_df = pl.DataFrame(
+                        {
+                            "query_id": [q_id] * len(final_indices),
+                            "query_text": [q_text] * len(final_indices),
+                            "rank": list(range(1, len(final_indices) + 1)),
+                            "score": final_scores,
+                        }
+                    )
 
-                idx = np.argpartition(cosine, -n_results, axis=1)[:, -n_results:]
+                    ranked_docs = self.vectors[final_indices].select(["id", "text", *self.meta_data.keys()])
+                    merged_df = result_df.hstack(ranked_docs).rename({"id": "doc_id", "text": "doc_text"})
 
-                idx_sorted = np.zeros_like(idx)
-                scores = np.zeros_like(idx, dtype=float)
+                    merged_df = merged_df.with_columns(
+                        [
+                            pl.col("doc_id").cast(str),
+                            pl.col("doc_text").cast(str),
+                            pl.col("rank").cast(int),
+                            pl.col("score").cast(float),
+                            pl.col("query_id").cast(str),
+                            pl.col("query_text").cast(str),
+                        ]
+                    )
 
-                for j in range(idx.shape[0]):
-                    row_scores = cosine[j, idx[j]]
-                    sorted_indices = np.argsort(row_scores)[::-1]
-                    idx_sorted[j] = idx[j, sorted_indices]
-                    scores[j] = row_scores[sorted_indices]
-
-                # Build batch result table
-                result_df = pl.DataFrame(
-                    {
-                        "query_id": np.repeat(query_ids_batch, n_results),
-                        "query_text": np.repeat(query_text_batch, n_results),
-                        "rank": np.tile(np.arange(1, n_results + 1), len(query_text_batch)),
-                        "score": scores.flatten(),
-                    }
-                )
-
-                ranked_docs = self.vectors[idx_sorted.flatten().tolist()].select(["id", "text", *self.meta_data.keys()])
-                merged_df = result_df.hstack(ranked_docs).rename({"id": "doc_id", "text": "doc_text"})
-
-                merged_df = merged_df.with_columns(
-                    [
-                        pl.col("doc_id").cast(str),
-                        pl.col("doc_text").cast(str),
-                        pl.col("rank").cast(int),
-                        pl.col("score").cast(float),
-                        pl.col("query_id").cast(str),
-                        pl.col("query_text").cast(str),
-                    ]
-                )
-
-                all_results.append(merged_df)
+                    all_results.append(merged_df)
 
             if not all_results:
                 # Shouldn't happen if len(query)>0, but keep it safe.

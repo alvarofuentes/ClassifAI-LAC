@@ -9,7 +9,7 @@ Salida CSV: codigo_ccif, nivel, ejemplo, tipo, frase_original
 import re, csv, sys
 import pdfplumber
 
-PDF = sys.argv[1] if len(sys.argv) > 1 else '/mnt/user-data/uploads/ClassifAI-LAC/ccif_2018-cl-alimentos-bebidas.pdf'
+PDF = sys.argv[1] if len(sys.argv) > 1 else '/mnt/user-data/uploads/ClassifAI-LAC/ccif_2018-cl.pdf'
 OUT = sys.argv[2] if len(sys.argv) > 2 else '/tmp/ccif_2018_cl_ejemplos.csv'
 
 RUNNING = {'ALIMENTOS Y BEBIDAS NO ALCOHÓLICAS',
@@ -37,13 +37,30 @@ def nivel_de(cod):
 
 
 # ---------------------------------------------------------------- 1. lineas
+RE_INICIO = re.compile(r'^División\s+01\.0\.0\.00\.00\s*$')
+
+
+def es_cabecera_pagina(ln):
+    """Titulo de division repetido arriba de cada pagina (va en mayusculas)."""
+    letras = [c for c in ln if c.isalpha()]
+    return len(letras) > 3 and all(c.isupper() for c in letras)
+
+
 def leer_lineas(pdf):
     lineas = []
+    empezo = False
     with pdfplumber.open(pdf) as doc:
         for pg in doc.pages:
-            for ln in (pg.extract_text() or '').split('\n'):
-                ln = ln.strip()
-                if not ln or ln in RUNNING or re.fullmatch(r'\d{1,4}', ln):
+            crudas = [l.strip() for l in (pg.extract_text() or '').split('\n')]
+            for k, ln in enumerate(crudas):
+                if not ln or re.fullmatch(r'\d{1,4}', ln):
+                    continue
+                if not empezo:
+                    if RE_INICIO.match(ln):
+                        empezo = True
+                    else:
+                        continue
+                if k == 0 and es_cabecera_pagina(ln):
                     continue
                 lineas.append(ln)
     return lineas
@@ -92,8 +109,9 @@ def recorrer(lineas):
         # continuacion de un bullet abierto
         if buf:
             buf.append(ln)
-        else:
+        elif not ln.endswith(':'):
             # parrafo descriptivo fuera de bullets -> cierra el bloque
+            # (las sub-etiquetas tipo "Servicios prestados por:" no lo cierran)
             bloque = None
         i += 1
     cerrar()
@@ -201,8 +219,10 @@ def dividir(frase):
     f = re.sub(r'^(por ejemplo|tales como|como|a saber)[,:]?\s+', '', f, flags=re.I)
     partes = []
     for bruto in RE_SEP.split(f):
-        for sub in RE_EJEMPLIF.split(restaurar(bruto)):
-            partes.append(sub.strip(' .;:'))
+        # el split de ejemplificacion se hace sobre el texto protegido, para no
+        # cortar dentro de un parentesis
+        for sub in RE_EJEMPLIF.split(bruto):
+            partes.append(restaurar(sub).strip(' .;:'))
     items, vistos = [], set()
     cabeza = [None]
     for p in partes:
@@ -224,6 +244,7 @@ def dividir(frase):
             continue
         p = equilibrar(re.sub(r'\s+', ' ', p).strip(' .;:,'))
         p = re.sub(r'\s+(?:y|o|e|u)$', '', p, flags=re.I).strip(' .;:,')
+        p = re.sub(r'^(?:y|o|e|u)\s+', '', p, flags=re.I).strip(' .;:,')
         # elipsis del nucleo: "mermelada de durazno, mora, naranja"
         #                  -> "mermelada de mora", "mermelada de naranja"
         if HEREDAR_DE:
@@ -242,6 +263,35 @@ def dividir(frase):
     return items
 
 
+
+# ------------------------------------------- 3b. exclusiones con varios codigos
+RE_NEXO = re.compile(r'^[\s,;.:()\[\]/\-–]*(?:y|o|e|u|a|al|hasta|véase|ver|'
+                     r'entre|desde)?[\s,;.:()\[\]/\-–]*$', re.I)
+
+
+def segmentar_exclusion(frase):
+    """Una vineta de exclusion puede citar varios codigos destino. Asigna a cada
+    codigo el texto que lo precede; si entre dos codigos no hay texto util
+    (solo comas, parentesis o nexos), ambos comparten el texto anterior."""
+    ms = list(RE_COD.finditer(frase))
+    if not ms:
+        return []
+    salida, ini = [], 0
+    for m in ms:
+        bruto = frase[ini:m.start()]
+        # limpia parentesis/preposiciones de cita: "(", "(véase", "(division"
+        # quita el parentesis/preposicion que abre la cita del codigo
+        texto = re.sub(r'\s*\(\s*(?:véase|ver|division|división|grupo|clase|'
+                       r'subclase|producto)?\s*$', '', bruto, flags=re.I)
+        texto = re.sub(r'^\s*\)\s*', '', texto)
+        if RE_NEXO.fullmatch(bruto) and salida:
+            texto = salida[-1][1]          # comparte el texto del codigo previo
+        texto = re.sub(r'^(?:y|o|e|u)\s+', '', texto.strip(' .,;:'), flags=re.I)
+        salida.append((m.group(0), texto.strip(' .,;:')))
+        ini = m.end()
+    return [(c, t) for c, t in salida if t]
+
+
 # ---------------------------------------------------------------- 4. main
 def main():
     lineas = leer_lineas(PDF)
@@ -251,24 +301,18 @@ def main():
     for cod_ctx, bloque, frase in regs:
         if bloque and bloque.startswith('excluye'):
             tipo = 'excluido'
-            cods = RE_COD.findall(frase)
-            if not cods:
+            segmentos = segmentar_exclusion(frase)
+            if not segmentos:
                 sin_codigo.append((cod_ctx, frase))
                 continue
-            cod = cods[-1]
-            # limpia la referencia de codigo del texto
-            texto = re.sub(r'\s*\((?:[^()]*' + COD + r'[^()]*)\)\s*$', '', frase).strip(' .;,')
-            texto = re.sub(r'\s*\(\s*(?:división|grupo|clase|subclase|producto)?\s*'
-                           + COD + r'\s*\)', '', texto, flags=re.I).strip(' .;,')
         else:
             tipo = 'incluido'
-            cod = cod_ctx
-            texto = frase
-        if not cod:
-            continue
-        for it in dividir(texto):
-            filas.append({'codigo_ccif': cod, 'nivel': nivel_de(cod),
-                          'ejemplo': it, 'tipo': tipo, 'frase_original': frase})
+            segmentos = [(cod_ctx, frase)] if cod_ctx else []
+        for cod, texto in segmentos:
+            for it in dividir(texto):
+                filas.append({'codigo_ccif': cod, 'nivel': nivel_de(cod),
+                              'ejemplo': it, 'tipo': tipo,
+                              'frase_original': frase})
 
     # dedup exacto (mismo codigo + ejemplo + tipo)
     vistos, out = set(), []

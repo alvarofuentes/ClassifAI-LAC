@@ -29,23 +29,14 @@ def is_orphan(row):
     return False
 
 def evaluate_model():
-    print("Loading test dataset (CCIF 2018 LLM Extracted)...")
-    test_df = pd.read_csv("data/raw/ccif_2018_cl_ejemplos_es.csv", sep=';', dtype=str)
-    
-    initial_len = len(test_df)
-    
-    # Apply orphan filter
-    test_df['is_orphan'] = test_df.apply(is_orphan, axis=1)
-    orphans = test_df[test_df['is_orphan'] == True]
-    test_df = test_df[test_df['is_orphan'] == False]
+    print("Loading test dataset (Colombia Test)...")
+    test_df = pd.read_csv("data/raw/colombia_test.csv", dtype=str)
     
     # Clean COICOP code (remove dots, truncate to 4 digits)
-    test_df['id'] = test_df['codigo_ccif'].str.replace('.', '').str[:4]
+    test_df['id'] = test_df['id'].str.replace('.', '').str[:4]
     
     # Drop rows without query text or valid ID
-    test_df = test_df.dropna(subset=['frase_original', 'id'])
-    
-    print(f"Filtered {len(orphans)} orphan/invalid examples. Kept {len(test_df)} out of {initial_len}.")
+    test_df = test_df.dropna(subset=['text', 'id'])
     
     # We only care about predicting categories that are present in our base catalog.
     # Our base catalog coicop_es.csv covers all COICOP classes (4 digits) 0111 to 12XX
@@ -55,18 +46,17 @@ def evaluate_model():
     print("Loading VectorStore with expanded index...")
     vectoriser = HuggingFaceVectoriser(model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
     
-    # Usamos el Índice Maestro: Catálogo Base (4 dígitos) + Ejemplos Regionales (10 Países LAC)
-    # Excluimos a Chile del índice para usarlo puramente como conjunto de validación Hold-Out.
+    # Usamos el Índice Maestro SIN Colombia
     store = VectorStore(
-        file_name="data/raw/coicop_master_index.csv",
+        file_name="data/raw/coicop_master_no_col.csv",
         data_type="csv",
         vectoriser=vectoriser,
-        output_dir="data/coicop_master_index",
+        output_dir="data/coicop_master_no_col",
         overwrite=True
     )
     
-    # Usamos frase_original como indica el usuario ("El literal completo esta en la frase completa")
-    queries = test_df['frase_original'].tolist()
+    # Usamos la columna text
+    queries = test_df['text'].tolist()
     query_ids = test_df['id'].tolist()
     
     search_input = VectorStoreSearchInput.from_data({

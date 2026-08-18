@@ -22,6 +22,7 @@ def main():
     parser.add_argument("--code-col", required=True, help="Column name in examples containing the category code.")
     parser.add_argument("--output", required=True, help="Path to save the augmented catalog CSV.")
     parser.add_argument("--code-transform", choices=["none", "coicop_4digit"], default="none", help="Transformation to apply to the example codes.")
+    parser.add_argument("--keep-unmatched", action="store_true", help="If set, do not filter out examples whose ID is missing from the base catalog.")
     
     args = parser.parse_args()
     
@@ -78,8 +79,12 @@ def main():
     # (Optional, but good for data integrity)
     valid_ids = set(base_df["id"].dropna().unique())
     original_len = len(examples_df)
-    examples_df = examples_df[examples_df["id"].isin(valid_ids)]
-    print(f"Kept {len(examples_df)} examples after filtering by valid base catalog IDs (dropped {original_len - len(examples_df)}).")
+    
+    if not args.keep_unmatched:
+        examples_df = examples_df[examples_df["id"].isin(valid_ids)]
+        print(f"Kept {len(examples_df)} examples after filtering by valid base catalog IDs (dropped {original_len - len(examples_df)}).")
+    else:
+        print("Skipping base catalog ID filtering (--keep-unmatched is set).")
     
     # Append to base catalog
     augmented_df = pd.concat([base_df, examples_df], ignore_index=True)

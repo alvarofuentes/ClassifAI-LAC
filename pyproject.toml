@@ -45,8 +45,14 @@ google-genai = "google"
 
 [project.optional-dependencies]
 huggingface = [
-    "transformers>=4.52.4",
-    "torch>=2.7.1"
+    "transformers>=4.40.0,<4.49.0",
+    "torch>=2.0.0"
+]
+training = [
+    "setfit>=1.1.0",
+    "datasets>=3.0.0",
+    "transformers>=4.40.0,<4.49.0",
+    "torch>=2.0.0"
 ]
 ollama = [
     "ollama>=0.5.1"
@@ -55,7 +61,7 @@ gcp = [
     "google-genai>=1.8.0",
 ]
 all = [
-    "classifai[huggingface,gcp,ollama]"
+    "classifai[huggingface,training,gcp,ollama]"
 ]
 
 [tool.ruff]
@@ -64,6 +70,7 @@ indent-width = 4
 extend-exclude = [
     "data",
     "models",
+    "checkpoints",
     "scratch",
     "scripts",
     "poc",

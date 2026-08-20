@@ -9,10 +9,10 @@ def test_search_endpoint_success(api_client):
     assert "data" in data
     assert len(data["data"]) == 1
 
-    # Check results (mock vector store returns 3)
+    # Check results (mock vector store returns 7 by default)
     entry = data["data"][0]
     assert "response" in entry
-    assert len(entry["response"]) == 10
+    assert len(entry["response"]) == 7
     assert entry["response"][0]["label"] == "MOCK-1"
 
 

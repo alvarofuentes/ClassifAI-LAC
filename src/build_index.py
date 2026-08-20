@@ -31,16 +31,13 @@ def get_available_csvs() -> list[Path]:
     if not RAW_DIR.exists():
         return []
     # Se excluyen los archivos de ejemplos y los temporales
-    return sorted([
-        p for p in RAW_DIR.glob("*.csv") 
-        if "_examples" not in p.name and not p.name.startswith(".tmp")
-    ])
+    return sorted([p for p in RAW_DIR.glob("*.csv") if "_examples" not in p.name and not p.name.startswith(".tmp")])
 
 
 def build_single_index(csv_path: Path, vectoriser: HuggingFaceVectoriser) -> None:
     """Construye el VectorStore para un CSV dado y sus ejemplos."""
     import polars as pl
-    
+
     classifier_name = csv_path.stem
     out_dir = INDICES_DIR / classifier_name
 

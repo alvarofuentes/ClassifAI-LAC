@@ -380,6 +380,7 @@ ciuo08_es/
 
 # Archivos generados en fase de tests y logs
 /data/batch_tmp/
+/data/data/
 data/batch_*_results*.csv
 data/raw/*_dirty*.csv
 data/raw/*_v[0-9]*.csv

@@ -39,8 +39,8 @@ from pathlib import Path
 
 import numpy as np
 import polars as pl
-from tqdm.autonotebook import tqdm
 from rank_bm25 import BM25Okapi
+from tqdm.autonotebook import tqdm
 
 from classifai.exceptions import (
     ClassifaiError,
@@ -70,7 +70,8 @@ logging.getLogger("urllib3.connectionpool").setLevel(logging.WARNING)
 
 
 class VectorStore:
-    """A class to model and create `VectorStore` objects for building and searching vector databases from CSV text files.
+    """A class to model and create `VectorStore` objects for building and searching
+    vector databases from CSV text files.
 
     Attributes:
         file_name (str): the data file contatining the knowledgebase to build the `VectorStore`
@@ -107,14 +108,17 @@ class VectorStore:
             vectoriser (object): The `Vectoriser` object used to transform text into
                                  vector embeddings.
             batch_size (int): [optional] The batch size for processing the input file and batching to
-            vectoriser. Defaults to 8.
-            meta_data (dict): [optional] key,value pair metadata column names to extract from the input file and their types.
-                                Defaults to `None`.
+                vectoriser. Defaults to 8.
+            meta_data (dict): [optional] key,value pair metadata column names to extract from the input
+                file and their types. Defaults to `None`.
             output_dir (str): [optional] The directory where the `VectorStore` will be saved.
                                 Defaults to `None`, where input file name will be used.
             overwrite (bool): [optional] If `True`, allows overwriting existing folders with the same name.
                                 Defaults to `False` to prevent accidental overwrites.
-            hooks (dict): [optional] A dictionary of user-defined hooks for preprocessing and postprocessing. Defaults to `None`.
+            hooks (dict): [optional] A dictionary of user-defined hooks for preprocessing
+                and postprocessing. Defaults to `None`.
+            reranker (object): [optional] A `ReRanker` object to apply 2-stage cross-encoder re-ranking.
+                Defaults to None.
 
 
         Raises:
@@ -299,7 +303,7 @@ class VectorStore:
                 self.vectors = pl.read_csv(
                     self.file_name,
                     columns=["id", "text", *self.meta_data.keys()],
-                    dtypes=dict.fromkeys(["id", "text"] + list(self.meta_data.keys()), pl.String),
+                    dtypes=dict.fromkeys(["id", "text", *self.meta_data.keys()], pl.String),
                     encoding=encoding,
                     ignore_errors=True,
                 )
@@ -319,7 +323,9 @@ class VectorStore:
                 final_count = self.vectors.height
                 if final_count < initial_count:
                     logging.warning(
-                        f"Sanitization removed {initial_count - final_count} invalid or empty rows from {self.file_name}"
+                        "Sanitization removed %d invalid or empty rows from %s",
+                        initial_count - final_count,
+                        self.file_name,
                     )
 
                 self.vectors = self.vectors.with_columns(
@@ -406,15 +412,17 @@ class VectorStore:
             ) from e
 
     def embed(self, query: VectorStoreEmbedInput) -> VectorStoreEmbedOutput:
-        """Converts text (provided via a `VectorStoreEmbedInput` object) into vector embeddings using the `Vectoriser` and
-        returns a `VectorStoreEmbedOutput` dataframe with  columns `id`, `text`, and `embedding`.
+        """Converts text (provided via a `VectorStoreEmbedInput` object) into vector embeddings
+        using the `Vectoriser` and returns a `VectorStoreEmbedOutput` dataframe with columns
+        `id`, `text`, and `embedding`.
 
         Args:
-            query (VectorStoreEmbedInput): The `VectorStoreEmbedInput` object containing the strings to be embedded and their ids.
+            query (VectorStoreEmbedInput): The `VectorStoreEmbedInput` object containing
+                the strings to be embedded and their ids.
 
         Returns:
-            (VectorStoreEmbedOutput): The `VectorStoreEmbedOutput` object containing the embeddings along with their corresponding
-                ids and texts.
+            (VectorStoreEmbedOutput): The `VectorStoreEmbedOutput` object containing
+                the embeddings along with their corresponding ids and texts.
 
         Raises:
             `DataValidationError`: Raised if invalid arguments are passed.
@@ -490,14 +498,15 @@ class VectorStore:
         Args:
             query (VectorStoreReverseSearchInput): A `VectorStoreReverseSearchInput` object containing the text query or
                 list of queries to search for with ids.
-            max_n_results (int): [optional] Number of top results to return for each query, set to -1 to return all results.
-                Defaults to 100.
-            partial_match (bool): [optional] If `True`, the search behaviour is set to return results where the `document_id`
-                is prefixed by the query. Defaults to `False`.
+            max_n_results (int): [optional] Number of top results to return for each query, set to -1
+                to return all results. Defaults to 100.
+            partial_match (bool): [optional] If `True`, the search behaviour is set to return results where
+                the `document_id` is prefixed by the query. Defaults to `False`.
 
         Returns:
             (VectorStoreReverseSearchOutput): A `VectorStoreReverseSearchOutput` object containing reverse search
-                results with columns for `query_id`, `query_text`, `document_id`, `document_text` and any associated metadata columns.
+                results with columns for `query_id`, `query_text`, `document_id`, `document_text`
+                and any associated metadata columns.
 
         Raises:
             `DataValidationError`: Raised if invalid arguments are passed.
@@ -596,17 +605,19 @@ class VectorStore:
 
     def search(self, query: VectorStoreSearchInput, n_results=10, batch_size=8) -> VectorStoreSearchOutput:  # noqa: C901, PLR0912, PLR0915
         """Searches the `VectorStore` using queries from a `VectorStoreSearchInput` object and returns
-        ranked results in `VectorStoreSearchOutput` object. In batches, converts users text queries into vector embeddings,
-        computes cosine similarity with stored document vectors, and retrieves the top results.
+        ranked results in `VectorStoreSearchOutput` object. In batches, converts users text queries into
+        vector embeddings, computes cosine similarity with stored document vectors, and retrieves the top results.
 
         Args:
-            query (VectorStoreSearchInput): A `VectorStoreSearchInput` object containing the text query or list of queries to search for with ids.
+            query (VectorStoreSearchInput): A `VectorStoreSearchInput` object containing the text query
+                or list of queries to search for with ids.
             n_results (int): [optional] Number of top results to return for each query. Default 10.
             batch_size (int): [optional] The batch size for processing queries. Default 8.
 
         Returns:
-            (VectorStoreSearchOutput): A `VectorStoreSearchOutput` object containing search results with columns for `query_id`, `query_text`,
-                `document_id`, `document_text`, `rank`, `score`, and any associated metadata columns.
+            (VectorStoreSearchOutput): A `VectorStoreSearchOutput` object containing search results
+                with columns for `query_id`, `query_text`, `document_id`, `document_text`, `rank`,
+                `score`, and any associated metadata columns.
 
         Raises:
             `DataValidationError`: Raised if invalid arguments are passed.
@@ -648,13 +659,12 @@ class VectorStore:
         try:
             doc_embeddings = self.vectors["embeddings"].to_numpy()
             docs_text = self.vectors["text"].to_list()
-            docs_ids = self.vectors["id"].to_list()
 
             all_results: list[pl.DataFrame] = []
 
             # Param for Reciprocal Rank Fusion
             k_rrf = 60
-            
+
             # Param for how many docs to re-rank (we fetch a bit more than n_results)
             top_k_rerank = n_results * 5 if self.reranker else n_results
 
@@ -688,35 +698,35 @@ class VectorStore:
                 for j in range(len(query_text_batch)):
                     q_text = query_text_batch[j]
                     q_id = query_ids_batch[j]
-                    
+
                     # 1. Dense Ranking
                     dense_scores = dense_cosine[j]
                     dense_ranked_indices = np.argsort(dense_scores)[::-1]
-                    
+
                     # 2. BM25 Ranking
                     tokenized_q = q_text.split()
                     bm25_scores = self.bm25.get_scores(tokenized_q)
                     bm25_ranked_indices = np.argsort(bm25_scores)[::-1]
-                    
+
                     # 3. Reciprocal Rank Fusion
                     rrf_scores = np.zeros(len(docs_text), dtype=float)
-                    
+
                     # Add dense ranks to RRF
                     for rank, doc_idx in enumerate(dense_ranked_indices):
                         rrf_scores[doc_idx] += 1.0 / (k_rrf + rank + 1)
-                        
+
                     # Add BM25 ranks to RRF
                     for rank, doc_idx in enumerate(bm25_ranked_indices):
                         rrf_scores[doc_idx] += 1.0 / (k_rrf + rank + 1)
-                        
+
                     # Get top candidates from RRF
                     hybrid_ranked_indices = np.argsort(rrf_scores)[::-1][:top_k_rerank]
-                    
+
                     # 4. Re-Ranking (Optional)
                     if self.reranker is not None:
                         candidate_docs = [docs_text[idx] for idx in hybrid_ranked_indices]
                         rerank_scores = self.reranker.predict(q_text, candidate_docs)
-                        
+
                         # Sort candidates by reranker score
                         reranked_local_indices = np.argsort(rerank_scores)[::-1][:n_results]
                         final_indices = [hybrid_ranked_indices[idx] for idx in reranked_local_indices]
@@ -724,7 +734,7 @@ class VectorStore:
                     else:
                         final_indices = hybrid_ranked_indices[:n_results]
                         final_scores = [rrf_scores[idx] for idx in final_indices]
-                        
+
                     # Build batch result table for this query
                     result_df = pl.DataFrame(
                         {
@@ -815,13 +825,15 @@ class VectorStore:
         Args:
             folder_path (str): The folder path containing the metadata and Parquet files.
             vectoriser (object): The `Vectoriser` object used to transform text into vector embeddings.
-            hooks (dict): [optional] A dictionary of user-defined hooks for preprocessing and postprocessing. Defaults to None.
+            hooks (dict): [optional] A dictionary of user-defined hooks for preprocessing
+                and postprocessing. Defaults to None.
 
         Returns:
             (VectorStore): An instance of the `VectorStore` class.
 
         Raises:
-            `DataValidationError`: If input arguments are invalid or if there are issues with the metadata or Parquet files.
+            `DataValidationError`: If input arguments are invalid or if there are issues
+                with the metadata or Parquet files.
             `ConfigurationError`: If there are configuration issues, such as `Vectoriser` mismatches.
             `IndexBuildError`: If there are failures during loading or parsing the files.
         """

@@ -108,11 +108,7 @@ def process_batch_job(
                 result_map[qid][f"descripcion_{rnk}"] = desc
                 result_map[qid][f"prob_{rnk}"] = round(float(row["score"]), 4)
 
-            # 2.5 Calcular Ambigüedad y Raíz Común Global para el literal
-            total_scores = [float(r["score"]) for _, r in res_df.iterrows()]
-            total_codes = [str(r["doc_id"]) for _, r in res_df.iterrows()]
-
-            # Agrupar por query_id para el LCP y ambigüedad
+            # 2.5 Calcular Ambigüedad y Raíz Común para cada literal
             for qid in chunk[id_col].values:
                 qid_str = str(qid)
                 if qid_str in result_map:

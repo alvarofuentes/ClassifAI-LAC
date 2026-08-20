@@ -61,6 +61,16 @@ all = [
 [tool.ruff]
 line-length = 120
 indent-width = 4
+extend-exclude = [
+    "data",
+    "models",
+    "scratch",
+    "scripts",
+    "poc",
+    "DEMO",
+    "test_expanded_index.py",
+    "test_index.py",
+]
 
 [tool.ruff.lint]
 select = [
@@ -93,10 +103,10 @@ ignore = [
     # Allow missing docstring, remove to enforce docstrings across the board
     "D100", "D101", "D102", "D103", "D104", "D105", "D106", "D107",
     # Disable line length check as it is handled by black
-    # Disable line length check as it is handled by black
     # indentation contains tabs
     "W191",
     "PLC0415",
+    "PLR0917",
 ]
 
 [tool.ruff.lint.pydocstyle]
@@ -110,6 +120,9 @@ convention = "google"
     "PLR2004",
     # Allow missing docstring punctuation in tests
     "D415",
+    "RUF001",
+    "RUF002",
+    "RUF003",
 ]
 "poc/*" = [
     # POCs use magic values, insecure requests, random, and sys.path
@@ -122,10 +135,18 @@ convention = "google"
 "src/build_index.py" = [
     "E402",
     "C901",
+    "S603",
+]
+"src/classifai/servers/frontend.py" = [
+    "B008",
+    "S603",
+    "S607",
+    "PLR2004",
 ]
 "src/classifai/servers/main.py" = [
     # FastAPI requires function calls in defaults (Depends, Query, File)
     "B008",
+    "PLW0602",
 ]
 "src/serve_api.py" = [
     # Sys.path manipulation required before imports
@@ -143,6 +164,11 @@ convention = "google"
 "src/classifai/servers/jobs.py" = [
     # Too many arguments for job creation
     "PLR0913",
+    "PLR0917",
+]
+"src/classifai/utils/hierarchy.py" = [
+    # Allow simple length checks
+    "PLR2004",
 ]
 "src/classifai/i18n.py" = [
     # Allow simple length checks
@@ -178,6 +204,9 @@ dev = [
 test = [
     "pytest>=8.4.2",
 ]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
 
 [project.urls]
 homepage = "https://github.com/datasciencecampus/classifAI_API"

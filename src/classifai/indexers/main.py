@@ -811,32 +811,14 @@ class VectorStore:
         return result_df
 
     @classmethod
-    def from_filespace(cls, folder_path, vectoriser, hooks: dict | None = None):  # noqa: C901, PLR0912, PLR0915
-        """Creates a `VectorStore` instance from stored metadata and Parquet files.
-        This method reads the metadata and vectors from the specified folder,
-        validates the contents, and initializes a `VectorStore` object with the
-        loaded data. It checks that the metadata contains the required keys,
-        that the Parquet file exists and is not empty, and that the vectoriser class
-        matches the one used to create the vectors. If any checks fail, it raises
-        a `ValueError` with an appropriate message.
-        This method is useful for loading previously created vector stores without
-        needing to reprocess the original text data.
-
-        Args:
-            folder_path (str): The folder path containing the metadata and Parquet files.
-            vectoriser (object): The `Vectoriser` object used to transform text into vector embeddings.
-            hooks (dict): [optional] A dictionary of user-defined hooks for preprocessing
-                and postprocessing. Defaults to None.
-
-        Returns:
-            (VectorStore): An instance of the `VectorStore` class.
-
-        Raises:
-            `DataValidationError`: If input arguments are invalid or if there are issues
-                with the metadata or Parquet files.
-            `ConfigurationError`: If there are configuration issues, such as `Vectoriser` mismatches.
-            `IndexBuildError`: If there are failures during loading or parsing the files.
-        """
+    def from_filespace(  # noqa: C901, PLR0912, PLR0915
+        cls,
+        folder_path,
+        vectoriser,
+        hooks: dict | None = None,
+        reranker=None,
+    ):
+        """Creates a `VectorStore` instance from stored metadata and Parquet files."""
         # ---- Validate arguments (caller mistakes) -> DataValidationError / ConfigurationError
         if not isinstance(folder_path, str) or not folder_path.strip():
             raise DataValidationError("folder_path must be a non-empty string.", context={"folder_path": folder_path})
@@ -902,10 +884,10 @@ class VectorStore:
             }
         except Exception as e:
             raise DataValidationError(
-                "Unable to deserialize metadata column types from metadata in metadata file.",
+                "Failed to parse column types from metadata.",
                 context={
                     "metadata_path": metadata_path,
-                    "meta_data": metadata["meta_data"],
+                    "meta_data": metadata.get("meta_data"),
                     "cause_type": type(e).__name__,
                     "cause_message": str(e),
                 },
@@ -969,6 +951,12 @@ class VectorStore:
             vector_store.num_vectors = metadata["num_vectors"]
             vector_store.vectoriser_class = metadata["vectoriser_class"]
             vector_store.hooks = {} if hooks is None else hooks
+            vector_store.reranker = reranker
+
+            # Initialize in-memory BM25 index
+            docs_text = df["text"].to_list()
+            tokenized_corpus = [doc.split() for doc in docs_text]
+            vector_store.bm25 = BM25Okapi(tokenized_corpus)
 
         except Exception as e:
             raise IndexBuildError(

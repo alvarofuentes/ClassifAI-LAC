@@ -12,19 +12,31 @@ from setfit import SetFitModel, Trainer, TrainingArguments, sample_dataset
 
 ROOT_DIR = Path(__file__).parent.parent
 RAW_DATA_PATH = ROOT_DIR / "data" / "raw" / "coicop_master_index.csv"
+LAC_DATA_PATH = ROOT_DIR / "data" / "benchmarks" / "lac_multicountry_benchmark.csv"
 OUTPUT_MODEL_DIR = ROOT_DIR / "models" / "coicop-finetuned-v1"
 
 
-def prepare_dataset(csv_path: Path):
-    """Carga y prepara el dataset para el entrenamiento SetFit."""
-    print(f"Cargando datos desde: {csv_path}")
-    df = pd.read_csv(csv_path, dtype=str)
+def prepare_dataset(master_path: Path, lac_path: Path | None = None):
+    """Carga y combina el catálogo maestro COICOP con los benchmarks de LAC para entrenamiento SetFit."""
+    print(f"Cargando catálogo maestro desde: {master_path}")
+    df_master = pd.read_csv(master_path, dtype=str).dropna(subset=["id", "text"])
+    df_master["label"] = df_master["id"].str[:4]
+    df_master = df_master[["text", "label"]]
 
-    # Asegurar que no hay nulos
-    df = df.dropna(subset=["id", "text"])
+    dfs = [df_master]
 
-    # Tomamos solo los primeros 4 caracteres del id para que sean Clases COICOP a 4 dígitos
-    df["label"] = df["id"].str[:4]
+    if lac_path and lac_path.exists():
+        print(f"Cargando benchmark multi-país de LAC desde: {lac_path}")
+        df_lac = pd.read_csv(lac_path, dtype=str)
+        df_lac["label"] = df_lac["target_code_4d"].astype(str).str.replace(r"[^\d]", "", regex=True).str.zfill(4)
+        df_lac["text"] = df_lac["query_text"]
+        df_lac = df_lac.dropna(subset=["label", "text"])
+        df_lac = df_lac[["text", "label"]]
+        dfs.append(df_lac)
+
+    df = pd.concat(dfs, ignore_index=True).drop_duplicates(subset=["text", "label"])
+    df["text"] = df["text"].astype(str).str.strip()
+    df = df[df["text"] != ""]
 
     # Convertimos las etiquetas a IDs numéricos contiguos que requiere SetFit
     unique_labels = sorted(df["label"].unique())
@@ -33,10 +45,8 @@ def prepare_dataset(csv_path: Path):
 
     df["label_id"] = df["label"].map(label2id)
 
-    print(f"Dataset cargado con {len(df)} filas y {len(unique_labels)} clases únicas.")
+    print(f"Dataset consolidado: {len(df)} ejemplos únicos en {len(unique_labels)} clases COICOP.")
 
-    # Convertimos a HuggingFace Dataset
-    # SetFit espera típicamente las columnas 'text' y 'label' (numérica)
     hf_dataset = Dataset.from_pandas(df[["text", "label_id"]].rename(columns={"label_id": "label"}))
 
     return hf_dataset, unique_labels, id2label, label2id
@@ -55,7 +65,7 @@ def main():
     parser.add_argument(
         "--samples-per-class",
         type=int,
-        default=16,
+        default=64,
         help="Número de muestras por clase para few-shot learning (usa 0 para todo el dataset)",
     )
     parser.add_argument(
@@ -85,7 +95,7 @@ def main():
             device = "cpu"
 
     print("==========================================")
-    print("🚀 Iniciando Fine-Tuning SetFit para COICOP")
+    print("🚀 Iniciando Fine-Tuning SetFit para COICOP (Enriquecido LAC)")
     print("==========================================")
     print(f"Dispositivo activo: {device}")
     print(f"Modelo base: {args.model}")
@@ -99,11 +109,10 @@ def main():
         print(f"❌ Error: No se encontró el dataset base en {RAW_DATA_PATH}")
         return
 
-    # 1. Preparar Dataset
-    hf_dataset, unique_labels, id2label, label2id = prepare_dataset(RAW_DATA_PATH)
+    # 1. Preparar Dataset consolidado
+    hf_dataset, unique_labels, id2label, label2id = prepare_dataset(RAW_DATA_PATH, LAC_DATA_PATH)
 
-    # Dividir un pequeño subset para validación (opcional, pero útil)
-    # Hacemos un split 90/10
+    # Dividir un subset para validación (split 90/10)
     dataset_dict = hf_dataset.train_test_split(test_size=0.1, seed=42)
     train_dataset = dataset_dict["train"]
     eval_dataset = dataset_dict["test"]
@@ -112,7 +121,7 @@ def main():
     if args.samples_per_class > 0:
         print(f"\nAplicando Few-Shot sampling ({args.samples_per_class} ejemplos por clase)...")
         train_dataset = sample_dataset(train_dataset, label_column="label", num_samples=args.samples_per_class)
-        print(f"Dataset de entrenamiento reducido a {len(train_dataset)} ejemplos balanceados.")
+        print(f"Dataset de entrenamiento balanceado: {len(train_dataset)} ejemplos.")
 
     # 2. Cargar el modelo base en el dispositivo
     print("\nDescargando y cargando modelo base...")
@@ -140,20 +149,53 @@ def main():
         metric=accuracy_score,
     )
 
-    # 4. Entrenar
+    # 4. Entrenar embeddings
     print("\n🔥 Comenzando entrenamiento Contrastive Learning...")
     trainer.train()
 
-    # 5. Guardar el modelo
+    # 5. Ajustar classification head
+    print("\n🧠 Calibrando classification head (LogisticRegression) sobre los embeddings entrenados...")
+    x_train = list(train_dataset["text"])
+    y_train = list(train_dataset["label"])
+    train_embeddings = model.model_body.encode(x_train, show_progress_bar=True)
+    model.model_head.fit(train_embeddings, y_train)
+
+    # 6. Guardar el modelo completo
     OUTPUT_MODEL_DIR.mkdir(parents=True, exist_ok=True)
     print(f"\n💾 Guardando modelo entrenado en {OUTPUT_MODEL_DIR}...")
     model.save_pretrained(OUTPUT_MODEL_DIR)
 
-    # 6. Evaluar final
-    print("\n📊 Evaluando modelo final...")
+    # 7. Evaluar final detallado (Top-1, Top-3, Top-5)
+    print(f"\n📊 Evaluando modelo sobre conjunto de prueba ({len(eval_dataset)} ejemplos no vistos)...")
     try:
-        metrics = trainer.evaluate()
-        print(f"Métricas finales: {metrics}")
+        import numpy as np
+
+        x_test = list(eval_dataset["text"])
+        y_test = list(eval_dataset["label"])
+
+        test_embeddings = model.model_body.encode(x_test, show_progress_bar=True)
+        preds_id = model.model_head.predict(test_embeddings)
+        probs = model.model_head.predict_proba(test_embeddings)
+
+        acc_top1 = accuracy_score(y_test, preds_id)
+        top3_hits = 0
+        top5_hits = 0
+        for idx, true_label in enumerate(y_test):
+            sorted_classes = np.argsort(probs[idx])[::-1]
+            classes_top3 = [model.model_head.classes_[i] for i in sorted_classes[:3]]
+            classes_top5 = [model.model_head.classes_[i] for i in sorted_classes[:5]]
+            if true_label in classes_top3:
+                top3_hits += 1
+            if true_label in classes_top5:
+                top5_hits += 1
+
+        print("\n" + "=" * 55)
+        print("🎯 RESULTADOS FINALES DE EVALUACIÓN (ENRIQUECIDO LAC)")
+        print("=" * 55)
+        print(f"Top-1 Accuracy (Acierto exacto): {acc_top1 * 100:.2f}%")
+        print(f"Top-3 Accuracy:                  {top3_hits / len(y_test) * 100:.2f}%")
+        print(f"Top-5 Accuracy:                  {top5_hits / len(y_test) * 100:.2f}%")
+        print("=" * 55)
     except Exception as exc:
         print(f"⚠️ Nota en evaluación: {exc}")
 

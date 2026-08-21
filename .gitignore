@@ -403,3 +403,5 @@ data/coicop_*
 # Temp files
 ~$*.xlsx
 uv.lock
+*.tar.gz
+*.code-workspace

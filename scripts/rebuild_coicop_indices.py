@@ -22,12 +22,14 @@ def build_index(model_identifier: str, output_name: str, batch_size: int = 64, o
     output_dir = OUTPUT_INDICES_DIR / output_name
     output_dir_str = str(output_dir)
 
+    vectoriser = HuggingFaceVectoriser(model_name=model_identifier)
+
     if output_dir.exists() and not overwrite:
         vectors_file = output_dir / "vectors.parquet"
         meta_file = output_dir / "metadata.json"
         if vectors_file.exists() and meta_file.exists():
             print(f"Index '{output_name}' already exists at {output_dir}. Loading from filespace...")
-            return VectorStore.from_filespace(output_dir_str)
+            return VectorStore.from_filespace(output_dir_str, vectoriser=vectoriser)
 
     print(f"\n=======================================================")
     print(f"Building VectorStore '{output_name}'")
@@ -35,8 +37,6 @@ def build_index(model_identifier: str, output_name: str, batch_size: int = 64, o
     print(f"Source catalog: {RAW_MASTER_CSV}")
     print(f"Batch size: {batch_size}")
     print(f"=======================================================")
-
-    vectoriser = HuggingFaceVectoriser(model_name=model_identifier)
 
     store = VectorStore(
         file_name=str(RAW_MASTER_CSV),
@@ -47,11 +47,21 @@ def build_index(model_identifier: str, output_name: str, batch_size: int = 64, o
         overwrite=True,
     )
 
-    print(f"✅ Successfully built and saved index '{output_name}' ({store.num_vectors} vectors, dim={store.vector_shape}).")
+    print(
+        f"✅ Successfully built and saved index '{output_name}' "
+        f"({store.num_vectors} vectors, dim={store.vector_shape})."
+    )
     return store
 
 
 def main():
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Rebuild COICOP VectorStore indices")
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing indices")
+    parser.add_argument("--batch-size", type=int, default=64, help="Embedding batch size")
+    args = parser.parse_args()
+
     OUTPUT_INDICES_DIR.mkdir(parents=True, exist_ok=True)
 
     # 1. Build Fine-Tuned Index
@@ -60,8 +70,8 @@ def main():
         build_index(
             model_identifier=str(FINETUNED_MODEL_PATH),
             output_name="coicop_master_finetuned_v1",
-            batch_size=64,
-            overwrite=False,
+            batch_size=args.batch_size,
+            overwrite=args.overwrite,
         )
     else:
         print(f"❌ Error: Fine-tuned model directory not found at {FINETUNED_MODEL_PATH}")
@@ -71,8 +81,8 @@ def main():
     build_index(
         model_identifier=BASELINE_MODEL_NAME,
         output_name="coicop_master_baseline_mpnet",
-        batch_size=64,
-        overwrite=False,
+        batch_size=args.batch_size,
+        overwrite=args.overwrite,
     )
 
 

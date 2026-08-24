@@ -32,6 +32,7 @@ VectorStore Class:
 import json
 import logging
 import os
+import re
 import shutil
 import time
 import uuid
@@ -61,6 +62,14 @@ from .dataclasses import (
     VectorStoreSearchInput,
     VectorStoreSearchOutput,
 )
+
+
+def _tokenize_text(text: str) -> list[str]:
+    """Fast alphanumeric tokenization in lowercase for BM25 matching."""
+    if not text:
+        return []
+    return re.findall(r"\w+", text.lower())
+
 
 # Configure logging for your application
 logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
@@ -395,7 +404,7 @@ class VectorStore:
 
             # Build BM25 index
             logging.info("Building BM25 index in memory...")
-            tokenized_corpus = [doc.split() for doc in documents]
+            tokenized_corpus = [_tokenize_text(doc) for doc in documents]
             self.bm25 = BM25Okapi(tokenized_corpus)
 
         except ClassifaiError:
@@ -664,9 +673,8 @@ class VectorStore:
 
             # Param for Reciprocal Rank Fusion
             k_rrf = 60
-
-            # Param for how many docs to re-rank (we fetch a bit more than n_results)
-            top_k_rerank = n_results * 5 if self.reranker else n_results
+            k_top_candidates = min(60, len(docs_text))
+            top_k_rerank = min(n_results * 3, 20) if self.reranker else n_results
 
             for i in tqdm(range(0, len(query), batch_size), desc="Processing query batches"):
                 query_text_batch = query.query.to_list()[i : i + batch_size]
@@ -699,41 +707,46 @@ class VectorStore:
                     q_text = query_text_batch[j]
                     q_id = query_ids_batch[j]
 
-                    # 1. Dense Ranking
+                    # 1. Top Dense Candidates
                     dense_scores = dense_cosine[j]
-                    dense_ranked_indices = np.argsort(dense_scores)[::-1]
+                    top_dense_partition = np.argpartition(dense_scores, -k_top_candidates)[-k_top_candidates:]
+                    top_dense_indices = top_dense_partition[np.argsort(-dense_scores[top_dense_partition])]
 
-                    # 2. BM25 Ranking
-                    tokenized_q = q_text.split()
+                    # 2. Top BM25 Candidates
+                    tokenized_q = _tokenize_text(q_text)
                     bm25_scores = self.bm25.get_scores(tokenized_q)
-                    bm25_ranked_indices = np.argsort(bm25_scores)[::-1]
+                    positive_bm25_count = int(np.sum(bm25_scores > 0))
 
-                    # 3. Reciprocal Rank Fusion
-                    rrf_scores = np.zeros(len(docs_text), dtype=float)
+                    # 3. Reciprocal Rank Fusion on Top Candidates
+                    rrf_dict: dict[int, float] = {}
 
-                    # Add dense ranks to RRF
-                    for rank, doc_idx in enumerate(dense_ranked_indices):
-                        rrf_scores[doc_idx] += 1.0 / (k_rrf + rank + 1)
+                    for rank, doc_idx in enumerate(top_dense_indices):
+                        rrf_dict[int(doc_idx)] = rrf_dict.get(int(doc_idx), 0.0) + 1.0 / (k_rrf + rank + 1)
 
-                    # Add BM25 ranks to RRF
-                    for rank, doc_idx in enumerate(bm25_ranked_indices):
-                        rrf_scores[doc_idx] += 1.0 / (k_rrf + rank + 1)
+                    if positive_bm25_count > 0:
+                        k_bm25 = min(k_top_candidates, positive_bm25_count)
+                        top_bm25_partition = np.argpartition(bm25_scores, -k_bm25)[-k_bm25:]
+                        top_bm25_indices = top_bm25_partition[np.argsort(-bm25_scores[top_bm25_partition])]
+                        for rank, doc_idx in enumerate(top_bm25_indices):
+                            if bm25_scores[doc_idx] > 0:
+                                rrf_dict[int(doc_idx)] = rrf_dict.get(int(doc_idx), 0.0) + 1.0 / (k_rrf + rank + 1)
 
-                    # Get top candidates from RRF
-                    hybrid_ranked_indices = np.argsort(rrf_scores)[::-1][:top_k_rerank]
+                    # Get top hybrid candidates sorted by RRF score
+                    candidate_pairs = sorted(rrf_dict.items(), key=lambda x: x[1], reverse=True)[:top_k_rerank]
+                    hybrid_ranked_indices = [idx for idx, _ in candidate_pairs]
 
                     # 4. Re-Ranking (Optional)
-                    if self.reranker is not None:
+                    if self.reranker is not None and len(hybrid_ranked_indices) > 0:
                         candidate_docs = [docs_text[idx] for idx in hybrid_ranked_indices]
                         rerank_scores = self.reranker.predict(q_text, candidate_docs)
 
                         # Sort candidates by reranker score
                         reranked_local_indices = np.argsort(rerank_scores)[::-1][:n_results]
                         final_indices = [hybrid_ranked_indices[idx] for idx in reranked_local_indices]
-                        final_scores = [rerank_scores[idx] for idx in reranked_local_indices]
+                        final_scores = [float(rerank_scores[idx]) for idx in reranked_local_indices]
                     else:
                         final_indices = hybrid_ranked_indices[:n_results]
-                        final_scores = [rrf_scores[idx] for idx in final_indices]
+                        final_scores = [float(score) for _, score in candidate_pairs[:n_results]]
 
                     # Build batch result table for this query
                     result_df = pl.DataFrame(
@@ -955,7 +968,7 @@ class VectorStore:
 
             # Initialize in-memory BM25 index
             docs_text = df["text"].to_list()
-            tokenized_corpus = [doc.split() for doc in docs_text]
+            tokenized_corpus = [_tokenize_text(doc) for doc in docs_text]
             vector_store.bm25 = BM25Okapi(tokenized_corpus)
 
         except Exception as e:

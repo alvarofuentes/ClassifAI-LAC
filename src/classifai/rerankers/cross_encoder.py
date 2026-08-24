@@ -24,7 +24,7 @@ class HuggingFaceCrossEncoder(ReRankerBase):
             return []
         # sentence-transformers CrossEncoder expects pairs of [query, doc]
         pairs = [[query, doc] for doc in docs]
-        scores = self.model.predict(pairs)
+        scores = self.model.predict(pairs, batch_size=32, show_progress_bar=False)
 
         # Ensure scores is a list of floats
         if hasattr(scores, "tolist"):

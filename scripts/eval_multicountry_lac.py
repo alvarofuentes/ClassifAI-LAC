@@ -19,20 +19,23 @@ if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
-BENCHMARK_FILE = ROOT_DIR / "data" / "benchmarks" / "lac_multicountry_benchmark.parquet"
+DEFAULT_BENCHMARK_FILE = ROOT_DIR / "data" / "benchmarks" / "lac_multicountry_benchmark.parquet"
 FALLBACK_CSV = ROOT_DIR / "data" / "benchmarks" / "lac_multicountry_benchmark.csv"
-OUTPUT_REPORT_PATH = ROOT_DIR / "docs" / "benchmarks" / "reporte_multipais_v1.md"
+DEFAULT_OUTPUT_REPORT_PATH = ROOT_DIR / "docs" / "benchmarks" / "reporte_multipais_v2.md"
 INDICES_DIR = ROOT_DIR / "data" / "indices"
 
 
-def load_benchmark(sample_size: int = 0, countries: list[str] | None = None) -> pd.DataFrame:
+def load_benchmark(
+    benchmark_file: Path | None = None, sample_size: int = 0, countries: list[str] | None = None
+) -> pd.DataFrame:
     """Loads benchmark dataset with optional filtering and sampling per country."""
-    if BENCHMARK_FILE.exists():
-        df = pd.read_parquet(BENCHMARK_FILE)
+    file_to_load = benchmark_file if benchmark_file and benchmark_file.exists() else DEFAULT_BENCHMARK_FILE
+    if file_to_load.exists():
+        df = pd.read_parquet(file_to_load)
     elif FALLBACK_CSV.exists():
         df = pd.read_csv(FALLBACK_CSV, dtype=str)
     else:
-        raise FileNotFoundError(f"Benchmark file not found at {BENCHMARK_FILE} or {FALLBACK_CSV}")
+        raise FileNotFoundError(f"Benchmark file not found at {file_to_load} or {FALLBACK_CSV}")
 
     # Clean types
     df["target_code_4d"] = df["target_code_4d"].astype(str).str.strip()
@@ -197,12 +200,12 @@ def evaluate_store(store: VectorStore, benchmark_df: pd.DataFrame, top_k: int = 
     return metrics, eval_df
 
 
-def generate_markdown_report(results: dict[str, dict], output_file: Path):
+def generate_markdown_report(results: dict[str, dict], output_file: Path, benchmark_name: str = "Benchmark"):
     """Generates a comprehensive Markdown report summarizing multi-country results."""
     output_file.parent.mkdir(parents=True, exist_ok=True)
 
     lines = [
-        "# 📊 Reporte de Benchmark Multipaís LAC - Clasificación COICOP 2018 (4 Dígitos)",
+        f"# 📊 Reporte de Benchmark Multipaís LAC - Clasificación COICOP 2018 (4 Dígitos) — {benchmark_name}",
         "",
         f"**Fecha de ejecución:** {time.strftime('%Y-%m-%d %H:%M:%S')}",
         "",
@@ -240,12 +243,8 @@ def generate_markdown_report(results: dict[str, dict], output_file: Path):
         "",
         "## 3. Conclusiones Metodológicas y Siguientes Pasos",
         "",
-        "- **Rendimiento Multipaís:** Se observa la variabilidad entre jergas estadísticas nacionales.",
-        "- **Impacto del Fine-Tuning:** Evaluación del salto porcentual frente al baseline.",
-        "- **Recomendaciones de Iteración:**",
-        "  1. Incorporar muestras de las 15 planillas en el entrenamiento contrastivo SetFit Iteración 2.",
-        "  2. Evaluar indexación híbrida BM25 + Vectores Densos para palabras locales infrecuentes.",
-        "  3. Integrar reranking o prompt de desambiguación para casos de baja confianza.",
+        "- **Rendimiento Multipaís:** Evaluación del balance entre países tras estratificación anti-sobreajuste.",
+        "- **Impacto de Fine-Tuning v2:** Comparativa directa frente a v1 y Baseline.",
         "",
     ])
 
@@ -258,15 +257,30 @@ def generate_markdown_report(results: dict[str, dict], output_file: Path):
 
 def main():
     parser = argparse.ArgumentParser(description="Multi-country COICOP benchmark evaluator")
+    parser.add_argument(
+        "--benchmark-path",
+        type=str,
+        default=str(DEFAULT_BENCHMARK_FILE),
+        help="Path to the benchmark parquet or csv file",
+    )
+    parser.add_argument(
+        "--output-report",
+        type=str,
+        default=str(DEFAULT_OUTPUT_REPORT_PATH),
+        help="Output markdown report file path",
+    )
     parser.add_argument("--sample-size", type=int, default=0, help="Number of samples per country (0 for all)")
     parser.add_argument("--countries", type=str, default="all", help="Comma-separated country sheets or 'all'")
     parser.add_argument("--test-brazil-translation", action="store_true", help="Compare Brazil PT vs translated ES")
     parser.add_argument("--top-k", type=int, default=5, help="Number of nearest neighbors to retrieve")
-    parser.add_argument("--include-reranker", action="store_true", default=True, help="Include Cross-Encoder ReRanker")
+    parser.add_argument("--include-reranker", action="store_true", default=False, help="Include Cross-Encoder ReRanker")
     args = parser.parse_args()
 
+    benchmark_path = Path(args.benchmark_path)
+    output_report_path = Path(args.output_report)
+
     country_list = [c.strip() for c in args.countries.split(",")] if args.countries != "all" else ["all"]
-    benchmark_df = load_benchmark(sample_size=args.sample_size, countries=country_list)
+    benchmark_df = load_benchmark(benchmark_file=benchmark_path, sample_size=args.sample_size, countries=country_list)
 
     if args.test_brazil_translation and "bra17" in benchmark_df["sheet_name"].values:
         df_brazil = benchmark_df[benchmark_df["sheet_name"] == "bra17"]
@@ -279,24 +293,34 @@ def main():
     # Check available indices
     indices_to_evaluate = {}
 
-    ft_index_dir = INDICES_DIR / "coicop_master_finetuned_v1"
-    ft_model_path = ROOT_DIR / "models" / "coicop-finetuned-v1"
-    if ft_index_dir.exists() and ft_model_path.exists():
-        print(f"Loading Fine-Tuned VectorStore from {ft_index_dir}...")
-        ft_vectoriser = HuggingFaceVectoriser(model_name=str(ft_model_path))
+    # 1. Fine-Tuned v2
+    ft2_index_dir = INDICES_DIR / "coicop_master_finetuned_v2"
+    ft2_model_path = ROOT_DIR / "models" / "coicop-finetuned-v2"
+    if ft2_index_dir.exists() and ft2_model_path.exists():
+        print(f"Loading Fine-Tuned v2 VectorStore from {ft2_index_dir}...")
+        ft2_vectoriser = HuggingFaceVectoriser(model_name=str(ft2_model_path))
+        indices_to_evaluate["Fine-Tuned v2 (Balanced LAC Embeddings)"] = VectorStore.from_filespace(
+            str(ft2_index_dir), vectoriser=ft2_vectoriser
+        )
+
+    # 2. Fine-Tuned v1
+    ft1_index_dir = INDICES_DIR / "coicop_master_finetuned_v1"
+    ft1_model_path = ROOT_DIR / "models" / "coicop-finetuned-v1"
+    if ft1_index_dir.exists() and ft1_model_path.exists():
+        print(f"Loading Fine-Tuned v1 VectorStore from {ft1_index_dir}...")
+        ft1_vectoriser = HuggingFaceVectoriser(model_name=str(ft1_model_path))
         indices_to_evaluate["Fine-Tuned v1 (SetFit Embeddings)"] = VectorStore.from_filespace(
-            str(ft_index_dir), vectoriser=ft_vectoriser
+            str(ft1_index_dir), vectoriser=ft1_vectoriser
         )
 
         if args.include_reranker:
             print("Loading Multilingual Cross-Encoder ReRanker...")
             reranker = HuggingFaceCrossEncoder(model_name="cross-encoder/mmarco-mMiniLMv2-L12-H384-v1")
             indices_to_evaluate["Fine-Tuned v1 + Cross-Encoder ReRanker"] = VectorStore.from_filespace(
-                str(ft_index_dir), vectoriser=ft_vectoriser, reranker=reranker
+                str(ft1_index_dir), vectoriser=ft1_vectoriser, reranker=reranker
             )
-    else:
-        print(f"⚠️ Index not found at {ft_index_dir}. Please run scripts/rebuild_coicop_indices.py first.")
 
+    # 3. Baseline
     baseline_index_dir = INDICES_DIR / "coicop_master_baseline_mpnet"
     baseline_model_name = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
     if baseline_index_dir.exists():
@@ -315,16 +339,23 @@ def main():
         print(f"\n=======================================================")
         print(f"Evaluating {model_name} on {len(benchmark_df)} samples...")
         print(f"=======================================================")
-        metrics, eval_df = evaluate_store(store, benchmark_df, top_k=args.top_k)
+        metrics, _ = evaluate_store(store, benchmark_df, top_k=args.top_k)
         results[model_name] = metrics
 
-        print(f"Top-1 Accuracy: {metrics['overall_top1']}% | Top-3 Hit: {metrics['overall_top3']}% | Top-5 Hit: {metrics['overall_top5']}%")
-        print(f"Division 2D Acc: {metrics['overall_div2']}% | Macro F1: {metrics['overall_macro_f1']}% | Latency: {metrics['latency_ms_per_query']} ms/query")
+        print(
+            f"Top-1 Accuracy: {metrics['overall_top1']}% | Top-3 Hit: {metrics['overall_top3']}% | "
+            f"Top-5 Hit: {metrics['overall_top5']}%"
+        )
+        print(
+            f"Division 2D Acc: {metrics['overall_div2']}% | Macro F1: {metrics['overall_macro_f1']}% | "
+            f"Latency: {metrics['latency_ms_per_query']} ms/query"
+        )
         print("\nPer-Sheet Breakdown:")
         print(metrics["sheet_summaries"].to_string(index=False))
 
-    generate_markdown_report(results, OUTPUT_REPORT_PATH)
+    generate_markdown_report(results, output_report_path, benchmark_name=benchmark_path.stem)
 
 
 if __name__ == "__main__":
     main()
+
